@@ -332,3 +332,173 @@ Referencias siempre con la abreviatura en español: `Jn 3:16`, `1 Co 1:26`.
 | Vulgate | Vulgata | tyndale/NUM/intro |
 | Negev | Néguev | tyndale/NUM/intro |
 | grumbling | murmuración | tyndale/NUM/intro |
+| exodus | éxodo | tyndale/DEU/intro |
+| treaty | tratado | tyndale/DEU/intro |
+| suzerain | soberano | tyndale/DEU/intro |
+| vassal | vasallo | tyndale/DEU/intro |
+| Hittite | hitita | tyndale/DEU/intro |
+| Late Bronze Age | Edad del Bronce Tardío | tyndale/DEU/intro |
+| stipulations | estipulaciones | tyndale/DEU/intro |
+| preamble | preámbulo | tyndale/DEU/intro |
+| historical prologue | prólogo histórico | tyndale/DEU/intro |
+| kingdom of priests | reino de sacerdotes | tyndale/DEU/intro |
+| holy nation | gente santa | tyndale/DEU/intro |
+| covenant people | pueblo del pacto | tyndale/DEU/intro |
+| covenant partner | parte del pacto | tyndale/DEU/intro |
+| farewell address | discurso de despedida | tyndale/DEU/intro |
+| special people | pueblo especial | tyndale/DEU/intro |
+| servant people | pueblo siervo | tyndale/DEU/intro |
+| calling | llamamiento | tyndale/DEU/intro |
+| Almighty God | Dios Todopoderoso | tyndale/DEU/intro |
+| editorial additions | añadidos editoriales | tyndale/DEU/intro |
+| critical scholars | eruditos críticos | tyndale/DEU/intro |
+| restatement | reformulación | tyndale/DEU/intro |
+| settled community | comunidad asentada | tyndale/DEU/intro |
+| Canaanite | cananeo | tyndale/DEU/intro |
+| national offspring | descendencia nacional | tyndale/DEU/intro |
+| redemptive | redentor | tyndale/DEU/intro |
+| plan for the ages | plan para los siglos | tyndale/DEU/intro |
+| hill country | región montañosa | tyndale/JOS/intro, tyndale/RUT/intro |
+| city-state | ciudad-estado | tyndale/JOS/intro |
+| cities of refuge | ciudades de refugio | tyndale/JOS/intro |
+| allotment | reparto | tyndale/JOS/intro |
+| inheritance | herencia | tyndale/JOS/intro |
+| Canaanites | cananeos | tyndale/JOS/intro |
+| resident aliens | extranjeros residentes | tyndale/JOS/intro |
+| Book of Jashar / Jasher | libro de Jaser | tyndale/JOS/intro |
+| Minor Prophets | profetas menores | tyndale/JOS/intro |
+| memorial | memorial | tyndale/JOS/intro |
+| scouts | exploradores | tyndale/JOS/intro |
+| Acacia Grove | Sitim | tyndale/JOS/intro |
+| Ai | Hai | tyndale/JOS/intro |
+| Achan | Acán | tyndale/JOS/intro |
+| Zelophehad | Zelofehad | tyndale/JOS/intro |
+| Upper Galilee | alta Galilea | tyndale/JOS/intro |
+| God's economy | economía de Dios | tyndale/JOS/intro |
+| early monarchy | primeros tiempos de la monarquía | tyndale/JOS/intro |
+| family redeemer | redentor familiar | tyndale/RUT/intro |
+| historicity | historicidad | tyndale/RUT/intro, tyndale/EST/intro |
+| Moabite | moabita | tyndale/RUT/intro |
+| daughter-in-law | nuera | tyndale/RUT/intro |
+| loyalty | lealtad | tyndale/RUT/intro |
+| ordinary | ordinario | tyndale/RUT/intro |
+| everyday | cotidiano | tyndale/RUT/intro |
+| kindness | bondad | tyndale/RUT/intro |
+| close relative | pariente cercano | tyndale/RUT/intro |
+| period of the judges | época de los jueces | tyndale/RUT/intro |
+| glean | espigar | tyndale/RUT/intro |
+| threshing floor | era | tyndale/RUT/intro |
+| genealogy | genealogía | tyndale/RUT/intro, tyndale/1CH/intro |
+| kingship | reinado; en 2 Samuel se propuso realeza | tyndale/1SA/intro, tyndale/2SA/intro |
+| monarchy | monarquía | tyndale/1SA/intro, tyndale/2CH/intro |
+| kingdom | reino | tyndale/1SA/intro |
+| anoint / anointed / anointing | ungir / ungido / unción | tyndale/1SA/intro, tyndale/2SA/intro |
+| judge | juez | tyndale/1SA/intro |
+| prophet | profeta | tyndale/1SA/intro, tyndale/1KI/intro |
+| Philistines | filisteos | tyndale/1SA/intro, tyndale/2SA/intro |
+| Hannah | Ana | tyndale/1SA/intro |
+| Saul | Saúl | tyndale/1SA/intro |
+| Jonathan | Jonatán | tyndale/1SA/intro |
+| Eli | Elí | tyndale/1SA/intro |
+| Gideon | Gedeón | tyndale/1SA/intro |
+| Abimelech | Abimelec | tyndale/1SA/intro |
+| Goliath | Goliat | tyndale/1SA/intro |
+| Jabesh-gilead | Jabes de Galaad | tyndale/1SA/intro |
+| Nathan | Natán | tyndale/1SA/intro |
+| Ammonites | amonitas | tyndale/1SA/intro |
+| Ark of the Covenant | arca del pacto | tyndale/1SA/intro, tyndale/2SA/intro, tyndale/1CH/intro |
+| Kingdoms (LXX) | Reinos | tyndale/1SA/intro |
+| Qumran | Qumrán | tyndale/1SA/intro |
+| unfaithfulness | infidelidad | tyndale/1SA/intro, tyndale/1CH/intro |
+| adultery | adulterio | tyndale/2SA/intro |
+| murder | asesinato | tyndale/2SA/intro |
+| civil war | guerra civil | tyndale/2SA/intro |
+| revolt | revuelta | tyndale/2SA/intro |
+| reign | reinado | tyndale/2SA/intro |
+| throne | trono | tyndale/2SA/intro |
+| narrator | narrador | tyndale/2SA/intro |
+| empire | imperio | tyndale/2SA/intro |
+| Israelite | israelita | tyndale/2SA/intro |
+| David's line | linaje de David | tyndale/2SA/intro |
+| Benjamite | benjamita | tyndale/2SA/intro |
+| usurper | usurpador | tyndale/2SA/intro |
+| co-regency | corregencia | tyndale/1KI/intro |
+| forced labor | trabajos forzados | tyndale/1KI/intro |
+| spiritual infidelity | infidelidad espiritual | tyndale/1KI/intro |
+| spiritual compromise | transigencia espiritual | tyndale/1KI/intro |
+| divided kingdom | reino dividido | tyndale/1KI/intro, tyndale/2KI/intro |
+| northern kingdom | reino del norte | tyndale/1KI/intro, tyndale/2KI/intro, tyndale/2CH/intro |
+| southern kingdom | reino del sur | tyndale/1KI/intro, tyndale/2KI/intro, tyndale/2CH/intro |
+| apostate | apóstata | tyndale/1KI/intro |
+| heir apparent | heredero aparente | tyndale/1KI/intro |
+| divided monarchy | monarquía dividida | tyndale/2KI/intro |
+| apostasy | apostasía | tyndale/2KI/intro |
+| Mosaic covenant | pacto mosaico | tyndale/2KI/intro |
+| Chronicler | el Cronista | tyndale/1CH/intro, tyndale/2CH/intro |
+| house of David | casa de David | tyndale/1CH/intro |
+| Davidic | davídico | tyndale/1CH/intro |
+| Judeans | los de Judá | tyndale/2CH/intro |
+| healing | sanidad | tyndale/2CH/intro |
+| pagan | pagano | tyndale/EZR/intro |
+| foreigner | extranjero | tyndale/EZR/intro |
+| decree | decreto | tyndale/EZR/intro |
+| opposition | oposición | tyndale/EZR/intro |
+| unbeliever | incrédulo | tyndale/EZR/intro |
+| sovereignty / sovereign | soberanía / soberano | tyndale/EZR/intro, tyndale/ECC/intro, tyndale/JOB/intro |
+| confession | confesión | tyndale/EZR/intro |
+| Aramaic | arameo | tyndale/EZR/intro |
+| revival | avivamiento | tyndale/EZR/intro, tyndale/NEH/intro |
+| intercessory prayer | oración intercesora | tyndale/EZR/intro |
+| returnee | repatriado | tyndale/EZR/intro |
+| separateness | separación | tyndale/EZR/intro |
+| cup-bearer | copero | tyndale/NEH/intro |
+| intermarriage | matrimonio mixto | tyndale/NEH/intro |
+| tithe | diezmo | tyndale/NEH/intro |
+| governor | gobernador | tyndale/NEH/intro |
+| gatekeeper | portero | tyndale/NEH/intro |
+| memoir | memorias | tyndale/NEH/intro |
+| Festival of Purim | fiesta de Purim | tyndale/EST/intro |
+| Xerxes | Jerjes | tyndale/EST/intro |
+| pole | estaca | tyndale/EST/intro |
+| impale | empalar | tyndale/EST/intro |
+| gallows | horca | tyndale/EST/intro |
+| church fathers | padres de la iglesia | tyndale/EST/intro |
+| Targum / Targums | Tárgum / targumes | tyndale/EST/intro, tyndale/SNG/intro |
+| Midrash | midrás | tyndale/EST/intro |
+| deuterocanonical | deuterocanónico | tyndale/EST/intro |
+| providentially / providential | providencialmente / providencial | tyndale/EST/intro |
+| patriarchal age / patriarchal period | época patriarcal / período patriarcal | tyndale/JOB/intro |
+| theodicy | teodicea | tyndale/JOB/intro |
+| retribution | retribución | tyndale/JOB/intro |
+| integrity | integridad | tyndale/JOB/intro |
+| innocence / innocent | inocencia / inocente | tyndale/JOB/intro |
+| blameless | intachable | tyndale/JOB/intro |
+| polytheistic / monotheistic | politeísta / monoteísta | tyndale/JOB/intro |
+| Elihu | Eliú | tyndale/JOB/intro |
+| Sabeans / Chaldeans | sabeos / caldeos | tyndale/JOB/intro |
+| discipline | disciplina | tyndale/JOB/intro |
+| the Teacher | el Maestro | tyndale/ECC/intro |
+| meaningless | sin sentido | tyndale/ECC/intro |
+| hebel | hebel | tyndale/ECC/intro |
+| Qoheleth | Qoheleth | tyndale/ECC/intro |
+| futility | futilidad | tyndale/ECC/intro |
+| joy | gozo | tyndale/ECC/intro |
+| Song of Songs | Cantar de los Cantares | tyndale/SNG/intro |
+| the Song | el Cantar | tyndale/SNG/intro |
+| allegory / allegorical | alegoría / alegórico | tyndale/SNG/intro |
+| bride | esposa | tyndale/SNG/intro |
+| beloved | amado | tyndale/SNG/intro |
+| harem | harén | tyndale/SNG/intro |
+| concubine | concubina | tyndale/SNG/intro |
+| sexuality | sexualidad | tyndale/SNG/intro |
+| intimacy | intimidad | tyndale/SNG/intro |
+| sensual / sensuous | sensual | tyndale/SNG/intro |
+| anthology | antología | tyndale/SNG/intro |
+| imagery | imágenes | tyndale/SNG/intro |
+| refrain | estribillo | tyndale/SNG/intro |
+| Holy of Holies | Santo de los Santos | tyndale/SNG/intro |
+| the Writings | los Escritos | tyndale/SNG/intro |
+| loanword | préstamo lingüístico | tyndale/SNG/intro |
+| world to come | mundo por venir | tyndale/SNG/intro |
+| superscription | sobrescrito | tyndale/SNG/intro |
+| story line / plot | trama | tyndale/SNG/intro |
