@@ -1,0 +1,14 @@
+{
+  "name": "comentarios-biblicos",
+  "private": true,
+  "type": "module",
+  "description": "Traducciones al español de comentarios bíblicos de dominio público y licencia abierta, publicadas como API estática.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "siguiente": "node scripts/siguiente.mjs",
+    "validar": "node scripts/validar.mjs --todos",
+    "progreso": "node scripts/progreso.mjs",
+    "api": "node scripts/construir-api.mjs",
+    "test": "node --test 'scripts/*.test.mjs'"
+  }
+}

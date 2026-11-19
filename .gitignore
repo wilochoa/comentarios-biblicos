@@ -1,0 +1,8 @@
+# Originales descargados (se vuelven a bajar solos; su huella queda en cada traducción)
+fuentes/
+# Tramos en curso y salida generada
+trabajo/
+dist/
+logs/
+node_modules/
+.DS_Store

@@ -1,0 +1,37 @@
+{
+  "comentarios": [
+    {
+      "id": "tyndale",
+      "fuente": "tyndale",
+      "nombre": "Notas de estudio de Tyndale",
+      "autor": "Tyndale House Publishers",
+      "descripcion": "Notas de estudio modernas y evangélicas, con introducción a cada libro y notas por versículo.",
+      "original": {
+        "titulo": "Tyndale Open Study Notes",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sitio": "https://tyndaleopenresources.com/"
+      },
+      "licencia_traduccion": "CC BY-SA 4.0 (obligatoria por la licencia del original)",
+      "atribucion": "Traducción al español de Tyndale Open Study Notes © Tyndale House Publishers, bajo licencia CC BY-SA 4.0. Traducción asistida por IA.",
+      "publicar": true
+    },
+    {
+      "id": "matthew-henry",
+      "fuente": "matthew-henry",
+      "nombre": "Comentario de Matthew Henry",
+      "autor": "Matthew Henry (1662–1714)",
+      "descripcion": "Comentario devocional y práctico de toda la Biblia, uno de los más leídos de la tradición reformada.",
+      "original": {
+        "titulo": "Matthew Henry's Commentary on the Whole Bible",
+        "licencia": "Dominio público",
+        "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sitio": "https://en.wikipedia.org/wiki/Matthew_Henry"
+      },
+      "licencia_traduccion": "Pendiente de decidir",
+      "atribucion": "Traducción al español del comentario de Matthew Henry (dominio público). Traducción asistida por IA.",
+      "publicar": false
+    }
+  ],
+  "_ayuda": "publicar: si el comentario sale en la API pública. Matthew Henry espera la decisión de licencia."
+}
