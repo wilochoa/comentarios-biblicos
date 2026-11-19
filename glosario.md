@@ -143,3 +143,38 @@ Referencias siempre con la abreviatura en español: `Jn 3:16`, `1 Co 1:26`.
 | Jewish high council | concilio supremo judío | tyndale/JHN/intro |
 | AD | d. C. | tyndale/JHN/intro |
 | ch. / chs. | cap. / caps. | tyndale/JHN/intro |
+| Kingdom of Heaven | reino de los cielos | tyndale/MAT/intro |
+| discipleship | discipulado | tyndale/MAT/intro |
+| Old Testament | Antiguo Testamento | tyndale/MAT/intro |
+| New Testament | Nuevo Testamento | tyndale/MAT/intro |
+| tax collector | recaudador de impuestos | tyndale/MAT/intro |
+| Sermon on the Mount | Sermón del Monte | tyndale/MAT/intro |
+| great commission | gran comisión | tyndale/MAT/intro |
+| Torah | Torá | tyndale/MAT/intro |
+| woes | ayes | tyndale/MAT/intro |
+| blessing | bendición | tyndale/GEN/intro |
+| curse | maldición | tyndale/GEN/intro |
+| chosen people | pueblo escogido | tyndale/GEN/intro |
+| patriarchs | patriarcas | tyndale/GEN/intro |
+| Pentateuch | Pentateuco | tyndale/GEN/intro |
+| Promised Land | Tierra Prometida | tyndale/GEN/intro |
+| bondage | esclavitud | tyndale/GEN/intro |
+| redemption | redención | tyndale/GEN/intro, tyndale/PSA/intro |
+| BC | a. C. | tyndale/GEN/intro |
+| primeval | primordial | tyndale/GEN/intro |
+| etiology | etiología | tyndale/GEN/intro |
+| cp. | cf. | tyndale/GEN/intro |
+| remnant | remanente | tyndale/ROM/intro |
+| legalism | legalismo | tyndale/ROM/intro |
+| assurance | certeza | tyndale/ROM/intro |
+| Psalter | Salterio | tyndale/PSA/intro |
+| Exile | exilio | tyndale/PSA/intro |
+| postexilic | posexílico | tyndale/PSA/intro |
+| doxology | doxología | tyndale/PSA/intro |
+| lament | lamento | tyndale/PSA/intro |
+| Songs of Ascents | cánticos de las subidas | tyndale/PSA/intro |
+| vindicate | vindicar | tyndale/PSA/intro |
+| Prison Letters | cartas de la prisión | tyndale/EPH/intro |
+| body of Christ | cuerpo de Cristo | tyndale/EPH/intro |
+| saving grace | gracia salvadora | tyndale/EPH/intro |
+| spiritual warfare | guerra espiritual | tyndale/EPH/intro |
