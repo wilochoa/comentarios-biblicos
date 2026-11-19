@@ -178,3 +178,157 @@ Referencias siempre con la abreviatura en español: `Jn 3:16`, `1 Co 1:26`.
 | body of Christ | cuerpo de Cristo | tyndale/EPH/intro |
 | saving grace | gracia salvadora | tyndale/EPH/intro |
 | spiritual warfare | guerra espiritual | tyndale/EPH/intro |
+| contentment | contentamiento | tyndale/PHP/intro |
+| missionary journey | viaje misionero | tyndale/PHP/intro, tyndale/ACT/intro, tyndale/GAL/intro |
+| house arrest | arresto domiciliario | tyndale/PHP/intro, tyndale/ACT/intro |
+| Jewish-Christian | judeocristiano | tyndale/PHP/intro |
+| God-fearers | temerosos de Dios | tyndale/ACT/intro, tyndale/HEB/intro |
+| apostolic age | era apostólica | tyndale/ACT/intro |
+| coworker | colaborador | tyndale/ACT/intro, tyndale/COL/intro |
+| Hellenistic | helenístico | tyndale/ACT/intro |
+| Decapolis | Decápolis | tyndale/ACT/intro |
+| witness / testify | testigo / dar testimonio | tyndale/ACT/intro |
+| e.g. | p. ej. | tyndale/ACT/intro |
+| apostle / apostles | apóstol / apóstoles | tyndale/ACT/intro, tyndale/GAL/intro |
+| salvation / saved | salvación / salvo | tyndale/ACT/intro, tyndale/LUK/intro, tyndale/GAL/intro, tyndale/ISA/intro, tyndale/1PE/intro, tyndale/EXO/intro |
+| passion | pasión | tyndale/MRK/intro |
+| eyewitness | testigo ocular | tyndale/MRK/intro, tyndale/LUK/intro, tyndale/1JN/intro |
+| canonical | canónico | tyndale/MRK/intro |
+| transfiguration | transfiguración | tyndale/MRK/intro |
+| ransom | rescate | tyndale/MRK/intro |
+| servanthood | condición de siervo | tyndale/MRK/intro |
+| teachers of religious law | maestros de la ley religiosa | tyndale/MRK/intro, tyndale/LUK/intro |
+| martyrdom | martirio | tyndale/MRK/intro, tyndale/HEB/intro |
+| cleansing of the Temple | purificación del templo | tyndale/MRK/intro |
+| Savior | Salvador | tyndale/LUK/intro |
+| people of God | pueblo de Dios | tyndale/LUK/intro |
+| suffering servant | siervo sufriente | tyndale/LUK/intro |
+| Luke–Acts | Lucas–Hechos | tyndale/LUK/intro |
+| outcasts | marginados | tyndale/LUK/intro |
+| outsiders | los de afuera | tyndale/LUK/intro |
+| self-righteous | el que se cree justo | tyndale/LUK/intro |
+| the lost | los perdidos | tyndale/LUK/intro |
+| birth narrative | relato del nacimiento | tyndale/LUK/intro |
+| Samaritans | samaritanos | tyndale/LUK/intro |
+| prodigal son | hijo pródigo | tyndale/LUK/intro |
+| Ascension | ascensión | tyndale/LUK/intro, tyndale/1PE/intro |
+| Good Samaritan | el buen samaritano | tyndale/LUK/intro |
+| great omission | gran omisión | tyndale/LUK/intro |
+| reversal of fortunes | inversión de suertes | tyndale/LUK/intro |
+| patron | mecenas | tyndale/LUK/intro |
+| forerunner | precursor | tyndale/LUK/intro |
+| false messiah | falso mesías | tyndale/LUK/intro |
+| Hebrew Scriptures | Escrituras hebreas | tyndale/LUK/intro |
+| last days | los últimos días | tyndale/LUK/intro |
+| present age | la era presente | tyndale/LUK/intro |
+| hard-heartedness | dureza de corazón | tyndale/LUK/intro |
+| Great Physician | el Gran Médico | tyndale/LUK/intro |
+| perseverance / persevere | perseverancia / perseverar | tyndale/HEB/intro |
+| endurance | constancia | tyndale/HEB/intro |
+| exhortation | exhortación | tyndale/HEB/intro |
+| new covenant | nuevo pacto | tyndale/HEB/intro |
+| old covenant | antiguo pacto | tyndale/HEB/intro |
+| Melchizedek | Melquisedec | tyndale/HEB/intro |
+| Levitical | levítico | tyndale/HEB/intro |
+| incarnation | encarnación | tyndale/HEB/intro |
+| exaltation | exaltación | tyndale/HEB/intro |
+| once for all | una vez para siempre | tyndale/HEB/intro |
+| rest | reposo | tyndale/HEB/intro |
+| benediction | bendición | tyndale/HEB/intro |
+| house churches | iglesias en las casas | tyndale/HEB/intro |
+| sufficiency | suficiencia | tyndale/HEB/intro |
+| Judaizers | judaizantes | tyndale/GAL/intro |
+| circumcision | circuncisión | tyndale/GAL/intro |
+| apostleship | apostolado | tyndale/GAL/intro |
+| sinful nature | naturaleza pecaminosa | tyndale/GAL/intro |
+| freedom / liberty | libertad | tyndale/GAL/intro |
+| council | concilio | tyndale/GAL/intro |
+| works | obras | tyndale/GAL/intro |
+| finished work | obra consumada | tyndale/GAL/intro |
+| law-free gospel | evangelio libre de la ley | tyndale/GAL/intro |
+| Jewish Christians | cristianos judíos | tyndale/GAL/intro, tyndale/JAS/intro |
+| Gentile Christians | cristianos gentiles | tyndale/GAL/intro |
+| servant | siervo | tyndale/ISA/intro |
+| Immanuel | Emmanuel | tyndale/ISA/intro |
+| Zion | Sion | tyndale/ISA/intro |
+| idolatry | idolatría | tyndale/ISA/intro |
+| idol-god | dios-ídolo | tyndale/ISA/intro |
+| Assyria | Asiria | tyndale/ISA/intro |
+| Babylon | Babilonia | tyndale/ISA/intro |
+| faithfulness | fidelidad | tyndale/ISA/intro, tyndale/JAS/intro |
+| holy land | tierra santa | tyndale/ISA/intro |
+| servant songs | cánticos del siervo | tyndale/ISA/intro |
+| judgment | juicio | tyndale/ISA/intro |
+| trust | confiar | tyndale/ISA/intro |
+| wickedness | maldad | tyndale/ISA/intro |
+| wisdom | sabiduría | tyndale/PRO/intro |
+| wise / the wise | sabio / los sabios | tyndale/PRO/intro |
+| fool / foolish | necio | tyndale/PRO/intro |
+| proverb | proverbio | tyndale/PRO/intro |
+| the simple | los simples | tyndale/PRO/intro |
+| wise sayings | dichos sabios | tyndale/PRO/intro |
+| ancient Near East | antiguo Cercano Oriente | tyndale/PRO/intro |
+| parallelism / synonymous parallelism | paralelismo / paralelismo sinonímico | tyndale/PRO/intro |
+| fear of the Lord | temor del Señor | tyndale/PRO/intro |
+| Diaspora | diáspora | tyndale/JAS/intro |
+| good works | buenas obras | tyndale/JAS/intro |
+| good deeds | buenas obras | tyndale/JAS/intro |
+| works of the law | obras de la ley | tyndale/JAS/intro |
+| synagogue | sinagoga | tyndale/JAS/intro |
+| patient endurance | perseverancia paciente | tyndale/JAS/intro |
+| proselyte | prosélito | tyndale/JAS/intro |
+| Sermon on the Plain | Sermón de la llanura | tyndale/JAS/intro |
+| wisdom literature | literatura sapiencial | tyndale/JAS/intro |
+| fellowship | comunión | tyndale/1JN/intro, tyndale/EXO/intro |
+| heresy | herejía | tyndale/1JN/intro, tyndale/COL/intro |
+| heretical | herético | tyndale/1JN/intro |
+| antichrist | anticristo | tyndale/1JN/intro |
+| elder / elders | anciano / ancianos | tyndale/1JN/intro, tyndale/1PE/intro |
+| Gnosticism | gnosticismo | tyndale/1JN/intro |
+| advocacy | abogacía | tyndale/1JN/intro |
+| deity | deidad | tyndale/1JN/intro |
+| schism | cisma | tyndale/1JN/intro |
+| pseudo-spirituality | seudoespiritualidad | tyndale/1JN/intro |
+| false teaching | enseñanza falsa | tyndale/COL/intro |
+| false teachers | falsos maestros | tyndale/COL/intro |
+| preeminence | preeminencia | tyndale/COL/intro |
+| supremacy | supremacía | tyndale/COL/intro |
+| fullness | plenitud | tyndale/COL/intro |
+| spiritual fulfillment | realización espiritual | tyndale/COL/intro |
+| asceticism | ascetismo | tyndale/COL/intro |
+| persecution | persecución | tyndale/1PE/intro |
+| holiness | santidad | tyndale/1PE/intro, tyndale/LEV/intro |
+| suffering | sufrimiento | tyndale/1PE/intro |
+| trials | pruebas | tyndale/1PE/intro |
+| fiery trials | pruebas de fuego | tyndale/1PE/intro |
+| bear witness | dar testimonio | tyndale/1PE/intro |
+| evangelism | evangelización | tyndale/1PE/intro |
+| slaves | esclavos | tyndale/1PE/intro |
+| masters | amos | tyndale/1PE/intro |
+| resurrection | resurrección | tyndale/1PE/intro |
+| aliens | peregrinos | tyndale/1PE/intro |
+| deliverance | liberación | tyndale/EXO/intro |
+| worship | adoración | tyndale/EXO/intro, tyndale/LEV/intro |
+| Pharaoh | faraón | tyndale/EXO/intro |
+| conquest | conquista | tyndale/EXO/intro, tyndale/NUM/intro |
+| chronology | cronología | tyndale/EXO/intro |
+| dynasty | dinastía | tyndale/EXO/intro |
+| Septuagint | Septuaginta | tyndale/EXO/intro, tyndale/NUM/intro |
+| Masoretic Text | texto masorético | tyndale/EXO/intro, tyndale/NUM/intro |
+| covenant relationship | relación de pacto | tyndale/EXO/intro |
+| holy day | día santo | tyndale/LEV/intro |
+| ceremonial purity | pureza ceremonial | tyndale/LEV/intro |
+| priesthood | sacerdocio | tyndale/LEV/intro |
+| royal priesthood | real sacerdocio | tyndale/LEV/intro |
+| special treasure | especial tesoro | tyndale/LEV/intro |
+| atoning sacrifice | sacrificio expiatorio | tyndale/LEV/intro |
+| Transjordan | Transjordania | tyndale/NUM/intro |
+| plains of Moab | llanuras de Moab | tyndale/NUM/intro |
+| registration | registro | tyndale/NUM/intro |
+| census | censo | tyndale/NUM/intro |
+| Levite | levita | tyndale/NUM/intro |
+| Documentary Hypothesis | hipótesis documentaria | tyndale/NUM/intro |
+| Dead Sea Scrolls | rollos del Mar Muerto | tyndale/NUM/intro |
+| Vulgate | Vulgata | tyndale/NUM/intro |
+| Negev | Néguev | tyndale/NUM/intro |
+| grumbling | murmuración | tyndale/NUM/intro |
