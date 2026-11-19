@@ -84,6 +84,6 @@ Archivos JSON estáticos (pensados para GitHub Pages o Cloudflare Pages). Se pub
 
 `<LIBRO>` es el código USFM (`GEN`, `JHN`, `1CO`…). Quien use la API debe mostrar el campo `atribucion`.
 
-**Dirección pública:** https://wilochoa.github.io/comentarios-biblicos/v1/comentarios.json
+**Dirección pública:** https://comentarios.iglesy.net/v1/comentarios.json
 
 Se publica sola con cada push a `main` (`.github/workflows/publicar.yml`: pruebas → validar → construir → GitHub Pages). Solo salen los comentarios con `"publicar": true` en `comentarios.json`: hoy, Tyndale. Matthew Henry espera la decisión de licencia.
