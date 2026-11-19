@@ -682,3 +682,171 @@ Referencias siempre con la abreviatura en español: `Jn 3:16`, `1 Co 1:26`.
 | social justice | justicia social | tyndale/ZEC/intro |
 | suffering shepherd | pastor sufriente | tyndale/ZEC/intro |
 | corporate worship | adoración comunitaria | tyndale/ZEC/intro |
+| Malachi | Malaquías | tyndale/MAL/intro |
+| disputation | disputa | tyndale/MAL/intro |
+| second Temple | segundo templo | tyndale/MAL/intro |
+| covenant lawsuit | pleito del pacto | tyndale/MAL/intro |
+| trial speech | discurso de juicio | tyndale/MAL/intro |
+| day of the Lord | día del Señor | tyndale/MAL/intro, tyndale/2TH/intro |
+| Marathon | Maratón | tyndale/MAL/intro |
+| gracious | benigno; bondadoso | tyndale/MAL/intro, tyndale/PHM/intro |
+| sexual immorality | inmoralidad sexual | tyndale/1CO/intro, tyndale/1TH/intro |
+| spiritual gifts | dones espirituales | tyndale/1CO/intro |
+| singleness | soltería | tyndale/1CO/intro |
+| celibate | célibe | tyndale/1CO/intro |
+| divorce | divorcio | tyndale/1CO/intro |
+| unity | unidad | tyndale/1CO/intro |
+| multiethnic | multiétnico | tyndale/1CO/intro |
+| Corinth | Corinto | tyndale/1CO/intro, tyndale/1TH/intro |
+| Corinthian | corintio | tyndale/1CO/intro |
+| Ephesus | Éfeso | tyndale/1CO/intro, tyndale/TIT/intro |
+| Gallio | Galión | tyndale/1CO/intro, tyndale/1TH/intro |
+| Stephanas | Estéfanas | tyndale/1CO/intro |
+| Fortunatus | Fortunato | tyndale/1CO/intro |
+| Achaicus | Acaico | tyndale/1CO/intro |
+| amanuensis | amanuense | tyndale/1CO/intro, tyndale/1TI/intro |
+| clergy | clero | tyndale/1CO/intro |
+| laity | laicado | tyndale/1CO/intro |
+| meat sacrificed to idols | carne sacrificada a los ídolos | tyndale/1CO/intro |
+| food sacrificed to idols | alimentos sacrificados a los ídolos | tyndale/1CO/intro |
+| resurrection body | cuerpo de resurrección | tyndale/1CO/intro |
+| imminent return | regreso inminente | tyndale/1CO/intro |
+| study note | nota de estudio | tyndale/1CO/intro, tyndale/TIT/intro |
+| sacrificial love | amor sacrificial | tyndale/1CO/intro |
+| cliques / cliquishness | camarillas / espíritu de camarilla | tyndale/1CO/intro |
+| reconciliation | reconciliación | tyndale/2CO/intro, tyndale/PHM/intro |
+| stewardship | mayordomía | tyndale/2CO/intro |
+| collection | colecta | tyndale/2CO/intro |
+| severe letter | carta severa | tyndale/2CO/intro |
+| Fool's Speech | discurso del necio | tyndale/2CO/intro |
+| weakness | debilidad | tyndale/2CO/intro |
+| boasting | jactancia | tyndale/2CO/intro |
+| apostolic authority | autoridad apostólica | tyndale/2CO/intro, tyndale/PHM/intro |
+| Thessalonica | Tesalónica | tyndale/1TH/intro |
+| Thessalonians | tesalonicenses | tyndale/1TH/intro |
+| Silas | Silas | tyndale/1TH/intro |
+| Timothy | Timoteo | tyndale/1TH/intro, tyndale/TIT/intro |
+| Satan | Satanás | tyndale/1TH/intro, tyndale/REV/intro |
+| Achaia | Acaya | tyndale/1TH/intro |
+| Macedonia | Macedonia | tyndale/1TH/intro |
+| Berea | Berea | tyndale/1TH/intro |
+| Athens | Atenas | tyndale/1TH/intro |
+| prophecy | profecía | tyndale/1TH/intro, tyndale/REV/intro |
+| sexual morality | moral sexual | tyndale/1TH/intro |
+| the Lord's return | el regreso del Señor | tyndale/1TH/intro |
+| Christ's return | el regreso de Cristo | tyndale/1TH/intro, tyndale/2PE/intro |
+| proconsul | procónsul | tyndale/1TH/intro |
+| caught up | arrebatados | tyndale/1TH/intro |
+| the tempter | el tentador | tyndale/1TH/intro |
+| consummation | consumación | tyndale/1TH/intro |
+| appearing | aparición | tyndale/1TH/intro |
+| holy | santo | tyndale/1TH/intro |
+| cofounder | cofundador | tyndale/1TH/intro |
+| Christian behavior | conducta cristiana | tyndale/1TH/intro |
+| idleness / idle | ociosidad / ocioso | tyndale/2TH/intro |
+| stand firm | mantenerse firme | tyndale/2TH/intro |
+| man of lawlessness | hombre de pecado | tyndale/2TH/intro |
+| errant | descarriado | tyndale/2TH/intro |
+| Pastoral Letters | cartas pastorales | tyndale/1TI/intro |
+| God's household | casa de Dios | tyndale/1TI/intro |
+| delegate | delegado | tyndale/1TI/intro, tyndale/2TI/intro, tyndale/TIT/intro |
+| teachers of the law | maestros de la ley | tyndale/1TI/intro |
+| new creation | nueva creación | tyndale/1TI/intro |
+| countercultural | contracultural | tyndale/1TI/intro |
+| heretic | hereje | tyndale/2TI/intro |
+| imprisonment | encarcelamiento | tyndale/2TI/intro, tyndale/TIT/intro, tyndale/PHM/intro |
+| life-giving | vivificante | tyndale/2TI/intro |
+| Crete | Creta | tyndale/TIT/intro |
+| Titus | Tito | tyndale/TIT/intro |
+| Antioch | Antioquía | tyndale/TIT/intro |
+| Pentecost | Pentecostés | tyndale/TIT/intro |
+| Nicopolis | Nicópolis | tyndale/TIT/intro |
+| Tychicus | Tíquico | tyndale/TIT/intro |
+| Artemas | Artemas | tyndale/TIT/intro |
+| deacon | diácono | tyndale/TIT/intro |
+| the deposit | el depósito | tyndale/TIT/intro |
+| new convert | recién convertido | tyndale/TIT/intro |
+| household of faith | familia de la fe | tyndale/TIT/intro |
+| widows list | lista de viudas | tyndale/TIT/intro |
+| fallen world | mundo caído | tyndale/TIT/intro |
+| troublemaker | perturbador | tyndale/TIT/intro |
+| charge | encargo | tyndale/TIT/intro |
+| runaway slave | esclavo fugitivo | tyndale/PHM/intro |
+| reconcile | reconciliar | tyndale/PHM/intro |
+| appeal | ruego | tyndale/PHM/intro |
+| welcome back | recibir de nuevo | tyndale/PHM/intro |
+| encourage | alentar | tyndale/PHM/intro |
+| Onesimus | Onésimo | tyndale/PHM/intro |
+| Philemon | Filemón | tyndale/PHM/intro |
+| Colosse | Colosas | tyndale/PHM/intro |
+| Ignatius | Ignacio | tyndale/PHM/intro |
+| bishop | obispo | tyndale/PHM/intro |
+| abolition | abolición | tyndale/PHM/intro |
+| release | puesta en libertad | tyndale/PHM/intro |
+| class distinction | distinción de clase | tyndale/PHM/intro |
+| social distinction | distinción social | tyndale/PHM/intro |
+| martyr | mártir | tyndale/PHM/intro |
+| overthrow | derrocamiento | tyndale/PHM/intro |
+| worldview | cosmovisión | tyndale/2PE/intro |
+| scribe | amanuense | tyndale/2PE/intro |
+| Silvanus | Silvano | tyndale/2PE/intro |
+| Nero | Nerón | tyndale/2PE/intro |
+| Asia Minor | Asia Menor | tyndale/2PE/intro, tyndale/2JN/intro |
+| oral tradition | tradición oral | tyndale/2PE/intro |
+| literary source | fuente literaria | tyndale/2PE/intro |
+| plagiarism | plagio | tyndale/2PE/intro |
+| borrow | tomar prestado | tyndale/2PE/intro |
+| Gnostics | gnósticos | tyndale/2PE/intro |
+| profligate | disoluto | tyndale/2PE/intro |
+| skepticism | escepticismo | tyndale/2PE/intro |
+| condemnation | condenación | tyndale/2PE/intro, tyndale/JUD/intro |
+| final judgment | juicio final | tyndale/2PE/intro |
+| illicit sex | relaciones sexuales ilícitas | tyndale/2PE/intro |
+| Docetism | docetismo | tyndale/2JN/intro |
+| Epistles | epístolas | tyndale/2JN/intro |
+| deceivers | engañadores | tyndale/2JN/intro |
+| Kyria | Ciria | tyndale/2JN/intro |
+| heretics | herejes | tyndale/2JN/intro |
+| sect | secta | tyndale/2JN/intro |
+| emissary | emisario | tyndale/3JN/intro |
+| hospitality | hospitalidad | tyndale/3JN/intro |
+| excommunicate | excomulgar | tyndale/3JN/intro |
+| Diotrephes | Diótrefes | tyndale/3JN/intro |
+| Gaius | Gayo | tyndale/3JN/intro |
+| Demetrius | Demetrio | tyndale/3JN/intro |
+| traveling teacher | maestro itinerante | tyndale/3JN/intro |
+| leadership | liderazgo | tyndale/3JN/intro |
+| censure | reprensión | tyndale/3JN/intro |
+| early church | iglesia primitiva | tyndale/3JN/intro |
+| apostolic fellowship | comunión apostólica | tyndale/3JN/intro |
+| apostolic teaching | enseñanza apostólica | tyndale/3JN/intro |
+| libertines | libertinos | tyndale/JUD/intro |
+| profligates | disolutos | tyndale/JUD/intro |
+| creedal statements | declaraciones credales | tyndale/JUD/intro |
+| creeds | credos | tyndale/JUD/intro |
+| Korah | Coré | tyndale/JUD/intro |
+| Cain | Caín | tyndale/JUD/intro |
+| Sodom | Sodoma | tyndale/JUD/intro |
+| Gomorrah | Gomorra | tyndale/JUD/intro |
+| Christianity | cristianismo | tyndale/JUD/intro |
+| deviant teachers | maestros desviados | tyndale/JUD/intro |
+| hold fast | aferrarse | tyndale/JUD/intro |
+| vision | visión | tyndale/REV/intro |
+| apocalypse | apocalipsis | tyndale/REV/intro |
+| Lamb of God | Cordero de Dios | tyndale/REV/intro |
+| dragon | dragón | tyndale/REV/intro |
+| beast | bestia | tyndale/REV/intro |
+| seal | sello | tyndale/REV/intro |
+| trumpet | trompeta | tyndale/REV/intro |
+| angel | ángel | tyndale/REV/intro |
+| heaven | cielo | tyndale/REV/intro |
+| Rome | Roma | tyndale/REV/intro |
+| plague | plaga | tyndale/REV/intro |
+| interlude | interludio | tyndale/REV/intro |
+| lake of fire | lago de fuego | tyndale/REV/intro |
+| Armageddon | Armagedón | tyndale/REV/intro |
+| emperor | emperador | tyndale/REV/intro |
+| seer | vidente | tyndale/REV/intro |
+| Domitian | Domiciano | tyndale/REV/intro |
+| praise | alabanza | tyndale/REV/intro |
+| Christian | cristiano | tyndale/REV/intro |
