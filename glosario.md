@@ -502,3 +502,183 @@ Referencias siempre con la abreviatura en español: `Jn 3:16`, `1 Co 1:26`.
 | world to come | mundo por venir | tyndale/SNG/intro |
 | superscription | sobrescrito | tyndale/SNG/intro |
 | story line / plot | trama | tyndale/SNG/intro |
+| Nebuchadnezzar | Nabucodonosor | tyndale/JER/intro, tyndale/EZK/intro, tyndale/DAN/intro, tyndale/OBA/intro |
+| Josiah | Josías | tyndale/JER/intro, tyndale/LAM/intro, tyndale/NAM/intro, tyndale/ZEP/intro |
+| Jehoiakim | Joacim | tyndale/JER/intro, tyndale/EZK/intro |
+| Jehoiachin | Joaquín | tyndale/JER/intro, tyndale/EZK/intro |
+| Zedekiah | Sedequías | tyndale/JER/intro, tyndale/EZK/intro, tyndale/OBA/intro |
+| Gedaliah | Gedalías | tyndale/JER/intro |
+| Manasseh | Manasés | tyndale/JER/intro, tyndale/NAM/intro, tyndale/ZEP/intro |
+| Amon | Amón | tyndale/JER/intro, tyndale/ZEP/intro |
+| Baruch | Baruc | tyndale/JER/intro, tyndale/LAM/intro |
+| scroll | rollo | tyndale/JER/intro |
+| siege | asedio; en Jeremías se propuso sitio | tyndale/JER/intro, tyndale/LAM/intro, tyndale/EZK/intro, tyndale/NAM/intro |
+| restoration | restauración | tyndale/JER/intro, tyndale/LAM/intro, tyndale/HOS/intro, tyndale/JOL/intro, tyndale/MIC/intro, tyndale/ZEP/intro, tyndale/HAG/intro |
+| messenger | mensajero | tyndale/JER/intro |
+| Book of the Law | libro de la Ley | tyndale/JER/intro, tyndale/HAB/intro, tyndale/ZEP/intro |
+| captive | cautivo | tyndale/JER/intro |
+| holy city | ciudad santa | tyndale/JER/intro |
+| covenant of service | pacto de servicio | tyndale/JER/intro |
+| officials | funcionarios | tyndale/JER/intro |
+| righteous descendant | Pimpollo de justicia | tyndale/JER/intro |
+| idol | ídolo | tyndale/JER/intro |
+| acrostic | acróstico | tyndale/LAM/intro |
+| stanza | estrofa | tyndale/LAM/intro |
+| poem | poema | tyndale/LAM/intro |
+| goodness | benignidad | tyndale/LAM/intro |
+| wrath / anger | ira | tyndale/LAM/intro, tyndale/JON/intro, tyndale/OBA/intro, tyndale/ZEP/intro |
+| hope | esperanza | tyndale/LAM/intro |
+| rebellion | rebelión | tyndale/LAM/intro, tyndale/ZEP/intro |
+| forgiveness | perdón | tyndale/LAM/intro, tyndale/ZEP/intro |
+| calamity | calamidad | tyndale/LAM/intro |
+| despair | desesperación | tyndale/LAM/intro |
+| devastation | devastación | tyndale/LAM/intro |
+| shame | vergüenza | tyndale/LAM/intro |
+| agony | agonía | tyndale/LAM/intro, tyndale/HOS/intro |
+| distress | angustia | tyndale/LAM/intro, tyndale/HOS/intro |
+| destruction | destrucción | tyndale/LAM/intro |
+| priest | sacerdote | tyndale/LAM/intro, tyndale/EZK/intro, tyndale/JOL/intro |
+| sacrifice | sacrificio | tyndale/LAM/intro |
+| false prophet | falso profeta | tyndale/LAM/intro |
+| Babylonian | babilónico | tyndale/LAM/intro |
+| pit | pozo | tyndale/LAM/intro |
+| clay pot | vaso de barro | tyndale/LAM/intro |
+| authorship | autoría | tyndale/LAM/intro |
+| glimmer of hope | destello de esperanza | tyndale/LAM/intro |
+| aftermath | secuelas | tyndale/LAM/intro |
+| watchman | centinela | tyndale/EZK/intro |
+| sign acts | actos simbólicos | tyndale/EZK/intro |
+| sanctuary | santuario | tyndale/EZK/intro |
+| oracle | oráculo | tyndale/EZK/intro, tyndale/AMO/intro, tyndale/HAG/intro |
+| abomination | abominación | tyndale/EZK/intro |
+| divination | adivinación | tyndale/EZK/intro |
+| defile | profanar | tyndale/EZK/intro |
+| commissioning | comisión | tyndale/EZK/intro |
+| divine warrior | guerrero divino | tyndale/EZK/intro |
+| heavenly chariot | carro celestial | tyndale/EZK/intro |
+| Nineveh | Nínive | tyndale/EZK/intro, tyndale/JON/intro, tyndale/NAM/intro |
+| Carchemish | Carquemis | tyndale/EZK/intro |
+| Good Shepherd | el Buen Pastor | tyndale/EZK/intro |
+| throne of grace | trono de la gracia | tyndale/EZK/intro |
+| apocalyptic literature | literatura apocalíptica | tyndale/DAN/intro |
+| predictive prophecy | profecía predictiva | tyndale/DAN/intro |
+| intertestamental period | período intertestamentario | tyndale/DAN/intro |
+| exilic | exílico | tyndale/DAN/intro |
+| servitude | servidumbre | tyndale/DAN/intro |
+| seventy sets of seven | setenta conjuntos de siete | tyndale/DAN/intro |
+| God Most High | Dios Altísimo | tyndale/DAN/intro |
+| enculturation | enculturación | tyndale/DAN/intro |
+| Belshazzar | Belsasar | tyndale/DAN/intro |
+| Cyrus | Ciro | tyndale/DAN/intro, tyndale/HAG/intro, tyndale/ZEC/intro |
+| symbolism | simbolismo | tyndale/DAN/intro |
+| highly esteemed | muy estimado | tyndale/DAN/intro |
+| betrayal | traición | tyndale/HOS/intro |
+| justice | justicia | tyndale/HOS/intro |
+| redeem | redimir | tyndale/HOS/intro |
+| ministry | ministerio | tyndale/HOS/intro |
+| prostitute | prostituta | tyndale/HOS/intro |
+| wayward | descarriado | tyndale/HOS/intro |
+| lovers | amantes | tyndale/HOS/intro |
+| restore / restoration | restaurar / restauración | tyndale/HOS/intro |
+| figurative language | lenguaje figurado | tyndale/HOS/intro, tyndale/MIC/intro |
+| folk sayings | dichos populares | tyndale/HOS/intro |
+| Creator | Creador | tyndale/HOS/intro |
+| sustainer | sustentador | tyndale/HOS/intro |
+| husband | esposo | tyndale/HOS/intro |
+| charges | cargos | tyndale/HOS/intro |
+| fulfillment | realización | tyndale/HOS/intro |
+| heal | sanar | tyndale/HOS/intro |
+| unfaithful | infiel | tyndale/HOS/intro |
+| adulterous | adúltero | tyndale/HOS/intro |
+| rebel | rebelarse | tyndale/HOS/intro |
+| Gomer | Gomer | tyndale/HOS/intro |
+| Jeroboam | Jeroboam | tyndale/HOS/intro |
+| Solomon | Salomón | tyndale/HOS/intro |
+| Mount Sinai | monte Sinaí | tyndale/HOS/intro |
+| cross | cruz | tyndale/HOS/intro |
+| locust plague | plaga de langostas | tyndale/JOL/intro |
+| drought | sequía | tyndale/JOL/intro |
+| apocalyptic | apocalíptico | tyndale/JOL/intro, tyndale/ZEC/intro |
+| lordship | señorío | tyndale/JOL/intro |
+| pour out his Spirit | derramar su Espíritu | tyndale/JOL/intro |
+| compassionate | compasivo | tyndale/JOL/intro |
+| offering | ofrenda | tyndale/JOL/intro |
+| famine | hambruna | tyndale/JOL/intro |
+| Joash | Joás | tyndale/JOL/intro |
+| Jehoiada | Joiada | tyndale/JOL/intro |
+| shrine | santuario | tyndale/AMO/intro |
+| indictment | acusación | tyndale/AMO/intro, tyndale/MIC/intro |
+| Bethel | Betel | tyndale/AMO/intro |
+| Tekoa | Tecoa | tyndale/AMO/intro |
+| baals | baales | tyndale/AMO/intro |
+| sycamore-fig | cabrahigo | tyndale/AMO/intro |
+| lip service | honra de labios | tyndale/AMO/intro |
+| oppression | opresión | tyndale/AMO/intro |
+| powerless | indefensos | tyndale/AMO/intro |
+| marginalized | marginados | tyndale/AMO/intro |
+| Edomites | edomitas | tyndale/OBA/intro |
+| Esau | Esaú | tyndale/OBA/intro |
+| vindication | vindicación | tyndale/OBA/intro |
+| Arabah | Arabá | tyndale/OBA/intro |
+| Idumea | Idumea | tyndale/OBA/intro |
+| Herod the Great | Herodes el Grande | tyndale/OBA/intro |
+| King of the Jews | rey de los judíos | tyndale/OBA/intro |
+| taunt | burla | tyndale/OBA/intro |
+| Babylonians | babilonios | tyndale/OBA/intro, tyndale/HAB/intro |
+| irony | ironía | tyndale/JON/intro |
+| narrative | narración | tyndale/JON/intro |
+| parable | parábola | tyndale/JON/intro |
+| commission | encargo | tyndale/JON/intro |
+| false prophets | falsos profetas | tyndale/MIC/intro |
+| high places | lugares altos | tyndale/MIC/intro |
+| preexilic | preexílico | tyndale/MIC/intro |
+| unfailing love | amor inagotable | tyndale/MIC/intro |
+| pardon | absolución | tyndale/MIC/intro |
+| Thebes | Tebas | tyndale/NAM/intro |
+| Ashurbanipal | Asurbanipal | tyndale/NAM/intro, tyndale/ZEP/intro |
+| Elkoshite | de El-kosh | tyndale/NAM/intro |
+| Elkosh | El-kosh | tyndale/NAM/intro |
+| satire | sátira | tyndale/NAM/intro |
+| long-suffering | longánimo | tyndale/NAM/intro |
+| oppressors | opresores | tyndale/NAM/intro |
+| the oppressed | los oprimidos | tyndale/NAM/intro |
+| doom | perdición | tyndale/NAM/intro |
+| greed | avaricia | tyndale/NAM/intro, tyndale/ZEP/intro |
+| eternal life | vida eterna | tyndale/NAM/intro |
+| missionary effort | esfuerzo misionero | tyndale/NAM/intro |
+| coming judgment | juicio venidero | tyndale/NAM/intro |
+| scrutiny | escrutinio | tyndale/NAM/intro |
+| injustice | injusticia | tyndale/HAB/intro |
+| violence | violencia | tyndale/HAB/intro |
+| Neo-Babylonian | neobabilónico | tyndale/HAB/intro |
+| taunt songs | cánticos de escarnio | tyndale/HAB/intro |
+| chastise / chasten | disciplinar | tyndale/HAB/intro |
+| corruption | corrupción | tyndale/HAB/intro |
+| the faithful | los fieles | tyndale/HAB/intro |
+| believer / believers | creyente / creyentes | tyndale/HAB/intro |
+| ethical standards | normas éticas | tyndale/HAB/intro |
+| humility / humble | humildad / humilde | tyndale/ZEP/intro |
+| pride / arrogant | orgullo / arrogante | tyndale/ZEP/intro |
+| syncretistic | sincrético | tyndale/ZEP/intro |
+| reform | reforma | tyndale/ZEP/intro |
+| blessedness | bienaventuranza | tyndale/ZEP/intro |
+| immorality | inmoralidad | tyndale/ZEP/intro |
+| accountability | responsabilidad | tyndale/ZEP/intro |
+| materialism | materialismo | tyndale/ZEP/intro |
+| social injustice | injusticia social | tyndale/ZEP/intro |
+| chastening | disciplina | tyndale/ZEP/intro |
+| Hezekiah | Ezequías | tyndale/ZEP/intro |
+| spiritual renewal | renovación espiritual | tyndale/HAG/intro, tyndale/ZEC/intro |
+| ritual purity | pureza ritual | tyndale/HAG/intro |
+| Zerubbabel | Zorobabel | tyndale/HAG/intro, tyndale/ZEC/intro |
+| Sheshbazzar | Sesbasar | tyndale/HAG/intro, tyndale/ZEC/intro |
+| Darius | Darío | tyndale/HAG/intro, tyndale/ZEC/intro |
+| signet ring | anillo de sellar | tyndale/HAG/intro |
+| blight | tizón | tyndale/HAG/intro |
+| Jeshua | Josué | tyndale/ZEC/intro |
+| Haggai | Hageo | tyndale/ZEC/intro |
+| Berekiah | Berequías | tyndale/ZEC/intro |
+| messianic age | era mesiánica | tyndale/ZEC/intro |
+| social justice | justicia social | tyndale/ZEC/intro |
+| suffering shepherd | pastor sufriente | tyndale/ZEC/intro |
+| corporate worship | adoración comunitaria | tyndale/ZEC/intro |
