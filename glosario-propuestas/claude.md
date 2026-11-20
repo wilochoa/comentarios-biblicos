@@ -132,3 +132,9 @@
 | Godhead | Deidad | tyndale/PSA/2 |
 | royal psalm | salmo real | tyndale/PSA/2 |
 | title (encabezado de salmo, «3:title») | título («3:título») | tyndale/PSA/3 |
+| Sheol | Seol | tyndale/PSA/6 |
+| abode of the dead | morada de los muertos | tyndale/PSA/6 |
+| royal prayers | oraciones reales | tyndale/PSA/9 |
+| evildoers | malhechores | tyndale/PSA/10 |
+| Lord of Heaven's Armies | Señor de los Ejércitos Celestiales | tyndale/PSA/24 |
+| holy mountain | monte santo | tyndale/PSA/24 |
