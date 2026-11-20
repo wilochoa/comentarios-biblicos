@@ -174,5 +174,9 @@
       "archivo": "traducciones/tyndale/PSA/60.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/PSA/51#v1-v19",
+    "tyndale/PSA/52#v1-v8",
+    "tyndale/PSA/53#v1-v5"
+  ]
 }
