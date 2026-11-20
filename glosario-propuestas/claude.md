@@ -147,7 +147,7 @@
 | diatribe | diatriba | tyndale/ROM/2, 3 |
 | Maccabean Revolt | revuelta de los macabeos | tyndale/ROM/2 |
 | Antiochus IV Epiphanes | Antíoco IV Epífanes | tyndale/ROM/2 |
-| atonement cover | cubierta de la expiación | tyndale/ROM/3 |
+| atonement cover (NLT) | propiciatorio (es el «mercy seat» del glosario) | tyndale/ROM/3 |
 | Day of Atonement | Día de la Expiación | tyndale/ROM/3 |
 | pearl-stringing | ensartar perlas | tyndale/ROM/3 |
 | rabbis | rabinos | tyndale/ROM/3 |

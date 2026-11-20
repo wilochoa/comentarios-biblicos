@@ -1013,5 +1013,13 @@
       "archivo": "traducciones/tyndale/PSA/125.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/PSA/76#v1-v7",
+    "tyndale/PSA/77#v1-v16",
+    "tyndale/PSA/78#v1-v70",
+    "tyndale/PSA/79#v1-v12",
+    "tyndale/PSA/80#v1-v17",
+    "tyndale/PSA/81#v1-v13",
+    "tyndale/PSA/82#v1-v8"
+  ]
 }
