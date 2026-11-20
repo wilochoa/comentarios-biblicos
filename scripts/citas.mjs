@@ -104,9 +104,11 @@ const palabrasEn = (s) => s.toLowerCase().replace(/[^a-z\s]/g, ' ').split(/\s+/)
 const raizEn = (w) => w.replace(/(ing|ed|es|s)$/, '').slice(0, 5);
 
 const VACIAS = new Set(['los', 'las', 'del', 'que', 'por', 'con', 'una', 'uno', 'unos', 'mis', 'sus', 'tus', 'nos', 'les', 'para', 'como', 'pero', 'más', 'mas', 'este', 'esta', 'ese', 'esa', 'son', 'fue', 'ser', 'hay', 'muy', 'sin', 'entre', 'sobre', 'cuando', 'donde', 'todo', 'toda', 'todos', 'todas']);
-// Sin acentos ni «h» (la RVA de 1909 escribe «Thare», «Jehová»…).
+// Sin acentos, «ph» = «f», sin «h» ni letras dobles: la RVA de 1909 escribe
+// «Thare», «Potiphar», «Ephraim», «Rabbí»; la traducción usa la forma actual.
 const palabras = (s) =>
-  s.toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/[^a-zñ\s]/g, ' ').replace(/h/g, '')
+  s.toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/[^a-zñ\s]/g, ' ').replace(/ph/g, 'f').replace(/h/g, '')
+    .replace(/([a-z])\1/g, '$1')
     .split(/\s+/).filter((w) => w.length >= 3 && !VACIAS.has(w));
 // Raíz simple para tolerar flexión («quebrantado» / «quebrantaste»).
 const raiz = (w) => w.slice(0, Math.max(4, Math.ceil(w.length * 0.7)));

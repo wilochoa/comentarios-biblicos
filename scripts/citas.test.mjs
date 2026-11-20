@@ -23,5 +23,7 @@ test('mide qué tanto de la cita sale de la RVA (sin acentos, «h» ni flexión 
   assert.equal(cobertura('Lávame… límpiame', rva), 1);
   assert.ok(cobertura('Lávame… Purifícame', rva) < 0.6);
   assert.equal(cobertura('tomó Taré', 'Y tomó Thare a Abram su hijo'), 1);
+  assert.equal(cobertura('lo vendieron en Egipto a Potifar', 'lo vendieron en Egipto a Potiphar'), 1);
+  assert.equal(cobertura('Rabí', 'no queráis ser llamados Rabbí'), 1);
   assert.equal(cobertura('gobernantes (o dioses)', 'gobernantes'), 1);
 });

@@ -28,6 +28,14 @@ try {
   fallar(error.message);
 }
 
+// Primero lo último de GitHub: así se valida con las reglas vigentes aunque esta
+// sesión haya empezado con scripts viejos (validar.mjs corre en otro proceso).
+try {
+  actualizar();
+} catch (error) {
+  fallar(error.message);
+}
+
 const validacion = spawnSync(process.execPath, [join(ROOT, 'scripts/validar.mjs'), '--cambiados'], { cwd: ROOT, stdio: 'inherit' });
 if (validacion.status !== 0) {
   fallar('\nNo se entregó nada: corrige los archivos con ✗ (o descártalos con `git checkout -- <archivo>`) y vuelve a correr entregar.mjs.');
