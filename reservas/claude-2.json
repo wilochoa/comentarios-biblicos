@@ -561,5 +561,9 @@
       "archivo": "traducciones/tyndale/EPH/5.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/PSA/126#v1-v4",
+    "tyndale/PSA/127#v1-v4",
+    "tyndale/PSA/128#v1-v4"
+  ]
 }
