@@ -6,8 +6,9 @@
 // Solo incluye comentarios con "publicar": true en comentarios.json, y
 // archivos en estado "borrador" o "revisado"; los consumidores
 // deciden si muestran borradores (con la etiqueta "Traducción en revisión").
-import { existsSync, mkdirSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
+import { construirAvance } from './avance.mjs';
 import { DIR_TRADUCCIONES, ROOT, comentarios, leerTraduccion, libroPorCodigo } from './lib.mjs';
 
 const DIST = join(ROOT, 'dist', 'api', 'v1');
@@ -78,7 +79,10 @@ for (const c of comentarios().filter((x) => x.publicar)) {
   });
 }
 escribir('comentarios.json', { generado_el: new Date().toISOString(), comentarios: indice });
+// Avance de todas las traducciones (también las que aún no se publican) y su página /avance/
+escribir('avance.json', await construirAvance());
+cpSync(join(ROOT, 'web'), join(ROOT, 'dist', 'api'), { recursive: true });
 // GitHub Pages: sin Jekyll, y una portada mínima
 writeFileSync(join(ROOT, 'dist', 'api', '.nojekyll'), '');
-writeFileSync(join(ROOT, 'dist', 'api', 'index.html'), '<!doctype html><meta charset="utf-8"><title>Comentarios bíblicos en español</title><p>API de comentarios bíblicos en español. Índice: <a href="v1/comentarios.json">v1/comentarios.json</a>. Código y licencias: <a href="https://github.com/wilochoa/comentarios-biblicos">github.com/wilochoa/comentarios-biblicos</a>.</p>');
+writeFileSync(join(ROOT, 'dist', 'api', 'index.html'), '<!doctype html><meta charset="utf-8"><title>Comentarios bíblicos en español</title><p>API de comentarios bíblicos en español. Índice: <a href="v1/comentarios.json">v1/comentarios.json</a>. Avance de las traducciones: <a href="avance/">avance</a>. Código y licencias: <a href="https://github.com/wilochoa/comentarios-biblicos">github.com/wilochoa/comentarios-biblicos</a>.</p>');
 console.log(`API generada en dist/api/v1 (${indice.map((c) => `${c.id}: ${c.archivos_publicados}`).join(', ')})`);

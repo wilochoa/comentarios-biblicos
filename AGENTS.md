@@ -23,8 +23,9 @@ Estados de una traducción: `parcial` → `borrador` (completa, IA) → `revisad
 2. **Estado limpio.** `git status --porcelain`. Si hay cambios sin commit en `traducciones/` que no vienen de una corrida tuya anterior, detente y avisa (alguien revisa a mano).
 3. **Reservar.** `node scripts/reservar.mjs --cantidad N`, más `--comentario <id>` y/o `--libro <USFM,USFM>` si te pidieron un autor o libros concretos. Te devuelve la lista JSON de tus tramos, ya apartados para ti. Si está vacía, informa que no queda nada pendiente para ese filtro y termina. Si dice que ya tienes una reserva vigente, **no** uses `--forzar` por tu cuenta: avisa al usuario.
 4. **Traducir.** Para cada tramo de la lista, sigue `instrucciones/tramo.md`. Si tu herramienta permite subagentes, usa uno por tramo (hasta 3 en paralelo), cada uno con contexto limpio; si no, tradúcelos uno por uno. Si un tramo falla, reinténtalo una vez; si vuelve a fallar, borra su archivo en `trabajo/` y sigue.
+   **Después de cada tramo** (o de cada grupo, si van en paralelo) corre `node scripts/entregar.mjs --parcial`: sube lo hecho, conserva tu reserva y deja ver el avance en https://comentarios.iglesy.net/avance/.
 5. **Términos.** Si apareció algún término recurrente que no está en `glosario.md`, agrégalo como fila a `glosario-propuestas/<tu nombre>.md` (créalo con el encabezado `| Inglés | Propuesta | Dónde apareció |` / `|---|---|---|` si no existe), sin repetir.
-6. **Entregar.** `node scripts/entregar.mjs`. Valida, hace commit, sube y libera tu reserva. Córrelo **siempre** al final, aunque algo haya fallado. Si reporta archivos con ✗, corrígelos y vuelve a correrlo.
+6. **Entregar.** `node scripts/entregar.mjs` (sin `--parcial`). Valida, hace commit, sube y libera tu reserva. Córrelo **siempre** al final, aunque algo haya fallado. Si reporta archivos con ✗, corrígelos y vuelve a correrlo.
 7. **Informe** breve: tramos traducidos, fallidos y por qué, términos propuestos, y la salida de `node scripts/progreso.mjs`.
 
 ## Reglas

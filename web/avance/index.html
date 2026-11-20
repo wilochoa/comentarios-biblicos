@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avance de las traducciones</title>
+<meta name="description" content="Cuánto llevamos traducido de los comentarios bíblicos en español, qué falta y quién está traduciendo ahora.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Literata:opsz,wght@7..72,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #13203B; --text: #2D3748; --text2: #4A5568; --muted: #5F6B7A;
+    --line: #E4E8EF; --line-strong: #CBD3DE; --ground: #F5F7FA; --surface: #FFFFFF;
+    --primary: #2F6FD0; --primary-deep: #1C4685; --primary-soft: #E6EFFB; --partial: #9DBDEB;
+    --accent: #F39C33; --accent-soft: #FDEBD3; --accent-ink: #8A4E06;
+    --ok: #1F7A4D; --ok-soft: #E3F4EA;
+    --sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+    --serif: 'Literata', Georgia, serif;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--ground); color: var(--text); font: 15px/1.5 var(--sans); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1, h2, h3 { color: var(--ink); margin: 0; }
+  .num { font-variant-numeric: tabular-nums; }
+
+  /* Encabezado */
+  .top { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+  .eyebrow { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-family: var(--serif); font-weight: 500; font-size: clamp(30px, 5vw, 42px); line-height: 1.1; margin-top: 4px; }
+  .sync { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--muted); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 0 3px var(--ok-soft); }
+  .dot.stale { background: var(--line-strong); box-shadow: none; }
+  button.ghost { font: inherit; font-size: 13px; font-weight: 700; color: var(--primary-deep); background: var(--surface);
+    border: 1px solid var(--line-strong); border-radius: 999px; padding: 6px 14px; cursor: pointer; min-height: 34px; }
+  button.ghost:hover { border-color: var(--primary); }
+  button.ghost:focus-visible, .tab:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 24px; }
+  section + section { margin-top: 20px; }
+  .section-title { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 0 4px 12px; }
+  .section-title h2 { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .section-title span { font-size: 13px; color: var(--muted); }
+
+  /* Resumen */
+  .hero { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 28px; align-items: center; }
+  .big { font-family: var(--serif); font-weight: 500; font-size: clamp(56px, 10vw, 88px); line-height: .95; color: var(--ink); letter-spacing: -.02em; }
+  .big small { font-size: .45em; color: var(--muted); margin-left: 2px; }
+  .hero p { margin: 10px 0 0; color: var(--text2); }
+  .stack { display: flex; height: 14px; border-radius: 999px; overflow: hidden; background: var(--line); margin-top: 18px; }
+  .stack > div { height: 100%; }
+  .pace { display: grid; gap: 12px; }
+  .pace-row { display: flex; justify-content: space-between; gap: 12px; padding: 12px 14px; border-radius: 12px; background: var(--ground); }
+  .pace-row b { color: var(--ink); }
+  .pace-row span { color: var(--text2); text-align: right; }
+
+  /* En curso */
+  .now { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; }
+  .worker { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px; position: relative; overflow: hidden; }
+  .worker::before { content: ''; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--accent); }
+  .worker header { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .worker h3 { font-size: 17px; text-transform: capitalize; }
+  .worker .model { font-size: 13px; color: var(--muted); }
+  .worker .count { font-size: 14px; font-weight: 700; color: var(--accent-ink); white-space: nowrap; }
+  .bar { height: 8px; border-radius: 999px; background: var(--line); overflow: hidden; margin: 12px 0; }
+  .bar > div { height: 100%; border-radius: 999px; background: var(--accent); transition: width .6s ease; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 12.5px; padding: 3px 9px; border-radius: 999px; background: var(--ground); color: var(--text2); border: 1px solid var(--line); }
+  .chip.done { background: var(--ok-soft); border-color: transparent; color: var(--ok); }
+  .chip.done::before { content: '✓ '; }
+  .worker footer { margin-top: 12px; font-size: 12.5px; color: var(--muted); }
+  .empty { padding: 22px; border: 1px dashed var(--line-strong); border-radius: 16px; color: var(--text2); background: var(--surface); }
+  .empty b { color: var(--ink); }
+  .stopped { margin-top: 10px; font-size: 13px; color: var(--muted); }
+
+  /* Comentarios */
+  .tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+  .tab { font: inherit; font-weight: 700; font-size: 14px; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line-strong);
+    background: var(--surface); color: var(--text2); cursor: pointer; min-height: 40px; }
+  .tab[aria-selected="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
+  .c-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap; }
+  .c-head h3 { font-family: var(--serif); font-weight: 500; font-size: 26px; }
+  .c-head .author { color: var(--muted); font-size: 14px; }
+  .badge { font-size: 12.5px; font-weight: 700; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+  .badge.pub { background: var(--ok-soft); color: var(--ok); }
+  .badge.wait { background: var(--accent-soft); color: var(--accent-ink); }
+  .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 20px 0; }
+  .stat { background: var(--ground); border-radius: 12px; padding: 12px 14px; }
+  .stat .k { font-size: 12.5px; color: var(--muted); font-weight: 700; }
+  .stat .v { font-size: 22px; font-weight: 700; color: var(--ink); margin-top: 2px; }
+  .stat .s { font-size: 12.5px; color: var(--text2); }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; color: var(--text2); margin-bottom: 14px; }
+  .legend i { display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+  .testament { font-size: 12.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 18px 0 6px; }
+  .book { display: grid; grid-template-columns: 128px 44px minmax(0, 1fr); gap: 12px; align-items: center; padding: 5px 0; border-top: 1px solid var(--ground); }
+  .book .name { font-weight: 700; color: var(--ink); font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .book .pct { font-size: 12.5px; color: var(--muted); text-align: right; }
+  .cells { display: flex; flex-wrap: wrap; gap: 2px; }
+  .cell { width: 10px; height: 10px; border-radius: 2px; background: var(--line); }
+  .cell.intro { border-radius: 50%; }
+  .cell.r { background: var(--primary-deep); }
+  .cell.b { background: var(--primary); }
+  .cell.p { background: var(--partial); }
+  .cell.c { background: var(--accent); animation: pulse 1.6s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: .45; } }
+  @media (prefers-reduced-motion: reduce) { .cell.c { animation: none; } .bar > div { transition: none; } }
+
+  /* Traductores y actividad */
+  .duo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 20px; }
+  .who { display: grid; gap: 12px; }
+  .who-row .line { display: flex; justify-content: space-between; font-size: 14px; margin-bottom: 4px; }
+  .who-row .line b { color: var(--ink); text-transform: capitalize; }
+  .who-row .bar { margin: 0; height: 6px; }
+  .who-row .bar > div { background: var(--primary); }
+  .feed { list-style: none; margin: 0; padding: 0; }
+  .feed li { display: grid; grid-template-columns: 18px minmax(0, 1fr) auto; gap: 10px; padding: 9px 0; border-top: 1px solid var(--ground); font-size: 14px; }
+  .feed li:first-child { border-top: 0; padding-top: 0; }
+  .feed .ico { width: 8px; height: 8px; border-radius: 50%; margin-top: 7px; background: var(--line-strong); }
+  .feed .ico.t { background: var(--primary); }
+  .feed .ico.a { background: var(--accent); }
+  .feed .ico.f { background: var(--ok); }
+  .feed .txt { color: var(--text); overflow-wrap: anywhere; }
+  .feed .txt b { color: var(--ink); text-transform: capitalize; }
+  .feed time { color: var(--muted); font-size: 12.5px; white-space: nowrap; }
+  .note { font-size: 13px; color: var(--muted); margin-top: 10px; }
+  .alert { background: var(--accent-soft); color: var(--accent-ink); border-radius: 12px; padding: 10px 14px; font-size: 14px; margin-bottom: 16px; }
+  .skeleton { height: 120px; border-radius: 18px; background: linear-gradient(90deg, var(--line) 0%, #eef1f6 50%, var(--line) 100%); background-size: 200% 100%; animation: shimmer 1.4s infinite; }
+  @keyframes shimmer { to { background-position: -200% 0; } }
+  footer.page { margin-top: 32px; font-size: 13px; color: var(--muted); text-align: center; }
+  footer.page a { color: var(--primary-deep); }
+
+  @media (max-width: 760px) {
+    .wrap { padding-top: 22px; }
+    .card { padding: 18px; border-radius: 16px; }
+    .hero, .duo { grid-template-columns: 1fr; gap: 18px; }
+    .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .book { grid-template-columns: 92px 36px minmax(0, 1fr); gap: 8px; }
+    .book .name { font-size: 13px; }
+    .cell { width: 9px; height: 9px; }
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="top">
+    <div>
+      <div class="eyebrow">Comentarios bíblicos en español</div>
+      <h1>Avance de las traducciones</h1>
+    </div>
+    <div class="sync" aria-live="polite">
+      <span class="dot stale" id="dot"></span>
+      <span id="sync-text">Cargando…</span>
+      <button class="ghost" id="refresh" type="button">Actualizar</button>
+    </div>
+  </div>
+
+  <div id="alert"></div>
+  <div id="app"><div class="skeleton"></div></div>
+
+  <footer class="page">
+    Se actualiza solo cada minuto. Código y traducciones en
+    <a href="https://github.com/wilochoa/comentarios-biblicos">github.com/wilochoa/comentarios-biblicos</a> ·
+    <a href="../v1/comentarios.json">API</a>
+  </footer>
+</main>
+
+<script>
+(() => {
+  const REPO = 'wilochoa/comentarios-biblicos';
+  const AVANCE = '../v1/avance.json';
+  const AT = ['GEN','EXO','LEV','NUM','DEU','JOS','JDG','RUT','1SA','2SA','1KI','2KI','1CH','2CH','EZR','NEH','EST','JOB','PSA','PRO','ECC','SNG','ISA','JER','LAM','EZK','DAN','HOS','JOL','AMO','OBA','JON','MIC','NAM','HAB','ZEP','HAG','ZEC','MAL'];
+  const COLORES = ['#2F6FD0', '#7A5AC8', '#1F7A4D', '#B5476B'];
+
+  const estado = { avance: null, reservas: [], commits: [], tab: null, ultimo: null, errorVivo: null };
+  const etags = new Map();
+
+  // ---------- utilidades ----------
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const fmt = (n) => Math.round(n).toLocaleString('es');
+  const palabras = (n) => n >= 1e6 ? `${(n / 1e6).toLocaleString('es', { maximumFractionDigits: 1 })} M` : n >= 1e4 ? `${Math.round(n / 1e3).toLocaleString('es')} mil` : fmt(n);
+  const pct = (a, b) => (b ? (a / b) * 100 : 0);
+  const pctTxt = (a, b) => { const p = pct(a, b); return p > 0 && p < 1 ? '<1' : p > 99 && p < 100 ? '99' : Math.round(p).toString(); };
+  const hace = (fecha) => {
+    const s = (Date.now() - new Date(fecha).getTime()) / 1000;
+    if (s < 60) return 'hace un momento';
+    if (s < 3600) return `hace ${Math.round(s / 60)} min`;
+    if (s < 86400) return `hace ${Math.round(s / 3600)} h`;
+    const d = Math.round(s / 86400);
+    return d === 1 ? 'ayer' : `hace ${d} días`;
+  };
+  const dentroDe = (fecha) => {
+    const s = (new Date(fecha).getTime() - Date.now()) / 1000;
+    return s < 3600 ? `${Math.max(1, Math.round(s / 60))} min` : `${Math.round(s / 3600)} h`;
+  };
+  const duracion = (dias) => dias < 1.5 ? 'un día' : dias < 60 ? `${Math.round(dias)} días` : dias < 730 ? `${Math.round(dias / 30)} meses` : `${(dias / 365).toLocaleString('es', { maximumFractionDigits: 1 })} años`;
+  const nombreLibro = (usfm) => estado.avance?.comentarios[0]?.libros.find((l) => l.libro === usfm)?.nombre ?? usfm;
+  const nombreTramo = (t) => {
+    const unidad = String(t.unidad);
+    return unidad === 'intro' ? `Intro ${nombreLibro(t.libro)}` : `${nombreLibro(t.libro)} ${unidad}`;
+  };
+  const nombreComentario = (id) => estado.avance?.comentarios.find((c) => c.id === id)?.nombre ?? id;
+
+  // ---------- datos ----------
+  async function gh(ruta) {
+    const url = `https://api.github.com${ruta}`;
+    const previo = etags.get(url);
+    const res = await fetch(url, { headers: previo ? { 'If-None-Match': previo.etag } : {} });
+    if (res.status === 304 && previo) return previo.datos;
+    if (!res.ok) {
+      const err = new Error(`GitHub ${res.status}`);
+      err.reset = res.headers.get('x-ratelimit-reset');
+      err.limite = res.headers.get('x-ratelimit-remaining') === '0';
+      throw err;
+    }
+    const datos = await res.json();
+    const etag = res.headers.get('etag');
+    if (etag) etags.set(url, { etag, datos });
+    return datos;
+  }
+
+  async function cargarAvance() {
+    const res = await fetch(AVANCE, { cache: 'no-cache' });
+    if (!res.ok) throw new Error('avance');
+    estado.avance = await res.json();
+    if (!estado.tab) estado.tab = estado.avance.comentarios.find((c) => c.en_plan)?.id ?? estado.avance.comentarios[0]?.id;
+  }
+
+  async function cargarVivo() {
+    const commits = await gh(`/repos/${REPO}/commits?sha=main&per_page=30`);
+    const sha = commits[0]?.sha;
+    const lista = sha ? await gh(`/repos/${REPO}/contents/reservas?ref=${sha}`) : [];
+    const archivos = lista.filter((f) => f.type === 'file' && f.name.endsWith('.json'));
+    estado.reservas = await Promise.all(archivos.map((f) =>
+      fetch(`https://raw.githubusercontent.com/${REPO}/${sha}/reservas/${encodeURIComponent(f.name)}`).then((r) => r.json()).catch(() => null),
+    )).then((rs) => rs.filter(Boolean));
+    estado.commits = commits;
+    estado.errorVivo = null;
+  }
+
+  async function actualizar() {
+    const resultados = await Promise.allSettled([cargarAvance(), cargarVivo()]);
+    if (resultados[1].status === 'rejected') estado.errorVivo = resultados[1].reason;
+    if (resultados[0].status === 'rejected' && !estado.avance) {
+      document.getElementById('app').innerHTML = '<div class="empty">No se pudo cargar el avance. Revisa tu conexión y vuelve a intentarlo.</div>';
+      return;
+    }
+    estado.ultimo = new Date();
+    pintar();
+  }
+
+  // ---------- vista ----------
+  function enCurso() {
+    // archivo → reserva, solo de tramos aún no hechos de reservas vigentes
+    const mapa = new Map();
+    for (const r of estado.reservas) {
+      if (new Date(r.vence) <= new Date()) continue;
+      const hechos = new Set(r.hechos ?? []);
+      for (const t of r.tramos) if (!hechos.has(t.id)) mapa.set(`${t.comentario}/${t.libro}/${t.unidad}`, r.quien);
+    }
+    return mapa;
+  }
+
+  function resumen(a) {
+    const plan = a.comentarios.filter((c) => c.en_plan);
+    const total = plan.reduce((n, c) => n + c.palabras.palabras, 0);
+    const hechas = plan.reduce((n, c) => n + c.palabras.hechas, 0);
+    const segmentos = plan.map((c, i) => `<div style="width:${pct(c.palabras.hechas, total)}%;background:${COLORES[i % COLORES.length]}" title="${esc(c.nombre)}"></div>`).join('');
+    const leyenda = plan.map((c, i) => `<span><i style="background:${COLORES[i % COLORES.length]}"></i>${esc(c.nombre)} · ${pctTxt(c.palabras.hechas, c.palabras.palabras)}%</span>`).join('');
+
+    const hoy = new Date();
+    let semana = 0;
+    for (let i = 0; i < 7; i++) {
+      const d = new Date(hoy.getTime() - i * 86400000).toISOString().slice(0, 10);
+      semana += a.por_dia[d] ?? 0;
+    }
+    const ritmo = semana / 7;
+    const filasRitmo = plan.map((c) => {
+      const falta = c.palabras.palabras - c.palabras.hechas;
+      const cuando = falta <= 0 ? 'Terminado' : ritmo > 0 ? `≈ ${duracion(falta / ritmo)}` : '—';
+      return `<div class="pace-row"><b>${esc(c.nombre)}</b><span class="num">faltan ${palabras(falta)} palabras · ${cuando}</span></div>`;
+    }).join('');
+
+    return `
+      <section class="card hero" aria-label="Resumen">
+        <div>
+          <div class="big num">${pctTxt(hechas, total)}<small>%</small></div>
+          <p class="num">del plan traducido: <b>${palabras(hechas)}</b> de <b>${palabras(total)}</b> palabras del original.</p>
+          <div class="stack" role="img" aria-label="Avance por comentario">${segmentos}</div>
+          <div class="legend" style="margin:10px 0 0">${leyenda}</div>
+        </div>
+        <div class="pace">
+          <div class="pace-row"><b>Ritmo</b><span class="num">${ritmo > 0 ? `${palabras(ritmo)} palabras al día` : 'Sin traducciones'} <br><small>promedio de los últimos 7 días</small></span></div>
+          ${filasRitmo}
+        </div>
+      </section>`;
+  }
+
+  function ahora() {
+    const vigentes = estado.reservas.filter((r) => new Date(r.vence) > new Date());
+    const vencidas = estado.reservas.filter((r) => new Date(r.vence) <= new Date());
+    let cuerpo;
+    if (estado.errorVivo && !estado.commits.length) {
+      cuerpo = '<div class="empty">No se pudo consultar GitHub para ver quién está traduciendo. Se reintentará solo.</div>';
+    } else if (!vigentes.length) {
+      cuerpo = '<div class="empty"><b>Nadie está traduciendo ahora.</b> Abre una herramienta en su carpeta de <code>traductores/</code> y dile «traduce 15».</div>';
+    } else {
+      cuerpo = `<div class="now">${vigentes.map((r) => {
+        const hechos = new Set(r.hechos ?? []);
+        const n = r.tramos.filter((t) => hechos.has(t.id)).length;
+        const comentarios = [...new Set(r.tramos.map((t) => nombreComentario(t.comentario)))].join(', ');
+        const chips = r.tramos.map((t) => `<span class="chip ${hechos.has(t.id) ? 'done' : ''}">${esc(nombreTramo(t))}</span>`).join('');
+        return `<article class="worker">
+          <header><div><h3>${esc(r.quien)}</h3><div class="model">${r.modelo && r.modelo.toLowerCase() !== r.quien.toLowerCase() ? `${esc(r.modelo)} · ` : ''}${esc(comentarios)}</div></div>
+          <div class="count num">${n} de ${r.tramos.length}</div></header>
+          <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${r.tramos.length}" aria-valuenow="${n}" aria-label="Tramos hechos por ${esc(r.quien)}"><div style="width:${pct(n, r.tramos.length)}%"></div></div>
+          <div class="chips">${chips}</div>
+          <footer>Empezó ${hace(r.desde)} · la reserva vence en ${dentroDe(r.vence)}</footer>
+        </article>`;
+      }).join('')}</div>`;
+    }
+    const detenidas = vencidas.length
+      ? `<div class="stopped">Reservas vencidas (la corrida se cortó; sus tramos ya están libres): ${vencidas.map((r) => esc(r.quien)).join(', ')}.</div>`
+      : '';
+    return `<section aria-labelledby="t-ahora">
+      <div class="section-title"><h2 id="t-ahora">Traduciendo ahora</h2><span>${vigentes.length ? `${vigentes.length} ${vigentes.length === 1 ? 'herramienta' : 'herramientas'}` : ''}</span></div>
+      ${cuerpo}${detenidas}
+    </section>`;
+  }
+
+  function comentario(c) {
+    const curso = enCurso();
+    const u = c.unidades;
+    const listos = (x) => x.b + x.r;
+    const fila = (l) => {
+      const celdas = [];
+      if (l.intro !== null) {
+        const k = curso.has(`${c.id}/${l.libro}/intro`) ? 'c' : l.intro;
+        celdas.push(`<span class="cell intro ${k}" title="Introducción de ${esc(l.nombre)}"></span>`);
+      }
+      [...l.caps].forEach((e, i) => {
+        if (e === 'x') return; // no existe en el original
+        const cap = l.desde + i;
+        const k = curso.has(`${c.id}/${l.libro}/${cap}`) ? 'c' : e;
+        celdas.push(`<span class="cell ${k}" title="${esc(l.nombre)} ${cap}"></span>`);
+      });
+      return `<div class="book"><span class="name" title="${esc(l.nombre)}">${esc(l.nombre)}</span><span class="pct num">${pctTxt(l.hechas, l.palabras)}%</span><div class="cells">${celdas.join('')}</div></div>`;
+    };
+    const at = c.libros.filter((l) => AT.includes(l.libro));
+    const nt = c.libros.filter((l) => !AT.includes(l.libro));
+    return `
+      <div class="c-head">
+        <div><h3>${esc(c.nombre)}</h3><div class="author">${esc(c.autor)}</div></div>
+        <span class="badge ${c.publicado ? 'pub' : 'wait'}">${c.publicado ? 'Publicado en la API' : 'Aún no se publica'}</span>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="k">Traducido</div><div class="v num">${pctTxt(c.palabras.hechas, c.palabras.palabras)}%</div><div class="s num">${palabras(c.palabras.hechas)} de ${palabras(c.palabras.palabras)} palabras</div></div>
+        <div class="stat"><div class="k">Introducciones</div><div class="v num">${listos(u.intro)} / ${u.intro.total}</div><div class="s">${u.intro.total - listos(u.intro)} por traducir</div></div>
+        <div class="stat"><div class="k">Capítulos</div><div class="v num">${listos(u.cap)} / ${u.cap.total}</div><div class="s">${u.cap.p ? `${u.cap.p} a medias · ` : ''}${u.cap.total - listos(u.cap) - u.cap.p} sin empezar</div></div>
+        <div class="stat"><div class="k">Revisado</div><div class="v num">${pctTxt(c.palabras.revisadas, c.palabras.palabras)}%</div><div class="s">${u.intro.r + u.cap.r} archivos revisados</div></div>
+      </div>
+      <div class="legend">
+        <span><i style="background:var(--primary-deep)"></i>Revisado</span>
+        <span><i style="background:var(--primary)"></i>Traducido (borrador)</span>
+        <span><i style="background:var(--partial)"></i>A medias</span>
+        <span><i style="background:var(--accent)"></i>Traduciéndose ahora</span>
+        <span><i style="background:var(--line)"></i>Pendiente</span>
+        <span><i style="background:var(--line-strong);border-radius:50%"></i>= introducción</span>
+      </div>
+      <div class="testament">Antiguo Testamento</div>${at.map(fila).join('')}
+      <div class="testament">Nuevo Testamento</div>${nt.map(fila).join('')}`;
+  }
+
+  function comentarios(a) {
+    const actual = a.comentarios.find((c) => c.id === estado.tab) ?? a.comentarios[0];
+    const tabs = a.comentarios.map((c) => `<button class="tab" type="button" role="tab" data-tab="${esc(c.id)}" aria-selected="${c.id === actual.id}">${esc(c.nombre)}</button>`).join('');
+    return `<section aria-labelledby="t-libros">
+      <div class="section-title"><h2 id="t-libros">Por comentario y libro</h2><span>cada cuadro es un capítulo</span></div>
+      <div class="tabs" role="tablist">${tabs}</div>
+      <div class="card" role="tabpanel">${comentario(actual)}</div>
+    </section>`;
+  }
+
+  function actividad(a) {
+    const totales = {};
+    for (const c of a.comentarios) for (const [q, n] of Object.entries(c.traductores)) totales[q] = (totales[q] ?? 0) + n;
+    const max = Math.max(1, ...Object.values(totales));
+    const quienes = Object.entries(totales).sort((x, y) => y[1] - x[1]).map(([q, n]) =>
+      `<div class="who-row"><div class="line"><b>${esc(q)}</b><span class="num">${palabras(n)} palabras</span></div><div class="bar"><div style="width:${pct(n, max)}%"></div></div></div>`).join('')
+      || '<div class="note">Todavía no hay traducciones.</div>';
+
+    const eventos = estado.commits.map((c) => {
+      const msg = c.commit.message.split('\n')[0];
+      const cuando = c.commit.author?.date ?? c.commit.committer?.date;
+      let m;
+      if ((m = msg.match(/^Traduce \((.+?)\) (.+)$/))) {
+        const detalle = m[2].replace(/(^|; )([a-z-]+): /g, (_, sep, id) => `${sep}${nombreComentario(id)}: `);
+        return { k: 't', html: `<b>${esc(m[1])}</b> tradujo ${esc(detalle)}`, cuando };
+      }
+      if ((m = msg.match(/^Traduce: (.+)$/))) return { k: 't', html: `Se tradujo ${esc(m[1])}`, cuando };
+      if ((m = msg.match(/^Reserva (\S+): (\d+) tramos/))) return { k: 'a', html: `<b>${esc(m[1])}</b> empezó con ${m[2]} tramos`, cuando };
+      if ((m = msg.match(/^Libera la reserva de (\S+)/))) return { k: 'f', html: `<b>${esc(m[1])}</b> terminó su corrida`, cuando };
+      if (/^Avance de /.test(msg)) return null;
+      return { k: '', html: esc(msg), cuando };
+    }).filter(Boolean).slice(0, 14);
+    const feed = eventos.length
+      ? `<ul class="feed">${eventos.map((e) => `<li><span class="ico ${e.k}"></span><span class="txt">${e.html}</span><time datetime="${esc(e.cuando)}">${hace(e.cuando)}</time></li>`).join('')}</ul>`
+      : `<div class="note">${estado.errorVivo ? 'No se pudo consultar GitHub; se reintentará solo.' : 'Sin actividad.'}</div>`;
+
+    return `<section class="duo">
+      <div><div class="section-title"><h2>Por traductor</h2></div><div class="card who">${quienes}</div></div>
+      <div><div class="section-title"><h2>Actividad reciente</h2></div><div class="card">${feed}</div></div>
+    </section>`;
+  }
+
+  function pintar() {
+    const a = estado.avance;
+    if (!a) return;
+    document.getElementById('app').innerHTML = resumen(a) + ahora() + comentarios(a) + actividad(a);
+    document.querySelectorAll('[data-tab]').forEach((b) => b.addEventListener('click', () => { estado.tab = b.dataset.tab; pintar(); }));
+
+    const alerta = document.getElementById('alert');
+    if (estado.errorVivo?.limite) {
+      const hora = estado.errorVivo.reset ? new Date(estado.errorVivo.reset * 1000).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit' }) : 'un rato';
+      alerta.innerHTML = `<div class="alert">GitHub limitó las consultas desde tu red; lo que está en curso se volverá a ver a las ${hora}.</div>`;
+    } else alerta.innerHTML = '';
+
+    const generado = new Date(a.generado_el);
+    document.getElementById('dot').classList.toggle('stale', Boolean(estado.errorVivo));
+    document.getElementById('sync-text').textContent = `Traducciones publicadas ${hace(generado)} · consultado ${estado.ultimo.toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit' })}`;
+  }
+
+  // ---------- ciclo ----------
+  let reloj;
+  const programar = () => { clearInterval(reloj); reloj = setInterval(() => { if (!document.hidden) actualizar(); }, 60000); };
+  document.getElementById('refresh').addEventListener('click', actualizar);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) actualizar(); });
+  actualizar();
+  programar();
+})();
+</script>
+</body>
+</html>

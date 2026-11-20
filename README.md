@@ -44,7 +44,9 @@ Sin autor ni libros, cada carpeta usa su preferencia de `soy.mjs`; si no tiene, 
 
 La herramienta necesita red (descarga los originales de bible.helloao.org y hace push a GitHub) y permiso para correr `node scripts/*`. Si una corrida se corta, corre `node scripts/entregar.mjs` en esa carpeta: sube lo que alcanzó a traducir y libera el resto. Una reserva abandonada vence sola a las 12 horas.
 
-`node scripts/progreso.mjs` muestra el avance y quién está traduciendo qué ahora.
+**Avance en la web:** https://comentarios.iglesy.net/avance/ muestra lo traducido, lo que falta (en palabras del original), el ritmo y quién está traduciendo qué ahora (se actualiza solo). En la terminal: `node scripts/progreso.mjs`.
+
+El avance se cuenta con `datos/tamanos.json` (palabras de cada original). Si agregas un comentario al plan, mídelo una vez: `node scripts/medir.mjs <comentario>`.
 
 ### Corrida diaria automática (Claude)
 

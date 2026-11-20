@@ -30,13 +30,14 @@ Otros modelos pueden estar traduciendo al mismo tiempo desde otras carpetas: por
    - «Ya tienes una reserva vigente»: no uses `--forzar`; avisa al usuario (puede haber otra sesión en esta carpeta).
 
 4. **Traducir.** Lanza un subagente `traductor` por tramo, **hasta 3 en paralelo** (nunca más). A cada uno pásale el JSON completo de su tramo, tal cual. Espera a que terminen los del grupo antes de lanzar el siguiente.
+   **Al terminar cada grupo**, corre `node scripts/entregar.mjs --parcial`: sube lo hecho, conserva la reserva y deja ver el avance en https://comentarios.iglesy.net/avance/.
 
 5. **Revisar resultados.** Cada subagente responde `OK <archivo>` o `FALLÓ <tramo>: <motivo>`, y puede traer términos nuevos.
    - Si un tramo falló, reinténtalo **una vez** con un subagente nuevo, pasándole el motivo. Si vuelve a fallar, borra su archivo en `trabajo/` (si quedó) y sigue.
 
 6. **Términos.** Agrega los términos nuevos como filas a `glosario-propuestas/<quien>.md` (`<quien>` es el nombre de `soy.mjs`; si el archivo no existe, créalo con `| Inglés | Propuesta | Dónde apareció |` y `|---|---|---|`), sin repetir los que ya estén ahí o en `glosario.md`.
 
-7. **Entregar.** `node scripts/entregar.mjs`. Valida, hace commit, sube y libera la reserva. Córrelo siempre, aunque haya fallos. Si muestra archivos con ✗, corrígelos con un subagente o descártalos y vuelve a correrlo.
+7. **Entregar.** `node scripts/entregar.mjs` (sin `--parcial`). Valida, hace commit, sube y libera la reserva. Córrelo siempre, aunque haya fallos. Si muestra archivos con ✗, corrígelos con un subagente o descártalos y vuelve a correrlo.
 
 8. **Informe final** (breve, en español): tramos traducidos, los que fallaron y por qué, términos propuestos, y la salida de `node scripts/progreso.mjs`.
 

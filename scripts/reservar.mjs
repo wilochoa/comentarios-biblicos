@@ -76,6 +76,7 @@ for (let intento = 1; intento <= 6; intento++) {
     desde: ahora.toISOString(),
     vence: new Date(ahora.getTime() + horas * 3600_000).toISOString(),
     tramos,
+    hechos: [],
   };
   writeFileSync(ruta, `${JSON.stringify(reserva, null, 2)}\n`);
   git(['add', '--', archivoReserva]);
