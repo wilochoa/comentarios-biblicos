@@ -74,3 +74,61 @@
 | winnowing fork | aventador | tyndale/MAT/3 |
 | chaff | paja | tyndale/MAT/3 |
 | Sirach | Eclesiástico (Eclo) | tyndale/MAT/3 |
+| Ten Towns | Diez Ciudades | tyndale/MAT/4 |
+| tetrarch | tetrarca | tyndale/MAT/4 |
+| inclusio | *inclusio* (en PSA/1 salió «inclusión»; unificar) | tyndale/MAT/4, tyndale/PSA/1 |
+| second Adam | segundo Adán | tyndale/MAT/4 |
+| zealot / Zealots | zelote / zelotes | tyndale/MAT/5, 10 |
+| Gehenna | Gehena (en MAT/5 salió *Gehenna*; unificar) | tyndale/MAT/5, 23 |
+| beatitude | bienaventuranza | tyndale/MAT/5 |
+| antithesis | antítesis | tyndale/MAT/5 |
+| Lord's Prayer | padrenuestro (en MAT/6 salió «Padre nuestro»; unificar) | tyndale/MAT/6, 26 |
+| hypocrites / hypocrisy | hipócritas / hipocresía | tyndale/MAT/6, 23 |
+| fasting | ayuno | tyndale/MAT/6 |
+| qaddish | *qaddish* | tyndale/MAT/6 |
+| mammon | *mamón* | tyndale/MAT/6 |
+| regenerate / unregenerate | regenerado / no regenerado | tyndale/MAT/7 |
+| charismatic gifts | dones carismáticos | tyndale/MAT/7 |
+| demon-possession | posesión demoníaca | tyndale/MAT/8 |
+| exorcism / exorcists | exorcismo / exorcistas | tyndale/MAT/8, 12 |
+| centurion | centurión | tyndale/MAT/8 |
+| leprosy / leper | lepra / leproso | tyndale/MAT/8 |
+| table fellowship | comunión de mesa | tyndale/MAT/9 |
+| laying-on of hands | imposición de manos | tyndale/MAT/9 |
+| professional mourners | plañideras profesionales | tyndale/MAT/9 |
+| Josephus | Josefo | tyndale/MAT/10, 24 |
+| prince of demons | príncipe de los demonios | tyndale/MAT/10 |
+| second coming | segunda venida | tyndale/MAT/12, 16, 24, 25 |
+| blasphemy against the Holy Spirit | blasfemia contra el Espíritu Santo | tyndale/MAT/12 |
+| weeds (tares) | cizaña | tyndale/MAT/13 |
+| yeast | levadura | tyndale/MAT/13 |
+| Temple tax | impuesto del templo | tyndale/MAT/17 |
+| stumbling block | piedra de tropiezo | tyndale/MAT/16 |
+| crucifixion | crucifixión | tyndale/MAT/16, 27 |
+| eunuch | eunuco | tyndale/MAT/19 |
+| indissolubility | indisolubilidad | tyndale/MAT/19 |
+| money changers | cambistas | tyndale/MAT/21 |
+| Court of the Gentiles | atrio de los gentiles | tyndale/MAT/21 |
+| Sanhedrin | Sanedrín | tyndale/MAT/21, 26 |
+| cornerstone | piedra angular | tyndale/MAT/21 |
+| tenant farmers | labradores arrendatarios | tyndale/MAT/21 |
+| poll tax | impuesto por persona | tyndale/MAT/22 |
+| Shema | Shemá | tyndale/MAT/22 |
+| phylactery / prayer boxes | filacteria / cajas de oración | tyndale/MAT/23 |
+| tassels | borlas | tyndale/MAT/23 |
+| rapture | arrebatamiento | tyndale/MAT/24 |
+| Millennium | Milenio | tyndale/MAT/24 |
+| tribulation | tribulación | tyndale/MAT/24 |
+| bridesmaids | damas de honor | tyndale/MAT/25 |
+| messianic banquet | banquete mesiánico | tyndale/MAT/25 |
+| Last Supper | última cena | tyndale/MAT/26 |
+| hallel | *hallel* | tyndale/MAT/26 |
+| haggadah | *haggadah* | tyndale/MAT/26 |
+| transubstantiation / consubstantiation | transubstanciación / consubstanciación | tyndale/MAT/26 |
+| flogging / scourging | flagelación | tyndale/MAT/27 |
+| ceremonial uncleanness | impureza ceremonial | tyndale/MAT/27 |
+| wisdom psalm | salmo sapiencial | tyndale/PSA/1 |
+| mockers | burlones | tyndale/PSA/1 |
+| Godhead | Deidad | tyndale/PSA/2 |
+| royal psalm | salmo real | tyndale/PSA/2 |
+| title (encabezado de salmo, «3:title») | título («3:título») | tyndale/PSA/3 |
