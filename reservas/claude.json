@@ -548,5 +548,9 @@
       "archivo": "traducciones/tyndale/PSA/75.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/ROM/1#v1-v32",
+    "tyndale/ROM/2#v1-v29",
+    "tyndale/ROM/3#v1-v31"
+  ]
 }
