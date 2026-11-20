@@ -495,5 +495,9 @@
       "archivo": "traducciones/tyndale/PSA/30.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/PSA/6#v1-v8",
+    "tyndale/PSA/7#v1-v17",
+    "tyndale/PSA/8#v1-v7"
+  ]
 }
