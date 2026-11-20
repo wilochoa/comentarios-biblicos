@@ -220,7 +220,9 @@ export function revisarSeccion(original, traduccion) {
     if (razon > 1.9) errores.push(`es mucho más larga que el original (${es} contra ${en}); ¿se agregó contenido?`);
   }
   const palabras = traduccion.toLowerCase().match(/[a-záéíóúñü]+/g) ?? [];
-  const ingles = palabras.filter((p) => PALABRAS_INGLES.has(p)).length;
+  // «Is 5:11» es la abreviatura de Isaías, no el inglés "is".
+  const abrevIs = (traduccion.match(/\bIs(?=\s*\d)/g) ?? []).length;
+  const ingles = Math.max(0, palabras.filter((p) => PALABRAS_INGLES.has(p)).length - abrevIs);
   if (palabras.length >= 30 && ingles / palabras.length > 0.04) errores.push('parece tener texto en inglés sin traducir');
   if (/\b(TODO|PENDIENTE|\[\.\.\.\])\b/.test(traduccion)) errores.push('tiene marcas de pendiente');
   return errores;

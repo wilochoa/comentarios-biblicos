@@ -42,6 +42,8 @@ test('detecta traducciones incompletas o con inglés', () => {
   assert.deepEqual(revisarSeccion(original, 'palabra '.repeat(110)), []);
   assert.match(revisarSeccion(original, 'palabra '.repeat(40))[0], /incompleta/);
   assert.ok(revisarSeccion(original, 'the man and the woman of the city was with this '.repeat(10)).some((e) => /inglés/.test(e)));
+  const conIsaias = 'El profeta advierte en Is 5:11 y vuelve a hablar en Is 55:1 del vino, del juicio y de la misericordia que Dios ofrece a su pueblo cuando se arrepiente de corazón.';
+  assert.deepEqual(revisarSeccion('word', conIsaias), []);
 });
 
 test('moderniza la ortografía de la RV 1909', () => {
