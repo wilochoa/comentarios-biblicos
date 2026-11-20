@@ -275,5 +275,15 @@
       "archivo": "traducciones/tyndale/ACT/5.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/EPH/6#v1-v23",
+    "tyndale/PHP/1#v1-v30",
+    "tyndale/PHP/2#v1-v29",
+    "tyndale/PHP/3#v1-v21",
+    "tyndale/PHP/4#v1-v23",
+    "tyndale/ACT/1#v1-v23",
+    "tyndale/ACT/2#v1-v42",
+    "tyndale/ACT/3#v1-v25",
+    "tyndale/ACT/4#v1-v36"
+  ]
 }
