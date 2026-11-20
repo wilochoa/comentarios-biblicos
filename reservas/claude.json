@@ -915,5 +915,9 @@
       "archivo": "traducciones/tyndale/PSA/5.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/MAT/4#v1-v24",
+    "tyndale/MAT/5#v1-v48",
+    "tyndale/MAT/6#v1-v33"
+  ]
 }
