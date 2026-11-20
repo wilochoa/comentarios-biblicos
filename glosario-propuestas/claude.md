@@ -155,3 +155,15 @@
 | sheepfolds | rediles | tyndale/PSA/68 |
 | seminomadic | seminómada | tyndale/PSA/68 |
 | Book Two / Books Three to Five (Salterio) | Libro Segundo / Libros Tercero a Quinto | tyndale/PSA/72 |
+| tumbleweed | planta rodadora | tyndale/PSA/83 |
+| Hagrites | agarenos | tyndale/PSA/83 |
+| Gebalites | los de Gebal | tyndale/PSA/83 |
+| Valley of Weeping | valle del Llanto | tyndale/PSA/84 |
+| pilgrimage | peregrinación | tyndale/PSA/84 |
+| hyraxes | damanes | tyndale/PSA/104 |
+| messianic ruler | gobernante mesiánico | tyndale/PSA/110 |
+| priestly kingship | realeza sacerdotal | tyndale/PSA/110 |
+| faithful love | amor fiel | tyndale/PSA/118 |
+| triumphant entry | entrada triunfal | tyndale/PSA/118 |
+| Great Shepherd | el Gran Pastor | tyndale/PSA/119 |
+| Hebrew letters (Aleph, Beth, Gimel…) | Álef, Bet, Guímel, Dálet, He, Vav, Zayin, Jet, Tet, Yod, Kaf, Lámed, Mem, Nun, Sámej, Ayin, Pe, Tsade, Qof, Resh, Shin, Tav | tyndale/PSA/119 |
