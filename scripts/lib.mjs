@@ -226,8 +226,12 @@ export function revisarSeccion(original, traduccion) {
   return errores;
 }
 
-/** Valida un archivo de traducción contra su fuente. Devuelve { errores, avisos }. */
-export async function validarArchivo(ruta) {
+/**
+ * Valida un archivo de traducción contra su fuente. Devuelve { errores, avisos }.
+ * Con `citasComoAviso`, las citas del versículo que no siguen la RVA quedan
+ * como aviso (para publicar mientras se corrigen las traducciones antiguas).
+ */
+export async function validarArchivo(ruta, { citasComoAviso = false } = {}) {
   const errores = [];
   const avisos = [];
   const doc = leerTraduccion(ruta);
@@ -254,6 +258,11 @@ export async function validarArchivo(ruta) {
       continue;
     }
     for (const e of revisarSeccion(originales.get(s.id), s.texto)) errores.push(`${s.id}: ${e}`);
+    const { erroresDeForma, revisarCitas } = await import('./citas.mjs');
+    for (const e of erroresDeForma(s.texto)) errores.push(`${s.id}: ${e}`);
+    for (const e of await revisarCitas({ libro: meta.libro, original: originales.get(s.id), traduccion: s.texto })) {
+      (citasComoAviso ? avisos : errores).push(`${s.id}: ${e}`);
+    }
   }
   const faltan = fuente.secciones.filter((s) => !vistos.has(s.id)).map((s) => s.id);
   if (meta.estado !== 'parcial' && faltan.length) errores.push(`estado "${meta.estado}" pero faltan secciones: ${faltan.join(', ')}`);

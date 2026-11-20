@@ -4,6 +4,8 @@
 //   node scripts/validar.mjs traducciones/tyndale/JHN/3.md [...]
 //   node scripts/validar.mjs --todos
 //   node scripts/validar.mjs --cambiados      (los modificados según git)
+//   --citas-como-aviso: las citas del versículo que no siguen la RVA no cuentan
+//   como error (lo usa la publicación mientras se corrigen las antiguas).
 import { execFileSync } from 'node:child_process';
 import { readdirSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
@@ -33,13 +35,13 @@ if (!archivos.length) {
 
 let conErrores = 0;
 for (const ruta of archivos) {
-  const { errores, avisos } = await validarArchivo(ruta);
+  const { errores, avisos } = await validarArchivo(ruta, { citasComoAviso: args.includes('--citas-como-aviso') });
   const nombre = relative(ROOT, ruta);
   if (errores.length) {
     conErrores++;
     console.log(`✗ ${nombre}\n  - ${errores.join('\n  - ')}`);
   } else {
-    console.log(`✓ ${nombre}${avisos.length ? `  (aviso: ${avisos.join('; ')})` : ''}`);
+    console.log(`✓ ${nombre}${avisos.length ? `  (${avisos.length} aviso${avisos.length > 1 ? 's' : ''})` : ''}`);
   }
 }
 console.log(`\n${archivos.length - conErrores} de ${archivos.length} sin errores.`);

@@ -28,11 +28,22 @@ Estados de una traducción: `parcial` → `borrador` (completa, IA) → `revisad
 6. **Entregar.** `node scripts/entregar.mjs` (sin `--parcial`). Valida, hace commit, sube y libera tu reserva. Córrelo **siempre** al final, aunque algo haya fallado. Si reporta archivos con ✗, corrígelos y vuelve a correrlo.
 7. **Informe** breve: tramos traducidos, fallidos y por qué, términos propuestos, y la salida de `node scripts/progreso.mjs`.
 
+## Cuando te pidan «corrige citas N»
+
+Las traducciones anteriores a la revisión automática pueden tener citas del versículo que no siguen la RVA 1909. Corrígelas así (**una sola herramienta a la vez** hace esta tarea; no usa reservas):
+
+1. `git pull --rebase --autostash`.
+2. `node scripts/citas-pendientes.mjs --json N`: los N primeros archivos con citas por corregir y, para cada cita, qué dice la RVA.
+3. En cada archivo, cambia **solo** cada cita señalada, como indica el mensaje y `instrucciones/tramo.md` (paso 4): palabras de la RVA, o cursiva si la nota explica justamente esa palabra. No toques nada más.
+4. `node scripts/validar.mjs <archivo>` hasta que salga ✓.
+5. `node scripts/entregar.mjs` y un informe breve (archivos corregidos; `node scripts/citas-pendientes.mjs` para ver cuántos quedan).
+
 ## Reglas
 
 - No traduzcas nada que no esté en tu reserva.
 - Nunca edites `fuentes/`, `plan.json`, `comentarios.json`, `reservas/` ni los scripts durante una corrida.
 - Nunca toques un archivo con `estado: revisado` (`unir.mjs` lo impide de todos modos).
 - No hagas commit ni push a mano: `entregar.mjs` lo hace. Nada que no pase `validar.mjs` se sube.
+- Las citas del versículo van con las palabras de la RVA 1909 (`unir.mjs` y `entregar.mjs` lo revisan y rechazan lo que no cumpla). No las «arregles» con cursiva para pasar la revisión: la cursiva es solo para cuando la nota explica una palabra que la RVA traduce distinto.
 - Si algo falla de forma inesperada (sin red, error de un script), detente y explica el error; no improvises arreglos al proyecto.
 - Pruebas de los scripts: `node --test 'scripts/*.test.mjs'`.

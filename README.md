@@ -71,6 +71,12 @@ Para que corra sin pedir permisos, crea `.claude/settings.json`:
 }
 ```
 
+### Reglas que se revisan solas
+
+`unir.mjs` (al guardar cada tramo) y `entregar.mjs` (al subir) revisan la forma y **las citas del versículo**, que deben ir con el texto de la RVA 1909 (`scripts/citas.mjs`; la regla está en `guia-de-estilo.md`). Lo mecánico se corrige solo («...» → «…», comillas en la cita, «Sal 51.» → «Sal 51»); una cita que no sale de la RVA se rechaza con el texto de la RVA en el mensaje, para que el modelo la corrija.
+
+Las traducciones anteriores a esta revisión pueden tener citas por corregir: `node scripts/citas-pendientes.mjs` las lista y cualquier herramienta las corrige con «corrige citas 10» (en Claude: `/traducir citas 10`). Mientras tanto la publicación las deja pasar como aviso.
+
 ### Revisar
 
 1. Abre un archivo en `traducciones/` y compáralo con el original (`node scripts/fuente.mjs tyndale JHN 3`).

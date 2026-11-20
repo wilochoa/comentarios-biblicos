@@ -13,7 +13,7 @@ revisado_el:
 
 ## introduccion
 
-Levítico permitió al antiguo Israel vivir en relación con un Dios santo. Pero ahora que Cristo ha venido como nuestro sumo sacerdote y sacrificio definitivo —cumpliendo así muchos de los requisitos expuestos en Levítico—, ¿qué tienen que ver con nosotros las leyes que regían el sistema de adoración del antiguo Israel, con sus sacerdotes y sus sacrificios de animales? Levítico aumenta nuestra comprensión de la santidad de Dios. Y la exigencia de Dios para quienes lo conocen sigue siendo la misma: «Yo soy Jehová vuestro Dios. . . . Seréis santos, porque yo soy santo» (Lv 11:44-45; 1 P 1:15-16).
+Levítico permitió al antiguo Israel vivir en relación con un Dios santo. Pero ahora que Cristo ha venido como nuestro sumo sacerdote y sacrificio definitivo —cumpliendo así muchos de los requisitos expuestos en Levítico—, ¿qué tienen que ver con nosotros las leyes que regían el sistema de adoración del antiguo Israel, con sus sacerdotes y sus sacrificios de animales? Levítico aumenta nuestra comprensión de la santidad de Dios. Y la exigencia de Dios para quienes lo conocen sigue siendo la misma: «Yo soy Jehová vuestro Dios… . Seréis santos, porque yo soy santo» (Lv 11:44-45; 1 P 1:15-16).
 
 Contexto
 

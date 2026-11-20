@@ -14,6 +14,12 @@ Estas reglas valen para todos los comentarios. Si una regla choca con el glosari
 - **Referencias:** se escriben con las abreviaturas en español del glosario: `Jn 3:16`, `1 Co 1:26`, `Sal 119:148`, `Jn 3:3-8`. (Las de Henry, como `Joh 3:22` o `Co1 1:26`, se convierten solas al guardar, pero es mejor escribirlas ya en español.)
 - **Referencias del mismo libro** que Tyndale escribe solo con números (`3:1`, `(9:4; 11:10)`) se dejan así.
 - **Cuando el original cita un versículo con su referencia**, el texto de la cita se toma de la Reina-Valera 1909 con `node scripts/versiculo.mjs "<referencia>"`. Si el autor cita solo una parte del versículo, se toma esa misma parte del texto de la RVA. No se traduce la cita del inglés.
+- **La cita del versículo al inicio de una nota** (Tyndale: `51:2 Wash me . . . Purify me: The psalmist…`) es el caso más frecuente, y `unir.mjs` la revisa sola contra la RVA:
+  - Se escribe con las palabras de la RVA, **sin comillas**, con `…` si se salta texto: `51:2 Lávame… límpiame: El salmista ora…` (RVA: «Lávame más y más de mi maldad, y límpiame de mi pecado»). No `51:2 «Lávame... Purifícame»:`.
+  - Puede ajustarse lo mínimo para que se lea bien (quitar «Y» inicial, un tiempo verbal), pero las palabras son las de la RVA: `51:14 Líbrame de homicidios:`, no `51:14 derramar sangre:`.
+  - **Solo si la RVA dice algo distinto y la nota explica justamente esa palabra** (la nota comenta un término que la RVA traduce de otra forma), se traduce la frase del inglés y se escribe **en cursiva**: `58:1 *gobernantes (o dioses)*: Esta designación se usaba…` (la RVA dice «congregación»). La cursiva avisa que no es el texto de la RVA.
+- **Referencia inicial de una nota sin punto:** `Sal 51 Esta conmovedora oración…`, `Sal 51–65 Estos salmos…`, como el original (`Ps 51 This moving prayer…`). No `Sal 51. Esta…`.
+- **Puntos suspensivos:** siempre `…` (un solo carácter), nunca `...` ni `. . .`.
 - **Alusiones o frases bíblicas sin referencia** (muy frecuentes en Henry): se traducen con naturalidad. Si se reconoce claramente el versículo, se puede usar la redacción de la RVA.
 - **Comillas:** « » para citas; “ ” para comillas dentro de una cita.
 

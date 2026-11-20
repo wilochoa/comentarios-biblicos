@@ -1,7 +1,7 @@
 ---
 name: traducir
 description: Reserva y traduce al español los siguientes tramos pendientes de los comentarios bíblicos (opcionalmente de un comentario o libros concretos), los valida y los entrega a GitHub. Úsala cuando el usuario diga "traduce", "/traducir N", "/traducir N matthew-henry", "avanza con las traducciones" o en la corrida diaria.
-argument-hint: "[número de tramos, por defecto 5] [comentario] [libros USFM]"
+argument-hint: "[número de tramos, por defecto 5] [comentario] [libros USFM] | citas N"
 ---
 
 # Traducir comentarios bíblicos
@@ -13,6 +13,8 @@ Otros modelos pueden estar traduciendo al mismo tiempo desde otras carpetas: por
 **Tú no traduces en este contexto.** Repartes el trabajo a subagentes `traductor` y te encargas de reservar, revisar y entregar. Así cada tramo tiene su propio contexto limpio.
 
 ## Argumentos
+
+- `citas N` (p. ej. `/traducir citas 10`): no traduce; corrige citas del versículo de traducciones antiguas. Sigue la sección «Cuando te pidan "corrige citas N"» de `AGENTS.md` (puedes repartir un archivo por subagente `traductor`, hasta 3 en paralelo, pasándole el archivo y la lista de citas a corregir).
 
 - Un número: cuántos tramos.
 - Un id de comentario (`tyndale`, `matthew-henry`; los de `plan.json`) → `--comentario <id>`.

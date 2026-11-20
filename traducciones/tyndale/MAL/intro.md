@@ -31,7 +31,7 @@ El corazón pastoral de Malaquías es evidente en su predicación: comienza y te
 
 Autoría
 
-El libro de Malaquías guarda silencio acerca de su autoría, pero se supone que el profeta Malaquías puso por escrito sus propios sermones debido a la declaración de 1:1 («la palabra de Jehová . . . por mano de Malaquíasla palabra de Jehová . . . por mano de Malaquías»). No sabemos nada de Malaquías fuera de este libro; incluso allí, la única información biográfica que se da es que era profeta (1:1).
+El libro de Malaquías guarda silencio acerca de su autoría, pero se supone que el profeta Malaquías puso por escrito sus propios sermones debido a la declaración de 1:1 («la palabra de Jehová … por mano de Malaquíasla palabra de Jehová … por mano de Malaquías»). No sabemos nada de Malaquías fuera de este libro; incluso allí, la única información biográfica que se da es que era profeta (1:1).
 
 Fecha
 
@@ -39,7 +39,7 @@ A diferencia de muchos otros libros proféticos, Malaquías no contiene una fór
 
 Género literario
 
-La forma literaria de las profecías de Malaquías es similar a los procedimientos legales (o discursos de juicio) y a las disputas. Una disputa enfrenta al hablante con su audiencia en un diálogo combativo. En Malaquías, la disputa suele incluir (1) una afirmación de verdad declarada por el profeta, (2) una réplica de la audiencia formulada como pregunta, (3) la respuesta del profeta a la réplica de la audiencia mediante la reformulación de su premisa inicial, y (4) la presentación de pruebas adicionales que la sustentan. El resultado que se busca en un pleito del pacto y en la disputa es dejar al oponente sin palabras, al quitarle todo fundamento para argumentar. Este formato retórico de pregunta y argumento dio origen al método dialogado de exposición, propio de las escuelas rabínicas posteriores del judaísmo (ver también el método de enseñanza de Jesús en Mt 5:21-22, 27-28: «Oísteis que fue dicho. . . . Mas yo os digo, . . .»).
+La forma literaria de las profecías de Malaquías es similar a los procedimientos legales (o discursos de juicio) y a las disputas. Una disputa enfrenta al hablante con su audiencia en un diálogo combativo. En Malaquías, la disputa suele incluir (1) una afirmación de verdad declarada por el profeta, (2) una réplica de la audiencia formulada como pregunta, (3) la respuesta del profeta a la réplica de la audiencia mediante la reformulación de su premisa inicial, y (4) la presentación de pruebas adicionales que la sustentan. El resultado que se busca en un pleito del pacto y en la disputa es dejar al oponente sin palabras, al quitarle todo fundamento para argumentar. Este formato retórico de pregunta y argumento dio origen al método dialogado de exposición, propio de las escuelas rabínicas posteriores del judaísmo (ver también el método de enseñanza de Jesús en Mt 5:21-22, 27-28: «Oísteis que fue dicho… . Mas yo os digo, …»).
 
 Significado y mensaje
 

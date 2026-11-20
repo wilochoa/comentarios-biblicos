@@ -39,7 +39,7 @@ La iglesia primitiva afirmó unánimemente que 2 Tesalonicenses era una carta au
 
 Destinatarios
 
-Los destinatarios de la carta eran los mismos que recibieron 1 Tesalonicenses: «la iglesia de los Tesalonicenses . . . que es en Dios nuestro Padre y en el Señor Jesucristo» (2 Ts 1:1). Muchos eran artesanos que se ganaban la vida con el trabajo manual (3:6-12) o eran clientes de mecenas ricos. No eran personas de gran riqueza.
+Los destinatarios de la carta eran los mismos que recibieron 1 Tesalonicenses: «la iglesia de los Tesalonicenses … que es en Dios nuestro Padre y en el Señor Jesucristo» (2 Ts 1:1). Muchos eran artesanos que se ganaban la vida con el trabajo manual (3:6-12) o eran clientes de mecenas ricos. No eran personas de gran riqueza.
 
 Significado y mensaje
 

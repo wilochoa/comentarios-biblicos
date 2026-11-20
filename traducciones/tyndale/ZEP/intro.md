@@ -13,7 +13,7 @@ revisado_el:
 
 ## introduccion
 
-«Cercano está el día grande de Jehová. . . . día de alboroto y de asolamiento, día de tiniebla y de oscuridad» (Sof 1:14-15). Las palabras de Sofonías producen un escalofrío en el alma. ¿Significará el día del Señor el fin de todo? La profecía de Sofonías describe el juicio que viene, pero también presenta la promesa de Dios de que su pueblo fiel disfrutará algún día de un mundo de justicia y gozo eternos.
+«Cercano está el día grande de Jehová… . día de alboroto y de asolamiento, día de tiniebla y de oscuridad» (Sof 1:14-15). Las palabras de Sofonías producen un escalofrío en el alma. ¿Significará el día del Señor el fin de todo? La profecía de Sofonías describe el juicio que viene, pero también presenta la promesa de Dios de que su pueblo fiel disfrutará algún día de un mundo de justicia y gozo eternos.
 
 Contexto
 

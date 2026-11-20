@@ -33,10 +33,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      # Originales y textos bíblicos descargados de bible.helloao.org (se renuevan cada semana)
+      - id: semana
+        run: echo "valor=$(date +%G-%V)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: fuentes
+          key: fuentes-${{ steps.semana.outputs.valor }}
+          restore-keys: fuentes-
       - name: Pruebas
         run: node --test 'scripts/*.test.mjs'
       - name: Validar traducciones
-        run: node scripts/validar.mjs --todos
+        run: node scripts/validar.mjs --todos --citas-como-aviso
       - name: Construir API
         run: node scripts/construir-api.mjs
       - uses: actions/configure-pages@v5

@@ -6,10 +6,13 @@
 // El archivo de trabajo lleva en su encabezado: comentario, libro, unidad,
 // y debajo las secciones "## <id>" traducidas. Este script:
 //   - convierte las referencias de Henry a abreviaturas en español,
+//   - corrige la forma («...» → «…», sin punto tras «Sal 51», cita del versículo sin «»),
+//   - revisa que las citas del versículo salgan de la RVA 1909 (scripts/citas.mjs),
 //   - ordena las secciones como el original,
 //   - pone el estado (parcial / borrador), la fecha y la huella del original,
 //   - valida; si hay errores no guarda nada y termina con código 1.
 import { readFileSync, rmSync } from 'node:fs';
+import { normalizarForma, revisarCitas } from './citas.mjs';
 import { identidad } from './reservas.mjs';
 import {
   cargarFuente, convertirReferencias, guardarTraduccion, hoy, leerTraduccion, parsearMarkdown, revisarSeccion,
@@ -56,8 +59,10 @@ for (const s of trabajo.secciones) {
     errores.push(`${s.id}: no existe en el original`);
     continue;
   }
-  const texto = convertirReferencias(s.texto);
+  // Lo mecánico se corrige solo («...» → «…», «Sal 51.» → «Sal 51», comillas en la cita del versículo).
+  const texto = normalizarForma(convertirReferencias(s.texto));
   for (const e of revisarSeccion(originales.get(s.id), texto)) errores.push(`${s.id}: ${e}`);
+  for (const e of await revisarCitas({ libro, original: originales.get(s.id), traduccion: texto })) errores.push(`${s.id}: ${e}`);
   nuevas.set(s.id, texto);
 }
 if (!trabajo.secciones.length) errores.push('el archivo de trabajo no tiene secciones');
