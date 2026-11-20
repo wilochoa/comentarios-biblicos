@@ -143,3 +143,15 @@
 | opportunism | oportunismo | tyndale/PSA/46 |
 | rams' horns | cuernos de carnero | tyndale/PSA/47 |
 | riddle | enigma | tyndale/PSA/49 |
+| Wisdom of Solomon | Sabiduría de Salomón | tyndale/ROM/2 |
+| diatribe | diatriba | tyndale/ROM/2, 3 |
+| Maccabean Revolt | revuelta de los macabeos | tyndale/ROM/2 |
+| Antiochus IV Epiphanes | Antíoco IV Epífanes | tyndale/ROM/2 |
+| atonement cover | cubierta de la expiación | tyndale/ROM/3 |
+| Day of Atonement | Día de la Expiación | tyndale/ROM/3 |
+| pearl-stringing | ensartar perlas | tyndale/ROM/3 |
+| rabbis | rabinos | tyndale/ROM/3 |
+| Rider of the Clouds | Jinete de las Nubes | tyndale/PSA/68 |
+| sheepfolds | rediles | tyndale/PSA/68 |
+| seminomadic | seminómada | tyndale/PSA/68 |
+| Book Two / Books Three to Five (Salterio) | Libro Segundo / Libros Tercero a Quinto | tyndale/PSA/72 |
