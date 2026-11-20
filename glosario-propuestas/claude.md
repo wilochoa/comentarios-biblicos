@@ -167,3 +167,20 @@
 | triumphant entry | entrada triunfal | tyndale/PSA/118 |
 | Great Shepherd | el Gran Pastor | tyndale/PSA/119 |
 | Hebrew letters (Aleph, Beth, Gimel…) | Álef, Bet, Guímel, Dálet, He, Vav, Zayin, Jet, Tet, Yod, Kaf, Lámed, Mem, Nun, Sámej, Ayin, Pe, Tsade, Qof, Resh, Shin, Tav | tyndale/PSA/119 |
+| co-sender | coremitente | tyndale/PHP/1 |
+| church leaders | líderes de la iglesia | tyndale/PHP/1 |
+| undeserved blessing | bendición inmerecida | tyndale/PHP/1 |
+| self-centeredness | egocentrismo | tyndale/PHP/2, 3 |
+| liquid offering / libation | libación | tyndale/PHP/2 |
+| Jewish credentials | credenciales judías | tyndale/PHP/3 |
+| pseudo-believers | seudocreyentes | tyndale/PHP/3 |
+| eternal destruction | destrucción eterna | tyndale/PHP/3 |
+| grave clothes | lienzos fúnebres | tyndale/ACT/1 |
+| Field of Blood | Campo de Sangre | tyndale/ACT/1 |
+| cast lots | echar suertes | tyndale/ACT/1 |
+| Mount of Olives | monte de los Olivos | tyndale/ACT/1 |
+| Unleavened Bread (fiesta) | Panes sin Levadura | tyndale/ACT/2 |
+| Shelters (fiesta) | Tabernáculos | tyndale/ACT/2 |
+| Parthians, Medes, Elamites | partos, medos, elamitas | tyndale/ACT/2 |
+| Cappadocia, Pontus, Phrygia, Pamphylia | Capadocia, Ponto, Frigia, Panfilia | tyndale/ACT/2 |
+| Cretans | cretenses | tyndale/ACT/2 |
