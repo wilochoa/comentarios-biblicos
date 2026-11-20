@@ -16,9 +16,11 @@ permissions:
   pages: write
   id-token: write
 
+# Una publicación a la vez. No se corta la que está en curso (cortarla dejaba
+# publicaciones fallidas); de las que esperan, GitHub conserva solo la última.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   publicar:
