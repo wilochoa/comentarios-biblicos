@@ -138,3 +138,8 @@
 | evildoers | malhechores | tyndale/PSA/10 |
 | Lord of Heaven's Armies | Señor de los Ejércitos Celestiales | tyndale/PSA/24 |
 | holy mountain | monte santo | tyndale/PSA/24 |
+| psalms of penitence | salmos penitenciales | tyndale/PSA/32 |
+| brokenhearted | quebrantados de corazón | tyndale/PSA/34 |
+| opportunism | oportunismo | tyndale/PSA/46 |
+| rams' horns | cuernos de carnero | tyndale/PSA/47 |
+| riddle | enigma | tyndale/PSA/49 |
