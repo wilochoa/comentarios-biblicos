@@ -5,6 +5,10 @@ name: Publicar API
 on:
   push:
     branches: [main]
+    # Las reservas y las propuestas de glosario no cambian la API.
+    paths-ignore:
+      - 'reservas/**'
+      - 'glosario-propuestas/**'
   workflow_dispatch:
 
 permissions:

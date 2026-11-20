@@ -1,6 +1,6 @@
 # Glosario
 
-Se traduce **siempre** igual en todos los comentarios. Si aparece un término recurrente que no está aquí, la skill lo anota en «Por revisar» al final y se decide después.
+Se traduce **siempre** igual en todos los comentarios. Si aparece un término recurrente que no está aquí, cada traductor lo propone en `glosario-propuestas/<quien>.md`; al decidirlo, se pasa a la tabla de abajo.
 
 ## Términos
 
@@ -132,7 +132,7 @@ Referencias siempre con la abreviatura en español: `Jn 3:16`, `1 Co 1:26`.
 
 ## Por revisar
 
-<!-- La skill agrega aquí términos nuevos propuestos por el traductor: | inglés | propuesta | dónde apareció | -->
+<!-- Propuestas de las primeras corridas. Las nuevas llegan a glosario-propuestas/<quien>.md. -->
 
 | Inglés | Propuesta | Dónde apareció |
 |---|---|---|

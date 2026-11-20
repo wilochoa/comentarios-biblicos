@@ -10,6 +10,7 @@
 //   - pone el estado (parcial / borrador), la fecha y la huella del original,
 //   - valida; si hay errores no guarda nada y termina con código 1.
 import { readFileSync, rmSync } from 'node:fs';
+import { identidad } from './reservas.mjs';
 import {
   cargarFuente, convertirReferencias, guardarTraduccion, hoy, leerTraduccion, parsearMarkdown, revisarSeccion,
   rutaTraduccion,
@@ -24,6 +25,13 @@ const trabajo = parsearMarkdown(readFileSync(ruta, 'utf8'));
 const { comentario: idComentario, libro, unidad: unidadTxt } = trabajo.meta;
 if (!idComentario || !libro || !unidadTxt) {
   console.error('El archivo de trabajo necesita "comentario", "libro" y "unidad" en el encabezado.');
+  process.exit(2);
+}
+let yo;
+try {
+  yo = identidad();
+} catch (error) {
+  console.error(error.message);
   process.exit(2);
 }
 const unidad = unidadTxt === 'intro' ? 'intro' : Number(unidadTxt);
@@ -67,7 +75,7 @@ guardarTraduccion(destino, {
   estado: completa ? 'borrador' : 'parcial',
   fuente: fuente.url,
   fuente_sha256: fuente.sha256,
-  traducido_por: 'Claude (IA)',
+  traducido_por: `${yo.modelo} (IA)`,
   traducido_el: hoy(),
   revisado_por: null,
   revisado_el: null,

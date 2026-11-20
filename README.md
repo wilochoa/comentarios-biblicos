@@ -12,40 +12,58 @@ Los originales vienen de la [Free Use Bible API](https://bible.helloao.org) y la
 ## Cómo se trabaja
 
 ```
-plan.json ──► siguiente.mjs ──► subagente traductor ──► unir.mjs ──► traducciones/*.md ──► construir-api.mjs ──► dist/api/v1
-                (qué sigue)       (traduce un tramo)     (valida y      (git: historial        (JSON estático)
-                                                          guarda)        y revisión)
+plan.json ──► reservar.mjs ──► traductor (IA) ──► unir.mjs ──► entregar.mjs ──► GitHub ──► construir-api.mjs ──► comentarios.iglesy.net
+              (aparta tramos)   (un tramo)        (valida y     (commit, push,             (JSON estático)
+                                                   guarda)       libera la reserva)
 ```
 
-### Traducir
+### Varios modelos a la vez
 
-En Claude Code, dentro de esta carpeta:
+Cada modelo (Claude, Codex, Gemini, Cursor…) trabaja en **su propia copia del repo**. Antes de traducir, aparta sus tramos en `reservas/<quien>.json` y lo sube a GitHub; los demás los saltan. Al terminar, `entregar.mjs` sube lo traducido y libera la reserva. Así pueden trabajar 5 a la vez sin pisarse: en el mismo autor (tramos distintos) o en autores distintos.
 
+**Una sola vez:** `scripts/preparar.sh` crea `../traductores/{codex,opencode,cursor,claude,gemini}`, cada una con su copia del repo y su traductor asignado.
+
+Para que una carpeta se dedique a un autor o a unos libros (opcional), dentro de ella:
+
+```sh
+node scripts/soy.mjs codex "Codex" --comentario matthew-henry   # solo Henry
+node scripts/soy.mjs gemini "Gemini" --libro JHN,ROM            # solo esos libros
 ```
-/traducir 5
-```
 
-Traduce 5 tramos (cada uno hasta ~5,000 palabras del original), los valida y hace commit. Consume tu plan de Claude, sin costo de API.
+El nombre corto (`codex`) debe ser distinto en cada carpeta. El modelo queda en `traducido_por` de cada archivo. **No abras dos sesiones en la misma carpeta**: `reservar.mjs` lo detecta y se niega.
 
-### Corrida diaria automática
+**Para traducir**, en cada herramienta, dentro de su carpeta:
 
-`scripts/diario.sh [N]` corre lo mismo sin intervención (`claude -p`), y deja el registro en `logs/diario.log`. Para programarla (todos los días a las 6:00), agrega con `crontab -e`:
+| Herramienta | Qué decirle |
+|---|---|
+| Claude Code | `/traducir 15` · `/traducir 10 matthew-henry` · `/traducir 5 tyndale JHN` |
+| Codex, Cursor, otros | «traduce 15» · «traduce 10 de matthew-henry» (leen `AGENTS.md`) |
+| Gemini CLI | lo mismo (lee `GEMINI.md`, que apunta a `AGENTS.md`) |
+
+Sin autor ni libros, cada carpeta usa su preferencia de `soy.mjs`; si no tiene, sigue `plan.json` en orden. Con un autor se puede avanzar en él aunque las fases anteriores de otro autor no estén terminadas.
+
+La herramienta necesita red (descarga los originales de bible.helloao.org y hace push a GitHub) y permiso para correr `node scripts/*`. Si una corrida se corta, corre `node scripts/entregar.mjs` en esa carpeta: sube lo que alcanzó a traducir y libera el resto. Una reserva abandonada vence sola a las 12 horas.
+
+`node scripts/progreso.mjs` muestra el avance y quién está traduciendo qué ahora.
+
+### Corrida diaria automática (Claude)
+
+`scripts/diario.sh [N] [comentario]` corre lo mismo sin intervención (`claude -p`), y deja el registro en `logs/diario.log`. Para programarla (todos los días a las 6:00), agrega con `crontab -e`:
 
 ```
 0 6 * * * /Users/wochoa/Documents/Projects/WamsIA/comentarios-biblicos/scripts/diario.sh 5
 ```
 
-Para que corra sin pedir permisos, crea `.claude/settings.json` con los permisos que la skill necesita:
+Para que corra sin pedir permisos, crea `.claude/settings.json`:
 
 ```json
 {
   "permissions": {
     "allow": [
       "Bash(node scripts/*)",
-      "Bash(git status*)", "Bash(git diff*)", "Bash(git remote*)", "Bash(git pull --ff-only*)",
-      "Bash(git add traducciones*)", "Bash(git commit -m *)", "Bash(git push*)",
+      "Bash(git status*)", "Bash(git diff*)",
       "Bash(rm trabajo/*)",
-      "Write(trabajo/**)", "Edit(glosario.md)"
+      "Write(trabajo/**)", "Write(glosario-propuestas/**)", "Edit(glosario-propuestas/**)"
     ]
   }
 }
@@ -58,14 +76,16 @@ Para que corra sin pedir permisos, crea `.claude/settings.json` con los permisos
 3. Márcalo: `node scripts/revisado.mjs traducciones/tyndale/JHN/3.md "Tu nombre"`.
 4. Commit. Un archivo revisado nunca se vuelve a sobrescribir.
 
-Términos nuevos que propone el traductor quedan al final de `glosario.md` («Por revisar»): muévelos a la tabla principal cuando decidas cómo se traducen.
+Los términos nuevos que propone cada traductor quedan en `glosario-propuestas/<quien>.md`: pásalos a la tabla de `glosario.md` cuando decidas cómo se traducen, y bórralos de ahí.
 
 ### Otros comandos
 
 | Comando | Para qué |
 |---|---|
-| `node scripts/progreso.mjs` | Avance por comentario |
-| `node scripts/siguiente.mjs --limite 10` | Qué se traduciría a continuación |
+| `node scripts/progreso.mjs` | Avance por comentario y reservas vigentes |
+| `node scripts/soy.mjs` | Quién traduce en esta carpeta y qué prefiere |
+| `node scripts/siguiente.mjs --limite 10 [--comentario id] [--libro JHN]` | Qué se traduciría a continuación (sin reservar) |
+| `node scripts/reservar.mjs` / `entregar.mjs` | Apartar tramos / subir lo traducido y liberar |
 | `node scripts/validar.mjs --todos` | Valida todas las traducciones contra su original |
 | `node scripts/versiculo.mjs "Jn 3:16"` | Texto RVA 1909 de un pasaje |
 | `node scripts/construir-api.mjs` | Genera la API en `dist/api/v1` |
