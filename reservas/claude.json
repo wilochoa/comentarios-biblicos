@@ -551,6 +551,9 @@
   "hechos": [
     "tyndale/ROM/1#v1-v32",
     "tyndale/ROM/2#v1-v29",
-    "tyndale/ROM/3#v1-v31"
+    "tyndale/ROM/3#v1-v31",
+    "tyndale/ROM/4#v1-v24",
+    "tyndale/ROM/5#v1-v20",
+    "tyndale/ROM/6#v1-v21"
   ]
 }
