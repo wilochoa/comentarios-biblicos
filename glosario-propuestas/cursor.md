@@ -56,3 +56,4 @@
 | cut off | cortar | tyndale/GEN/17 |
 | sister story | relato de la hermana | tyndale/GEN/20 |
 | tamarisk | tamarisco | tyndale/GEN/21 |
+| Festival of Unleavened Bread | fiesta de los Ázimos | tyndale/JHN/19 |
