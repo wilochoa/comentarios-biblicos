@@ -172,5 +172,9 @@
       "archivo": "traducciones/tyndale/JHN/21.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/JHN/17#v1-v26",
+    "tyndale/JHN/18#v1-v40",
+    "tyndale/JHN/19#v1-v42"
+  ]
 }
