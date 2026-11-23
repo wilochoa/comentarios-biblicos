@@ -698,5 +698,9 @@
       "archivo": "traducciones/tyndale/EXO/22.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/COL/2#v1-v23",
+    "tyndale/COL/3#v1-v22",
+    "tyndale/COL/4#v1-v18"
+  ]
 }
