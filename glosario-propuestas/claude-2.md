@@ -33,3 +33,6 @@
 | godless | impío | tyndale HEB 12 |
 | hostility | hostilidad | tyndale HEB 12 |
 | confident trust | confianza segura | tyndale HEB 10 |
+| authorial plural | plural de autor | tyndale HEB 13 |
+| peace offering | ofrenda de paz | tyndale HEB 13 |
+| thank offering | ofrenda de gratitud | tyndale HEB 13 |
