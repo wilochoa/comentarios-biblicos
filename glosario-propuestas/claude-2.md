@@ -54,3 +54,13 @@
 | signal | señal / estandarte | tyndale ISA 5 |
 | self-indulgent | complaciente / desenfrenado | tyndale ISA 5 |
 | Maher-shalal-hash-baz | Maher-salal-hasbaz | tyndale ISA 5 |
+| Ahaz | Acaz | tyndale ISA 6 |
+| seraphim | serafines | tyndale ISA 6 |
+| heavenly council | concilio celestial | tyndale ISA 6 |
+| stump | tronco | tyndale ISA 6 |
+| holy seed | simiente santa | tyndale ISA 6 |
+| Rezin | Rezín | tyndale ISA 7 |
+| Pekah | Peka | tyndale ISA 7 |
+| Jotham | Jotam | tyndale ISA 7 |
+| Esarhaddon | Esar-hadón | tyndale ISA 7 |
+| vassal state | estado vasallo | tyndale ISA 7 |
