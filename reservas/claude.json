@@ -481,5 +481,9 @@
       "archivo": "traducciones/tyndale/NUM/7.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/LEV/14#v1-v54",
+    "tyndale/LEV/15#v1-v32",
+    "tyndale/LEV/16#v1-v31"
+  ]
 }
