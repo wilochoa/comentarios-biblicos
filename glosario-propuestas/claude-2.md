@@ -41,3 +41,8 @@
 | midwife | partera | tyndale GAL 4 |
 | stillbirth | mortinato | tyndale GAL 4 |
 | underage heirs | herederos menores de edad | tyndale GAL 4 |
+| Temple Mount | monte del templo | tyndale ISA 2 |
+| Sennacherib | Senaquerib | tyndale ISA 2 |
+| Uzziah | Uzías | tyndale ISA 2 |
+| day of reckoning | día del ajuste de cuentas | tyndale ISA 2 |
+| warhorses | caballos de guerra | tyndale ISA 2 |
