@@ -385,3 +385,30 @@
 | carcass | cadáver (de animal) | tyndale/LEV/11 |
 | cistern | cisterna | tyndale/LEV/11 |
 | purification offering | ofrenda de purificación | tyndale/LEV/12 |
+| penalty offering / reparation offering | ofrenda de multa / ofrenda de reparación (variantes de «ofrenda por la culpa») | tyndale/LEV/14 |
+| red heifer | novilla roja | tyndale/LEV/14 |
+| bodily discharge | flujo corporal | tyndale/LEV/15 |
+| quarantine | cuarentena | tyndale/LEV/15 |
+| incest | incesto | tyndale/LEV/18 |
+| bestiality | bestialismo | tyndale/LEV/18 |
+| case laws | jurisprudencia | tyndale/LEV/18 |
+| Year of Jubilee | año del jubileo | tyndale/LEV/25 |
+| Sabbath year | año sabático | tyndale/LEV/25 |
+| bondservant | siervo por contrato | tyndale/LEV/25 |
+| Festival of Final Harvest | fiesta de la Cosecha Final | tyndale/LEV/23 |
+| Abib | Abib | tyndale/LEV/23 |
+| Tishri | Tishri | tyndale/LEV/23 |
+| temporary shelters | refugios temporales | tyndale/LEV/23 |
+| fallow | en barbecho | tyndale/LEV/26 |
+| pagan shrines | santuarios paganos | tyndale/LEV/26 |
+| Merarites | meraritas | tyndale/NUM/3 |
+| Ithamar | Itamar | tyndale/NUM/3 |
+| Gershonites / Kohathites | gersonitas / coatitas | tyndale/NUM/3 |
+| incense altar | altar del incienso | tyndale/NUM/4 |
+| executive secretary | secretario ejecutivo | tyndale/NUM/3 |
+| professional priests | sacerdotes profesionales | tyndale/NUM/3 |
+| redemption price | precio de redención | tyndale/NUM/3 |
+| Ketef Hinnom | Ketef Hinom | tyndale/NUM/6 |
+| wagons | carretas | tyndale/NUM/7 |
+| cherubim | querubines | tyndale/NUM/7 |
+| tribal leaders | jefes de tribu | tyndale/NUM/7 |
