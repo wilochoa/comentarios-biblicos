@@ -24,3 +24,5 @@
 | Church of the Holy Sepulchre | Iglesia del Santo Sepulcro | tyndale LUK 23 |
 | ossuary | osario | tyndale LUK 23 |
 | Golgotha | Gólgota | tyndale LUK 23 |
+| Day of Atonement | Día de la Expiación | tyndale HEB 4 |
+| epigram | epigrama | tyndale HEB 4 |
