@@ -250,3 +250,26 @@
 | witchcraft | hechicería | tyndale/ISA/47 |
 | stargazers | observadores de las estrellas | tyndale/ISA/47 |
 | emasculated person | persona castrada | tyndale/ISA/56 |
+| backsliders | los que se apartan de Dios | tyndale/PRO/14 |
+| merism | merismo | tyndale/PRO/14 |
+| schemers | los intrigantes | tyndale/PRO/14 |
+| short-tempered | de carácter iracundo | tyndale/PRO/14 |
+| Saying (n.º) (en Pr 22–24) | Dicho (n.º) | tyndale/PRO/22, 23, 24 |
+| thirty sayings | treinta dichos | tyndale/PRO/22 |
+| boundary markers | mojones | tyndale/PRO/22 |
+| Instruction of Amenemope | Instrucción de Amenemope | tyndale/PRO/22 |
+| holiness code | código de santidad | tyndale/JAS/2 |
+| second coming | segunda venida | tyndale/JAS/2 |
+| rhetorical device | recurso retórico | tyndale/JAS/2 |
+| Psalms of Solomon | Salmos de Salomón | tyndale/JAS/1 |
+| Testament of Benjamin | Testamento de Benjamín | tyndale/JAS/1 |
+| reversal (in heaven) | inversión | tyndale/JAS/1 |
+| the righteous poor | los pobres justos | tyndale/JAS/1 |
+| brackish | salobre | tyndale/JAS/3 |
+| unspiritual | no espiritual | tyndale/JAS/3 |
+| Advocate | Abogado | tyndale/1JN/1 |
+| Word of life | el Verbo de vida | tyndale/1JN/1 |
+| Cerinthus | Cerinto | tyndale/1JN/5 |
+| NLT | NTV | tyndale/1JN/5 |
+| King James Version | Versión del Rey Jaime | tyndale/1JN/5 |
+| Textus Receptus | Textus Receptus (en latín) | tyndale/1JN/5 |
