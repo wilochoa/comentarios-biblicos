@@ -230,3 +230,4 @@
 | Archelaus | Arquelao | tyndale/LUK/19 |
 | Bethphage | Betfagé | tyndale/LUK/19 |
 | chief tax collector | jefe de los recaudadores de impuestos | tyndale/LUK/19 |
+| James (apóstol, hermano de Jesús) | Santiago (decidido: no «Jacobo», aunque la RVA lo use) | tyndale/Evangelios y Hechos |

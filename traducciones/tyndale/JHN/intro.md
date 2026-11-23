@@ -47,7 +47,7 @@ Autor y fecha
 
 Al igual que los otros Evangelios, el de Juan no ofrece pruebas explícitas sobre su autor, aunque la enigmática figura del «discípulo amado» proporciona pistas claras (ver 13:23; 19:26-27; 20:2-10; 21:7, 20-24). El Evangelio de Juan debe relacionarse con esta persona, pues se le identifica como el testigo ocular que es la fuente de este relato de la vida de Jesús (19:35; 21:20-24).
 
-¿Quién era este discípulo amado? A partir del año 125 d. C., los líderes de la iglesia primitiva escribieron que era el apóstol Juan, hijo de Zebedeo, quien vivía en Éfeso cuando escribió este Evangelio (ver, p. ej., Eusebio, Historia eclesiástica 3.23). Juan era uno de los Doce y, junto con Jacobo (su hermano) y Pedro, formaba parte de un círculo íntimo en torno a Jesús (ver, p. ej., Mt 26:36-37; Mr 5:37; 9:2). El Evangelio de Juan refleja esta perspectiva cercana. La mayoría de los eruditos cree que Juan terminó de escribir su Evangelio alrededor del año 90 d. C.
+¿Quién era este discípulo amado? A partir del año 125 d. C., los líderes de la iglesia primitiva escribieron que era el apóstol Juan, hijo de Zebedeo, quien vivía en Éfeso cuando escribió este Evangelio (ver, p. ej., Eusebio, Historia eclesiástica 3.23). Juan era uno de los Doce y, junto con Santiago (su hermano) y Pedro, formaba parte de un círculo íntimo en torno a Jesús (ver, p. ej., Mt 26:36-37; Mr 5:37; 9:2). El Evangelio de Juan refleja esta perspectiva cercana. La mayoría de los eruditos cree que Juan terminó de escribir su Evangelio alrededor del año 90 d. C.
 
 Destinatarios
 

@@ -29,7 +29,7 @@ Judas apela entonces directamente a sus lectores (1:17-23), instándolos a aferr
 
 Autor
 
-Judas se identifica como «hermano de Jacobo» (1:1). Este Jacobo es casi con certeza «el hermano del Señor» (Gá 1:19; ver Mt 13:55 // Mr 6:3), quien llegó a ser el líder reconocido de la iglesia de Jerusalén (Hch 15:13-21; 21:18) y escribió la carta de Santiago. Judas era, por tanto, también hermano de Jesús (a Judas se le llama «Judas» en Mt 13:55 // Mr 6:3). Judas y los demás hermanos de Jesús no siguieron a Jesús durante su ministerio terrenal (Jn 7:5), pero evidentemente se hicieron creyentes después de la resurrección (ver Hch 1:14; 1 Co 15:7) y viajaron para difundir el mensaje acerca del Señor resucitado (1 Co 9:5).
+Judas se identifica como «hermano de Santiago» (1:1). Este Santiago es casi con certeza «el hermano del Señor» (Gá 1:19; ver Mt 13:55 // Mr 6:3), quien llegó a ser el líder reconocido de la iglesia de Jerusalén (Hch 15:13-21; 21:18) y escribió la carta de Santiago. Judas era, por tanto, también hermano de Jesús (a Judas se le llama «Judas» en Mt 13:55 // Mr 6:3). Judas y los demás hermanos de Jesús no siguieron a Jesús durante su ministerio terrenal (Jn 7:5), pero evidentemente se hicieron creyentes después de la resurrección (ver Hch 1:14; 1 Co 15:7) y viajaron para difundir el mensaje acerca del Señor resucitado (1 Co 9:5).
 
 Fecha y destino
 

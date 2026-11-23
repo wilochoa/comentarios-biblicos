@@ -49,7 +49,7 @@ Autor
 
 Algunos eruditos han sugerido que un anciano cristiano llamado Juan, pero no el apóstol, fue el autor de 1–3 Juan (ver 2 Jn 1:1; 3 Jn 1:1). Formulan este juicio a partir de una cita de Papías (obispo de Hierápolis, en la provincia de Asia, 100–130 d. C.), quien mencionó a Juan el apóstol y más tarde mencionó a Juan el anciano:
 
-«Si en algún lugar se me presentaba alguien que hubiera sido seguidor de los ancianos, yo indagaba acerca de las palabras de los ancianos —qué habían dicho Andrés y Pedro, o qué habían dicho Tomás, o Jacobo, o Juan, o Mateo, o cualquier otro de los discípulos del Señor—; e indagaba acerca de las cosas que Aristión y el anciano Juan, los discípulos del Señor, están diciendo». (Eusebio, Historia eclesiástica 3.39.4)
+«Si en algún lugar se me presentaba alguien que hubiera sido seguidor de los ancianos, yo indagaba acerca de las palabras de los ancianos —qué habían dicho Andrés y Pedro, o qué habían dicho Tomás, o Santiago, o Juan, o Mateo, o cualquier otro de los discípulos del Señor—; e indagaba acerca de las cosas que Aristión y el anciano Juan, los discípulos del Señor, están diciendo». (Eusebio, Historia eclesiástica 3.39.4)
 
 Esta cita ha llevado a algunos a pensar que Papías hablaba de dos personas distintas llamadas Juan, pero eso no es necesariamente así. Papías señaló lo que los «ancianos» (incluidos los apóstoles, como Juan) habían dicho acerca de Jesús y lo que dos de los discípulos del Señor (Aristión y Juan) seguían diciendo (tiempo presente). El apóstol Juan vivió hasta una edad muy avanzada, y Papías lo había oído hablar en persona.
 

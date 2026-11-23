@@ -35,7 +35,7 @@ Historia. Hechos describe las personas, los lugares y los acontecimientos implic
 
 Geografía. Hechos muestra cómo se llevó el mensaje desde Jerusalén hasta Roma (1:8; 9:15).
 
-Biografía. Hechos destaca los ministerios de Pedro y de Pablo, quienes, junto con Jacobo, fueron las figuras principales que dirigieron el movimiento cristiano primitivo. Otros cristianos primitivos influyentes —entre ellos Esteban, Felipe y Bernabé— también desempeñan un papel significativo.
+Biografía. Hechos destaca los ministerios de Pedro y de Pablo, quienes, junto con Santiago, fueron las figuras principales que dirigieron el movimiento cristiano primitivo. Otros cristianos primitivos influyentes —entre ellos Esteban, Felipe y Bernabé— también desempeñan un papel significativo.
 
 Evangelización. Hechos da ejemplos claros de cómo los líderes cristianos proclamaron las buenas nuevas a públicos diferentes (obsérvense los discursos de los caps. 2–5, 7, 10, 13, 22 y 26). Hechos muestra que el evangelio está abierto a todos —no solo a los judíos, sino también a los gentiles (2:8-11; 8:26-40; 10:1–11:18), y no solo a los hombres, sino también a las mujeres (5:14; 8:12; 16:13-15; 17:4, 12, 34; 18:26; 21:9).
 
@@ -53,7 +53,7 @@ Lugar y fecha de redacción
 
 Se desconoce el lugar preciso desde el que se escribió Hechos, pero lo probable es Roma.
 
-Por lo general, Hechos se fecha entre principios de los años 60 d. C. y el final de la vida que cabía esperar de los colaboradores y compañeros de viaje de Pablo (mediados de los años 80 d. C.). Muchos eruditos se han inclinado por una fecha posterior al 70 d. C., con el argumento de que Lucas usó Marcos como una de sus fuentes (suponiendo que Marcos se escribió a finales de los años 60). Sin embargo, Hechos no menciona el resultado del juicio de Pablo (alrededor del 62 d. C.); la muerte de Jacobo, el hermano del Señor (principios de los años 60 d. C.); la persecución de los cristianos llevada a cabo por Nerón tras el incendio de Roma en el 64 d. C.; las muertes de Pedro y de Pablo (alrededor del 64–65 d. C.) y de Nerón (68 d. C.); la revuelta judía (66 d. C.); ni la destrucción de Jerusalén (70 d. C.). Hechos termina con Pablo bajo arresto domiciliario (60–62 d. C.). Así, cabe sostener con fundamento que Lucas escribió Hechos antes del 64 d. C. Quienes fechan Hechos después del 70 d. C. responderían que Lucas omite estos acontecimientos porque no eran pertinentes para su propósito (ver Hch 1:8; 9:15; 28:31).
+Por lo general, Hechos se fecha entre principios de los años 60 d. C. y el final de la vida que cabía esperar de los colaboradores y compañeros de viaje de Pablo (mediados de los años 80 d. C.). Muchos eruditos se han inclinado por una fecha posterior al 70 d. C., con el argumento de que Lucas usó Marcos como una de sus fuentes (suponiendo que Marcos se escribió a finales de los años 60). Sin embargo, Hechos no menciona el resultado del juicio de Pablo (alrededor del 62 d. C.); la muerte de Santiago, el hermano del Señor (principios de los años 60 d. C.); la persecución de los cristianos llevada a cabo por Nerón tras el incendio de Roma en el 64 d. C.; las muertes de Pedro y de Pablo (alrededor del 64–65 d. C.) y de Nerón (68 d. C.); la revuelta judía (66 d. C.); ni la destrucción de Jerusalén (70 d. C.). Hechos termina con Pablo bajo arresto domiciliario (60–62 d. C.). Así, cabe sostener con fundamento que Lucas escribió Hechos antes del 64 d. C. Quienes fechan Hechos después del 70 d. C. responderían que Lucas omite estos acontecimientos porque no eran pertinentes para su propósito (ver Hch 1:8; 9:15; 28:31).
 
 Destinatarios
 
@@ -63,7 +63,7 @@ Características literarias
 
 El material de Hechos se presenta con cuidado y precisión (p. ej., 11:28; 18:2), y la exactitud de la información ha sido confirmada a menudo por la arqueología, la geografía y estudios afines. Lucas ha combinado la exactitud y el detalle históricos con un don para las descripciones vívidas y dramáticas (p. ej., 5:17-32; 12:1-17; 14:8-20; 16:11-40; 27:1-44).
 
-Hechos está jalonado por los poderosos discursos de Pedro, Esteban, Jacobo y Pablo (2:14-40; 7:2-53; 15:13-21; 22:3-21). Los variados estilos literarios de Hechos se ajustan a los ambientes culturales de una manera notable. El sermón de Pedro el día de Pentecostés tiene un carácter marcadamente judío (2:14-40), mientras que la predicación de Pablo ante los cultos filósofos griegos en Atenas usa las formas de la oratoria griega (17:22-31). Todas estas características respaldan la autenticidad histórica del libro, así como la habilidad literaria de su autor.
+Hechos está jalonado por los poderosos discursos de Pedro, Esteban, Santiago y Pablo (2:14-40; 7:2-53; 15:13-21; 22:3-21). Los variados estilos literarios de Hechos se ajustan a los ambientes culturales de una manera notable. El sermón de Pedro el día de Pentecostés tiene un carácter marcadamente judío (2:14-40), mientras que la predicación de Pablo ante los cultos filósofos griegos en Atenas usa las formas de la oratoria griega (17:22-31). Todas estas características respaldan la autenticidad histórica del libro, así como la habilidad literaria de su autor.
 
 Significado y mensaje
 
@@ -79,7 +79,7 @@ Cronología de la era apostólica
 
 Los acontecimientos de la era apostólica son difíciles de fechar porque se hacen pocas afirmaciones precisas acerca del tiempo. Muchos acontecimientos, sin embargo, pueden correlacionarse con fechas conocidas del mundo romano.
 
-Acontecimientos del 30 al 50 d. C. Sabemos por fuentes romanas que Herodes Agripa I murió en el 44 d. C. (Hch 12:23), de modo que su ejecución del apóstol Jacobo y el encarcelamiento de Pedro (12:2-17) debieron de ocurrir antes de esa fecha.
+Acontecimientos del 30 al 50 d. C. Sabemos por fuentes romanas que Herodes Agripa I murió en el 44 d. C. (Hch 12:23), de modo que su ejecución del apóstol Santiago y el encarcelamiento de Pedro (12:2-17) debieron de ocurrir antes de esa fecha.
 
 La hambruna profetizada por Agabo sobrevino a Judea durante el reinado del emperador Claudio (11:28-29). Cuando la iglesia de Antioquía envió ayuda para la hambruna a la iglesia de Jerusalén, Bernabé y Pablo fueron designados para llevar el dinero (11:29-30). Fue el segundo viaje de Pablo a Jerusalén después de su conversión. El historiador judío Josefo fecha la hambruna entre el 46 y el 48 d. C.
 
@@ -89,7 +89,7 @@ Acontecimientos del 50 al 70 d. C. Festo reemplazó a Félix como gobernador de 
 
 Después de que Festo llegó en el verano del 59 d. C., Pablo compareció pronto a juicio y apeló a César (25:1-12). El viaje a Roma comenzó, lo más probable, en el otoño del 59 d. C. (27:2) y terminó a principios del 60 d. C. (28:11-16). Pablo permaneció en Roma «dos años enteros» (28:30). El Nuevo Testamento no informa el resultado del juicio de Pablo, pero probablemente fue puesto en libertad, luego capturado de nuevo y martirizado en Roma junto con Pedro y muchos otros durante la persecución de Nerón (alrededor del 64–65 d. C.).
 
-En Jerusalén, Jacobo, el hermano de Jesús, fue apedreado hasta la muerte por las autoridades judías en el 62 d. C. (Josefo, Antigüedades 20.9.1). No mucho después, la iglesia de Jerusalén dejó aquella ciudad condenada y se estableció en Pela, una de las ciudades de la Decápolis al este del Jordán. Así, cuando estalló la guerra entre los judíos y los romanos en el 66 d. C., los cristianos escaparon en gran medida de su furia. La guerra terminó en el 70 d. C., cuando Jerusalén y el templo fueron destruidos.
+En Jerusalén, Santiago, el hermano de Jesús, fue apedreado hasta la muerte por las autoridades judías en el 62 d. C. (Josefo, Antigüedades 20.9.1). No mucho después, la iglesia de Jerusalén dejó aquella ciudad condenada y se estableció en Pela, una de las ciudades de la Decápolis al este del Jordán. Así, cuando estalló la guerra entre los judíos y los romanos en el 66 d. C., los cristianos escaparon en gran medida de su furia. La guerra terminó en el 70 d. C., cuando Jerusalén y el templo fueron destruidos.
 
 Acontecimientos del 70 al 100 d. C. Los escritores del Nuevo Testamento y otros cristianos primitivos dejaron pocos registros del período posterior a la destrucción de Jerusalén. Es posible que tanto Mateo como Lucas escribieran después del 70 d. C., pero no escribieron acerca de los acontecimientos que ocurrieron después del 70 d. C. De manera semejante, el apóstol Juan probablemente escribió su Evangelio y tres cartas cerca del 90 d. C., pero de esos escritos aprendemos pocos datos concretos sobre la iglesia de finales del siglo I. Si el Apocalipsis se escribió a principios de los años 90 d. C., entonces nos da un vistazo de lo que enfrentaban las iglesias de Asia Menor en aquel tiempo (ver la introducción del libro de Apocalipsis, «Fecha de redacción»).
 
