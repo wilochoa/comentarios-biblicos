@@ -29,7 +29,7 @@
 | deceiver | engañador | tyndale/GEN/3 |
 | theophany | teofanía | tyndale/GEN/3, tyndale/GEN/16 |
 | cherubim | querubines | tyndale/GEN/3 |
-| wordplay | juego de palabras | tyndale/GEN/3, tyndale/GEN/15, tyndale/GEN/17 |
+| wordplay | juego de palabras | tyndale/GEN/3, tyndale/GEN/15, tyndale/GEN/17, tyndale/ISA/63, tyndale/ISA/65 |
 | second Adam | segundo Adán | tyndale/GEN/3 |
 | flood | diluvio | tyndale/GEN/5, tyndale/GEN/6, tyndale/GEN/7, tyndale/GEN/8 |
 | sons of God | hijos de Dios | tyndale/GEN/6 |
@@ -57,3 +57,13 @@
 | sister story | relato de la hermana | tyndale/GEN/20 |
 | tamarisk | tamarisco | tyndale/GEN/21 |
 | Festival of Unleavened Bread | fiesta de los Ázimos | tyndale/JHN/19 |
+| Folly | Necedad | tyndale/PRO/5, tyndale/PRO/8, tyndale/PRO/9 |
+| folly | necedad | tyndale/PRO/1 |
+| mocker | burlador | tyndale/PRO/1, tyndale/PRO/9 |
+| immoral woman | mujer inmoral | tyndale/PRO/2, tyndale/PRO/5, tyndale/PRO/6, tyndale/PRO/7 |
+| promiscuous | promiscuo | tyndale/PRO/2, tyndale/PRO/7 |
+| common sense | sentido común | tyndale/PRO/2, tyndale/PRO/3 |
+| Sheol | Seol | tyndale/PRO/1 |
+| necromancy | nigromancia | tyndale/ISA/65 |
+| number parallelism | paralelismo numérico | tyndale/PRO/6 |
+| antithetical parallelism | paralelismo antitético | tyndale/PRO/10 |
