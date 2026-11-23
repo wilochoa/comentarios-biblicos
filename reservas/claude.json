@@ -652,5 +652,9 @@
       "archivo": "traducciones/tyndale/LEV/13.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/EXO/23#v1-v33",
+    "tyndale/EXO/24#v1-v17",
+    "tyndale/EXO/25#v1-v31"
+  ]
 }
