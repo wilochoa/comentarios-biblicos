@@ -8,3 +8,8 @@
 | non-believing Jews | judíos incrédulos | tyndale ACT 9 |
 | the Way | el Camino | tyndale ACT 9 |
 | Son of Encouragement | Hijo de Consolación | tyndale ACT 9 |
+| Areopagus | Areópago | tyndale ACT 17 |
+| household codes | códigos domésticos | tyndale ACT 17 |
+| Epicurean | epicúreo | tyndale ACT 17 |
+| Stoic | estoico | tyndale ACT 17 |
+| Egnatian Way | vía Egnatia | tyndale ACT 17 |
