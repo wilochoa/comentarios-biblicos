@@ -1453,6 +1453,9 @@
     "tyndale/ISA/11#v1-v15",
     "tyndale/ISA/12#v1-v6",
     "tyndale/ISA/13#v1-v20",
-    "tyndale/ISA/14#v1-v32"
+    "tyndale/ISA/14#v1-v32",
+    "tyndale/ISA/15#v1-v9",
+    "tyndale/ISA/16#v1-v14",
+    "tyndale/ISA/17#v1-v14"
   ]
 }
