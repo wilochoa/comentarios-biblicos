@@ -184,3 +184,49 @@
 | Parthians, Medes, Elamites | partos, medos, elamitas | tyndale/ACT/2 |
 | Cappadocia, Pontus, Phrygia, Pamphylia | Capadocia, Ponto, Frigia, Panfilia | tyndale/ACT/2 |
 | Cretans | cretenses | tyndale/ACT/2 |
+| pre-incarnate glory | gloria preexistente | tyndale/MRK/9 |
+| Gaulanitis | Gaulanítide | tyndale/MRK/8 |
+| Dalmanutha | Dalmanuta | tyndale/MRK/8 |
+| Magadan | Magadán | tyndale/MRK/8 |
+| Machaerus | Maqueronte | tyndale/MRK/10 |
+| Bartimaeus | Bartimeo | tyndale/MRK/10 |
+| Rabbi Shammai / Rabbi Hillel | rabino Shamai / rabino Hilel | tyndale/MRK/10 |
+| vicarious | vicario | tyndale/MRK/10 |
+| hyperbole | hipérbole | tyndale/MRK/10 |
+| synoptic Gospels | Evangelios sinópticos | tyndale/MRK/11 |
+| denarius | denario | tyndale/MRK/12 |
+| Didache | Didajé | tyndale/MRK/12 |
+| Babylonian Talmud | Talmud de Babilonia | tyndale/MRK/12 |
+| Tobit | Tobías | tyndale/MRK/12 |
+| Sukkah (tratado) | Sukká | tyndale/MRK/13 |
+| wadi | uadi | tyndale/MRK/13 |
+| blitzkrieg | guerra relámpago | tyndale/MRK/13 |
+| pretender (messianic) | pretendiente | tyndale/MRK/13 |
+| parousia | parusía | tyndale/MRK/13 |
+| Caligula | Calígula | tyndale/MRK/13 |
+| Eusebius | Eusebio | tyndale/MRK/13 |
+| Nisan | Nisán | tyndale/MRK/14 |
+| kangaroo court | tribunal amañado | tyndale/MRK/14 |
+| Bar Kokhba | Bar Kojba | tyndale/MRK/14 |
+| Magnificat | Magníficat | tyndale/LUK/1 |
+| Benedictus | Benedictus | tyndale/LUK/1 |
+| anthropomorphism | antropomorfismo | tyndale/LUK/1 |
+| bar mitzvah | *bar mitzvah* (cursiva) | tyndale/LUK/2 |
+| Pax Romana | *Pax Romana* («Paz Romana») | tyndale/LUK/2 |
+| co-emperor | coemperador | tyndale/LUK/3 |
+| guest of honor | invitado de honor | tyndale/LUK/5 |
+| dragnet | red de arrastre | tyndale/LUK/5 |
+| wineskins | odres | tyndale/LUK/5 |
+| Hansen's disease | enfermedad de Hansen | tyndale/LUK/5 |
+| Golden Rule | regla de oro | tyndale/LUK/6 |
+| Bread of the Presence | pan de la Presencia | tyndale/LUK/6 |
+| dowry | dote | tyndale/LUK/15 |
+| excommunication | excomunión | tyndale/LUK/15 |
+| dignitary | dignatario | tyndale/LUK/15 |
+| mulberry tree | morera | tyndale/LUK/17 |
+| millstone | piedra de molino | tyndale/LUK/17 |
+| bath / cor (medidas) | bato / coro | tyndale/LUK/16 |
+| Olivet Discourse | discurso del monte de los Olivos | tyndale/LUK/21 |
+| Archelaus | Arquelao | tyndale/LUK/19 |
+| Bethphage | Betfagé | tyndale/LUK/19 |
+| chief tax collector | jefe de los recaudadores de impuestos | tyndale/LUK/19 |
