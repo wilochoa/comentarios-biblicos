@@ -64,3 +64,10 @@
 | Jotham | Jotam | tyndale ISA 7 |
 | Esarhaddon | Esar-hadón | tyndale ISA 7 |
 | vassal state | estado vasallo | tyndale ISA 7 |
+| Tiglath-pileser III | Tiglat-pileser III | tyndale ISA 9 |
+| Syro-Ephraimite War | guerra siro-efraimita | tyndale ISA 9 |
+| Wonderful Counselor | Admirable Consejero | tyndale ISA 9 |
+| Mighty God | Dios fuerte | tyndale ISA 9 |
+| Everlasting Father | Padre eterno | tyndale ISA 9 |
+| Prince of Peace | Príncipe de paz | tyndale ISA 9 |
+| vindication of the oppressed | vindicación de los oprimidos | tyndale ISA 9 |
