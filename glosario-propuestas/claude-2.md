@@ -28,3 +28,8 @@
 | epigram | epigrama | tyndale HEB 4 |
 | guarantor | garante | tyndale HEB 7 |
 | supersede | suplantar | tyndale HEB 7 |
+| Greco-Roman | grecorromano | tyndale HEB 12 |
+| vindicator | vindicador | tyndale HEB 12 |
+| godless | impío | tyndale HEB 12 |
+| hostility | hostilidad | tyndale HEB 12 |
+| confident trust | confianza segura | tyndale HEB 10 |
