@@ -36,3 +36,8 @@
 | authorial plural | plural de autor | tyndale HEB 13 |
 | peace offering | ofrenda de paz | tyndale HEB 13 |
 | thank offering | ofrenda de gratitud | tyndale HEB 13 |
+| slave-wife | esposa esclava | tyndale GAL 4 |
+| freeborn wife | esposa libre | tyndale GAL 4 |
+| midwife | partera | tyndale GAL 4 |
+| stillbirth | mortinato | tyndale GAL 4 |
+| underage heirs | herederos menores de edad | tyndale GAL 4 |
