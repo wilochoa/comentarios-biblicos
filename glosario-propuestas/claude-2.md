@@ -71,3 +71,11 @@
 | Everlasting Father | Padre eterno | tyndale ISA 9 |
 | Prince of Peace | Príncipe de paz | tyndale ISA 9 |
 | vindication of the oppressed | vindicación de los oprimidos | tyndale ISA 9 |
+| Shebna | Sebna | tyndale ISA 22 |
+| Eliakim | Eliaquim | tyndale ISA 22 |
+| Kidron | Cedrón | tyndale ISA 22 |
+| Hinnom | Hinom | tyndale ISA 22 |
+| Kir | Kir | tyndale ISA 22 |
+| palace administrator | administrador del palacio | tyndale ISA 22 |
+| court secretary | secretario de la corte | tyndale ISA 22 |
+| battering rams | arietes | tyndale ISA 22 |
