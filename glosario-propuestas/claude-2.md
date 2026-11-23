@@ -13,3 +13,7 @@
 | Epicurean | epicúreo | tyndale ACT 17 |
 | Stoic | estoico | tyndale ACT 17 |
 | Egnatian Way | vía Egnatia | tyndale ACT 17 |
+| Artemis | Artemisa | tyndale ACT 19 |
+| Asiarchs | asiarcas | tyndale ACT 19 |
+| emperor cult | culto al emperador | tyndale ACT 19 |
+| exorcist | exorcista | tyndale ACT 19 |
