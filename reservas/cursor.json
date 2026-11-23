@@ -490,6 +490,9 @@
     "tyndale/ISA/61#v1-v10",
     "tyndale/ISA/62#v1-v10",
     "tyndale/ISA/63#v1-v19",
-    "tyndale/ISA/64#v5-v10"
+    "tyndale/ISA/64#v5-v10",
+    "tyndale/ISA/65#v1-v25",
+    "tyndale/ISA/66#v1-v24",
+    "tyndale/PRO/1#v1-v33"
   ]
 }
