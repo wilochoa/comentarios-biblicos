@@ -484,5 +484,9 @@
       "archivo": "traducciones/tyndale/PRO/12.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/ISA/59#v1-v21",
+    "tyndale/ISA/60#v1-v22",
+    "tyndale/ISA/61#v1-v10"
+  ]
 }
