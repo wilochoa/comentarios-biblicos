@@ -788,5 +788,9 @@
       "archivo": "traducciones/tyndale/COL/1.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/PRO/13#v1-v24",
+    "tyndale/PRO/14#v1-v34",
+    "tyndale/PRO/15#v1-v33"
+  ]
 }
