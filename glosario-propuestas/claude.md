@@ -231,3 +231,22 @@
 | Bethphage | Betfagé | tyndale/LUK/19 |
 | chief tax collector | jefe de los recaudadores de impuestos | tyndale/LUK/19 |
 | James (apóstol, hermano de Jesús) | Santiago (decidido: no «Jacobo», aunque la RVA lo use) | tyndale/Evangelios y Hechos |
+| flagpole | mástil | tyndale/ISA/30 |
+| Topheth | Tofet | tyndale/ISA/30 |
+| Ben-Hinnom | Ben-hinom | tyndale/ISA/30 |
+| Molech | Moloc | tyndale/ISA/30 |
+| Ahaz | Acaz | tyndale/ISA/30 |
+| Zoan | Zoán | tyndale/ISA/30 |
+| Highway of Holiness | Camino de Santidad | tyndale/ISA/35 |
+| chief of staff | jefe de estado mayor | tyndale/ISA/36 |
+| lingua franca | lengua franca | tyndale/ISA/36 |
+| vassalage | vasallaje | tyndale/ISA/36 |
+| Assyrian Empire | Imperio asirio | tyndale/ISA/36 |
+| burlap | ropa de saco | tyndale/ISA/37 |
+| Esarhaddon | Esarhadón | tyndale/ISA/37 |
+| Kedar | Cedar (forma RVA) | tyndale/ISA/42 |
+| hubris | soberbia | tyndale/ISA/47 |
+| occult practices | prácticas ocultistas | tyndale/ISA/47 |
+| witchcraft | hechicería | tyndale/ISA/47 |
+| stargazers | observadores de las estrellas | tyndale/ISA/47 |
+| emasculated person | persona castrada | tyndale/ISA/56 |
