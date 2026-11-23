@@ -19,3 +19,8 @@
 | exorcist | exorcista | tyndale ACT 19 |
 | Straits of Messina | estrecho de Mesina | tyndale ACT 28 |
 | Rhegium | Regio | tyndale ACT 28 |
+| Most Holy Place | Lugar Santísimo | tyndale LUK 23 |
+| Holy Place | Lugar Santo | tyndale LUK 23 |
+| Church of the Holy Sepulchre | Iglesia del Santo Sepulcro | tyndale LUK 23 |
+| ossuary | osario | tyndale LUK 23 |
+| Golgotha | Gólgota | tyndale LUK 23 |

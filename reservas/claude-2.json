@@ -1417,5 +1417,9 @@
       "archivo": "traducciones/tyndale/ISA/28.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/LUK/22#v1-v71",
+    "tyndale/LUK/23#v1-v55",
+    "tyndale/LUK/24#v1-v53"
+  ]
 }
