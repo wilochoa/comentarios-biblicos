@@ -804,5 +804,9 @@
       "archivo": "traducciones/tyndale/MRK/7.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/ACT/6#v1-v15",
+    "tyndale/ACT/7#v1-v59",
+    "tyndale/ACT/8#v1-v39"
+  ]
 }
