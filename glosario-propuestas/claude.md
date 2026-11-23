@@ -270,6 +270,6 @@
 | Advocate | Abogado | tyndale/1JN/1 |
 | Word of life | el Verbo de vida | tyndale/1JN/1 |
 | Cerinthus | Cerinto | tyndale/1JN/5 |
-| NLT | NTV | tyndale/1JN/5 |
+| NLT (traducción inglesa citada en las notas) | NLT (se deja la sigla) | tyndale/1JN/5, EXO/3 |
 | King James Version | Versión del Rey Jaime | tyndale/1JN/5 |
 | Textus Receptus | Textus Receptus (en latín) | tyndale/1JN/5 |
