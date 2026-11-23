@@ -17,3 +17,5 @@
 | Asiarchs | asiarcas | tyndale ACT 19 |
 | emperor cult | culto al emperador | tyndale ACT 19 |
 | exorcist | exorcista | tyndale ACT 19 |
+| Straits of Messina | estrecho de Mesina | tyndale ACT 28 |
+| Rhegium | Regio | tyndale ACT 28 |
