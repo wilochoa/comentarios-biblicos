@@ -26,3 +26,5 @@
 | Golgotha | Gólgota | tyndale LUK 23 |
 | Day of Atonement | Día de la Expiación | tyndale HEB 4 |
 | epigram | epigrama | tyndale HEB 4 |
+| guarantor | garante | tyndale HEB 7 |
+| supersede | suplantar | tyndale HEB 7 |
