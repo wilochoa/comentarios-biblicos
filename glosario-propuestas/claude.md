@@ -278,7 +278,7 @@
 | temporary residents and foreigners | extranjeros y peregrinos (cita RVA) | tyndale/1PE/2 |
 | Roman Empire | Imperio romano | tyndale/1PE/2 |
 | Hardened Hearts (nota temática) | «Corazones endurecidos» | tyndale/EXO/3, 7 |
-| Clean, Unclean, and Holy (nota temática) | «Lo limpio, lo impuro y lo santo» | tyndale/EXO/3 |
+| Clean, Unclean, and Holy (nota temática) | «Limpio, inmundo y santo» | tyndale/EXO/3 |
 | Complete Dedication (nota temática) | «Dedicación completa» | tyndale/EXO/22 |
 | Amram | Amram | tyndale/EXO/2 |
 | Jochebed | Jocabed | tyndale/EXO/2, 6 |
@@ -327,3 +327,61 @@
 | law of retaliation | ley de la retaliación | tyndale/EXO/21 |
 | place of refuge | lugar de refugio | tyndale/EXO/21 |
 | collateral / security | prenda / garantía | tyndale/EXO/22 |
+| Festival of Harvest | fiesta de la Cosecha | tyndale/EXO/23, LEV/2 |
+| Festival of the Final Harvest | fiesta de la Cosecha Final | tyndale/EXO/23 |
+| Covenant Lord | Señor del pacto | tyndale/EXO/23 |
+| sacred pillars | columnas sagradas | tyndale/EXO/23 |
+| Amorites | amorreos | tyndale/EXO/23 |
+| postbiblical Judaism | judaísmo posterior a la Biblia | tyndale/EXO/23 |
+| washbasin | pila | tyndale/EXO/25, 27, 30, 38 |
+| lampstand | candelero | tyndale/EXO/25 |
+| covenant box | caja del pacto | tyndale/EXO/25 |
+| courtyard (del tabernáculo) | atrio | tyndale/EXO/25, 27, LEV/1, 4 |
+| altar of incense | altar del incienso | tyndale/EXO/25, LEV/4 |
+| gold calf | becerro de oro | tyndale/EXO/25, 32 |
+| ephod | efod | tyndale/EXO/28 |
+| breastpiece / chestpiece | pectoral | tyndale/EXO/28, LEV/8 |
+| Urim and Thummim | Urim y Tumim | tyndale/EXO/28 |
+| turban | turbante | tyndale/EXO/28 |
+| medallion | placa | tyndale/EXO/28, 39 |
+| robe (del sacerdote) | manto | tyndale/EXO/28 |
+| tunic | túnica | tyndale/EXO/28 |
+| trim the lamp | despabilar la lámpara | tyndale/EXO/28 |
+| linen curtain | cortina de lino | tyndale/EXO/26 |
+| goat-hair cloth | tela de pelo de cabra | tyndale/EXO/26 |
+| Tent of Meeting | Tienda de reunión | tyndale/EXO/27, 33 |
+| altar of burnt offering | altar del holocausto | tyndale/EXO/27, 38 |
+| bronze altar | altar de bronce | tyndale/LEV/4 |
+| guy wires | tensores | tyndale/EXO/27 |
+| horns of the altar | cuernos del altar | tyndale/EXO/27 |
+| sin offering | ofrenda por el pecado | tyndale/EXO/29, LEV/4 |
+| ordination offering | ofrenda de ordenación | tyndale/EXO/29, LEV/6 |
+| sacrificial system | sistema de sacrificios | tyndale/EXO/29 |
+| sanctuary shekel | siclo del santuario | tyndale/EXO/38, LEV/5 |
+| Tabernacle of the Covenant | tabernáculo del pacto | tyndale/EXO/38 |
+| guilt offering | ofrenda por la culpa | tyndale/LEV/1, 5 |
+| grain offering | ofrenda de grano | tyndale/LEV/1, 2 (no «cereal») |
+| special gift ('isheh) | regalo especial | tyndale/LEV/1, 3 |
+| suet | sebo | tyndale/LEV/1 |
+| fire offerings | ofrendas por fuego | tyndale/LEV/2 |
+| choice flour | flor de harina | tyndale/LEV/2 |
+| frankincense | incienso | tyndale/LEV/2 |
+| griddle | plancha | tyndale/LEV/2 |
+| offering of the first crops | ofrenda de las primeras cosechas | tyndale/LEV/2 |
+| layperson / lay leader | laico / líder laico | tyndale/LEV/4 |
+| Community Identity (nota temática) | «Identidad comunitaria» | tyndale/LEV/4 |
+| wave offering / heave offering | ofrenda mecida / ofrenda elevada | tyndale/LEV/7 |
+| thanksgiving offering | ofrenda de acción de gracias | tyndale/LEV/7 |
+| vow offering | ofrenda del voto | tyndale/LEV/7 |
+| piggul | contaminado | tyndale/LEV/7 |
+| Council at Jerusalem | concilio de Jerusalén | tyndale/LEV/7 |
+| restitution | restitución | tyndale/LEV/5, 6 |
+| surcharge | recargo | tyndale/LEV/5 |
+| unclean | inmundo | tyndale/LEV/5, 11 |
+| hyrax | damán | tyndale/LEV/11 |
+| cud | rumiar | tyndale/LEV/11 |
+| split hooves | pezuña hendida | tyndale/LEV/11 |
+| crustaceans / mollusks | crustáceos / moluscos | tyndale/LEV/11 |
+| carcass | cadáver (de animal) | tyndale/LEV/11 |
+| cistern | cisterna | tyndale/LEV/11 |
+| purification offering | ofrenda de purificación | tyndale/LEV/12 |
