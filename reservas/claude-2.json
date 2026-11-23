@@ -1,8 +1,8 @@
 {
   "quien": "claude-2",
   "modelo": "Claude",
-  "desde": "2026-11-23T01:15:58.423Z",
-  "vence": "2026-11-23T13:15:58.423Z",
+  "desde": "2026-11-23T01:17:26.490Z",
+  "vence": "2026-11-23T13:17:26.490Z",
   "tramos": [
     {
       "id": "tyndale/LUK/22#v1-v71",
