@@ -1143,5 +1143,15 @@
       "archivo": "traducciones/tyndale/LUK/21.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/MRK/8#v1-v38",
+    "tyndale/MRK/9#v1-v49",
+    "tyndale/MRK/10#v1-v52",
+    "tyndale/MRK/11#v1-v33",
+    "tyndale/MRK/12#v1-v43",
+    "tyndale/MRK/13#v1-v37",
+    "tyndale/MRK/14#v1-v72",
+    "tyndale/MRK/15#v1-v46",
+    "tyndale/MRK/16#v1-v9"
+  ]
 }
