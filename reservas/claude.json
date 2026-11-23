@@ -715,5 +715,9 @@
       "archivo": "traducciones/tyndale/ISA/58.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/ISA/29#v1-v22",
+    "tyndale/ISA/30#v1-v33",
+    "tyndale/ISA/31#v1-v9"
+  ]
 }
