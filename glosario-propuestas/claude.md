@@ -273,3 +273,57 @@
 | NLT (traducción inglesa citada en las notas) | NLT (se deja la sigla) | tyndale/1JN/5, EXO/3 |
 | King James Version | Versión del Rey Jaime | tyndale/1JN/5 |
 | Textus Receptus | Textus Receptus (en latín) | tyndale/1JN/5 |
+| IOU | pagaré | tyndale/COL/2 |
+| keystone | piedra clave | tyndale/1PE/2 |
+| temporary residents and foreigners | extranjeros y peregrinos (cita RVA) | tyndale/1PE/2 |
+| Roman Empire | Imperio romano | tyndale/1PE/2 |
+| Hardened Hearts (nota temática) | «Corazones endurecidos» | tyndale/EXO/3, 7 |
+| Clean, Unclean, and Holy (nota temática) | «Lo limpio, lo impuro y lo santo» | tyndale/EXO/3 |
+| Complete Dedication (nota temática) | «Dedicación completa» | tyndale/EXO/22 |
+| Amram | Amram | tyndale/EXO/2 |
+| Jochebed | Jocabed | tyndale/EXO/2, 6 |
+| Reuel | Reuel | tyndale/EXO/2 |
+| Jethro | Jetro | tyndale/EXO/2 |
+| Ahmose | Amosis | tyndale/EXO/2 |
+| Thutmose | Tutmosis | tyndale/EXO/2 |
+| Midian | Madián | tyndale/EXO/2 |
+| Gulf of Aqaba | golfo de Aqaba | tyndale/EXO/2 |
+| papyrus reeds | cañas de papiro | tyndale/EXO/2 |
+| 18th Dynasty | dinastía 18 | tyndale/EXO/1, 2 |
+| Kohath | Coat | tyndale/EXO/6 |
+| Gershon | Gersón | tyndale/EXO/6 |
+| Izhar | Izhar | tyndale/EXO/6 |
+| Uzziel | Uziel | tyndale/EXO/6 |
+| Jannes and Jambres | Janes y Jambres | tyndale/EXO/7 |
+| gnats | mosquitos | tyndale/EXO/7, 8 |
+| sleight of hand | juego de manos | tyndale/EXO/7 |
+| vermin | sabandijas | tyndale/EXO/8 |
+| frogs | ranas | tyndale/EXO/8 |
+| flies | moscas | tyndale/EXO/8 |
+| emmer wheat | escanda | tyndale/EXO/10 |
+| Osiris | Osiris | tyndale/EXO/10 |
+| Amon-Re | Amón-Ra | tyndale/EXO/10 |
+| Goshen | Gosén | tyndale/EXO/8, 10 |
+| firstborn | primogénito | tyndale/EXO/11, 13 |
+| Festival of Unleavened Bread | fiesta de los Panes sin Levadura | tyndale/EXO/12, 13 |
+| Sea of Reeds | mar de las Cañas | tyndale/EXO/13 |
+| Gulf of Suez | golfo de Suez | tyndale/EXO/13 |
+| Nile delta | delta del Nilo | tyndale/EXO/13 |
+| Succoth / Etham | Sucot / Etam | tyndale/EXO/12, 13 |
+| Samaritan Pentateuch | Pentateuco Samaritano | tyndale/EXO/12 |
+| hyssop | hisopo | tyndale/EXO/12 |
+| Nisan | Nisán | tyndale/EXO/12 |
+| Philistia | Filistea | tyndale/EXO/15 |
+| desert of Shur | desierto de Shur | tyndale/EXO/15 |
+| Marah | Mara | tyndale/EXO/15 |
+| He Who Is (Yahweh) | «El que es» | tyndale/EXO/15 |
+| Amalek / Amalekites | Amalec / amalecitas | tyndale/EXO/17 |
+| theophany | teofanía | tyndale/EXO/19 |
+| ram's horn | cuerno de carnero | tyndale/EXO/19 |
+| intermediary | intermediario/a | tyndale/EXO/19 |
+| bride-price | dote nupcial | tyndale/EXO/21 |
+| case-law | derecho casuístico | tyndale/EXO/21 |
+| lex talionis | *lex talionis* (cursiva) | tyndale/EXO/21 |
+| law of retaliation | ley de la retaliación | tyndale/EXO/21 |
+| place of refuge | lugar de refugio | tyndale/EXO/21 |
+| collateral / security | prenda / garantía | tyndale/EXO/22 |
