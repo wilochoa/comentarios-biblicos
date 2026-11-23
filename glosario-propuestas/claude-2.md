@@ -46,3 +46,11 @@
 | Uzziah | Uzías | tyndale ISA 2 |
 | day of reckoning | día del ajuste de cuentas | tyndale ISA 2 |
 | warhorses | caballos de guerra | tyndale ISA 2 |
+| Theme Note | nota temática | tyndale ISA 3 |
+| prosecutor | fiscal | tyndale ISA 3 |
+| Song of the Vineyard | Cantar de la viña | tyndale ISA 5 |
+| thugs | matones | tyndale ISA 5 |
+| theophany | teofanía | tyndale ISA 5 |
+| signal | señal / estandarte | tyndale ISA 5 |
+| self-indulgent | complaciente / desenfrenado | tyndale ISA 5 |
+| Maher-shalal-hash-baz | Maher-salal-hasbaz | tyndale ISA 5 |
