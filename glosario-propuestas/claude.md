@@ -581,3 +581,7 @@
 | Zobah | Soba | tyndale/2SA/10 |
 | Arkite | arquita | tyndale/2SA/15 |
 | double agent | agente doble | tyndale/2SA/15 |
+| guerrilla tactics | tácticas de guerrilla | tyndale/2SA/17 |
+| military conscription | conscripción militar | tyndale/2SA/17 |
+| Kimham | Quimam | tyndale/2SA/19 |
+| Barzillai | Barzilai | tyndale/2SA/19 |
