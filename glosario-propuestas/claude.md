@@ -612,3 +612,8 @@
 | Ethanim | Etanim | tyndale/1KI/8 |
 | Lebo-hamath | Lebo-hamat | tyndale/1KI/8 |
 | Brook of Egypt | Torrente de Egipto | tyndale/1KI/8 |
+| wadi | uadi | tyndale/1KI/13 |
+| provisional capital | capital provisional | tyndale/1KI/12 |
+| Mesha Stela / Moabite Stone | Estela de Mesa / Piedra Moabita | tyndale/1KI/11 |
+| Aram-zobah | Aram-soba | tyndale/1KI/11 |
+| Rezon | Rezón | tyndale/1KI/11 |
