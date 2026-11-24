@@ -632,3 +632,99 @@
 | Battle of Qarqar | batalla de Qarqar | tyndale/1KI/20 |
 | pincer movement | movimiento de pinza | tyndale/1KI/20 |
 | parity agreements | acuerdos de paridad | tyndale/1KI/20 |
+| Aramean | arameo | tyndale/2KI/5, 10; 1CH/18 |
+| citadel | ciudadela | tyndale/2KI/5 |
+| Gehazi | Giezi | tyndale/2KI/5, 8 |
+| Naaman | Naamán | tyndale/2KI/5 |
+| Rimmon | Rimón | tyndale/2KI/5 |
+| Shalmaneser III | Salmanasar III | tyndale/2KI/8 |
+| Ben-hadad | Ben-adad | tyndale/2KI/8 |
+| Naboth | Nabot | tyndale/2KI/8 |
+| Ramoth-gilead | Ramot de Galaad | tyndale/2KI/8 |
+| Libnah | Libna | tyndale/2KI/8 |
+| Arabians | árabes | tyndale/2KI/8 |
+| co-regent | corregente | tyndale/2KI/8, 14, 15 |
+| Kenite | queneo | tyndale/2KI/10 |
+| Asherah pole | poste de Asera | tyndale/2KI/10, 17 |
+| Beth-eked | Bet-equed | tyndale/2KI/10 |
+| Jehonadab | Jonadab | tyndale/2KI/10 |
+| Jenin | Jenín | tyndale/2KI/10 |
+| public toilet | excusado público | tyndale/2KI/10 |
+| decapitation | decapitar | tyndale/2KI/10 |
+| Jehosheba | Josaba | tyndale/2KI/11 |
+| Zibiah | Zibia | tyndale/2KI/11 |
+| Carites | carios | tyndale/2KI/11 |
+| Ramat Rahel | Ramat Rajel | tyndale/2KI/11 |
+| Aegean | Egeo | tyndale/2KI/11 |
+| Gittaim | Gitaim | tyndale/2KI/12 |
+| Gath | Gat | tyndale/2KI/12 |
+| census tax | impuesto del censo | tyndale/2KI/12 |
+| Levitical levies | tributos levíticos | tyndale/2KI/12 |
+| ostraca | ostracas | tyndale/2KI/14 |
+| thistle | cardo | tyndale/2KI/14 |
+| Tiglath-pileser | Tiglat-pileser | tyndale/2KI/15, 16; 1CH/5 |
+| Uzziah | Uzías | tyndale/2KI/15 |
+| Jotham | Jotam | tyndale/2KI/15, 16 |
+| Menahem | Menahem | tyndale/2KI/15 |
+| Pekah | Peka | tyndale/2KI/15, 16; 1CH/5 |
+| Pekahiah | Pekaías | tyndale/2KI/15 |
+| Shallum | Salum | tyndale/2KI/15, 23 |
+| Zechariah | Zacarías | tyndale/2KI/15 |
+| Hoshea | Oseas | tyndale/2KI/15 |
+| Rezin | Resín | tyndale/2KI/15, 16 |
+| Ophel | Ofel | tyndale/2KI/15 |
+| anti-Assyrian coalition | coalición antiasiria | tyndale/2KI/15 |
+| Uriah | Urías | tyndale/2KI/16 |
+| Elath | Elat | tyndale/2KI/16 |
+| syncretistic worship | culto sincrético | tyndale/2KI/17 |
+| accession | ascenso al trono | tyndale/2KI/18 |
+| annals | anales | tyndale/2KI/18 |
+| Merodach-baladan | Merodac-baladán | tyndale/2KI/20 |
+| Sennacherib | Senaquerib | tyndale/2KI/19, 20 |
+| Pool of Siloam | estanque de Siloé | tyndale/2KI/20 |
+| virgin daughter | virgen hija | tyndale/2KI/19 |
+| Ethiopia | Etiopía | tyndale/2KI/19 |
+| Tirhakah | Tirhaca | tyndale/2KI/19 |
+| Neco | Necao | tyndale/2KI/23 |
+| Nabopolassar | Nabopolasar | tyndale/2KI/23 |
+| Jehoahaz | Joacaz | tyndale/2KI/10, 23 |
+| Eliakim | Eliacim | tyndale/2KI/23 |
+| Riblah | Ribla | tyndale/2KI/23, 25 |
+| Megiddo | Meguido | tyndale/2KI/23 |
+| Haran | Harán | tyndale/2KI/23 |
+| Maaseiah | Maasías | tyndale/2KI/23 |
+| cult prostitutes | prostitutas de los cultos paganos | tyndale/2KI/23 |
+| Book of the Covenant | libro del pacto | tyndale/2KI/23 |
+| siege ramps | rampas de asedio | tyndale/2KI/25 |
+| battering rams | arietes | tyndale/2KI/25 |
+| seal impression | impronta de sello | tyndale/2KI/25 |
+| Evil-merodach | Evil-merodac | tyndale/2KI/25 |
+| Nebuzaradan | Nabuzaradán | tyndale/2KI/25 |
+| Ahikam | Ahicam | tyndale/2KI/25 |
+| Shaphan | Safán | tyndale/2KI/25 |
+| Seraiah | Seraías | tyndale/2KI/25 |
+| Jehozadak | Josadac | tyndale/2KI/25 |
+| Huram of Tyre | Hiram de Tiro | tyndale/2KI/25 |
+| Mizpah | Mizpa | tyndale/2KI/25 |
+| Lachish | Laquis | tyndale/2KI/25 |
+| Ishmael | Ismael | tyndale/2KI/25 |
+| Johanan | Johanán | tyndale/2KI/25 |
+| Jezaniah | Jezanías | tyndale/2KI/25 |
+| Kidron Valley | valle del Cedrón | tyndale/2KI/25 |
+| Tell-en-Nasbeh | Tell en-Nasbeh | tyndale/2KI/25 |
+| Perez | Fares | tyndale/1CH/2 |
+| Zerah | Zera | tyndale/1CH/2 |
+| Shelah | Sela | tyndale/1CH/2 |
+| Hezron | Hezrón | tyndale/1CH/2 |
+| Kenaz | Cenaz | tyndale/1CH/2 |
+| Jephunneh | Jefone | tyndale/1CH/2 |
+| Raddai | Radai | tyndale/1CH/2 |
+| Nethanel | Natanael | tyndale/1CH/2 |
+| Kenizzites | cenezeos | tyndale/1CH/4 |
+| Complete Destruction (Theme Note) | nota temática «Destrucción total» | tyndale/1CH/4 |
+| Reubenites | rubenitas | tyndale/1CH/5 |
+| militia | milicia | tyndale/1CH/8 |
+| Book of the Kings of Israel | Libro de los Reyes de Israel | tyndale/1CH/9 |
+| secular | profano | tyndale/1CH/9 |
+| Hamath | Hamat | tyndale/1CH/18 |
+| Hadadezer | Hadad-ezer | tyndale/1CH/18 |
