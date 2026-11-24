@@ -585,3 +585,6 @@
 | military conscription | conscripción militar | tyndale/2SA/17 |
 | Kimham | Quimam | tyndale/2SA/19 |
 | Barzillai | Barzilai | tyndale/2SA/19 |
+| mercenaries | mercenarios | tyndale/1KI/1 |
+| bodyguard | guardia personal | tyndale/1KI/1 |
+| district governors | gobernadores de distrito | tyndale/1KI/1 |
