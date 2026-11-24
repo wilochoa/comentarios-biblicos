@@ -604,3 +604,11 @@
 | washbasin | lavamanos | tyndale/1KI/7 |
 | water carts | carros para el agua | tyndale/1KI/7 |
 | Shishak | Sisac | tyndale/1KI/7 |
+| sandalwood | sándalo | tyndale/1KI/10 |
+| cuneiform tablets | tablillas cuneiformes | tyndale/1KI/10 |
+| Lower Beth-horon | Bet-horón de abajo | tyndale/1KI/9 |
+| supporting terraces | terrazas de contención | tyndale/1KI/9 |
+| Holy Place | Lugar Santo | tyndale/1KI/8 |
+| Ethanim | Etanim | tyndale/1KI/8 |
+| Lebo-hamath | Lebo-hamat | tyndale/1KI/8 |
+| Brook of Egypt | Torrente de Egipto | tyndale/1KI/8 |
