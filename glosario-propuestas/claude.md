@@ -569,3 +569,11 @@
 | Esh-baal | Es-baal | tyndale/2SA/2 |
 | Ishbosheth | Is-boset | tyndale/2SA/2, 4 |
 | Ashurites | asuritas | tyndale/2SA/2 |
+| Sovereign Lord | Señor Soberano | tyndale/2SA/7 |
+| predatory nation | nación depredadora | tyndale/2SA/7 |
+| suzerain-vassal treaty | tratado entre soberano y vasallos | tyndale/2SA/5 |
+| water tunnel | túnel de agua | tyndale/2SA/5 |
+| Uzzah | Uza | tyndale/2SA/6 |
+| Perez-uzzah | Pérez-uza | tyndale/2SA/6 |
+| Kohath | Coat | tyndale/2SA/6 |
+| Gath-rimmon | Gat-rimón | tyndale/2SA/6 |
