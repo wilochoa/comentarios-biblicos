@@ -629,3 +629,6 @@
 | Kishon | Cisón | tyndale/1KI/18 |
 | storm-god | dios de la tormenta | tyndale/1KI/18 |
 | ecstatic | extático | tyndale/1KI/18 |
+| Battle of Qarqar | batalla de Qarqar | tyndale/1KI/20 |
+| pincer movement | movimiento de pinza | tyndale/1KI/20 |
+| parity agreements | acuerdos de paridad | tyndale/1KI/20 |
