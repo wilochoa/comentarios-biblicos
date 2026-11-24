@@ -1726,5 +1726,9 @@
       "archivo": "traducciones/tyndale/1SA/29.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/DEU/22#v1-v30",
+    "tyndale/DEU/23#v1-v24",
+    "tyndale/DEU/24#v1-v17"
+  ]
 }
