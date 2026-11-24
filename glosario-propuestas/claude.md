@@ -577,3 +577,5 @@
 | Perez-uzzah | Pérez-uza | tyndale/2SA/6 |
 | Kohath | Coat | tyndale/2SA/6 |
 | Gath-rimmon | Gat-rimón | tyndale/2SA/6 |
+| Beth-rehob | Bet-rehob | tyndale/2SA/10 |
+| Zobah | Soba | tyndale/2SA/10 |
