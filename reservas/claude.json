@@ -1010,5 +1010,9 @@
       "archivo": "traducciones/tyndale/1CH/27.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/2KI/3#v2-v27",
+    "tyndale/2KI/4#v1-v42",
+    "tyndale/2KI/5#v1-v25"
+  ]
 }
