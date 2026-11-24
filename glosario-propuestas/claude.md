@@ -579,3 +579,5 @@
 | Gath-rimmon | Gat-rimón | tyndale/2SA/6 |
 | Beth-rehob | Bet-rehob | tyndale/2SA/10 |
 | Zobah | Soba | tyndale/2SA/10 |
+| Arkite | arquita | tyndale/2SA/15 |
+| double agent | agente doble | tyndale/2SA/15 |
