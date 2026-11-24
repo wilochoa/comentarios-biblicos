@@ -557,3 +557,15 @@
 | new moon festival | fiesta de luna nueva | 1 S 20 |
 | medium (spirit) | médium | 1 S 28 |
 | spiritist | espiritista | 1 S 28 |
+| Beth-shan | Bet-seán | tyndale/1SA/31 |
+| armor bearer | escudero | tyndale/1SA/31 |
+| Malkishua | Melquisúa | tyndale/1SA/31, 2SA/1 |
+| Amalekite | amalecita | tyndale/2SA/1 |
+| Dagon | Dagón | tyndale/2SA/1 |
+| casualty count | número de bajas | tyndale/2SA/2 |
+| champion warfare | guerra de campeones | tyndale/2SA/2 |
+| ram's horn | cuerno de carnero | tyndale/2SA/2 |
+| blood vengeance | vengar la sangre | tyndale/2SA/2 |
+| Esh-baal | Es-baal | tyndale/2SA/2 |
+| Ishbosheth | Is-boset | tyndale/2SA/2, 4 |
+| Ashurites | asuritas | tyndale/2SA/2 |
