@@ -1136,5 +1136,9 @@
       "archivo": "traducciones/tyndale/DEU/21.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/NUM/8#v1-v23",
+    "tyndale/NUM/9#v1-v19",
+    "tyndale/NUM/10#v1-v36"
+  ]
 }
