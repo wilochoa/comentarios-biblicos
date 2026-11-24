@@ -625,3 +625,7 @@
 | Shiloh | Silo | tyndale/1KI/14 |
 | foundation offerings | ofrendas de fundación | tyndale/1KI/16 |
 | merism | merismo | tyndale/1KI/16 |
+| Kerith Brook | arroyo de Querit | tyndale/1KI/18 |
+| Kishon | Cisón | tyndale/1KI/18 |
+| storm-god | dios de la tormenta | tyndale/1KI/18 |
+| ecstatic | extático | tyndale/1KI/18 |
