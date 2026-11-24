@@ -516,3 +516,44 @@
 | medium | médium | tyndale/DEU/18 |
 | psychic | psíquico | tyndale/DEU/18 |
 | dietary fare | alimentación | tyndale/DEU/18 |
+| emasculation | emasculación | Dt 23 |
+| temple prostitute | prostituta del templo | Dt 23 |
+| Aram-naharaim | Aram-naharaim | Dt 23 |
+| Year of Release | año de la remisión | Dt 31 |
+| bond servants | siervos hebreos por deudas | Dt 31 |
+| petulant | molesto por capricho | Dt 32 |
+| Land of Promise | Tierra Prometida | Dt 32 |
+| wilderness sojourn | peregrinación por el desierto | Dt 32 |
+| Nabatean | nabateo | Dt 32 |
+| Book of Instruction | libro de la Instrucción | Jos 1 |
+| innkeeper / inn | mesonera / mesón | Jos 2 |
+| Gibeath-haaraloth | Gibeat-haaralot | Jos 5 |
+| pre-incarnate | preencarnado | Jos 5 |
+| honor guard | guardia de honor | Jos 6 |
+| covenant renewal ceremony | ceremonia de renovación del pacto | Jos 8 |
+| western foothills | estribaciones occidentales | Jos 9 |
+| Sea Peoples | Pueblos del Mar | Jos 13 |
+| Lower Galilee | baja Galilea | Jos 17 |
+| Jezreel Valley | valle de Jezreel | Jos 17 |
+| wilderness of Judea | desierto de Judea | Jos 15 |
+| Plain of Acco | llanura de Aco | Jos 19 |
+| pasturelands | ejidos (como la RVA 1909) | Jos 21 |
+| peace offerings | ofrendas de paz | Jos 22 |
+| burnt offerings | holocaustos | Jos 22 |
+| grain offerings | ofrendas de grano | Jos 22 |
+| gleaning (law of) | espigueo | Rut 2 |
+| bushel | fanega | Rut 2 |
+| ephah | efa | Rut 2 |
+| inclusio / bookends | *inclusio* / «sujetalibros» literarios | Rut 1 |
+| charm | amuleto | 1 S 4 |
+| Great Trunk Road | Gran Ruta Troncal | 1 S 6 |
+| armor bearer | paje de armas (en nota sin cita; con cita RVA: criado que le traía las armas) | 1 S 14 |
+| raiding parties | partidas de saqueo | 1 S 14 |
+| tormenting spirit | espíritu atormentador | 1 S 16 |
+| priestly judge | juez sacerdotal | 1 S 16 |
+| armor bearer (1 S 16: escudero; 1 S 14: paje de armas) — unificar | escudero | 1 S 16 |
+| teraphim | terafim | 1 S 19 |
+| ruse | estratagema | 1 S 20 |
+| new moon festival | fiesta de luna nueva | 1 S 20 |
+| medium (spirit) | médium | 1 S 28 |
+| spiritist | espiritista | 1 S 28 |
