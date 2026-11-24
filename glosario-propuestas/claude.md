@@ -588,3 +588,9 @@
 | mercenaries | mercenarios | tyndale/1KI/1 |
 | bodyguard | guardia personal | tyndale/1KI/1 |
 | district governors | gobernadores de distrito | tyndale/1KI/1 |
+| Siamun | Siamón | tyndale/1KI/3 |
+| Naamah | Naama | tyndale/1KI/3 |
+| court secretaries | secretarios de la corte | tyndale/1KI/4 |
+| royal historian | cronista real | tyndale/1KI/4 |
+| corvée | corvea | tyndale/1KI/4 |
+| Abiathar | Abiatar | tyndale/1KI/4 |
