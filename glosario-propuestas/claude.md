@@ -594,3 +594,13 @@
 | royal historian | cronista real | tyndale/1KI/4 |
 | corvée | corvea | tyndale/1KI/4 |
 | Abiathar | Abiatar | tyndale/1KI/4 |
+| Most Holy Place | Lugar Santísimo | tyndale/1KI/6 |
+| inner sanctuary | santuario interior | tyndale/1KI/6 |
+| Araunah | Arauna | tyndale/1KI/6 |
+| lampstands | candeleros | tyndale/1KI/6 |
+| Palace of the Forest of Lebanon | Palacio del Bosque del Líbano | tyndale/1KI/7 |
+| Hall of Pillars | Pórtico de las Columnas | tyndale/1KI/7 |
+| Hall of Justice | Sala de Justicia | tyndale/1KI/7 |
+| washbasin | lavamanos | tyndale/1KI/7 |
+| water carts | carros para el agua | tyndale/1KI/7 |
+| Shishak | Sisac | tyndale/1KI/7 |
