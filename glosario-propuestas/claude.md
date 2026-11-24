@@ -412,3 +412,107 @@
 | wagons | carretas | tyndale/NUM/7 |
 | cherubim | querubines | tyndale/NUM/7 |
 | tribal leaders | jefes de tribu | tyndale/NUM/7 |
+| wave offering | ofrenda mecida | tyndale/NUM/8 |
+| ritual defilement | contaminación ritual | tyndale/NUM/8 |
+| shofar | *shofar* | tyndale/NUM/10 |
+| Gulf of Aqaba / Gulf of Suez | golfo de Aqaba / golfo de Suez | tyndale/NUM/14, 33 |
+| Hormah | Horma | tyndale/NUM/14, 21, DEU/1 |
+| incense burner | incensario | tyndale/NUM/16 |
+| insurrection | insurrección | tyndale/NUM/16 |
+| egalitarian | igualitario | tyndale/NUM/16 |
+| bronze sheet | lámina de bronce | tyndale/NUM/16 |
+| coconspirators | cómplices | tyndale/NUM/16 |
+| Balaam's donkey | burra | tyndale/NUM/22 |
+| diviner / divination | adivino / adivinación | tyndale/NUM/22, DEU/18 |
+| imprecation | imprecación | tyndale/NUM/22 |
+| Pethor | Petor | tyndale/NUM/22 |
+| Kiriath-huzoth | Quiriat-huzot | tyndale/NUM/22 |
+| Bamoth-baal | Bamot-baal | tyndale/NUM/22 |
+| Desert Highway | Camino del Desierto | tyndale/NUM/20 |
+| Rephidim | Refidim | tyndale/NUM/20, DEU/6 |
+| Jebel Haroun | Jebel Harún | tyndale/NUM/20 |
+| Pisgah Peak | cumbre del Pisga | tyndale/NUM/21 |
+| Jordan Rift Valley / Great Rift Valley | valle del Rift del Jordán / Gran Valle del Rift | tyndale/NUM/21, 34, DEU/1, 4 |
+| Mesha Inscription / Moabite Stone | Inscripción de Mesa / Piedra Moabita | tyndale/NUM/21, 33 |
+| Book of the Wars of the Lord | libro de las Guerras del SEÑOR | tyndale/NUM/21 |
+| Sihon | Sehón | tyndale/NUM/21, 32, DEU/2 |
+| Og | Og | tyndale/NUM/21 |
+| Bashan | Basán | tyndale/NUM/21 |
+| Phinehas | Finees | tyndale/NUM/31 |
+| Balak | Balac | tyndale/NUM/31, DEU/3 |
+| holy objects | objetos sagrados | tyndale/NUM/31 |
+| confederation | confederación | tyndale/NUM/31 |
+| plunder | botín | tyndale/NUM/31 |
+| Baal-peor | Baal-peor | tyndale/NUM/31 |
+| New Moon | luna nueva | tyndale/NUM/28 |
+| Festival of Trumpets | fiesta de las Trompetas | tyndale/NUM/29 |
+| Yom Kippur | Yom Kipur | tyndale/NUM/29 |
+| Scorpion Pass | subida de Acrabim (RVA) | tyndale/NUM/34 |
+| Dead Sea | mar Muerto | tyndale/NUM/34 |
+| Mediterranean Sea | mar Mediterráneo | tyndale/NUM/34 |
+| Kenizzite | cenezeo | tyndale/NUM/32 |
+| Gilead | Galaad | tyndale/NUM/32 |
+| Jabbok | Jaboc | tyndale/NUM/32 |
+| Arnon | Arnón | tyndale/NUM/32 |
+| Atroth-shophan | Atarot-sofán | tyndale/NUM/32 |
+| Jogbehah | Jogbeha | tyndale/NUM/32 |
+| Beth-haran | Bet-arán | tyndale/NUM/32 |
+| Nobah | Noba | tyndale/NUM/32 |
+| Havvoth-jair | Havot-jair | tyndale/NUM/32 |
+| Towns of Jair | Aldeas de Jair | tyndale/NUM/32, DEU/3 |
+| escarpment | escarpe | tyndale/NUM/32 |
+| Ma'in | Maín | tyndale/NUM/32 |
+| Jebel Musa | Jebel Musa | tyndale/NUM/33 |
+| Shephelah | Sefela | tyndale/DEU/1 |
+| Anakites | anaceos | tyndale/DEU/1 |
+| Kadesh-barnea | Cades-barnea | tyndale/DEU/1 |
+| Beersheba | Beerseba | tyndale/DEU/1 |
+| Mount Seir | monte Seir | tyndale/DEU/2 |
+| Horites / Hurrians | horeos / hurritas | tyndale/DEU/2, 7 |
+| Rephaites | refaítas | tyndale/DEU/2, 3 |
+| Emites | emitas | tyndale/DEU/2 |
+| Zamzummites | zomzomeos | tyndale/DEU/2 |
+| Zuzites | zuzeos | tyndale/DEU/2 |
+| Caphtorites | caftoreos | tyndale/DEU/2 |
+| Avvites | aveos | tyndale/DEU/2 |
+| Arnon Gorge | garganta del Arnón | tyndale/DEU/2 |
+| Rabbath Ammon | Rabá de Amón | tyndale/DEU/2 |
+| Shaveh-kiriathaim | Save-quiriataim | tyndale/DEU/2 |
+| Ashteroth-karnaim | Astarot-carnaim | tyndale/DEU/2 |
+| Kedemoth | Cademot | tyndale/DEU/2 |
+| Hardened Hearts (Theme Note) | nota temática «Corazones endurecidos» | tyndale/DEU/2 |
+| Geshurites | gesuritas | tyndale/DEU/3 |
+| Maacathites | maacatitas | tyndale/DEU/3 |
+| Makir | Maquir | tyndale/DEU/3 |
+| Anti-Lebanon | Antilíbano | tyndale/DEU/3 |
+| Golan Heights | Altos del Golán | tyndale/DEU/3 |
+| decalogue | decálogo | tyndale/DEU/4 |
+| Ten Commandments | Diez Mandamientos | tyndale/DEU/4 |
+| dross | escoria | tyndale/DEU/4 |
+| iron-smelting furnace | horno de fundición de hierro | tyndale/DEU/4 |
+| Greek Old Testament | Antiguo Testamento griego | tyndale/DEU/4 |
+| Sidonians | sidonios | tyndale/DEU/4 |
+| Sirion | Sirión | tyndale/DEU/4 |
+| tefillin | tefilín | tyndale/DEU/6 |
+| phylactery | filacteria | tyndale/DEU/6 |
+| mezuzah | mezuzá | tyndale/DEU/6 |
+| Massah | Masá | tyndale/DEU/6 |
+| stelae | estelas | tyndale/DEU/7 |
+| Asherah poles | postes de Asera | tyndale/DEU/7, 12 |
+| Hivites | heveos | tyndale/DEU/7 |
+| Girgashites | gergeseos | tyndale/DEU/7 |
+| Perizzites | ferezeos | tyndale/DEU/7 |
+| Jebusites | jebuseos | tyndale/DEU/7 |
+| anthropopathism | antropopatismo | tyndale/DEU/8 |
+| Bronze Age | Edad del Bronce | tyndale/DEU/8 |
+| smelting | fundir (el hierro) | tyndale/DEU/8 |
+| sacred pillar | pilar sagrado | tyndale/DEU/12 |
+| scoundrels (sons of Belial) | canallas (hijos de Belial) | tyndale/DEU/13 |
+| spoils of war | botín de guerra / despojo | tyndale/DEU/13 |
+| detestable act | acto detestable | tyndale/DEU/13 |
+| Clean, Unclean, and Holy (Theme Note) | «Lo limpio, lo inmundo y lo santo» (nota temática) | tyndale/DEU/14 |
+| Purge the Evil (Theme Note) | «Quitar el mal» (nota temática) | tyndale/DEU/17 |
+| extispicy | extispicina | tyndale/DEU/18 |
+| medium | médium | tyndale/DEU/18 |
+| psychic | psíquico | tyndale/DEU/18 |
+| dietary fare | alimentación | tyndale/DEU/18 |
