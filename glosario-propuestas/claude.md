@@ -617,3 +617,11 @@
 | Mesha Stela / Moabite Stone | Estela de Mesa / Piedra Moabita | tyndale/1KI/11 |
 | Aram-zobah | Aram-soba | tyndale/1KI/11 |
 | Rezon | Rezón | tyndale/1KI/11 |
+| queen mother | reina madre | tyndale/1KI/14, 15 |
+| shrine prostitutes | prostitutas y prostitutos de los santuarios | tyndale/1KI/14 |
+| Asherah | Asera | tyndale/1KI/14 |
+| Tirzah | Tirsa | tyndale/1KI/14, 16 |
+| Baasha | Baasa | tyndale/1KI/14, 16 |
+| Shiloh | Silo | tyndale/1KI/14 |
+| foundation offerings | ofrendas de fundación | tyndale/1KI/16 |
+| merism | merismo | tyndale/1KI/16 |
