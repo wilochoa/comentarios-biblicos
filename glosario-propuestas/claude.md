@@ -808,3 +808,12 @@
 | Guard Gate | puerta de la Guardia | tyndale/NEH/12 |
 | Inspection Gate | puerta de la Inspección | tyndale/NEH/12 |
 | antiphonal | antifonal | tyndale/NEH/12 |
+| Bigthana | Bigtán | tyndale/EST/2 |
+| Teresh | Teres | tyndale/EST/2 |
+| Hadassah | Hadasa | tyndale/EST/2 |
+| Hegai | Hegai | tyndale/EST/2 |
+| Shaashgaz | Saasgaz | tyndale/EST/2 |
+| Haman | Amán | tyndale/EST/2 |
+| Mordecai | Mardoqueo | tyndale/EST/2 |
+| public holiday | día de fiesta pública | tyndale/EST/2 |
+| second harem | casa segunda de las mujeres | tyndale/EST/2 |
