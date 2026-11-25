@@ -1634,6 +1634,9 @@
   "hechos": [
     "tyndale/HOS/11#v1-v12",
     "tyndale/HOS/12#v1-v13",
-    "tyndale/HOS/13#v1-v16"
+    "tyndale/HOS/13#v1-v16",
+    "tyndale/HOS/14#v1-v9",
+    "tyndale/JOL/1#v1-v20",
+    "tyndale/JOL/2#v1-v32"
   ]
 }
