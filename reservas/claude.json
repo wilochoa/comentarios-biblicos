@@ -1419,5 +1419,9 @@
       "archivo": "traducciones/tyndale/EST/9.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/1CH/28#v1-v18",
+    "tyndale/1CH/29#v1-v30",
+    "tyndale/2CH/1#v1-v16"
+  ]
 }
