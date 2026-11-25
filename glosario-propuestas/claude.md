@@ -784,3 +784,11 @@
 | Kurds | kurdos | tyndale/EZR/6 |
 | Medes | medos | tyndale/EZR/6 |
 | men of discernment | hombres de discernimiento | tyndale/EZR/8 |
+| Sheep Gate | puerta de las Ovejas | tyndale/NEH/3 |
+| Fish Gate | puerta del Pescado | tyndale/NEH/3 |
+| Old City Gate | puerta Vieja | tyndale/NEH/3 |
+| Broad Wall | Muro Ancho | tyndale/NEH/3 |
+| Tower of the Ovens | torre de los Hornos | tyndale/NEH/3 |
+| Tower of the Hundred | torre de los Cien | tyndale/NEH/3 |
+| Horse Gate | puerta de los Caballos | tyndale/NEH/3 |
+| East Gate | puerta oriental | tyndale/NEH/3 |
