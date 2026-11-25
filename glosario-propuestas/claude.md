@@ -796,3 +796,15 @@
 | Ashdodites | asdoditas | tyndale/NEH/4 |
 | trumpeter | trompetista | tyndale/NEH/4 |
 | Prayers for Vengeance (Theme Note) | «Oraciones de venganza» (nota temática) | tyndale/NEH/4 |
+| Joiakim | Joiacim (RVA) | tyndale/NEH/12 |
+| Elephantine | Elefantina | tyndale/NEH/12 |
+| Antiquities (Josefo) | Antigüedades | tyndale/NEH/12 |
+| Netophathites | netofatitas | tyndale/NEH/12 |
+| Beth-gilgal | Bet-gilgal | tyndale/NEH/12 |
+| Azmaveth | Azmavet | tyndale/NEH/12 |
+| Hattush | Hatús | tyndale/NEH/12 |
+| Dung Gate | puerta del Muladar | tyndale/NEH/12 |
+| Water Gate | puerta del Agua | tyndale/NEH/12 |
+| Guard Gate | puerta de la Guardia | tyndale/NEH/12 |
+| Inspection Gate | puerta de la Inspección | tyndale/NEH/12 |
+| antiphonal | antifonal | tyndale/NEH/12 |
