@@ -1565,5 +1565,9 @@
       "archivo": "traducciones/tyndale/HOS/10.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/EZK/1#v1-v28",
+    "tyndale/EZK/2#v1-v9",
+    "tyndale/EZK/3#v2-v26"
+  ]
 }
