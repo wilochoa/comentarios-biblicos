@@ -783,3 +783,4 @@
 | Memorandum | Memorando | tyndale/EZR/6 |
 | Kurds | kurdos | tyndale/EZR/6 |
 | Medes | medos | tyndale/EZR/6 |
+| men of discernment | hombres de discernimiento | tyndale/EZR/8 |
