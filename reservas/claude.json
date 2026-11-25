@@ -1658,6 +1658,9 @@
     "tyndale/MIC/3#v1-v12",
     "tyndale/MIC/4#v1-v13",
     "tyndale/MIC/5#v1-v13",
-    "tyndale/MIC/6#v1-v16"
+    "tyndale/MIC/6#v1-v16",
+    "tyndale/MIC/7#v1-v18",
+    "tyndale/NAM/1#v1-v15",
+    "tyndale/NAM/2#v1-v13"
   ]
 }
