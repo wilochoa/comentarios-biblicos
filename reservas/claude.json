@@ -1713,5 +1713,9 @@
       "archivo": "traducciones/tyndale/REV/6.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/1CO/14#v1-v39",
+    "tyndale/1CO/15#v1-v58",
+    "tyndale/1CO/16#v1-v23"
+  ]
 }
