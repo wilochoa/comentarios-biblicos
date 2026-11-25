@@ -746,3 +746,6 @@
 | Abijah | Abías | tyndale/2CH/11 |
 | primogeniture | primogenitura | tyndale/2CH/11 |
 | coup | golpe de Estado | tyndale/2CH/11 |
+| tribute | tributo | tyndale/2CH/17 |
+| squad / platoon | escuadra / pelotón | tyndale/2CH/17 |
+| vassals | vasallos | tyndale/2CH/17 |
