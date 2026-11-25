@@ -1554,6 +1554,9 @@
     "tyndale/ECC/5#v1-v18",
     "tyndale/ECC/6#v1-v12",
     "tyndale/ECC/7#v1-v29",
-    "tyndale/ECC/8#v1-v16"
+    "tyndale/ECC/8#v1-v16",
+    "tyndale/ECC/9#v1-v18",
+    "tyndale/ECC/10#v2-v20",
+    "tyndale/ECC/11#v1-v10"
   ]
 }
