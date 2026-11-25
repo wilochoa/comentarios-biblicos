@@ -981,3 +981,43 @@
 | Valley of Trouble | valle de la Aflicción | tyndale/HOS/2 |
 | bill of divorce | certificado de divorcio | tyndale/HOS/2 |
 | Beth-aven | Bet-avén | tyndale/HOS/4 |
+| bond servant | siervo por deudas | tyndale/AMO/2 |
+| Moabite Stone | Piedra Moabita | tyndale/AMO/2 |
+| cremation | incineración | tyndale/AMO/2 |
+| syncretism | sincretismo | tyndale/AMO/2 |
+| litany | letanía | tyndale/AMO/2 |
+| sorrow (What sorrow awaits you) | aflicción | tyndale/AMO/5 |
+| leavened bread | pan leudado | tyndale/AMO/4 |
+| stela | estela | tyndale/AMO/4 |
+| new-moon festival | fiesta de luna nueva | tyndale/AMO/8 |
+| horned altar | altar con cuernos | tyndale/AMO/8 |
+| plumb line | plomada | tyndale/AMO/7 |
+| Kinnereth Sea | mar de Cineret | tyndale/AMO/7 |
+| sedition | sedición | tyndale/AMO/7 |
+| city-states | ciudades-estado | tyndale/AMO/6 |
+| sea of the Arabah | mar del Arabá | tyndale/AMO/6 |
+| whale shark | tiburón ballena | tyndale/JON/1 |
+| Joppa | Jope | tyndale/JON/1 |
+| high place | lugar alto | tyndale/MIC/1 |
+| Moresheth-gath | Moreset-gat | tyndale/MIC/1 |
+| neo-Assyrian | neoasirio | tyndale/NAM/1 |
+| Ummanmanda | ummanmanda | tyndale/NAM/1 |
+| Sea of Galilee | mar de Galilea | tyndale/NAM/1 |
+| cheetah | guepardo | tyndale/HAB/1 |
+| taunt song | cántico de escarnio | tyndale/ZEC/11 |
+| the Accuser | el Acusador | tyndale/ZEC/3 |
+| burning stick | tizón | tyndale/ZEC/3 |
+| prosecuting attorney | fiscal | tyndale/ZEC/3 |
+| lead cover | tapa de plomo | tyndale/ZEC/5 |
+| severance pay | indemnización por despido | tyndale/ZEC/11 |
+| worthless shepherd | pastor inútil | tyndale/ZEC/11 |
+| harness bells | campanillas de los caballos | tyndale/ZEC/14 |
+| messenger formula | fórmula del mensajero | tyndale/MAL/1 |
+| scroll of remembrance | rollo de memoria | tyndale/MAL/3 |
+| messenger of the covenant | mensajero del pacto | tyndale/MAL/3 |
+| merchant guilds | gremios de mercaderes | tyndale/MAL/2 |
+| natural (unspiritual) person | el hombre animal (cita RVA) | tyndale/1CO/2 |
+| city treasurer | tesorero de la ciudad | tyndale/1CO/1 |
+| secular court | tribunal secular | tyndale/1CO/6 |
+| lawsuit | pleito | tyndale/1CO/6 |
+| Isthmian games | juegos ístmicos | tyndale/1CO/9 |
