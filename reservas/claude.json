@@ -450,5 +450,9 @@
       "archivo": "traducciones/tyndale/JDG/21.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/JDG/4#v1-v24",
+    "tyndale/JDG/5#v1-v31",
+    "tyndale/JDG/6#v1-v36"
+  ]
 }
