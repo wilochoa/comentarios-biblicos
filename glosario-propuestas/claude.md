@@ -868,3 +868,61 @@
 | Queen of Heaven | Reina del Cielo | tyndale/JER/7 |
 | Ashtoreth | Astoret | tyndale/JER/7 |
 | Valley of Slaughter | valle de la Matanza | tyndale/JER/7 |
+| Redeemer God | Dios Redentor | tyndale/JER/11 |
+| charade | farsa | tyndale/JER/11 |
+| thriving olive tree | olivo frondoso | tyndale/JER/11 |
+| Prophetic Sign Acts | Actos simbólicos de los profetas (nota temática) | tyndale/JER/16 |
+| bachelors | solteros | tyndale/JER/16 |
+| Pashhur | Pasur | tyndale/JER/20 |
+| Heaven's Armies | Ejércitos Celestiales | tyndale/JER/20 |
+| Lebanon | Líbano | tyndale/JER/22 |
+| Iraq | Irak | tyndale/JER/25 |
+| Cyprus | Chipre | tyndale/JER/25 |
+| Ashkelon | Ascalón | tyndale/JER/25 |
+| Ekron | Ecrón | tyndale/JER/25 |
+| Ashdod | Asdod | tyndale/JER/25 |
+| Tyre | Tiro | tyndale/JER/25 |
+| Sidon | Sidón | tyndale/JER/25 |
+| Dedan | Dedán | tyndale/JER/25 |
+| Anathoth | Anatot | tyndale/JER/32 |
+| sex-idols | ídolos sexuales | tyndale/JER/32 |
+| courtyard of the guard | patio de la guardia | tyndale/JER/32 |
+| deed | escritura | tyndale/JER/32 |
+| Rechabites | recabitas | tyndale/JER/35 |
+| Hanan | Hanán | tyndale/JER/35 |
+| captain of the guard | capitán de la guardia | tyndale/JER/40 |
+| guerrilla bands | bandas guerrilleras | tyndale/JER/40 |
+| headquarters | cuartel general | tyndale/JER/40 |
+| Nethaniah | Netanías | tyndale/JER/40 |
+| Ammon | Amón | tyndale/JER/40 |
+| Heliopolis | Heliópolis | tyndale/JER/43 |
+| Cairo | El Cairo | tyndale/JER/43 |
+| Akkadian | acadio | tyndale/JER/43 |
+| Ishtar | Istar | tyndale/JER/44 |
+| Astarte | Astarté | tyndale/JER/44 |
+| Migdol | Migdol | tyndale/JER/44 |
+| Hophra | Hofra | tyndale/JER/44 |
+| loudmouth | bocazas | tyndale/JER/46 |
+| woodsmen | leñadores | tyndale/JER/46 |
+| Kir-hareseth | Kir-hareset | tyndale/JER/48 |
+| Luhith | Luhit | tyndale/JER/48 |
+| Madmen | Madmén | tyndale/JER/48 |
+| Sibmah | Sibma | tyndale/JER/48 |
+| Kiriathaim | Quiriataim | tyndale/JER/48 |
+| Chemosh | Quemos | tyndale/JER/48 |
+| Zered Brook | arroyo de Zered | tyndale/JER/48 |
+| Rabbah | Rabá | tyndale/JER/49 |
+| Bozrah | Bosra | tyndale/JER/49 |
+| Arpad | Arfad | tyndale/JER/49 |
+| Zagros Mountains | montes Zagros | tyndale/JER/49 |
+| Susa | Susa | tyndale/JER/49 |
+| ritual magic | magia ritual | tyndale/JER/49 |
+| ambassador | embajador | tyndale/JER/49 |
+| Prayers for Vengeance | Oraciones de venganza (nota temática) | tyndale/JER/51 |
+| Ishtar Gate | puerta de Istar | tyndale/JER/52 |
+| looters | saqueadores | tyndale/JER/52 |
+| cypress | ciprés | tyndale/JER/52 |
+| Unleavened Bread | Panes sin levadura | tyndale/LAM/1 |
+| First Harvest | Primicias | tyndale/LAM/1 |
+| Shelters | Enramadas (Tabernáculos) | tyndale/LAM/1 |
+| Palestine | Palestina | tyndale/LAM/1 |
