@@ -1670,6 +1670,9 @@
     "tyndale/ZEP/2#v1-v15",
     "tyndale/ZEP/3#v1-v20",
     "tyndale/HAG/1#v1-v14",
-    "tyndale/HAG/2#v1-v23"
+    "tyndale/HAG/2#v1-v23",
+    "tyndale/ZEC/1#v1-v21",
+    "tyndale/ZEC/2#v1-v13",
+    "tyndale/ZEC/3#v1-v10"
   ]
 }
