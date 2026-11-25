@@ -776,3 +776,10 @@
 | gazelle-hunter | cazador de gacelas | tyndale/EZR/2 |
 | Jeshua (en Esdras) | Jesuá (RVA 1909; en Zacarías el glosario usa Josué) | tyndale/EZR/3 |
 | voluntary offerings | ofrendas voluntarias | tyndale/EZR/3 |
+| scribe (escriba/secretario real) | escriba | tyndale/EZR/7 |
+| Xenophon | Jenofonte | tyndale/EZR/7 |
+| Ahava Canal | canal de Ahava | tyndale/EZR/7 |
+| Cyrus Cylinder | Cilindro de Ciro | tyndale/EZR/6 |
+| Memorandum | Memorando | tyndale/EZR/6 |
+| Kurds | kurdos | tyndale/EZR/6 |
+| Medes | medos | tyndale/EZR/6 |
