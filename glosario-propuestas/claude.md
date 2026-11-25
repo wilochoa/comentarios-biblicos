@@ -760,3 +760,6 @@
 | Athaliah | Atalía | tyndale/2CH/22 |
 | Jezebel | Jezabel | tyndale/2CH/22 |
 | Jehoram | Joram | tyndale/2CH/22 |
+| praise offerings | ofrendas de alabanza | tyndale/2CH/29 |
+| offerings of well-being | ofrendas de bienestar | tyndale/2CH/29 |
+| Levites | levitas | tyndale/2CH/29 |
