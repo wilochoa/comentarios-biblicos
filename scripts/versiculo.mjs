@@ -5,6 +5,7 @@
 //
 // Acepta abreviaturas en español, las de Henry (Joh, Co1…) y códigos USFM.
 // Moderniza solo la ortografía de 1909 ("á su Hijo" → "a su Hijo").
+import { pathToFileURL } from 'node:url';
 import { formatearReferencia, obtenerJson, parsearReferencia } from './lib.mjs';
 
 export function modernizar(texto) {
@@ -25,7 +26,7 @@ async function texto(ref) {
   return modernizar(elegidos.map(plano).join(' '));
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const refs = process.argv.slice(2);
   if (!refs.length) {
     console.error('Uso: node scripts/versiculo.mjs "Jn 3:16" ["Ro 5:8" ...]');

@@ -115,7 +115,34 @@ const sha256 = (s) => createHash('sha256').update(s).digest('hex');
 export async function librosDeFuente(idComentario) {
   const c = comentario(idComentario);
   const data = await obtenerJson(`c/${c.fuente}/books.json`);
-  return data?.books ?? [];
+  const libros = data?.books ?? [];
+  return idComentario === 'tyndale' ? separarJuecesDeJudas(libros) : libros;
+}
+
+// ---------------------------------------------------------------------------
+// Tyndale: la fuente (helloao) guarda las notas de Jueces bajo el código JUD
+// (21 capítulos) y mete las de la carta de Judas en JUD/1, mezcladas
+// versículo a versículo (primero las de Jueces, después las de Judas). Aquí
+// se separan: JDG = Jueces (sin introducción en la fuente) y JUD = Judas (1 capítulo).
+// ---------------------------------------------------------------------------
+// Versículos de JUD/1 que tienen notas de Judas → cuántas notas iniciales son de Jueces.
+// Los versículos que no están aquí son solo de Jueces.
+const JUDAS_EN_JUD1 = { 1: 3, 3: 1, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 11: 1, 12: 0, 13: 0, 14: 1, 17: 1, 18: 1, 20: 0, 22: 2, 23: 0, 24: 1 };
+
+function separarJuecesDeJudas(libros) {
+  if (libros.some((b) => b.id === 'JDG')) return libros;
+  const salida = [];
+  for (const b of libros) {
+    if (b.id === 'JUD') {
+      salida.push({ ...b, numberOfChapters: 1, lastChapterNumber: 1 });
+      continue;
+    }
+    salida.push(b);
+    if (b.id === 'JOS') {
+      salida.push({ id: 'JDG', name: 'Judges', commonName: 'Judges', numberOfChapters: 21, firstChapterNumber: 1, lastChapterNumber: 21, introduction: null, introductionSummary: null });
+    }
+  }
+  return salida;
 }
 
 /**
@@ -127,6 +154,12 @@ export async function cargarFuente(idComentario, usfm, unidad) {
   const c = comentario(idComentario);
   let secciones = [];
   let url;
+  let apiLibro = usfm;
+  if (idComentario === 'tyndale' && (usfm === 'JDG' || usfm === 'JUD')) {
+    if (usfm === 'JDG' && unidad === 'intro') return null; // la fuente no trae introducción de Jueces
+    if (usfm === 'JUD' && unidad !== 'intro' && unidad !== 1) return null; // Judas solo tiene 1 capítulo
+    apiLibro = 'JUD';
+  }
   if (unidad === 'intro') {
     url = `${HELLOAO}/c/${c.fuente}/books.json`;
     const libro = (await librosDeFuente(idComentario)).find((b) => b.id === usfm);
@@ -134,14 +167,22 @@ export async function cargarFuente(idComentario, usfm, unidad) {
     if (libro.introduction?.trim()) secciones.push({ id: 'introduccion', texto: libro.introduction.trim() });
     if (libro.introductionSummary?.trim()) secciones.push({ id: 'resumen', texto: libro.introductionSummary.trim() });
   } else {
-    url = `${HELLOAO}/c/${c.fuente}/${usfm}/${unidad}.json`;
-    const data = await obtenerJson(`c/${c.fuente}/${usfm}/${unidad}.json`);
+    url = `${HELLOAO}/c/${c.fuente}/${apiLibro}/${unidad}.json`;
+    const data = await obtenerJson(`c/${c.fuente}/${apiLibro}/${unidad}.json`);
     if (!data) return null;
     const cap = data.chapter ?? {};
+    const mezcla = idComentario === 'tyndale' && apiLibro === 'JUD' && unidad === 1;
     if (cap.introduction?.trim()) secciones.push({ id: 'intro', texto: cap.introduction.trim() });
     for (const item of cap.content ?? []) {
       if (item.type !== 'verse') continue;
-      const texto = (item.content ?? []).filter((x) => typeof x === 'string').join('\n\n').trim();
+      let notas = (item.content ?? []).filter((x) => typeof x === 'string');
+      if (mezcla && item.number in JUDAS_EN_JUD1) {
+        const k = JUDAS_EN_JUD1[item.number];
+        notas = usfm === 'JDG' ? notas.slice(0, k) : notas.slice(k);
+      } else if (mezcla && usfm === 'JUD') {
+        notas = [];
+      }
+      const texto = notas.join('\n\n').trim();
       if (texto) secciones.push({ id: `v${item.number}`, texto });
     }
   }
