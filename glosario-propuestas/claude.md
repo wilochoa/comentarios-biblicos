@@ -817,3 +817,54 @@
 | Mordecai | Mardoqueo | tyndale/EST/2 |
 | public holiday | día de fiesta pública | tyndale/EST/2 |
 | second harem | casa segunda de las mujeres | tyndale/EST/2 |
+| heavenly court / heavenly council | corte celestial / consejo celestial | tyndale/JOB/1 |
+| ancient Near Eastern gods | dioses del antiguo Cercano Oriente | tyndale/JOB/1 |
+| wisdom tradition | tradición sapiencial | tyndale/JOB/1, 5 |
+| Eliphaz | Elifaz | tyndale/JOB/5, 22, 26 |
+| wonder-working | que obra maravillas | tyndale/JOB/5 |
+| Zophar | Zofar | tyndale/JOB/11, 22, 26 |
+| Naamathite | naamatita | tyndale/JOB/11 |
+| underworld | inframundo | tyndale/JOB/11, 26 |
+| verbosity | verbosidad | tyndale/JOB/11 |
+| Yahweh (nombre hebreo de «el Señor») | Yahvé (una traducción puso «Yahveh»; unificar) | tyndale/JOB/12, tyndale/JER/2 |
+| marauders | saqueadores | tyndale/JOB/15 |
+| secret council | concilio secreto | tyndale/JOB/15 |
+| Pentateuch | Pentateuco | tyndale/JOB/22 |
+| Abaddon | Abadón | tyndale/JOB/26 |
+| Bildad | Bildad | tyndale/JOB/26 |
+| NLT | NLT (JOB, ya usada) / NTV (ECC, SNG); unificar | tyndale/JOB/12, 26, tyndale/ECC/1, 5, 7, tyndale/SNG/1 |
+| self-curse | automaldición | tyndale/JOB/31 |
+| thistles | abrojos | tyndale/JOB/31 |
+| Behemoth | Behemot | tyndale/JOB/40 |
+| Leviathan | Leviatán | tyndale/JOB/40 |
+| lotus | lotos | tyndale/JOB/40 |
+| wild ox | buey salvaje | tyndale/JOB/40 |
+| Jemimah | Jemima | tyndale/JOB/42 |
+| Keziah | Cesia | tyndale/JOB/42 |
+| Keren-happuch | Keren-hapuc | tyndale/JOB/42 |
+| mediator | mediador | tyndale/JOB/42 |
+| gazelle | gacela | tyndale/SNG/2 |
+| vinedresser | viñador | tyndale/SNG/2 |
+| dramatic view | perspectiva dramática | tyndale/SNG/1, 2 |
+| anthology view | perspectiva de la antología | tyndale/SNG/1 |
+| sachet | bolsita | tyndale/SNG/1 |
+| henna | alheña | tyndale/SNG/1 |
+| couch | diván | tyndale/SNG/1 |
+| goatherd | cabrera | tyndale/SNG/1 |
+| stallions | sementales | tyndale/SNG/1 |
+| guards (watchmen, Cant 3) | guardias | tyndale/SNG/3 |
+| wasf | *wasf* (cursiva) | tyndale/SNG/4 |
+| Mount Amana | monte Amana | tyndale/SNG/4 |
+| descriptive poem | poema descriptivo | tyndale/SNG/4 |
+| walnut grove | huerto de los nogales | tyndale/SNG/6 |
+| almond tree | almendro | tyndale/JER/1 |
+| royal messenger | mensajero real | tyndale/JER/1 |
+| royal decree | decreto real | tyndale/JER/1 |
+| Throne of the Lord | Trono del Señor | tyndale/JER/3 |
+| Memphis | Menfis | tyndale/JER/2 |
+| Tahpanhes | Tafnes | tyndale/JER/2 |
+| plaintiff | demandante | tyndale/JER/2 |
+| Rejected Silver | Plata Desechada | tyndale/JER/6 |
+| Queen of Heaven | Reina del Cielo | tyndale/JER/7 |
+| Ashtoreth | Astoret | tyndale/JER/7 |
+| Valley of Slaughter | valle de la Matanza | tyndale/JER/7 |
