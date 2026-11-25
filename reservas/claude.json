@@ -1631,5 +1631,9 @@
       "archivo": "traducciones/tyndale/1CO/13.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/HOS/11#v1-v12",
+    "tyndale/HOS/12#v1-v13",
+    "tyndale/HOS/13#v1-v16"
+  ]
 }
