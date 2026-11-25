@@ -742,3 +742,7 @@
 | Aijalon | Ajalón | tyndale/2CH/8 |
 | Ophir | Ofir | tyndale/2CH/8 |
 | Phoenicians | fenicios | tyndale/2CH/8 |
+| Omri | Omri | tyndale/2CH/11 |
+| Abijah | Abías | tyndale/2CH/11 |
+| primogeniture | primogenitura | tyndale/2CH/11 |
+| coup | golpe de Estado | tyndale/2CH/11 |
