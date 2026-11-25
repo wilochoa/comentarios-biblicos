@@ -1664,6 +1664,9 @@
     "tyndale/NAM/2#v1-v13",
     "tyndale/NAM/3#v1-v19",
     "tyndale/HAB/1#v1-v16",
-    "tyndale/HAB/2#v1-v20"
+    "tyndale/HAB/2#v1-v20",
+    "tyndale/HAB/3#v1-v19",
+    "tyndale/ZEP/1#v1-v17",
+    "tyndale/ZEP/2#v1-v15"
   ]
 }
