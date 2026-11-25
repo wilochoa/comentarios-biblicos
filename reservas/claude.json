@@ -1503,5 +1503,9 @@
       "archivo": "traducciones/tyndale/JER/7.md"
     }
   ],
-  "hechos": []
+  "hechos": [
+    "tyndale/EST/10#v1-v3",
+    "tyndale/JOB/1#v6-v20",
+    "tyndale/JOB/2#v1-v13"
+  ]
 }
