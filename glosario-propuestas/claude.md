@@ -749,3 +749,14 @@
 | tribute | tributo | tyndale/2CH/17 |
 | squad / platoon | escuadra / pelotón | tyndale/2CH/17 |
 | vassals | vasallos | tyndale/2CH/17 |
+| Jahaziel | Jahaziel | tyndale/2CH/20 |
+| Ahaziah | Ocozías | tyndale/2CH/20, 22 |
+| En-gedi | En-gadi | tyndale/2CH/20 |
+| Meunites | meunitas | tyndale/2CH/20 |
+| loyal faithfulness | fiel lealtad | tyndale/2CH/21 |
+| honorary funeral rite | rito fúnebre en su honor | tyndale/2CH/21 |
+| royal cemetery | cementerio real | tyndale/2CH/21 |
+| Jehosheba | Josabet (en 2 Cr; RVA 1909; en 2 R aparece Josaba) | tyndale/2CH/22 |
+| Athaliah | Atalía | tyndale/2CH/22 |
+| Jezebel | Jezabel | tyndale/2CH/22 |
+| Jehoram | Joram | tyndale/2CH/22 |
