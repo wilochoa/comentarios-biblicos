@@ -736,3 +736,9 @@
 | Lebo-hamath | Lebo-hamat | tyndale/2CH/7 |
 | Brook of Egypt | arroyo de Egipto | tyndale/2CH/7 |
 | "The Glory of God" Theme Note | nota temática «La gloria de Dios» | tyndale/2CH/7 |
+| Hamath-zobah | Hamat-soba | tyndale/2CH/8 |
+| Beth-horon | Bet-horón | tyndale/2CH/8 |
+| Tadmor / Palmyra | Tadmor / Palmira | tyndale/2CH/8 |
+| Aijalon | Ajalón | tyndale/2CH/8 |
+| Ophir | Ofir | tyndale/2CH/8 |
+| Phoenicians | fenicios | tyndale/2CH/8 |
