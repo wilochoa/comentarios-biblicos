@@ -728,3 +728,11 @@
 | secular | profano | tyndale/1CH/9 |
 | Hamath | Hamat | tyndale/1CH/18 |
 | Hadadezer | Hadad-ezer | tyndale/1CH/18 |
+| Huram-abi | Huram-abi | tyndale/2CH/2 |
+| Bezalel | Bezaleel (como en 1 Cr) | tyndale/2CH/2 |
+| red sandalwood | sándalo rojo | tyndale/2CH/2 |
+| Cedrus libani | *Cedrus libani* («cedro del Líbano») | tyndale/2CH/2 |
+| Phoenicia | Fenicia | tyndale/2CH/2 |
+| Lebo-hamath | Lebo-hamat | tyndale/2CH/7 |
+| Brook of Egypt | arroyo de Egipto | tyndale/2CH/7 |
+| "The Glory of God" Theme Note | nota temática «La gloria de Dios» | tyndale/2CH/7 |
