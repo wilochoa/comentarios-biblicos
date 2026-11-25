@@ -1021,3 +1021,52 @@
 | secular court | tribunal secular | tyndale/1CO/6 |
 | lawsuit | pleito | tyndale/1CO/6 |
 | Isthmian games | juegos ístmicos | tyndale/1CO/9 |
+| baptism by proxy | bautismo por representación | tyndale/1CO/15 |
+| first crop | primicias | tyndale/1CO/15 |
+| stillborn | mortinato | tyndale/1CO/15 |
+| Greco-Roman | grecorromano | tyndale/1CO/15, 1TI/1 |
+| immortality of the soul | inmortalidad del alma | tyndale/1CO/15 |
+| life-giving Spirit | Espíritu vivificante | tyndale/1CO/15 |
+| Jewish rabbis | rabinos judíos | tyndale/2CO/3 |
+| transgression | transgresión | tyndale/2CO/3 |
+| disaffected | descontentos | tyndale/2CO/6 |
+| imposters | impostores | tyndale/2CO/6 |
+| digression | digresión | tyndale/2CO/6 |
+| rival teachers | maestros rivales | tyndale/2CO/10 |
+| super apostles | superapóstoles | tyndale/2CO/11 |
+| best man | padrino de bodas | tyndale/2CO/11 |
+| tentmaking | fabricante de tiendas (oficio) | tyndale/2CO/11 |
+| intruders | intrusos | tyndale/2CO/11 |
+| false missionaries | falsos misioneros | tyndale/2CO/11 |
+| shun | apartarse de | tyndale/2TH/3 |
+| stop short of excommunication | sin llegar a la excomunión | tyndale/2TH/3 |
+| authenticating procedure | procedimiento de autenticación | tyndale/2TH/3 |
+| epiphany | epifanía | tyndale/2TH/2, 1TI/6 |
+| lawless man | hombre sin ley | tyndale/2TH/2 |
+| imperial cult | culto imperial | tyndale/2TH/2 |
+| gender roles | roles de género | tyndale/1TI/2 |
+| cognates | derivados | tyndale/1TI/2 |
+| deportment | conducta | tyndale/1TI/2 |
+| stewardship | mayordomía | tyndale/1TI/1 |
+| prosperity gospel | evangelio de la prosperidad | tyndale/1TI/6 |
+| last times | postreros tiempos | tyndale/1TI/6 |
+| maxims | máximas | tyndale/2TI/2 |
+| wreaking havoc | causar estragos | tyndale/2TI/2 |
+| accomplice | cómplice | tyndale/2TI/2 |
+| world-denying asceticism | ascetismo que niega el mundo | tyndale/2TI/2 |
+| taboos | tabúes | tyndale/2TI/2 |
+| sorcerers | hechiceros | tyndale/2TI/3 |
+| drink offering | libación | tyndale/2TI/4 |
+| patronage | patrocinio | tyndale/TIT/1 |
+| sound teaching | sana enseñanza | tyndale/TIT/1 |
+| Morning Star | Lucero de la Mañana | tyndale/2PE/1 |
+| fellowship meals | comidas de comunión | tyndale/2PE/2 |
+| Docetists | docetistas | tyndale/2JN/1 |
+| sister church | iglesia hermana | tyndale/2JN/1 |
+| Alpha and Omega | Alfa y Omega | tyndale/REV/1 |
+| menorah | menorá | tyndale/REV/1 |
+| Nicolaitans | nicolaítas | tyndale/REV/2 |
+| syncretists | sincretistas | tyndale/REV/2 |
+| Book of Life | libro de la Vida | tyndale/REV/3 |
+| lukewarm | tibio | tyndale/REV/3 |
+| imprecatory psalms | salmos imprecatorios | tyndale/REV/6 |
