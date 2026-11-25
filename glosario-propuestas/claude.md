@@ -792,3 +792,7 @@
 | Tower of the Hundred | torre de los Cien | tyndale/NEH/3 |
 | Horse Gate | puerta de los Caballos | tyndale/NEH/3 |
 | East Gate | puerta oriental | tyndale/NEH/3 |
+| Sanballat | Sanbalat | tyndale/NEH/4 |
+| Ashdodites | asdoditas | tyndale/NEH/4 |
+| trumpeter | trompetista | tyndale/NEH/4 |
+| Prayers for Vengeance (Theme Note) | «Oraciones de venganza» (nota temática) | tyndale/NEH/4 |
