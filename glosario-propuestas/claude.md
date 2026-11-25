@@ -1083,3 +1083,58 @@
 | cubit | codo | tyndale/REV/21 |
 | great white throne | gran trono blanco | tyndale/REV/20 |
 | benediction | bendición final | tyndale/REV/22 |
+| Kenites | ceneos | tyndale/JDG/1 |
+| Nephilites | nefilitas | tyndale/JDG/1 |
+| Hittites | hititas | tyndale/JDG/1 |
+| Jebusite | jebusea | tyndale/JDG/1 |
+| Ehud | Aod | tyndale/JDG/1, 3 |
+| Kiriath-arba | Quiriat-arba | tyndale/JDG/1 |
+| Assumption of Moses | Asunción de Moisés | tyndale/JUD/1 |
+| 1 Enoch | 1 Enoc | tyndale/JUD/1 |
+| Bokim | Boquim | tyndale/JDG/2 |
+| Eglon | Eglón | tyndale/JDG/3 |
+| Othniel | Otoniel | tyndale/JDG/3 |
+| Shamgar | Samgar | tyndale/JDG/3, 5 |
+| Anath | Anat | tyndale/JDG/3 |
+| Cushan-rishathaim | Cusán-risataim | tyndale/JDG/3 |
+| Gibeonites | gabaonitas | tyndale/JDG/3 |
+| Amalekites | amalecitas | tyndale/JDG/3, 6 |
+| Seirah | Seirat | tyndale/JDG/3 |
+| Hamitic | camitas | tyndale/JDG/3 |
+| rescuer-judge | juez libertador | tyndale/JDG/3 |
+| Balih River | río Balij | tyndale/JDG/3 |
+| Harosheth-haggoyim | Haroset-goyim | tyndale/JDG/4 |
+| Kedesh | Cedes | tyndale/JDG/4 |
+| Sisera | Sísara | tyndale/JDG/5, 14 |
+| Barak | Barac | tyndale/JDG/5 |
+| Taanach | Taanac | tyndale/JDG/5 |
+| quagmire | lodazal | tyndale/JDG/5 |
+| fleece | vellón | tyndale/JDG/6 |
+| Midianites | madianitas | tyndale/JDG/6 |
+| Moreh | Moré | tyndale/JDG/7 |
+| jars | tinajas | tyndale/JDG/7 |
+| Oreb / Zeeb / Zebah / Zalmunna | Oreb / Zeeb / Zeba / Zalmuna | tyndale/JDG/7 |
+| Transjordan plateau | meseta de Transjordania | tyndale/JDG/8 |
+| Shechem | Siquem | tyndale/JDG/9 |
+| Shechemites | siquemitas | tyndale/JDG/9 |
+| Baal-berith | Baal-berit | tyndale/JDG/9 |
+| Beth-millo | Bet-milo | tyndale/JDG/9 |
+| Thebez | Tebes | tyndale/JDG/9 |
+| Mount Zalmon | monte Salmón | tyndale/JDG/9 |
+| thornbush | zarzal | tyndale/JDG/9 |
+| informer | informante | tyndale/JDG/9 |
+| sea people | pueblo del mar | tyndale/JDG/13 |
+| Mahaneh-dan | Mahané-dan | tyndale/JDG/13, 14 |
+| Eshtaol | Estaol | tyndale/JDG/13, 18, 20 |
+| Sorek | Sorec | tyndale/JDG/13, 14 |
+| Manoah | Manoa | tyndale/JDG/13 |
+| Timnah | Timna | tyndale/JDG/14 |
+| weft / warp | trama / urdimbre | tyndale/JDG/16 |
+| gate house | caseta de la puerta | tyndale/JDG/16 |
+| household idols | ídolos domésticos | tyndale/JDG/17 |
+| Laish | Lais | tyndale/JDG/18 |
+| Gershom | Gersón | tyndale/JDG/18 |
+| Danites | danitas | tyndale/JDG/18 |
+| troublemakers | perturbadores | tyndale/JDG/20 |
+| league (tribal) | confederación (tribal) | tyndale/JDG/21 |
+| secular tribes | tribus seculares | tyndale/JDG/21 |
