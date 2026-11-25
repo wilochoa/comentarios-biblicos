@@ -763,3 +763,8 @@
 | praise offerings | ofrendas de alabanza | tyndale/2CH/29 |
 | offerings of well-being | ofrendas de bienestar | tyndale/2CH/29 |
 | Levites | levitas | tyndale/2CH/29 |
+| Gihon Spring | manantial de Gihón | tyndale/2CH/32 |
+| envoys | emisarios | tyndale/2CH/32 |
+| Asherah | Asera | tyndale/2CH/33 |
+| Record of the Seers | las palabras de los videntes (según la RVA) | tyndale/2CH/33 |
+| microcosm | microcosmos | tyndale/2CH/33 |
