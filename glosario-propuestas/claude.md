@@ -768,3 +768,11 @@
 | Asherah | Asera | tyndale/2CH/33 |
 | Record of the Seers | las palabras de los videntes (según la RVA) | tyndale/2CH/33 |
 | microcosm | microcosmos | tyndale/2CH/33 |
+| Artaxerxes | Artajerjes | tyndale/EZR/4 |
+| Erech | Erec | tyndale/EZR/4 |
+| Euphrates | Éufrates | tyndale/EZR/4 |
+| tolls | peajes | tyndale/EZR/4 |
+| Temple servants | sirvientes del templo | tyndale/EZR/2 |
+| gazelle-hunter | cazador de gacelas | tyndale/EZR/2 |
+| Jeshua (en Esdras) | Jesuá (RVA 1909; en Zacarías el glosario usa Josué) | tyndale/EZR/3 |
+| voluntary offerings | ofrendas voluntarias | tyndale/EZR/3 |
