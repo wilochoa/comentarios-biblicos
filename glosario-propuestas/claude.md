@@ -926,3 +926,58 @@
 | First Harvest | Primicias | tyndale/LAM/1 |
 | Shelters | Enramadas (Tabernáculos) | tyndale/LAM/1 |
 | Palestine | Palestina | tyndale/LAM/1 |
+| call narrative | relato de llamamiento | tyndale/EZK/1 |
+| Kebar River | río Quebar | tyndale/EZK/1 |
+| Setting (sección de introducción) | Contexto | tyndale/EZK/1 |
+| Amorite | amorreo | tyndale/EZK/16 |
+| swaddle | envolver en pañales | tyndale/EZK/16 |
+| new exodus | nuevo éxodo | tyndale/EZK/20 |
+| Oholah | Aholá | tyndale/EZK/23 |
+| Oholibah | Aholiba | tyndale/EZK/23 |
+| Pekod, Shoa, Koa | Pekod, Soa, Coa | tyndale/EZK/23 |
+| Prophetic Sign Acts (nota temática) | Actos simbólicos de los profetas | tyndale/EZK/24 |
+| Pelusium | Pelusio | tyndale/EZK/30 |
+| Upper Egypt | Alto Egipto | tyndale/EZK/30 |
+| creation mandate | mandato de la creación | tyndale/EZK/36 |
+| Meshech | Mesec | tyndale/EZK/38 |
+| Beth-togarmah | Bet-togarma | tyndale/EZK/38 |
+| Gyges | Giges | tyndale/EZK/38 |
+| Sheba | Seba | tyndale/EZK/38 |
+| Tarshish | Tarsis | tyndale/EZK/38 |
+| Lydia | Lidia | tyndale/EZK/38 |
+| Zilpah | Zilpa | tyndale/EZK/48 |
+| Bilhah | Bilha | tyndale/EZK/48 |
+| holy portion | porción santa | tyndale/EZK/48 |
+| The Lord Is There | El Señor Está Allí | tyndale/EZK/48 |
+| native-born | israelitas de nacimiento | tyndale/EZK/47 |
+| Prayer of Azariah | Oración de Azarías | tyndale/DAN/3 |
+| Song of the Three Jews | Cántico de los tres jóvenes judíos | tyndale/DAN/3 |
+| Herodotus | Heródoto | tyndale/DAN/3 |
+| Ashpenaz | Aspenaz | tyndale/DAN/1 |
+| Shadrach, Meshach, Abednego | Sadrac, Mesac, Abed-nego | tyndale/DAN/1 |
+| Belteshazzar | Beltsasar | tyndale/DAN/1 |
+| Hananiah, Mishael, Azariah | Hananías, Misael, Azarías | tyndale/DAN/1 |
+| Marduk | Marduk | tyndale/DAN/1 |
+| soothsayer priests | sacerdotes adivinos | tyndale/DAN/1 |
+| boanthropy | boantropía | tyndale/DAN/4 |
+| Hanging Gardens | jardines colgantes | tyndale/DAN/4 |
+| Nabonidus | Nabonido | tyndale/DAN/5 |
+| Ancient One | Anciano de grande edad | tyndale/DAN/7 |
+| little horn | cuerno pequeño | tyndale/DAN/7 |
+| Ahasuerus | Asuero | tyndale/DAN/9 |
+| abomination of desolation | abominación desoladora | tyndale/DAN/9 |
+| Maccabees | Macabeos | tyndale/DAN/11 |
+| Hanukkah | Janucá | tyndale/DAN/11 |
+| Seleucids | seléucidas | tyndale/DAN/11 |
+| Ptolemies | Ptolomeos | tyndale/DAN/11 |
+| Heliodorus | Heliodoro | tyndale/DAN/11 |
+| Menelaus | Menelao | tyndale/DAN/11 |
+| Scipio | Escipión | tyndale/DAN/11 |
+| Jehu | Jehú | tyndale/HOS/1 |
+| Lo-ruhamah | Lo-ruhama | tyndale/HOS/1 |
+| Lo-ammi | Lo-ammi | tyndale/HOS/1 |
+| fertility worship | culto a la fertilidad | tyndale/HOS/1 |
+| bride price | precio de la novia | tyndale/HOS/2 |
+| Valley of Trouble | valle de la Aflicción | tyndale/HOS/2 |
+| bill of divorce | certificado de divorcio | tyndale/HOS/2 |
+| Beth-aven | Bet-avén | tyndale/HOS/4 |
