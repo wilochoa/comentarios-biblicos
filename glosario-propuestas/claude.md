@@ -1070,3 +1070,16 @@
 | Book of Life | libro de la Vida | tyndale/REV/3 |
 | lukewarm | tibio | tyndale/REV/3 |
 | imprecatory psalms | salmos imprecatorios | tyndale/REV/6 |
+| bottomless pit | pozo sin fondo | tyndale/REV/9, 11 |
+| Apollyon | Apolión | tyndale/REV/9 |
+| evil trinity | trinidad maligna | tyndale/REV/12 |
+| minions | secuaces | tyndale/REV/12 |
+| pseudo-deity | seudodeidad | tyndale/REV/13 |
+| fraudulent messiah | falso mesías | tyndale/REV/13 |
+| glass sea | mar de vidrio | tyndale/REV/15 |
+| Armageddon | Armagedón | tyndale/REV/16 |
+| slave market | mercado de esclavos | tyndale/REV/18 |
+| vice list | lista de vicios | tyndale/REV/21 |
+| cubit | codo | tyndale/REV/21 |
+| great white throne | gran trono blanco | tyndale/REV/20 |
+| benediction | bendición final | tyndale/REV/22 |
