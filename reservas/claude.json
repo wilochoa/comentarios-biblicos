@@ -1,0 +1,1423 @@
+{
+  "quien": "claude",
+  "modelo": "Claude",
+  "desde": "2026-11-25T04:47:26.080Z",
+  "vence": "2026-11-25T16:47:26.080Z",
+  "tramos": [
+    {
+      "id": "tyndale/1CH/28#v1-v18",
+      "comentario": "tyndale",
+      "libro": "1CH",
+      "unidad": 28,
+      "secciones": [
+        "v1",
+        "v2",
+        "v4",
+        "v9",
+        "v11",
+        "v14",
+        "v18"
+      ],
+      "palabras": 424,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/1CH/28.md"
+    },
+    {
+      "id": "tyndale/1CH/29#v1-v30",
+      "comentario": "tyndale",
+      "libro": "1CH",
+      "unidad": 29,
+      "secciones": [
+        "v1",
+        "v6",
+        "v7",
+        "v10",
+        "v18",
+        "v21",
+        "v26",
+        "v29",
+        "v30"
+      ],
+      "palabras": 428,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/1CH/29.md"
+    },
+    {
+      "id": "tyndale/2CH/1#v1-v16",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 1,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v7",
+        "v10",
+        "v14",
+        "v16"
+      ],
+      "palabras": 245,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/1.md"
+    },
+    {
+      "id": "tyndale/2CH/2#v1-v17",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 2,
+      "secciones": [
+        "v1",
+        "v5",
+        "v8",
+        "v13",
+        "v17"
+      ],
+      "palabras": 257,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/2.md"
+    },
+    {
+      "id": "tyndale/2CH/3#v1-v17",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 3,
+      "secciones": [
+        "v1",
+        "v2",
+        "v5",
+        "v6",
+        "v8",
+        "v10",
+        "v15",
+        "v17"
+      ],
+      "palabras": 559,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/3.md"
+    },
+    {
+      "id": "tyndale/2CH/4#v2-v19",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 4,
+      "secciones": [
+        "v2",
+        "v6",
+        "v7",
+        "v11",
+        "v19"
+      ],
+      "palabras": 209,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/4.md"
+    },
+    {
+      "id": "tyndale/2CH/5#v1-v11",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 5,
+      "secciones": [
+        "v1",
+        "v3",
+        "v5",
+        "v7",
+        "v9",
+        "v10",
+        "v11"
+      ],
+      "palabras": 345,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/5.md"
+    },
+    {
+      "id": "tyndale/2CH/6#v1-v42",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 6,
+      "secciones": [
+        "v1",
+        "v4",
+        "v10",
+        "v18",
+        "v21",
+        "v22",
+        "v24",
+        "v26",
+        "v28",
+        "v32",
+        "v34",
+        "v36",
+        "v41",
+        "v42"
+      ],
+      "palabras": 743,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/6.md"
+    },
+    {
+      "id": "tyndale/2CH/7#v1-v19",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 7,
+      "secciones": [
+        "v1",
+        "v4",
+        "v8",
+        "v13",
+        "v17",
+        "v19"
+      ],
+      "palabras": 302,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/7.md"
+    },
+    {
+      "id": "tyndale/2CH/8#v2-v17",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 8,
+      "secciones": [
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v11",
+        "v17"
+      ],
+      "palabras": 421,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/8.md"
+    },
+    {
+      "id": "tyndale/2CH/9#v1-v30",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 9,
+      "secciones": [
+        "v1",
+        "v3",
+        "v9",
+        "v13",
+        "v15",
+        "v17",
+        "v21",
+        "v29",
+        "v30"
+      ],
+      "palabras": 443,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/9.md"
+    },
+    {
+      "id": "tyndale/2CH/10#v1-v18",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 10,
+      "secciones": [
+        "v1",
+        "v2",
+        "v4",
+        "v6",
+        "v8",
+        "v10",
+        "v16",
+        "v18"
+      ],
+      "palabras": 377,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/10.md"
+    },
+    {
+      "id": "tyndale/2CH/11#v1-v23",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 11,
+      "secciones": [
+        "v1",
+        "v5",
+        "v9",
+        "v13",
+        "v15",
+        "v18",
+        "v23"
+      ],
+      "palabras": 456,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/11.md"
+    },
+    {
+      "id": "tyndale/2CH/12#v1-v12",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 12,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v6",
+        "v9",
+        "v12"
+      ],
+      "palabras": 214,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/12.md"
+    },
+    {
+      "id": "tyndale/2CH/13#v1-v20",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 13,
+      "secciones": [
+        "v1",
+        "v2",
+        "v4",
+        "v5",
+        "v6",
+        "v8",
+        "v10",
+        "v13",
+        "v19",
+        "v20"
+      ],
+      "palabras": 441,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/13.md"
+    },
+    {
+      "id": "tyndale/2CH/14#v1-v7",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 14,
+      "secciones": [
+        "v1",
+        "v2",
+        "v4",
+        "v7"
+      ],
+      "palabras": 281,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/14.md"
+    },
+    {
+      "id": "tyndale/2CH/15#v1-v19",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 15,
+      "secciones": [
+        "v1",
+        "v3",
+        "v5",
+        "v7",
+        "v8",
+        "v9",
+        "v10",
+        "v16",
+        "v19"
+      ],
+      "palabras": 590,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/15.md"
+    },
+    {
+      "id": "tyndale/2CH/16#v1-v14",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 16,
+      "secciones": [
+        "v1",
+        "v2",
+        "v4",
+        "v6",
+        "v7",
+        "v10",
+        "v12",
+        "v14"
+      ],
+      "palabras": 502,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/16.md"
+    },
+    {
+      "id": "tyndale/2CH/17#v1-v12",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 17,
+      "secciones": [
+        "v1",
+        "v3",
+        "v5",
+        "v7",
+        "v10",
+        "v12"
+      ],
+      "palabras": 454,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/17.md"
+    },
+    {
+      "id": "tyndale/2CH/18#v1-v28",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 18,
+      "secciones": [
+        "v1",
+        "v5",
+        "v15",
+        "v18",
+        "v25",
+        "v28"
+      ],
+      "palabras": 199,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/18.md"
+    },
+    {
+      "id": "tyndale/2CH/19#v1-v4",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 19,
+      "secciones": [
+        "v1",
+        "v4"
+      ],
+      "palabras": 121,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/19.md"
+    },
+    {
+      "id": "tyndale/2CH/20#v1-v35",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 20,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v10",
+        "v14",
+        "v20",
+        "v32",
+        "v35"
+      ],
+      "palabras": 213,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/20.md"
+    },
+    {
+      "id": "tyndale/2CH/21#v2-v18",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 21,
+      "secciones": [
+        "v2",
+        "v5",
+        "v8",
+        "v12",
+        "v16",
+        "v18"
+      ],
+      "palabras": 267,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/21.md"
+    },
+    {
+      "id": "tyndale/2CH/22#v2-v10",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 22,
+      "secciones": [
+        "v2",
+        "v5",
+        "v7",
+        "v10"
+      ],
+      "palabras": 251,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/22.md"
+    },
+    {
+      "id": "tyndale/2CH/23#v1-v18",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 23,
+      "secciones": [
+        "v1",
+        "v4",
+        "v6",
+        "v11",
+        "v16",
+        "v18"
+      ],
+      "palabras": 233,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/23.md"
+    },
+    {
+      "id": "tyndale/2CH/24#v1-v27",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 24,
+      "secciones": [
+        "v1",
+        "v3",
+        "v4",
+        "v12",
+        "v15",
+        "v20",
+        "v23",
+        "v25",
+        "v27"
+      ],
+      "palabras": 362,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/24.md"
+    },
+    {
+      "id": "tyndale/2CH/25#v1-v23",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 25,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v5",
+        "v6",
+        "v7",
+        "v11",
+        "v14",
+        "v20",
+        "v21",
+        "v23"
+      ],
+      "palabras": 359,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/25.md"
+    },
+    {
+      "id": "tyndale/2CH/26#v1-v21",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 26,
+      "secciones": [
+        "v1",
+        "v3",
+        "v6",
+        "v9",
+        "v11",
+        "v16",
+        "v21"
+      ],
+      "palabras": 297,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/26.md"
+    },
+    {
+      "id": "tyndale/2CH/27#v1-v5",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 27,
+      "secciones": [
+        "v1",
+        "v3",
+        "v5"
+      ],
+      "palabras": 218,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/27.md"
+    },
+    {
+      "id": "tyndale/2CH/28#v1-v26",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 28,
+      "secciones": [
+        "v1",
+        "v3",
+        "v9",
+        "v11",
+        "v16",
+        "v17",
+        "v22",
+        "v24",
+        "v26"
+      ],
+      "palabras": 269,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/28.md"
+    },
+    {
+      "id": "tyndale/2CH/29#v1-v34",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 29,
+      "secciones": [
+        "v1",
+        "v3",
+        "v5",
+        "v12",
+        "v21",
+        "v31",
+        "v34"
+      ],
+      "palabras": 317,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/29.md"
+    },
+    {
+      "id": "tyndale/2CH/30#v1-v26",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 30,
+      "secciones": [
+        "v1",
+        "v2",
+        "v5",
+        "v9",
+        "v11",
+        "v14",
+        "v15",
+        "v17",
+        "v20",
+        "v25",
+        "v26"
+      ],
+      "palabras": 465,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/30.md"
+    },
+    {
+      "id": "tyndale/2CH/31#v1-v14",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 31,
+      "secciones": [
+        "v1",
+        "v3",
+        "v6",
+        "v10",
+        "v14"
+      ],
+      "palabras": 195,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/31.md"
+    },
+    {
+      "id": "tyndale/2CH/32#v1-v31",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 32,
+      "secciones": [
+        "v1",
+        "v3",
+        "v10",
+        "v21",
+        "v22",
+        "v26",
+        "v27",
+        "v31"
+      ],
+      "palabras": 384,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/32.md"
+    },
+    {
+      "id": "tyndale/2CH/33#v1-v24",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 33,
+      "secciones": [
+        "v1",
+        "v7",
+        "v11",
+        "v12",
+        "v13",
+        "v14",
+        "v18",
+        "v19",
+        "v21",
+        "v24"
+      ],
+      "palabras": 306,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/33.md"
+    },
+    {
+      "id": "tyndale/2CH/34#v1-v29",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 34,
+      "secciones": [
+        "v1",
+        "v3",
+        "v6",
+        "v12",
+        "v14",
+        "v24",
+        "v27",
+        "v29"
+      ],
+      "palabras": 265,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/34.md"
+    },
+    {
+      "id": "tyndale/2CH/35#v3-v25",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 35,
+      "secciones": [
+        "v3",
+        "v4",
+        "v7",
+        "v13",
+        "v18",
+        "v20",
+        "v25"
+      ],
+      "palabras": 334,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/35.md"
+    },
+    {
+      "id": "tyndale/2CH/36#v1-v22",
+      "comentario": "tyndale",
+      "libro": "2CH",
+      "unidad": 36,
+      "secciones": [
+        "v1",
+        "v2",
+        "v5",
+        "v9",
+        "v11",
+        "v13",
+        "v19",
+        "v21",
+        "v22"
+      ],
+      "palabras": 392,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/2CH/36.md"
+    },
+    {
+      "id": "tyndale/EZR/1#v1-v9",
+      "comentario": "tyndale",
+      "libro": "EZR",
+      "unidad": 1,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "palabras": 655,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EZR/1.md"
+    },
+    {
+      "id": "tyndale/EZR/2#v1-v69",
+      "comentario": "tyndale",
+      "libro": "EZR",
+      "unidad": 2,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v21",
+        "v36",
+        "v41",
+        "v43",
+        "v55",
+        "v59",
+        "v61",
+        "v64",
+        "v68",
+        "v69"
+      ],
+      "palabras": 689,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EZR/2.md"
+    },
+    {
+      "id": "tyndale/EZR/3#v1-v12",
+      "comentario": "tyndale",
+      "libro": "EZR",
+      "unidad": 3,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v7",
+        "v8",
+        "v10",
+        "v12"
+      ],
+      "palabras": 692,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EZR/3.md"
+    },
+    {
+      "id": "tyndale/EZR/4#v1-v24",
+      "comentario": "tyndale",
+      "libro": "EZR",
+      "unidad": 4,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v9",
+        "v10",
+        "v11",
+        "v13",
+        "v14",
+        "v15",
+        "v18",
+        "v19",
+        "v21",
+        "v23",
+        "v24"
+      ],
+      "palabras": 772,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EZR/4.md"
+    },
+    {
+      "id": "tyndale/EZR/5#v1-v16",
+      "comentario": "tyndale",
+      "libro": "EZR",
+      "unidad": 5,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v5",
+        "v6",
+        "v8",
+        "v11",
+        "v12",
+        "v13",
+        "v14",
+        "v16"
+      ],
+      "palabras": 327,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EZR/5.md"
+    },
+    {
+      "id": "tyndale/EZR/6#v2-v22",
+      "comentario": "tyndale",
+      "libro": "EZR",
+      "unidad": 6,
+      "secciones": [
+        "v2",
+        "v3",
+        "v4",
+        "v8",
+        "v10",
+        "v11",
+        "v15",
+        "v17",
+        "v18",
+        "v19",
+        "v20",
+        "v21",
+        "v22"
+      ],
+      "palabras": 647,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EZR/6.md"
+    },
+    {
+      "id": "tyndale/EZR/7#v1-v25",
+      "comentario": "tyndale",
+      "libro": "EZR",
+      "unidad": 7,
+      "secciones": [
+        "v1",
+        "v6",
+        "v9",
+        "v10",
+        "v11",
+        "v14",
+        "v15",
+        "v16",
+        "v21",
+        "v23",
+        "v24",
+        "v25"
+      ],
+      "palabras": 669,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EZR/7.md"
+    },
+    {
+      "id": "tyndale/EZR/8#v1-v35",
+      "comentario": "tyndale",
+      "libro": "EZR",
+      "unidad": 8,
+      "secciones": [
+        "v1",
+        "v15",
+        "v16",
+        "v18",
+        "v20",
+        "v21",
+        "v22",
+        "v23",
+        "v25",
+        "v26",
+        "v31",
+        "v35"
+      ],
+      "palabras": 453,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EZR/8.md"
+    },
+    {
+      "id": "tyndale/EZR/9#v1-v15",
+      "comentario": "tyndale",
+      "libro": "EZR",
+      "unidad": 9,
+      "secciones": [
+        "v1",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v11",
+        "v14",
+        "v15"
+      ],
+      "palabras": 523,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EZR/9.md"
+    },
+    {
+      "id": "tyndale/EZR/10#v1-v44",
+      "comentario": "tyndale",
+      "libro": "EZR",
+      "unidad": 10,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v8",
+        "v9",
+        "v15",
+        "v44"
+      ],
+      "palabras": 353,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EZR/10.md"
+    },
+    {
+      "id": "tyndale/NEH/1#v1-v11",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 1,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v8",
+        "v10",
+        "v11"
+      ],
+      "palabras": 352,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/1.md"
+    },
+    {
+      "id": "tyndale/NEH/2#v1-v20",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 2,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v8",
+        "v9",
+        "v10",
+        "v12",
+        "v13",
+        "v14",
+        "v16",
+        "v18",
+        "v19",
+        "v20"
+      ],
+      "palabras": 708,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/2.md"
+    },
+    {
+      "id": "tyndale/NEH/3#v1-v28",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 3,
+      "secciones": [
+        "v1",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v11",
+        "v13",
+        "v14",
+        "v15",
+        "v16",
+        "v24",
+        "v25",
+        "v28"
+      ],
+      "palabras": 571,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/3.md"
+    },
+    {
+      "id": "tyndale/NEH/4#v2-v23",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 4,
+      "secciones": [
+        "v2",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v9",
+        "v11",
+        "v12",
+        "v13",
+        "v14",
+        "v15",
+        "v18",
+        "v20",
+        "v23"
+      ],
+      "palabras": 476,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/4.md"
+    },
+    {
+      "id": "tyndale/NEH/5#v1-v19",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 5,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v9",
+        "v10",
+        "v11",
+        "v12",
+        "v14",
+        "v15",
+        "v19"
+      ],
+      "palabras": 423,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/5.md"
+    },
+    {
+      "id": "tyndale/NEH/6#v1-v15",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 6,
+      "secciones": [
+        "v1",
+        "v2",
+        "v6",
+        "v11",
+        "v15"
+      ],
+      "palabras": 143,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/6.md"
+    },
+    {
+      "id": "tyndale/NEH/7#v1-v73",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 7,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v6",
+        "v7",
+        "v8",
+        "v39",
+        "v60",
+        "v61",
+        "v65",
+        "v66",
+        "v70",
+        "v73"
+      ],
+      "palabras": 501,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/7.md"
+    },
+    {
+      "id": "tyndale/NEH/8#v1-v18",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 8,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v9",
+        "v10",
+        "v15",
+        "v16",
+        "v17",
+        "v18"
+      ],
+      "palabras": 555,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/8.md"
+    },
+    {
+      "id": "tyndale/NEH/9#v2-v38",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 9,
+      "secciones": [
+        "v2",
+        "v3",
+        "v5",
+        "v7",
+        "v9",
+        "v10",
+        "v12",
+        "v24",
+        "v25",
+        "v26",
+        "v28",
+        "v32",
+        "v38"
+      ],
+      "palabras": 539,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/9.md"
+    },
+    {
+      "id": "tyndale/NEH/10#v1-v37",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 10,
+      "secciones": [
+        "v1",
+        "v28",
+        "v29",
+        "v30",
+        "v31",
+        "v33",
+        "v34",
+        "v35",
+        "v37"
+      ],
+      "palabras": 321,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/10.md"
+    },
+    {
+      "id": "tyndale/NEH/11#v1-v30",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 11,
+      "secciones": [
+        "v1",
+        "v4",
+        "v16",
+        "v17",
+        "v21",
+        "v24",
+        "v30"
+      ],
+      "palabras": 217,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/11.md"
+    },
+    {
+      "id": "tyndale/NEH/12#v1-v47",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 12,
+      "secciones": [
+        "v1",
+        "v7",
+        "v8",
+        "v10",
+        "v12",
+        "v27",
+        "v30",
+        "v31",
+        "v35",
+        "v38",
+        "v43",
+        "v44",
+        "v46",
+        "v47"
+      ],
+      "palabras": 743,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/12.md"
+    },
+    {
+      "id": "tyndale/NEH/13#v1-v30",
+      "comentario": "tyndale",
+      "libro": "NEH",
+      "unidad": 13,
+      "secciones": [
+        "v1",
+        "v4",
+        "v6",
+        "v8",
+        "v10",
+        "v13",
+        "v14",
+        "v15",
+        "v19",
+        "v22",
+        "v23",
+        "v25",
+        "v26",
+        "v28",
+        "v29",
+        "v30"
+      ],
+      "palabras": 740,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/NEH/13.md"
+    },
+    {
+      "id": "tyndale/EST/1#v1-v22",
+      "comentario": "tyndale",
+      "libro": "EST",
+      "unidad": 1,
+      "secciones": [
+        "v1",
+        "v2",
+        "v4",
+        "v5",
+        "v6",
+        "v8",
+        "v9",
+        "v10",
+        "v11",
+        "v12",
+        "v13",
+        "v15",
+        "v16",
+        "v17",
+        "v19",
+        "v22"
+      ],
+      "palabras": 605,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EST/1.md"
+    },
+    {
+      "id": "tyndale/EST/2#v6-v23",
+      "comentario": "tyndale",
+      "libro": "EST",
+      "unidad": 2,
+      "secciones": [
+        "v6",
+        "v7",
+        "v9",
+        "v10",
+        "v12",
+        "v14",
+        "v15",
+        "v17",
+        "v18",
+        "v19",
+        "v20",
+        "v21",
+        "v22",
+        "v23"
+      ],
+      "palabras": 658,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EST/2.md"
+    },
+    {
+      "id": "tyndale/EST/3#v1-v14",
+      "comentario": "tyndale",
+      "libro": "EST",
+      "unidad": 3,
+      "secciones": [
+        "v1",
+        "v2",
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10",
+        "v12",
+        "v13",
+        "v14"
+      ],
+      "palabras": 629,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EST/3.md"
+    },
+    {
+      "id": "tyndale/EST/4#v1-v16",
+      "comentario": "tyndale",
+      "libro": "EST",
+      "unidad": 4,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v8",
+        "v11",
+        "v13",
+        "v16"
+      ],
+      "palabras": 496,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EST/4.md"
+    },
+    {
+      "id": "tyndale/EST/5#v2-v14",
+      "comentario": "tyndale",
+      "libro": "EST",
+      "unidad": 5,
+      "secciones": [
+        "v2",
+        "v3",
+        "v4",
+        "v8",
+        "v9",
+        "v14"
+      ],
+      "palabras": 238,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EST/5.md"
+    },
+    {
+      "id": "tyndale/EST/6#v1-v13",
+      "comentario": "tyndale",
+      "libro": "EST",
+      "unidad": 6,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v7",
+        "v10",
+        "v13"
+      ],
+      "palabras": 279,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EST/6.md"
+    },
+    {
+      "id": "tyndale/EST/7#v3-v9",
+      "comentario": "tyndale",
+      "libro": "EST",
+      "unidad": 7,
+      "secciones": [
+        "v3",
+        "v5",
+        "v6",
+        "v8",
+        "v9"
+      ],
+      "palabras": 294,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EST/7.md"
+    },
+    {
+      "id": "tyndale/EST/8#v1-v17",
+      "comentario": "tyndale",
+      "libro": "EST",
+      "unidad": 8,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v5",
+        "v8",
+        "v9",
+        "v11",
+        "v12",
+        "v13",
+        "v15",
+        "v17"
+      ],
+      "palabras": 372,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EST/8.md"
+    },
+    {
+      "id": "tyndale/EST/9#v1-v29",
+      "comentario": "tyndale",
+      "libro": "EST",
+      "unidad": 9,
+      "secciones": [
+        "v1",
+        "v3",
+        "v5",
+        "v6",
+        "v7",
+        "v10",
+        "v12",
+        "v13",
+        "v14",
+        "v15",
+        "v16",
+        "v17",
+        "v19",
+        "v23",
+        "v26",
+        "v29"
+      ],
+      "palabras": 555,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/tyndale/EST/9.md"
+    }
+  ],
+  "hechos": []
+}
