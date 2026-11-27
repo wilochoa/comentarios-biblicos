@@ -23,6 +23,10 @@ Estas reglas valen para todos los comentarios. Si una regla choca con el glosari
   - **Solo si la RVA dice algo distinto y la nota explica justamente esa palabra** (la nota comenta un término que la RVA traduce de otra forma), se traduce la frase del inglés y se escribe **en cursiva**: `58:1 *gobernantes (o dioses)*: Esta designación se usaba…` (la RVA dice «congregación»). La cursiva avisa que no es el texto de la RVA.
 - **Referencia inicial de una nota sin punto:** `Sal 51 Esta conmovedora oración…`, `Sal 51–65 Estos salmos…`, como el original (`Ps 51 This moving prayer…`). No `Sal 51. Esta…`.
 - **Puntos suspensivos:** siempre `…` (un solo carácter), nunca `...` ni `. . .`.
+- **«&c.»** (abreviatura antigua de «etc.», muy frecuente en Abbott) nunca se deja en la traducción. Según dónde esté:
+  - **Cierra la cita del versículo** con que empieza una nota, o la que sigue a una raya `—` dentro de ella: el autor cita las primeras palabras y corta el resto. Se escriben esas mismas palabras con la RVA y `…`, se quita la coma que va antes y se conserva el signo que sigue en el original: `By honor, &c.; whether our course…` → `Por honra…; ya sea que nuestro camino…` (RVA 2 Co 6:8: «Por honra y por deshonra…»). `The brother, whose praise, &c. It is not known…` → `El hermano cuya alabanza… No se sabe…`.
+  - **Va después de una cita entre comillas** dentro del texto: `…` dentro de las comillas: `"Go ye and learn," &c., means, simply, learn` → `«Andad pues, y aprended…» significa simplemente aprender`.
+  - **Cierra una enumeración:** `etc.`: `brother, sister, son, daughter, &c.,` → `hermano, hermana, hijo, hija, etc.,`.
 - **Alusiones o frases bíblicas sin referencia** (muy frecuentes en Henry): se traducen con naturalidad. Si se reconoce claramente el versículo, se puede usar la redacción de la RVA.
 - **Comillas:** « » para citas; “ ” para comillas dentro de una cita.
 

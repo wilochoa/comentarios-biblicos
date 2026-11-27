@@ -73,20 +73,7 @@ El avance se cuenta con `datos/tamanos.json` (palabras de cada original). Si agr
 0 6 * * * /Users/wochoa/Documents/Projects/WamsIA/comentarios-biblicos/scripts/diario.sh 5
 ```
 
-Para que corra sin pedir permisos, crea `.claude/settings.json`:
-
-```json
-{
-  "permissions": {
-    "allow": [
-      "Bash(node scripts/*)",
-      "Bash(git status*)", "Bash(git diff*)",
-      "Bash(rm trabajo/*)",
-      "Write(trabajo/**)", "Write(glosario-propuestas/**)", "Edit(glosario-propuestas/**)"
-    ]
-  }
-}
-```
+Para que corra sin pedir permisos, el repo ya trae [`.claude/settings.json`](.claude/settings.json): permite `node scripts/…`, `git status`, `git diff` y escribir en `trabajo/` y `glosario-propuestas/`. Lo usan también los voluntarios con `/colaborar`.
 
 ### Reglas que se revisan solas
 

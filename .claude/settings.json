@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Write(trabajo/**)",
+      "Edit(trabajo/**)",
+      "Write(glosario-propuestas/**)",
+      "Edit(glosario-propuestas/**)"
+    ]
+  }
+}
