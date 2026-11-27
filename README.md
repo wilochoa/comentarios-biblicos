@@ -46,6 +46,8 @@ La herramienta necesita red (descarga los originales de bible.helloao.org y hace
 
 ### Voluntarios: lotes por PR
 
+**Para invitar a alguien, comparte [COLABORAR.md](COLABORAR.md):** trae el mensaje que se pega en Claude, que instala lo necesario, hace el fork y corre `node scripts/unirme.mjs`. Después, en esa carpeta, basta con `/colaborar` (skill que toma o retoma un lote, lo traduce con subagentes y lo entrega).
+
 Quien no tiene permiso de push trabaja en **su fork** y toma un **lote** (unidades seguidas de un libro, hasta ~10,000 palabras del original; ids estables como `matthew-henry-JHN-3`, sacados de `plan.json` y `datos/tamanos.json`):
 
 ```sh

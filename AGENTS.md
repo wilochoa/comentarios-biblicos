@@ -30,7 +30,7 @@ Estados de una traducción: `parcial` → `borrador` (completa, IA) → `revisad
 
 ## Carpetas de voluntarios (fork con lote)
 
-Si la carpeta es un fork (tiene el remoto `upstream`), no uses `reservar.mjs`: toma un lote con `node scripts/tomar.mjs --modelo <tu ID de modelo exacto>`, pide sus tramos con `node scripts/siguiente.mjs --lote` y tradúcelos como en el paso 4 de arriba, pasando `--modelo <tu ID>` a `unir.mjs`. `entregar.mjs --parcial` y `entregar.mjs` funcionan igual: suben a la rama del lote y actualizan su PR. Rige la misma regla de modelos.
+Si la carpeta es un fork (tiene el remoto `upstream`), no uses `reservar.mjs`. En Claude Code usa la skill `colaborar`; en otras herramientas, sigue `.claude/skills/colaborar/SKILL.md`. En resumen: toma un lote con `node scripts/tomar.mjs --modelo <tu ID de modelo exacto>`, pide sus tramos con `node scripts/siguiente.mjs --lote` y tradúcelos como en el paso 4 de arriba, pasando `--modelo <tu ID>` a `unir.mjs`. `entregar.mjs --parcial` y `entregar.mjs` funcionan igual: suben a la rama del lote y actualizan su PR. Rige la misma regla de modelos.
 
 ## Cuando te pidan «corrige citas N»
 
