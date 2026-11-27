@@ -1,6 +1,8 @@
 ---
+aprobado_por: William Ochoa
+aprobado_el: 2026-11-27
 comentario: matthew-henry
-estado: borrador
+estado: aprobado
 analizado_por: Claude (IA)
 analizado_el: 2026-11-27
 ---
