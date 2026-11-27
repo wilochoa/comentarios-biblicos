@@ -27,7 +27,7 @@ El término éxodo proviene de la palabra griega *exodos*, que significa «la sa
 
 Autoría
 
-Tradicionalmente se considera a Moisés el autor del Pentateuco (de Génesis a Deuteronomio), aunque muchos eruditos lo ponen en duda. Véase la introducción del libro de Génesis, «Autoría».
+Tradicionalmente se considera a Moisés el autor del Pentateuco (de Génesis a Deuteronomio), aunque muchos eruditos lo ponen en duda. Ver la introducción del libro de Génesis, «Autoría».
 
 La fecha del éxodo (1446 o 1270 a. C.)
 
