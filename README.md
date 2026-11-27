@@ -104,7 +104,7 @@ Los términos nuevos que propone cada traductor quedan en `glosario-propuestas/<
 | `node scripts/soy.mjs` | Quién traduce en esta carpeta y qué prefiere |
 | `node scripts/siguiente.mjs --limite 10 [--comentario id] [--libro JHN]` | Qué se traduciría a continuación (sin reservar) |
 | `node scripts/reservar.mjs` / `entregar.mjs` | Apartar tramos / subir lo traducido y liberar |
-| `node scripts/validar.mjs --todos` | Valida todas las traducciones contra su original |
+| `node scripts/validar.mjs --todos [--resumen]` | Valida todas las traducciones contra su original (8 a la vez; `--resumen` muestra solo los errores) |
 | `node scripts/versiculo.mjs "Jn 3:16"` | Texto RVA 1909 de un pasaje |
 | `node scripts/construir-api.mjs` | Genera la API en `dist/api/v1` |
 | `node --test 'scripts/*.test.mjs'` | Pruebas de los scripts |

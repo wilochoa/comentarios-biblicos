@@ -10,6 +10,8 @@
 //   (respecto de HEAD con --cambiados, o de <ref> con --desde).
 //   --citas-como-aviso: las citas del versículo que no siguen la RVA no cuentan
 //   como error (lo usa la publicación mientras se corrigen las antiguas).
+//   --resumen: muestra solo los archivos con errores y el total (para Actions).
+//   --paralelo N: cuántos archivos se validan a la vez (8 por defecto).
 import { execFileSync } from 'node:child_process';
 import { readdirSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
@@ -65,8 +67,10 @@ const revisarModelos = args.includes('--modelos');
 const base = !revisarModelos || args.includes('--todos') ? null : desde ? correrGit(['merge-base', desde, 'HEAD']).trim() : 'HEAD';
 const desdeFecha = revisarModelos ? vigenteDesde() : null;
 
-let conErrores = 0;
-for (const ruta of archivos) {
+const resumen = args.includes('--resumen');
+const paralelo = Math.max(1, Number(args[args.indexOf('--paralelo') + 1]) || 8);
+
+async function validarUno(ruta) {
   const { errores, avisos } = await validarArchivo(ruta, { citasComoAviso: args.includes('--citas-como-aviso') });
   if (revisarModelos) {
     const meta = leerTraduccion(ruta)?.meta ?? {};
@@ -77,11 +81,27 @@ for (const ruta of archivos) {
       errores.push(`traducido_por "${ahora}" no es un modelo permitido (${describirPermitidos()})`);
     }
   }
-  const nombre = relative(ROOT, ruta);
+  return { nombre: relative(ROOT, ruta), errores, avisos };
+}
+
+// Se validan `paralelo` archivos a la vez y se informa en el orden de la lista.
+const resultados = new Array(archivos.length);
+let siguiente = 0;
+await Promise.all(
+  Array.from({ length: Math.min(paralelo, archivos.length) }, async () => {
+    while (siguiente < archivos.length) {
+      const i = siguiente++;
+      resultados[i] = await validarUno(archivos[i]);
+    }
+  }),
+);
+
+let conErrores = 0;
+for (const { nombre, errores, avisos } of resultados) {
   if (errores.length) {
     conErrores++;
     console.log(`✗ ${nombre}\n  - ${errores.join('\n  - ')}`);
-  } else {
+  } else if (!resumen) {
     console.log(`✓ ${nombre}${avisos.length ? `  (${avisos.length} aviso${avisos.length > 1 ? 's' : ''})` : ''}`);
   }
 }

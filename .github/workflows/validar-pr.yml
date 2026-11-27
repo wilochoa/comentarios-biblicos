@@ -1,6 +1,8 @@
 # Valida el PR de un lote de voluntario cuando deja de ser borrador.
 # Mientras es borrador (el voluntario sigue traduciendo) el job se salta y no
 # usa runner. Los PRs de un fork nuevo esperan la aprobación del dueño para correr.
+# Solo corre en PRs que vienen de un fork (voluntarios): los PRs de desarrollo
+# desde el propio repo cambian scripts y no son lotes.
 name: Validar PR
 
 on:
@@ -19,7 +21,7 @@ concurrency:
 
 jobs:
   validar:
-    if: github.event.pull_request.draft == false
+    if: github.event.pull_request.draft == false && github.event.pull_request.head.repo.full_name != github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -47,4 +49,4 @@ jobs:
           restore-keys: fuentes-
       # Forma, citas de la RVA y que el modelo esté en modelos-permitidos.json.
       - name: Validar lo que cambió
-        run: node scripts/validar.mjs --desde "origin/${{ github.base_ref }}" --modelos
+        run: node scripts/validar.mjs --desde "origin/${{ github.base_ref }}" --modelos --resumen
