@@ -55,6 +55,7 @@ El lector no debe notar que el texto viene del inglés. Los calcos más frecuent
 ## Citas y referencias bíblicas
 
 - **Referencias:** se escriben con las abreviaturas en español del glosario: `Jn 3:16`, `1 Co 1:26`, `Sal 119:148`, `Jn 3:3-8`. (Las de Henry, como `Joh 3:22` o `Co1 1:26`, se convierten solas al guardar, pero es mejor escribirlas ya en español.)
+- **Referencias en formato antiguo** (Abbott, Henry): `Acts 14:19` → `Hch 14:19`; `Deut. 25:2, 3` → `Dt 25:2-3`; `Acts 22:6-11, 26:12-19` → `Hch 22:6-11; 26:12-19`; `(Acts 27:)` → `(Hch 27)`; versículos sueltos del mismo capítulo, `(24-27,)` → `(vv. 24-27)`. El paréntesis se cierra antes del punto o la coma: `…apedreado (Hch 14:5).`
 - **Referencias del mismo libro** que Tyndale escribe solo con números (`3:1`, `(9:4; 11:10)`) se dejan así.
 - **Cuando el original cita un versículo con su referencia**, el texto de la cita se toma de la Reina-Valera 1909 con `node scripts/versiculo.mjs "<referencia>"`. Si el autor cita solo una parte del versículo, se toma esa misma parte del texto de la RVA. No se traduce la cita del inglés.
 - **La cita del versículo al inicio de una nota** (Tyndale: `51:2 Wash me . . . Purify me: The psalmist…`) es el caso más frecuente, y `unir.mjs` la revisa sola contra la RVA:
@@ -64,10 +65,14 @@ El lector no debe notar que el texto viene del inglés. Los calcos más frecuent
   - **Solo lleva cita inicial la nota que la tiene en el original.** Si el original empieza directo con el comentario (`17:2 All authority has been placed…`), la traducción también: nunca se agrega una cita, no se alarga la que hay con más texto del versículo y no se reemplaza el comentario por el versículo.
   - Si el original aclara la traducción literal (`I give myself as a holy sacrifice (literally I sanctify myself):`) y la RVA ya dice eso mismo, se omite el paréntesis: `17:19 yo me santifico a mí mismo:`, no `yo me santifico a mí mismo (literalmente me santifico a mí mismo):`. Se conserva solo si aporta algo distinto de la RVA.
   - **Solo si la RVA dice algo distinto y la nota explica justamente esa palabra** (la nota comenta un término que la RVA traduce de otra forma), se traduce la frase del inglés y se escribe **en cursiva**: `58:1 *gobernantes (o dioses)*: Esta designación se usaba…` (la RVA dice «congregación»). La cursiva avisa que no es el texto de la RVA.
+- **Citas del versículo en Abbott.** Abbott cita unas palabras del versículo y las explica, sin número de versículo, con punto y coma o punto después, y separa con raya las citas de una misma nota (`Rude in speech; unskilful in oratory.—Made manifest; made known`). Se escriben con la misma forma que en Tyndale:
+  - La cita, con las palabras de la RVA, empieza con mayúscula y termina en **dos puntos**; cada cita siguiente de la misma nota se separa con ` • `: `Basto en la palabra: poco diestro en la oratoria. • Manifiestos: dados a conocer`.
+  - Después de los dos puntos: minúscula si sigue una aclaración breve (`Flaqueza: peligros y sufrimientos.`); mayúscula si empieza una oración completa (`Cuarenta azotes menos uno: Por un mandato registrado en Dt 25:2-3…`).
+  - Las notas sin cita (`This language is obscure…`) empiezan directo, como el original.
 - **Referencia inicial de una nota sin punto:** `Sal 51 Esta conmovedora oración…`, `Sal 51–65 Estos salmos…`, como el original (`Ps 51 This moving prayer…`). No `Sal 51. Esta…`.
 - **Puntos suspensivos:** siempre `…` (un solo carácter), nunca `...` ni `. . .`.
 - **«&c.»** (abreviatura antigua de «etc.», muy frecuente en Abbott) nunca se deja en la traducción. Según dónde esté:
-  - **Cierra la cita del versículo** con que empieza una nota, o la que sigue a una raya `—` dentro de ella: el autor cita las primeras palabras y corta el resto. Se escriben esas mismas palabras con la RVA y `…`, se quita la coma que va antes y se conserva el signo que sigue en el original: `By honor, &c.; whether our course…` → `Por honra…; ya sea que nuestro camino…` (RVA 2 Co 6:8: «Por honra y por deshonra…»). `The brother, whose praise, &c. It is not known…` → `El hermano cuya alabanza… No se sabe…`.
+  - **Cierra la cita del versículo** con que empieza una nota, o la que sigue a una raya `—` dentro de ella: el autor cita las primeras palabras y corta el resto. Se escriben esas mismas palabras con la RVA y `…`, se quita la coma que va antes y siguen dos puntos: `By honor, &c.; whether our course…` → `Por honra…: ya sea que nuestro camino…` (RVA 2 Co 6:8: «Por honra y por deshonra…»). `The brother, whose praise, &c. It is not known…` → `El hermano cuya alabanza…: No se sabe…`.
   - **Va después de una cita entre comillas** dentro del texto: `…` dentro de las comillas: `"Go ye and learn," &c., means, simply, learn` → `«Andad pues, y aprended…» significa simplemente aprender`.
   - **Cierra una enumeración:** `etc.`: `brother, sister, son, daughter, &c.,` → `hermano, hermana, hijo, hija, etc.,`.
 - **Cuando la nota explica una palabra de la Biblia inglesa** (frecuente en Abbott y Henry, que comentan la King James): `Charity; love.`, `Conversation; conduct, manner of life.`, `Whether any; if any.` La nota **nunca se omite**. Se resuelve así:
@@ -96,7 +101,7 @@ El lector no debe notar que el texto viene del inglés. Los calcos más frecuent
 
 El español usa muchas menos que el inglés. Ante la duda, minúscula.
 
-- **Con mayúscula:** Dios, Señor, Espíritu Santo, Hijo, Padre, Mesías, Cristo, Salvador, Buen Pastor; la Biblia, la Escritura, Antiguo y Nuevo Testamento, Pentateuco, Salterio; fiestas y días señalados (Pascua, Pentecostés, Día de la Expiación); Tierra Prometida, Sermón del Monte.
+- **Con mayúscula:** Dios, Señor, Espíritu Santo, Hijo, Padre, Mesías, Cristo, Salvador, Buen Pastor, la Providencia (cuando el autor la personifica: «la divina Providencia»; «la providencia de Dios», con minúscula); la Biblia, la Escritura, Antiguo y Nuevo Testamento, Pentateuco, Salterio; fiestas y días señalados (Pascua, Pentecostés, Día de la Expiación); Tierra Prometida, Sermón del Monte.
 - **Con minúscula:** templo, tabernáculo, arca del pacto, reino de Dios, reino de los cielos, iglesia, evangelio (el mensaje), ley, pacto, éxodo y exilio (los hechos), apóstol, profeta, salmo, rey, faraón, fariseos, gentiles; los pronombres de Dios (él, su, tú).
 - **Evangelio:** con mayúscula solo cuando es el libro («el Evangelio de Juan», «los Evangelios»); el mensaje, con minúscula.
 - **Libros:** «Éxodo» es el libro; «el éxodo», la salida de Egipto. «Salmos» es el libro; «el salmo 23», un salmo.
@@ -122,4 +127,5 @@ El español usa muchas menos que el inglés. Ante la duda, minúscula.
 ## Formato del archivo
 
 - Markdown simple: párrafos separados por una línea en blanco; cursivas con `*...*`. Sin negritas, títulos ni listas con viñetas que el original no tenga.
+- **Erratas de la fuente:** los originales digitalizados traen errores evidentes de puntuación o de letras (`In the, regions`, `the. Jews`). Se traduce lo que el autor quiso decir, sin marcarlo. Si la errata cambia el sentido y no es evidente cuál era el texto, se traduce tal como está.
 - Cada sección empieza con `## <id>` exactamente como en el original (`## introduccion`, `## intro`, `## v1`, `## v22`). No se cambian, no se unen y no se inventan secciones.
