@@ -28,8 +28,8 @@
         "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
         "sitio": "https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Abbott"
       },
-      "licencia_traduccion": "Pendiente de decidir",
-      "atribucion": "Traducción al español de las notas del Illustrated New Testament de John S. C. Abbott y Jacob Abbott (1878, dominio público). Traducción asistida por IA.",
+      "licencia_traduccion": "CC BY-SA 4.0",
+      "atribucion": "Traducción al español de las notas del Illustrated New Testament de John S. C. Abbott y Jacob Abbott (1878, dominio público). Traducción bajo licencia CC BY-SA 4.0. Traducción asistida por IA.",
       "publicar": false
     },
     {
@@ -44,10 +44,10 @@
         "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
         "sitio": "https://en.wikipedia.org/wiki/Matthew_Henry"
       },
-      "licencia_traduccion": "Pendiente de decidir",
-      "atribucion": "Traducción al español del comentario de Matthew Henry (dominio público). Traducción asistida por IA.",
+      "licencia_traduccion": "CC BY-SA 4.0",
+      "atribucion": "Traducción al español del comentario de Matthew Henry (dominio público). Traducción bajo licencia CC BY-SA 4.0. Traducción asistida por IA.",
       "publicar": false
     }
   ],
-  "_ayuda": "publicar: si el comentario sale en la API pública. Matthew Henry espera la decisión de licencia; Abbott se usa para probar el flujo de voluntarios y espera revisión y licencia."
+  "_ayuda": "publicar: si el comentario sale en la API pública. Matthew Henry y Abbott se publican cuando estén traducidos y revisados; Abbott se usa además para probar el flujo de voluntarios."
 }
