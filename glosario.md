@@ -29,8 +29,17 @@ Se traduce **siempre** igual en todos los comentarios. Si aparece un término re
 | the gospel | el evangelio | con minúscula |
 | Good News | las buenas nuevas | en Tyndale equivale a «el evangelio» |
 | the law | la ley | «la Ley» con mayúscula solo para el Pentateuco como libro |
-| the Lord | el Señor |  |
-| LORD (Yahweh) | SEÑOR | ver guía de estilo |
+| the Lord | el Señor | Jesús, y en general en el Nuevo Testamento |
+| LORD / the Lord (nombre divino, AT) | el SEÑOR | si la RVA dice «Jehová» en ese versículo; ver guía de estilo |
+| Yahweh | Yahvé |  |
+| Jehovah | Jehová | Henry y Abbott; y siempre dentro de citas de la RVA |
+| Sovereign LORD | SEÑOR Soberano |  |
+| LORD of Heaven’s Armies / LORD of hosts | SEÑOR de los ejércitos |  |
+| unfailing love | amor inagotable | Tyndale (NLT) |
+| made right with God | hecho justo ante Dios | Tyndale (NLT); «justificar» solo cuando el autor dice *justify* |
+| teachers of religious law | maestros de la ley religiosa | Tyndale (NLT); «escribas» cuando el autor dice *scribes* |
+| see (remisión) | ver | no «véase» |
+| cp. / cf. | cf. |  |
 | the Holy Ghost / Holy Spirit | el Espíritu Santo |  |
 | Son of Man | Hijo del Hombre |  |
 | the church | la iglesia | con minúscula |
@@ -131,6 +140,8 @@ Referencias siempre con la abreviatura en español: `Jn 3:16`, `1 Co 1:26`.
 | Apocalipsis | Ap | Rev | REV |
 
 ## Por revisar
+
+Propuestas todavía sin decidir. **Úsalas** para mantener la coherencia con lo ya traducido, salvo que choquen con la tabla de Términos o con la guía de estilo, que mandan.
 
 <!-- Propuestas de las primeras corridas. Las nuevas llegan a glosario-propuestas/<quien>.md. -->
 
