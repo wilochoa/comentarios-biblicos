@@ -9,6 +9,7 @@ Varias sesiones traducen **al mismo tiempo** (solo con los modelos de `modelos-p
 - `comentarios.json`: los comentarios (id, autor, licencias, atribución, si se publican).
 - `plan.json`: orden de trabajo (fases por comentario y prioridad de libros).
 - `guia-de-estilo.md` y `glosario.md`: reglas de traducción. Obligatorias.
+- `nombres.md`: forma de los nombres propios (personas, lugares, pueblos). Se consulta por nombre, no se lee entero.
 - `estilos/<comentario>.md`: perfil de estilo de cada autor (cómo escribe y sus reglas propias). Obligatorio; sin perfil aprobado los scripts no reparten ese comentario.
 - `instrucciones/tramo.md`: cómo se traduce un tramo, paso a paso.
 - `traducciones/<comentario>/<LIBRO>/intro.md | <capítulo>.md`: las traducciones.
@@ -25,7 +26,7 @@ Estados de una traducción: `parcial` → `borrador` (completa, IA) → `revisad
 3. **Reservar.** `node scripts/reservar.mjs --modelo <tu ID de modelo exacto> --cantidad N`, más `--comentario <id>` y/o `--libro <USFM,USFM>` si te pidieron un autor o libros concretos. Te devuelve la lista JSON de tus tramos, ya apartados para ti. Si está vacía, informa que no queda nada pendiente para ese filtro y termina. Si dice que ya tienes una reserva vigente, **no** uses `--forzar` por tu cuenta: avisa al usuario. Si rechaza tu modelo, detente y avisa: **solo se traduce con los modelos de `modelos-permitidos.json`** (Claude Opus o Sonnet 5.5 o superior, o Fable), sea cual sea la herramienta.
 4. **Traducir.** Para cada tramo de la lista, sigue `instrucciones/tramo.md`. Si tu herramienta permite subagentes, usa uno por tramo (hasta 3 en paralelo), cada uno con contexto limpio; si no, tradúcelos uno por uno. Si un tramo falla, reinténtalo una vez; si vuelve a fallar, borra su archivo en `trabajo/` y sigue.
    **Después de cada tramo** (o de cada grupo, si van en paralelo) corre `node scripts/entregar.mjs --parcial`: sube lo hecho, conserva tu reserva y deja ver el avance en https://comentarios.iglesy.net/avance/.
-5. **Términos.** Si apareció algún término recurrente que no está en `glosario.md`, agrégalo como fila a `glosario-propuestas/<tu nombre>.md` (créalo con el encabezado `| Inglés | Propuesta | Dónde apareció |` / `|---|---|---|` si no existe), sin repetir.
+5. **Términos.** Si apareció algún término recurrente que no está en `glosario.md`, o un nombre propio que no está en `nombres.md`,, agrégalo como fila a `glosario-propuestas/<tu nombre>.md` (créalo con el encabezado `| Inglés | Propuesta | Dónde apareció |` / `|---|---|---|` si no existe), sin repetir.
 6. **Entregar.** `node scripts/entregar.mjs` (sin `--parcial`). Valida, hace commit, sube y libera tu reserva. Córrelo **siempre** al final, aunque algo haya fallado. Si reporta archivos con ✗, corrígelos y vuelve a correrlo.
 7. **Informe** breve: tramos traducidos, fallidos y por qué, términos propuestos, y la salida de `node scripts/progreso.mjs`.
 

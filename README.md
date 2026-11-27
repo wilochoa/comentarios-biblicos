@@ -94,7 +94,7 @@ La publicación (GitHub Actions) valida todo de forma estricta: si algo llegó s
 3. Márcalo: `node scripts/revisado.mjs traducciones/tyndale/JHN/3.md "Tu nombre"`.
 4. Commit. Un archivo revisado nunca se vuelve a sobrescribir.
 
-Los términos nuevos que propone cada traductor quedan en `glosario-propuestas/<quien>.md`: pásalos a la tabla de `glosario.md` cuando decidas cómo se traducen, y bórralos de ahí.
+Los términos nuevos que propone cada traductor quedan en `glosario-propuestas/<quien>.md`. Al revisarlos: los términos que se repiten y tienen más de una traducción posible pasan a la tabla de su tema en `glosario.md`; los nombres propios, a `nombres.md`; los cognados obvios (hospitalidad, doxología) y los que salieron una sola vez se descartan. Después se borran de la propuesta. El glosario lo lee entero el traductor en cada tramo: que no crezca con lo que no necesita.
 
 ### Otros comandos
 

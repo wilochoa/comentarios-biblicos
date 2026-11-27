@@ -80,7 +80,7 @@ El lector no debe notar que el texto viene del inglés. Los calcos más frecuent
 
 ## Nombres y términos
 
-- **Nombres bíblicos** con su forma en español de la tradición Reina-Valera: Nicodemo, Juan el Bautista, Moisés, Josué, Isaías, Belén, Galilea.
+- **Nombres bíblicos:** la forma de `nombres.md`. Si no está, la de la RVA 1909 con ortografía actual (RVA «Achâz», «Thare» → «Acaz», «Taré»); ver la regla al inicio de `nombres.md`.
 - **Términos teológicos:** siempre como dice el glosario, en todo el comentario.
 - **Pronombres para Dios:** con minúscula (él, su, le), como la NVI. "Dios", "Señor", "Espíritu Santo", "Hijo del Hombre" con mayúscula.
 - **El nombre de Dios.** Dentro de una cita de la RVA se deja siempre lo que dice la RVA («Jehová»). En el comentario:

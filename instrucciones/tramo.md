@@ -7,7 +7,7 @@ Recibes el JSON de un tramo (de `scripts/reservar.mjs`), por ejemplo:
 
 ## Pasos
 
-1. Lee `guia-de-estilo.md`, `glosario.md` y el perfil del autor, `estilos/<comentario>.md`, completos. Son obligatorios. El perfil dice cómo escribe este autor y cómo se traduce; manda sobre la guía en lo propio de él. Si el perfil no existe o no dice `estado: aprobado`, no traduzcas y responde `FALLÓ` con ese motivo. En el glosario manda la tabla «Términos»; las filas de «Por revisar» se usan para ser coherente con lo ya traducido, salvo que choquen con ella o con la guía.
+1. Lee `guia-de-estilo.md`, `glosario.md` y el perfil del autor, `estilos/<comentario>.md`, completos. Son obligatorios. El perfil dice cómo escribe este autor y cómo se traduce; manda sobre la guía en lo propio de él. Si el perfil no existe o no dice `estado: aprobado`, no traduzcas y responde `FALLÓ` con ese motivo. Los nombres propios no están en el glosario sino en `nombres.md`: no lo leas entero; busca ahí cada nombre que aparezca en tu tramo (`grep -i "^| <nombre>" nombres.md`) y usa esa forma.
 2. Obtén el original: `node scripts/fuente.mjs <comentario> <libro> <unidad> --secciones <ids separados por coma>`.
 3. Si el archivo de destino ya existe (tramos anteriores del mismo capítulo), lee sus últimas secciones para mantener el mismo estilo y terminología.
 4. **Citas del versículo.** Cuando una nota empieza citando el versículo (`50:10 I own the cattle on a thousand hills: God has…`) o cita un versículo con su referencia, busca el texto: `node scripts/versiculo.mjs "<ref>" ["<ref>" ...]` (puedes pedir varias de una vez) y usa **las palabras de la RVA 1909**, sin comillas y con `…` si saltas texto:

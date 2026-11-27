@@ -41,7 +41,7 @@ Si el uso de Claude se le acaba a la mitad, no pasa nada: lo hecho ya está guar
 
 ## 5. Términos
 
-Agrega los términos nuevos como filas a `glosario-propuestas/<quien>.md` (`<quien>` sale de `node scripts/soy.mjs`; si el archivo no existe, créalo con `| Inglés | Propuesta | Dónde apareció |` y `|---|---|---|`), sin repetir los que ya estén ahí o en `glosario.md`.
+Agrega los términos nuevos como filas a `glosario-propuestas/<quien>.md` (`<quien>` sale de `node scripts/soy.mjs`; si el archivo no existe, créalo con `| Inglés | Propuesta | Dónde apareció |` y `|---|---|---|`), sin repetir los que ya estén ahí, en `glosario.md` o en `nombres.md`.
 
 ## 6. Entregar
 

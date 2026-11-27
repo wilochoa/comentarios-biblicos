@@ -8,4 +8,4 @@ Cada traductor anota aquí, en `<quien>.md`, los términos recurrentes que no en
 | Festival of Shelters | fiesta de los Tabernáculos | tyndale/JHN/intro |
 ```
 
-Un archivo por traductor para que nunca choquen al subir. Al revisar, pasa los términos decididos a la tabla principal de `glosario.md` y bórralos de aquí.
+Un archivo por traductor para que nunca choquen al subir. Al revisar, pasa los términos decididos a la tabla de su tema en `glosario.md` (o los nombres a `nombres.md`) y bórralos de aquí. Los nombres propios también se proponen aquí.

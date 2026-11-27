@@ -39,7 +39,7 @@ Otros modelos pueden estar traduciendo al mismo tiempo desde otras carpetas: por
    - Antes de entregar cada grupo, revisa cada archivo `OK` contra `node scripts/fuente.mjs`: citas iniciales que el original no tiene, notas reemplazadas por el versículo, calcos y frases sin sentido. Corrige lo que encuentres y valida con `node scripts/validar.mjs <archivo>`.
    - A cada subagente pásale solo el JSON del tramo, sin instrucciones extra: las reglas están en `instrucciones/tramo.md` y en la guía.
 
-6. **Términos.** Agrega los términos nuevos como filas a `glosario-propuestas/<quien>.md` (`<quien>` es el nombre de `soy.mjs`; si el archivo no existe, créalo con `| Inglés | Propuesta | Dónde apareció |` y `|---|---|---|`), sin repetir los que ya estén ahí o en `glosario.md`.
+6. **Términos.** Agrega los términos nuevos como filas a `glosario-propuestas/<quien>.md` (`<quien>` es el nombre de `soy.mjs`; si el archivo no existe, créalo con `| Inglés | Propuesta | Dónde apareció |` y `|---|---|---|`), sin repetir los que ya estén ahí, en `glosario.md` o en `nombres.md`.
 
 7. **Entregar.** `node scripts/entregar.mjs` (sin `--parcial`). Valida, hace commit, sube y libera la reserva. Córrelo siempre, aunque haya fallos. Si muestra archivos con ✗, corrígelos con un subagente o descártalos y vuelve a correrlo.
 
