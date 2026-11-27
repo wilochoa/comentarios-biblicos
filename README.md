@@ -75,6 +75,12 @@ El avance se cuenta con `datos/tamanos.json` (palabras de cada original). Si agr
 
 Para que corra sin pedir permisos, el repo ya trae [`.claude/settings.json`](.claude/settings.json): permite `node scripts/…`, `git status`, `git diff` y escribir en `trabajo/` y `glosario-propuestas/`. Lo usan también los voluntarios con `/colaborar`.
 
+### Perfil de estilo de cada autor
+
+Antes de traducir un comentario nuevo se analiza cómo escribe su autor: `/analizar-autor <comentario>` toma una muestra de toda la obra (`node scripts/muestra.mjs <comentario>`), traduce unas notas de prueba y escribe `estilos/<comentario>.md` con la voz del autor y sus reglas propias. El traductor lo lee en cada tramo, junto con la guía y el glosario.
+
+El perfil nace en borrador y **lo aprueba una persona** después de leerlo: `node scripts/estilo.mjs aprobar <comentario> "<nombre>"` (y commit). Mientras no esté aprobado, `reservar.mjs`, `tomar.mjs` y `siguiente.mjs` no reparten ese comentario. `node scripts/estilo.mjs` muestra el estado de todos.
+
 ### Reglas que se revisan solas
 
 `unir.mjs` (al guardar cada tramo) y `entregar.mjs` (al subir) revisan la forma y **las citas del versículo**, que deben ir con el texto de la RVA 1909 (`scripts/citas.mjs`; la regla está en `guia-de-estilo.md`). Lo mecánico se corrige solo («...» → «…», comillas en la cita, «Sal 51.» → «Sal 51»); una cita que no sale de la RVA se rechaza con el texto de la RVA en el mensaje, para que el modelo la corrija.

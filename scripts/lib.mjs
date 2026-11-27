@@ -303,7 +303,7 @@ export async function validarArchivo(ruta, { citasComoAviso = false } = {}) {
     for (const e of revisarSeccion(originales.get(s.id), s.texto)) errores.push(`${s.id}: ${e}`);
     const { erroresDeForma, revisarCitas } = await import('./citas.mjs');
     for (const e of erroresDeForma(s.texto)) errores.push(`${s.id}: ${e}`);
-    for (const e of await revisarCitas({ libro: meta.libro, original: originales.get(s.id), traduccion: s.texto })) {
+    for (const e of await revisarCitas({ libro: meta.libro, original: originales.get(s.id), traduccion: s.texto, comentario: meta.comentario, unidad: meta.unidad, seccion: s.id })) {
       (citasComoAviso ? avisos : errores).push(`${s.id}: ${e}`);
     }
   }

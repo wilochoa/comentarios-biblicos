@@ -77,7 +77,7 @@ for (const s of trabajo.secciones) {
   // Lo mecánico se corrige solo («...» → «…», «Sal 51.» → «Sal 51», comillas en la cita del versículo).
   const texto = normalizarForma(convertirReferencias(s.texto));
   for (const e of revisarSeccion(originales.get(s.id), texto)) errores.push(`${s.id}: ${e}`);
-  for (const e of await revisarCitas({ libro, original: originales.get(s.id), traduccion: texto })) errores.push(`${s.id}: ${e}`);
+  for (const e of await revisarCitas({ libro, original: originales.get(s.id), traduccion: texto, comentario: idComentario, unidad, seccion: s.id })) errores.push(`${s.id}: ${e}`);
   nuevas.set(s.id, texto);
 }
 if (!trabajo.secciones.length) errores.push('el archivo de trabajo no tiene secciones');

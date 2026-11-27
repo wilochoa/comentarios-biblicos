@@ -9,6 +9,7 @@ Varias sesiones traducen **al mismo tiempo** (solo con los modelos de `modelos-p
 - `comentarios.json`: los comentarios (id, autor, licencias, atribución, si se publican).
 - `plan.json`: orden de trabajo (fases por comentario y prioridad de libros).
 - `guia-de-estilo.md` y `glosario.md`: reglas de traducción. Obligatorias.
+- `estilos/<comentario>.md`: perfil de estilo de cada autor (cómo escribe y sus reglas propias). Obligatorio; sin perfil aprobado los scripts no reparten ese comentario.
 - `instrucciones/tramo.md`: cómo se traduce un tramo, paso a paso.
 - `traducciones/<comentario>/<LIBRO>/intro.md | <capítulo>.md`: las traducciones.
 - `reservas/<quien>.json`: lo que cada traductor está traduciendo ahora.
@@ -32,6 +33,10 @@ Estados de una traducción: `parcial` → `borrador` (completa, IA) → `revisad
 
 Si la carpeta es un fork (tiene el remoto `upstream`), no uses `reservar.mjs`. En Claude Code usa la skill `colaborar`; en otras herramientas, sigue `.claude/skills/colaborar/SKILL.md`. En resumen: toma un lote con `node scripts/tomar.mjs --modelo <tu ID de modelo exacto>`, pide sus tramos con `node scripts/siguiente.mjs --lote` y tradúcelos como en el paso 4 de arriba, pasando `--modelo <tu ID>` a `unir.mjs`. `entregar.mjs --parcial` y `entregar.mjs` funcionan igual: suben a la rama del lote y actualizan su PR. Rige la misma regla de modelos.
 
+## Antes de empezar un comentario nuevo
+
+Cada autor necesita su perfil de estilo antes de traducir la primera página. En Claude Code usa la skill `analizar-autor` (`/analizar-autor <comentario>`); en otras herramientas, sigue `.claude/skills/analizar-autor/SKILL.md`. El perfil queda en borrador y solo lo aprueba una persona: `node scripts/estilo.mjs aprobar <comentario> "<nombre>"`. Un agente nunca corre ese comando por su cuenta. `node scripts/estilo.mjs` muestra cómo está cada uno.
+
 ## Cuando te pidan «corrige citas N»
 
 Las traducciones anteriores a la revisión automática pueden tener citas del versículo que no siguen la RVA 1909. Corrígelas así (**una sola herramienta a la vez** hace esta tarea; no usa reservas):
@@ -45,7 +50,7 @@ Las traducciones anteriores a la revisión automática pueden tener citas del ve
 ## Reglas
 
 - No traduzcas nada que no esté en tu reserva.
-- Nunca edites `fuentes/`, `plan.json`, `comentarios.json`, `reservas/` ni los scripts durante una corrida.
+- Nunca edites `fuentes/`, `plan.json`, `comentarios.json`, `reservas/`, `estilos/` ni los scripts durante una corrida.
 - Nunca toques un archivo con `estado: revisado` (`unir.mjs` lo impide de todos modos).
 - No hagas commit ni push a mano: `entregar.mjs` lo hace. Nada que no pase `validar.mjs` se sube.
 - Las citas del versículo van con las palabras de la RVA 1909 (`unir.mjs` y `entregar.mjs` lo revisan y rechazan lo que no cumpla). No las «arregles» con cursiva para pasar la revisión: la cursiva es solo para cuando la nota explica una palabra que la RVA traduce distinto.

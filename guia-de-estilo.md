@@ -1,6 +1,6 @@
 # Guía de estilo de traducción
 
-Estas reglas valen para todos los comentarios. Si una regla choca con el glosario, manda el glosario.
+Estas reglas valen para todos los comentarios. Lo propio de cada autor está en su perfil, `estilos/<comentario>.md`. Si una regla choca con el glosario, manda el glosario.
 
 ## Lo esencial
 
@@ -13,9 +13,7 @@ Estas reglas valen para todos los comentarios. Si una regla choca con el glosari
 
 La traducción debe sonar como el autor, no como el traductor. Se actualiza el idioma, no el estilo.
 
-- **Tyndale:** prosa moderna, sobria y explicativa. Frases cortas y directas.
-- **Matthew Henry:** predicador puritano, devocional y retórico. Se conservan sus antítesis, paralelismos, preguntas retóricas, exclamaciones y exhortaciones («Observemos…», «Aprendamos…»). Una oración larguísima puede partirse, pero sin aplanar el tono ni convertir una exhortación en una explicación.
-- **Abbott:** notas breves, casi telegráficas, muchas veces sin verbo (`Jealous; watchful and solicitous.` → `Celoso: vigilante y solícito.`). No se rellenan ni se convierten en oraciones completas.
+- **Cada autor tiene su perfil** en `estilos/<comentario>.md`: cómo escribe, cómo debe sonar en español y las reglas que solo valen para él. Se lee antes de traducir y manda sobre esta guía en lo propio del autor.
 - **Trato al lector:** cuando el autor le habla a un lector, «tú»; a varios, «ustedes». A Dios siempre se le habla de «tú» (`Thou, Lord, art…` → `Tú, Señor, eres…`).
 - **«Man», «men», «mankind» en sentido genérico:** «el hombre», «los hombres», «el ser humano» o «la humanidad», lo que suene más natural en la frase. Sin desdoblamientos («los y las creyentes») ni lenguaje que el autor no usó.
 - **Lenguaje polémico o de época** (`papists`, `Romish`, `heathen`, `the Jews` como adversarios): se traduce tal cual («papistas», «romanista», «paganos», «los judíos»), sin suavizar, sin comillas de distancia y sin comentario.
@@ -65,10 +63,7 @@ El lector no debe notar que el texto viene del inglés. Los calcos más frecuent
   - **Solo lleva cita inicial la nota que la tiene en el original.** Si el original empieza directo con el comentario (`17:2 All authority has been placed…`), la traducción también: nunca se agrega una cita, no se alarga la que hay con más texto del versículo y no se reemplaza el comentario por el versículo.
   - Si el original aclara la traducción literal (`I give myself as a holy sacrifice (literally I sanctify myself):`) y la RVA ya dice eso mismo, se omite el paréntesis: `17:19 yo me santifico a mí mismo:`, no `yo me santifico a mí mismo (literalmente me santifico a mí mismo):`. Se conserva solo si aporta algo distinto de la RVA.
   - **Solo si la RVA dice algo distinto y la nota explica justamente esa palabra** (la nota comenta un término que la RVA traduce de otra forma), se traduce la frase del inglés y se escribe **en cursiva**: `58:1 *gobernantes (o dioses)*: Esta designación se usaba…` (la RVA dice «congregación»). La cursiva avisa que no es el texto de la RVA.
-- **Citas del versículo en Abbott.** Abbott cita unas palabras del versículo y las explica, sin número de versículo, con punto y coma o punto después, y separa con raya las citas de una misma nota (`Rude in speech; unskilful in oratory.—Made manifest; made known`). Se escriben con la misma forma que en Tyndale:
-  - La cita, con las palabras de la RVA, empieza con mayúscula y termina en **dos puntos**; cada cita siguiente de la misma nota se separa con ` • `: `Basto en la palabra: poco diestro en la oratoria. • Manifiestos: dados a conocer`.
-  - Después de los dos puntos: minúscula si sigue una aclaración breve (`Flaqueza: peligros y sufrimientos.`); mayúscula si empieza una oración completa (`Cuarenta azotes menos uno: Por un mandato registrado en Dt 25:2-3…`).
-  - Las notas sin cita (`This language is obscure…`) empiezan directo, como el original.
+- **Autores que citan el versículo sin número** (Abbott): la forma está en su perfil (`estilos/abbott.md`): cita con las palabras de la RVA y dos puntos, y ` • ` entre las citas de una misma nota.
 - **Referencia inicial de una nota sin punto:** `Sal 51 Esta conmovedora oración…`, `Sal 51–65 Estos salmos…`, como el original (`Ps 51 This moving prayer…`). No `Sal 51. Esta…`.
 - **Puntos suspensivos:** siempre `…` (un solo carácter), nunca `...` ni `. . .`.
 - **«&c.»** (abreviatura antigua de «etc.», muy frecuente en Abbott) nunca se deja en la traducción. Según dónde esté:

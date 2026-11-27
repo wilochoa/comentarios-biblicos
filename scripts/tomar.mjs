@@ -18,6 +18,7 @@ import { conflicto, cuerpoPr, guardarLote, hayLote, leerLote, lotesActivos, lote
 import { describirPermitidos, modeloPermitido } from './modelos.mjs';
 import { git, identidad, reservasActivasEn } from './reservas.mjs';
 import { filtrosDeArgs, validarFiltros } from './tramos.mjs';
+import { estiloAprobado } from './estilo.mjs';
 
 const args = process.argv.slice(2);
 const valor = (nombre) => {
@@ -82,7 +83,7 @@ for (let intento = 1; intento <= 5; intento++) {
     fallar(`No se pudo consultar GitHub: ${error.message}`);
   }
   const ocupados = new Set([...internos, ...enLotes.archivos]);
-  let libres = lotesLibres(lotesDelPlan(), { ocupados, ...filtros }).filter((l) => !descartados.has(l.id));
+  let libres = lotesLibres(lotesDelPlan(), { ocupados, ...filtros }).filter((l) => !descartados.has(l.id) && estiloAprobado(l.comentario));
   if (valor('lote')) libres = libres.filter((l) => l.id === valor('lote'));
   if (!libres.length) {
     console.error(valor('lote') ? `El lote ${valor('lote')} no está libre (o ya está traducido).` : 'No queda ningún lote libre para este filtro.');

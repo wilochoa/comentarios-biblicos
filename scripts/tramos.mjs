@@ -4,11 +4,13 @@
 // un capítulo), de hasta maxPalabras del original. Se emite como mucho un
 // tramo por archivo, para que nunca se escriba el mismo archivo en paralelo.
 import { relative } from 'node:path';
+import { estiloAprobado } from './estilo.mjs';
 import { ROOT, cargarFuente, librosDeFuente, leerTraduccion, libroPorCodigo, plan, rutaTraduccion } from './lib.mjs';
 
 async function* objetivos({ comentarios, libros: soloLibros }) {
   for (const fase of plan().fases) {
     if (comentarios?.length && !comentarios.includes(fase.comentario)) continue;
+    if (!estiloAprobado(fase.comentario)) continue; // sin perfil de estilo aprobado no se reparte
     const libros = await librosDeFuente(fase.comentario);
     for (const usfm of fase.libros) {
       if (soloLibros?.length && !soloLibros.includes(usfm)) continue;

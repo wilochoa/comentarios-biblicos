@@ -19,6 +19,7 @@
     {
       "id": "abbott",
       "fuente": "abbott",
+      "formato_citas": "sin-referencia",
       "nombre": "Nuevo Testamento ilustrado de Abbott",
       "autor": "John S. C. Abbott y Jacob Abbott (1878)",
       "descripcion": "Notas breves y devocionales a todo el Nuevo Testamento, con introducción a cada libro.",
@@ -49,5 +50,5 @@
       "publicar": false
     }
   ],
-  "_ayuda": "publicar: si el comentario sale en la API pública. Matthew Henry y Abbott se publican cuando estén traducidos y revisados; Abbott se usa además para probar el flujo de voluntarios."
+  "_ayuda": "publicar: si el comentario sale en la API pública. formato_citas: sin-referencia si el autor cita el versículo sin número (Abbott); lo usa scripts/citas.mjs. Cada comentario necesita su perfil aprobado en estilos/<id>.md antes de traducirse (scripts/estilo.mjs). Matthew Henry y Abbott se publican cuando estén traducidos y revisados; Abbott se usa además para probar el flujo de voluntarios."
 }
