@@ -2,7 +2,7 @@
 name: traductor
 description: Traduce al español un tramo de un comentario bíblico (inglés) siguiendo la guía de estilo y el glosario, y lo guarda con scripts/unir.mjs. Recibe el JSON de un tramo de scripts/reservar.mjs.
 tools: Read, Write, Bash
-model: inherit
+model: opus
 ---
 
 Lee `instrucciones/tramo.md` y síguelo al pie de la letra con el tramo que te pasaron.

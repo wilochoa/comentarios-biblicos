@@ -1,20 +1,20 @@
-# Publica la API estática en GitHub Pages en cada push a main.
+# Publica la API estática en GitHub Pages cada 6 horas, solo si cambió algo
+# desde la última publicación exitosa. Ya no corre con cada push a main: así
+# las entregas parciales y los PRs de voluntarios no disparan una publicación
+# cada uno. Para publicar ya: Actions → Publicar API → Run workflow.
 # Requiere: Settings → Pages → Source: "GitHub Actions".
 name: Publicar API
 
 on:
-  push:
-    branches: [main]
-    # Las reservas y las propuestas de glosario no cambian la API.
-    paths-ignore:
-      - 'reservas/**'
-      - 'glosario-propuestas/**'
+  schedule:
+    - cron: '17 */6 * * *'
   workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
   id-token: write
+  actions: read
 
 # Una publicación a la vez. No se corta la que está en curso (cortarla dejaba
 # publicaciones fallidas); de las que esperan, GitHub conserva solo la última.
@@ -23,7 +23,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # ¿Cambió algo que se publica? Unos segundos; si no hay nada nuevo, no se publica.
+  revisar:
+    runs-on: ubuntu-latest
+    outputs:
+      publicar: ${{ steps.cambios.outputs.publicar }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - id: cambios
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "publicar=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          ultimo=$(gh api "repos/${{ github.repository }}/actions/workflows/publicar.yml/runs?status=success&per_page=1" --jq '.workflow_runs[0].head_sha // empty' || true)
+          if [ -n "$ultimo" ] && git diff --quiet "$ultimo" HEAD -- traducciones comentarios.json plan.json datos scripts web 2>/dev/null; then
+            echo "Nada nuevo desde ${ultimo}: no se publica."
+            echo "publicar=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "publicar=true" >> "$GITHUB_OUTPUT"
+          fi
+
   publicar:
+    needs: revisar
+    if: needs.revisar.outputs.publicar == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -43,10 +67,11 @@ jobs:
           restore-keys: fuentes-
       - name: Pruebas
         run: node --test 'scripts/*.test.mjs'
-      # Estricto: lo que no cumple las reglas (también las citas de la RVA) no se publica.
+      # Estricto: lo que no cumple las reglas (citas de la RVA y modelos permitidos
+      # desde modelos-permitidos.json → vigente_desde) no se publica.
       # Lo normal es que entregar.mjs ya lo haya rechazado antes de subirlo.
       - name: Validar traducciones
-        run: node scripts/validar.mjs --todos
+        run: node scripts/validar.mjs --todos --modelos
       - name: Construir API
         run: node scripts/construir-api.mjs
       - uses: actions/configure-pages@v5

@@ -37,7 +37,7 @@ Recibes el JSON de un tramo (de `scripts/reservar.mjs`), por ejemplo:
 6. **Revisa tu archivo contra el original, nota por nota**, antes de unir:
    - Cada nota arranca igual que en inglés: con cita solo si el original la tiene (ver la guía); nada agregado ni omitido.
    - Léela como lector hispano: sin calcos del inglés («estaba a la mano», «grupo arrestador», «victimizados»), sin errores de concordancia y sin palabras malsonantes en algún país («coger» fuera de una cita de la RVA).
-7. Corre `node scripts/unir.mjs <ese archivo>`. Corrige solo lo mecánico (`...` → `…`, comillas en la cita, punto tras «Sal 51») y revisa que las citas del versículo salgan de la RVA. Si reporta errores (sección incompleta, inglés sin traducir, una cita que no sale de la RVA…), corrige tu archivo de trabajo como dice el mensaje y vuelve a correrlo. Máximo 3 intentos.
+7. Corre `node scripts/unir.mjs <ese archivo> --modelo <tu ID de modelo exacto>` (p. ej. `--modelo claude-opus-5-5`; es el ID con que te configuraron, no un nombre inventado). Es obligatorio y solo se aceptan los modelos de `modelos-permitidos.json`: si el tuyo no está, no traduzcas y responde `FALLÓ` con ese motivo. `unir.mjs` corrige solo lo mecánico (`...` → `…`, comillas en la cita, punto tras «Sal 51») y revisa que las citas del versículo salgan de la RVA. Si reporta errores (sección incompleta, inglés sin traducir, una cita que no sale de la RVA…), corrige tu archivo de trabajo como dice el mensaje y vuelve a correrlo. Máximo 3 intentos.
 
 ## Resultado
 

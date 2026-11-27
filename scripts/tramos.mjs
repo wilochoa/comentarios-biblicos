@@ -29,16 +29,18 @@ async function* objetivos({ comentarios, libros: soloLibros }) {
  * - `excluir`: rutas de archivo ("traducciones/…") reservadas por otro traductor.
  * - `comentarios`: solo estos comentarios (ids), p. ej. ['matthew-henry']. Vacío = todos.
  * - `libros`: solo estos libros (USFM), p. ej. ['JHN', 'ROM']. Vacío = todos.
+ * - `soloArchivos`: solo estos archivos ("traducciones/…"), p. ej. los de un lote.
  * Sin filtros se recorren las fases en orden; con `comentarios` se puede
  * trabajar en un autor aunque una fase anterior de otro autor no esté terminada.
  */
-export async function siguientesTramos({ limite = 5, maxPalabras = 5000, excluir = new Set(), comentarios = [], libros = [] } = {}) {
+export async function siguientesTramos({ limite = 5, maxPalabras = 5000, excluir = new Set(), comentarios = [], libros = [], soloArchivos } = {}) {
   const trabajos = [];
   for await (const obj of objetivos({ comentarios, libros })) {
     if (trabajos.length >= limite) break;
     const ruta = rutaTraduccion(obj.comentario, obj.libro, obj.unidad);
     const archivo = relative(ROOT, ruta);
     if (excluir.has(archivo)) continue;
+    if (soloArchivos && !soloArchivos.has(archivo)) continue;
     const actual = leerTraduccion(ruta);
     if (actual && actual.meta.estado !== 'parcial') continue;
     const fuente = await cargarFuente(obj.comentario, obj.libro, obj.unidad);

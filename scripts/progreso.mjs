@@ -5,6 +5,7 @@
 import { existsSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { DIR_TRADUCCIONES, comentarios, leerTraduccion, librosDeFuente } from './lib.mjs';
+import { archivosEnLotes } from './github.mjs';
 import { reservasActivas } from './reservas.mjs';
 import { nombreArchivo } from './tramos.mjs';
 
@@ -38,4 +39,10 @@ for (const r of reservas) {
   const nombres = [...new Set(r.tramos.map((t) => `${t.comentario}: ${nombreArchivo(t.archivo)}`))];
   console.log(`  ${r.quien} (${r.modelo}) · ${r.tramos.length} tramos · vence ${r.vence.slice(0, 16).replace('T', ' ')} UTC`);
   console.log(`    ${nombres.slice(0, 6).join(', ')}${nombres.length > 6 ? `, … (+${nombres.length - 6})` : ''}`);
+}
+
+const { activos } = await archivosEnLotes();
+if (activos.length) console.log('\nLotes de voluntarios (PRs abiertos):');
+for (const l of activos) {
+  console.log(`  #${l.numero} ${l.id} · ${l.quien} (${l.modelo}) · ${l.borrador ? 'traduciendo' : 'listo para revisar'} · ${l.archivos.length} archivos`);
 }

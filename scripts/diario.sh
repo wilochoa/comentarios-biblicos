@@ -15,6 +15,7 @@ N="${1:-5}"
 DE="${2:+ de $2}"
 {
   echo "=== $(date '+%Y-%m-%d %H:%M') · $N tramos$DE ==="
-  claude -p "Usa la skill traducir para traducir $N tramos$DE." --permission-mode acceptEdits
+  # Solo Opus/Sonnet 5.5+ o Fable (modelos-permitidos.json); reservar.mjs y unir.mjs rechazan otros.
+  claude -p "Usa la skill traducir para traducir $N tramos$DE." --model opus --permission-mode acceptEdits
   echo
 } >> logs/diario.log 2>&1

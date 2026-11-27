@@ -1,0 +1,50 @@
+# Valida el PR de un lote de voluntario cuando deja de ser borrador.
+# Mientras es borrador (el voluntario sigue traduciendo) el job se salta y no
+# usa runner. Los PRs de un fork nuevo esperan la aprobación del dueño para correr.
+name: Validar PR
+
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review, synchronize]
+    paths:
+      - 'traducciones/**'
+      - 'glosario-propuestas/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validar-pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  validar:
+    if: github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      # Un PR de traducción solo toca traducciones/ y glosario-propuestas/.
+      # (Aviso: el PR podría cambiar este mismo archivo; revisa siempre la lista de archivos antes de fusionar.)
+      - name: Solo archivos de traducción
+        run: |
+          fuera=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" | grep -vE '^(traducciones|glosario-propuestas)/' || true)
+          if [ -n "$fuera" ]; then
+            echo "::error::Este PR cambia archivos fuera de traducciones/ y glosario-propuestas/:"
+            echo "$fuera"
+            exit 1
+          fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - id: semana
+        run: echo "valor=$(date +%G-%V)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache/restore@v4
+        with:
+          path: fuentes
+          key: fuentes-${{ steps.semana.outputs.valor }}
+          restore-keys: fuentes-
+      # Forma, citas de la RVA y que el modelo esté en modelos-permitidos.json.
+      - name: Validar lo que cambió
+        run: node scripts/validar.mjs --desde "origin/${{ github.base_ref }}" --modelos

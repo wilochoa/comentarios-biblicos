@@ -8,3 +8,5 @@ node_modules/
 .DS_Store
 # Quién traduce en esta carpeta (scripts/soy.mjs); cada copia del repo tiene el suyo
 .traductor.json
+# Lote de voluntario que esta carpeta tiene tomado (scripts/tomar.mjs)
+.lote.json

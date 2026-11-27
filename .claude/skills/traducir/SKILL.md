@@ -27,7 +27,7 @@ Otros modelos pueden estar traduciendo al mismo tiempo desde otras carpetas: por
 
 2. **Estado limpio.** `git status --porcelain`. Si hay cambios sin commit dentro de `traducciones/` que no son de una corrida tuya, detente y avisa: alguien está revisando a mano.
 
-3. **Reservar.** `node scripts/reservar.mjs --cantidad N [--comentario <id>] [--libro <USFM,...>]`. Devuelve (en stdout) la lista JSON de tramos ya apartados para ti.
+3. **Reservar.** `node scripts/reservar.mjs --modelo <tu ID de modelo exacto> --cantidad N [--comentario <id>] [--libro <USFM,...>]` (p. ej. `--modelo claude-opus-5-5`). Solo se aceptan los modelos de `modelos-permitidos.json` (Opus o Sonnet 5.5 o superior, Fable): si lo rechaza, detente y avisa al usuario; no pruebes con otro ID. Devuelve (en stdout) la lista JSON de tramos ya apartados para ti.
    - Lista vacía: informa que no queda nada pendiente para ese filtro y termina.
    - «Ya tienes una reserva vigente»: no uses `--forzar`; avisa al usuario (puede haber otra sesión en esta carpeta).
 
