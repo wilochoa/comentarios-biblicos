@@ -23,7 +23,7 @@ Resumen
 
 El libro de Lamentaciones es una colección de cinco poemas rigurosamente estructurados y de gran fuerza emocional que lamentan la destrucción de Jerusalén.
 
-El capítulo 1 describe las ruinas de Jerusalén. Jerusalén se personifica como una princesa antaño famosa que ahora es una esclava herida, y lamenta el contraste entre su pasado y su presente con intensa agonía y vergüenza. Reconoce que se ha ganado su angustia, y ora para que el Señor alivie su miserable condición.
+El capítulo 1 describe las ruinas de Jerusalén. Jerusalén se personifica como una princesa antaño famosa que ahora es una esclava herida, y lamenta el contraste entre su pasado y su presente con intensa agonía y vergüenza. Reconoce que se ha ganado su angustia, y ora para que el SEÑOR alivie su miserable condición.
 
 El capítulo 2 resume la vergonzosa situación de Jerusalén. El autor agoniza al ver a niños hambrientos, madres que lloran, profetas mentirosos y enemigos que se burlan. Esta tragedia ocurrió porque Dios retiró su misericordia y cumplió su promesa de juzgar a su pueblo cuando pecaron contra él.
 

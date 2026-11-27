@@ -13,7 +13,7 @@ revisado_el:
 
 ## introduccion
 
-El templo seguía en ruinas casi veinte años después de que los hebreos regresaron a la tierra de Judá desde el exilio en Babilonia. Sin embargo, el pueblo de Judá vivía en casas cómodas. ¡Sin duda la casa de Dios merecía algo mejor! Hageo señaló esta discrepancia y logró movilizar al pueblo para reconstruir el templo del Señor. Hageo dio a Israel una visión renovada de cómo sus esfuerzos servirían al plan de Dios para su pueblo.
+El templo seguía en ruinas casi veinte años después de que los hebreos regresaron a la tierra de Judá desde el exilio en Babilonia. Sin embargo, el pueblo de Judá vivía en casas cómodas. ¡Sin duda la casa de Dios merecía algo mejor! Hageo señaló esta discrepancia y logró movilizar al pueblo para reconstruir el templo del SEÑOR. Hageo dio a Israel una visión renovada de cómo sus esfuerzos servirían al plan de Dios para su pueblo.
 
 Contexto
 
@@ -27,11 +27,11 @@ Resumen
 
 Cada uno de los cuatro mensajes de Hageo destaca una preocupación teológica distinta. El primer sermón (cap. 1) desafió a los de Judá a dejar de poner su comodidad personal en primer lugar y a concentrarse en restaurar la adoración debida a Dios mediante la reconstrucción de su templo.
 
-El segundo mensaje (2:1-9) aseguró a la comunidad que Dios no había olvidado las promesas de bendición y restauración hechas por los profetas anteriores. La gloria del Señor volvería a llenar el templo (2:7). No eran solo palabras vacías para animar a un remanente asediado, sino las palabras seguras de la promesa de Dios a su pueblo escogido.
+El segundo mensaje (2:1-9) aseguró a la comunidad que Dios no había olvidado las promesas de bendición y restauración hechas por los profetas anteriores. La gloria del SEÑOR volvería a llenar el templo (2:7). No eran solo palabras vacías para animar a un remanente asediado, sino las palabras seguras de la promesa de Dios a su pueblo escogido.
 
 El tercer mensaje (2:10-19) tiene como tema dominante la pureza ritual. Hageo recordó a su audiencia que las instrucciones de la ley de Moisés seguían vigentes. Dios espera que su pueblo sea santo, así como él es santo (ver Lv 11:44-45).
 
-El mensaje final de Hageo, y quizá el más importante (Hag 2:20-23), restableció la prominencia de los descendientes del rey David en la vida religiosa y política de Israel. La dinastía de David fue crucial para la restauración del pueblo hebreo después del exilio babilónico (ver Jer 23:5; 33:15; Ez 37:24). Zorobabel era descendiente del rey David; su encargo de servir como «anillo de sellar» del Señor marcó el comienzo de la restauración de Israel por parte de Dios (Hag 2:23; cf. Jer 22:24) y señaló a Jesucristo, descendiente de David (Mt 1:1), que gobernaría en justicia para siempre.
+El mensaje final de Hageo, y quizá el más importante (Hag 2:20-23), restableció la prominencia de los descendientes del rey David en la vida religiosa y política de Israel. La dinastía de David fue crucial para la restauración del pueblo hebreo después del exilio babilónico (ver Jer 23:5; 33:15; Ez 37:24). Zorobabel era descendiente del rey David; su encargo de servir como «anillo de sellar» del SEÑOR marcó el comienzo de la restauración de Israel por parte de Dios (Hag 2:23; cf. Jer 22:24) y señaló a Jesucristo, descendiente de David (Mt 1:1), que gobernaría en justicia para siempre.
 
 Autoría
 
@@ -49,9 +49,9 @@ Los mensajes escritos de Hageo son, presumiblemente, resúmenes de sermones más
 
 Significado y mensaje
 
-Los cuatro sermones breves de Hageo sonaron como un llamado a despertar para una comunidad que estaba espiritualmente dormida. Su mensaje era «levantarse y ponerse a trabajar» en la reconstrucción del templo del Señor en Jerusalén.
+Los cuatro sermones breves de Hageo sonaron como un llamado a despertar para una comunidad que estaba espiritualmente dormida. Su mensaje era «levantarse y ponerse a trabajar» en la reconstrucción del templo del SEÑOR en Jerusalén.
 
-Hageo relacionó la falta de éxito agrícola y económico de la comunidad con su descuido del templo del Señor. Reprendió al pueblo por su falta de interés en adorar a Dios y lo llamó al arrepentimiento y a la renovación espiritual. Cuando el pueblo respondió de manera positiva y comenzó la obra de reconstrucción, Hageo lo animó con la promesa de la presencia continua de Dios y de su ayuda.
+Hageo relacionó la falta de éxito agrícola y económico de la comunidad con su descuido del templo del SEÑOR. Reprendió al pueblo por su falta de interés en adorar a Dios y lo llamó al arrepentimiento y a la renovación espiritual. Cuando el pueblo respondió de manera positiva y comenzó la obra de reconstrucción, Hageo lo animó con la promesa de la presencia continua de Dios y de su ayuda.
 
 Hageo llamó al pueblo de Jerusalén a la adoración auténtica, a la confianza en la palabra de Dios, a la santidad personal y a la obediencia al liderazgo designado por Dios. Hageo subraya la presencia permanente del Espíritu de Dios (1:13-14; 2:4-5), tema que comparte con su contemporáneo Zacarías (Zac 1:16; 8:23; ver también Ez 37:27-28).
 

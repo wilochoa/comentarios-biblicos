@@ -13,7 +13,7 @@ Se traduce **siempre** igual en todos los comentarios. Lo leen completo el tradu
 | Almighty God | Dios Todopoderoso |  |
 | Alpha and Omega | Alfa y Omega |  |
 | Ancient One | Anciano de grande edad |  |
-| angel of the Lord | ángel del Señor |  |
+| angel of the Lord | ángel del SEÑOR | en el AT; «ángel del Señor» en el NT |
 | Ascension | ascensión |  |
 | Christophany | cristofanía |  |
 | cornerstone | piedra angular |  |
@@ -51,7 +51,7 @@ Se traduce **siempre** igual en todos los comentarios. Lo leen completo el tradu
 | sovereignty / sovereign | soberanía / soberano |  |
 | sustainer | sustentador |  |
 | theophany | teofanía |  |
-| Throne of the Lord | Trono del Señor |  |
+| Throne of the Lord | trono del SEÑOR | en el AT |
 | Wonderful Counselor | Admirable Consejero |  |
 | the Word (Logos) | el Verbo | en Juan 1; «la Palabra» para la Escritura |
 | Yahweh | Yahvé |  |
@@ -83,7 +83,7 @@ Se traduce **siempre** igual en todos los comentarios. Lo leen completo el tradu
 | the faithful | los fieles |  |
 | faithful love | amor fiel |  |
 | faithfulness | fidelidad |  |
-| fear of the Lord | temor del Señor |  |
+| fear of the Lord | temor del SEÑOR | en el AT; «temor del Señor» en el NT |
 | fellowship | comunión |  |
 | fellowship meals | comidas de comunión |  |
 | forgiveness | perdón |  |
@@ -381,7 +381,7 @@ Se traduce **siempre** igual en todos los comentarios. Lo leen completo el tradu
 | caught up | arrebatados |  |
 | Christ's return | el regreso de Cristo |  |
 | day of reckoning | día de rendir cuentas |  |
-| day of the Lord | día del Señor |  |
+| day of the Lord | día del SEÑOR | en el AT; «día del Señor» en el NT |
 | fulfillment | cumplimiento |  |
 | glass sea | mar de vidrio |  |
 | heaven | cielo |  |

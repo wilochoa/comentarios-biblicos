@@ -53,7 +53,7 @@ La profecía de Habacuc reafirma que Dios tiene el control de la historia y que 
 
 Los babilonios adoraban el poder bruto que les había traído prosperidad. Las acusaciones de Dios contra los babilonios recuerdan a los lectores que adoren solo a Dios (cf. 1 Jn 5:21).
 
-El mensaje de Dios a Habacuc subraya también que la vida santa de fe y de fidelidad del creyente debe reproducir las normas éticas de Dios (Hab 1:12; 2:4). Quienes confían en Dios y lo sirven activamente podrán alegrarse en el Señor (3:18; Fil 4:4) y vivir triunfalmente en cualquier circunstancia (Hab 2:20; 3:16-19; ver también Ro 1:16-17; Gá 3:11; He 10:35-39).
+El mensaje de Dios a Habacuc subraya también que la vida santa de fe y de fidelidad del creyente debe reproducir las normas éticas de Dios (Hab 1:12; 2:4). Quienes confían en Dios y lo sirven activamente podrán alegrarse en el SEÑOR (3:18; Fil 4:4) y vivir triunfalmente en cualquier circunstancia (Hab 2:20; 3:16-19; ver también Ro 1:16-17; Gá 3:11; He 10:35-39).
 
 ## resumen
 

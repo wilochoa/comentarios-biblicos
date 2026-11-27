@@ -17,7 +17,7 @@ Eclesiastés nos desafía a pensar a fondo en las preguntas básicas. La vida y 
 
 Contexto
 
-Cuando Israel se hallaba en su edad de oro de paz, después de que David hubo establecido su imperio, Salomón dedicó tiempo y energía a enriquecer la cultura. Desarrolló el comercio internacional, la diplomacia y la agricultura, y construyó ciudades, fortalezas y el templo. Hizo avanzar culturalmente a su nación con prosperidad material y una literatura profunda. En lugar de guerrear contra otras naciones, Salomón se relacionó con ellas y con su literatura, e incorporó sus modos de expresión cultural a la relación de Israel con el Señor. Los fracasos de Salomón son bien conocidos, pero hizo mucho bien con su sabiduría, y dejó sus instrucciones para administrar la vida con sabiduría.
+Cuando Israel se hallaba en su edad de oro de paz, después de que David hubo establecido su imperio, Salomón dedicó tiempo y energía a enriquecer la cultura. Desarrolló el comercio internacional, la diplomacia y la agricultura, y construyó ciudades, fortalezas y el templo. Hizo avanzar culturalmente a su nación con prosperidad material y una literatura profunda. En lugar de guerrear contra otras naciones, Salomón se relacionó con ellas y con su literatura, e incorporó sus modos de expresión cultural a la relación de Israel con el SEÑOR. Los fracasos de Salomón son bien conocidos, pero hizo mucho bien con su sabiduría, y dejó sus instrucciones para administrar la vida con sabiduría.
 
 Resumen
 

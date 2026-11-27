@@ -21,9 +21,9 @@ Pocas épocas del antiguo Israel fueron más turbulentas que la de mediados del 
 
 Jeroboam II murió al comienzo del ministerio de Oseas. Durante las tres décadas siguientes, seis reyes distintos se sentaron en el trono de Israel. Solo uno murió de muerte natural; cuatro fueron asesinados. En medio de esta turbulencia política, potencias extranjeras hostiles amenazaban con destruir la nación.
 
-El reino del norte, que había adorado a dioses paganos desde su origen, ahora se volvió con aún más fuerza hacia estas deidades extranjeras. Los israelitas se aferraron a cualquier clavo ardiendo que pudiera salvarlos de la destrucción, pero se negaron a volverse al Señor. Luego, en 722 a. C., el implacable imperio asirio destruyó el reino del norte de Israel.
+El reino del norte, que había adorado a dioses paganos desde su origen, ahora se volvió con aún más fuerza hacia estas deidades extranjeras. Los israelitas se aferraron a cualquier clavo ardiendo que pudiera salvarlos de la destrucción, pero se negaron a volverse al SEÑOR. Luego, en 722 a. C., el implacable imperio asirio destruyó el reino del norte de Israel.
 
-Oseas proclamó el juicio venidero de Dios a esta nación frenética en sus últimos días. Pero también ofreció esperanza, implorando a los israelitas que volvieran al Señor, el único que podía restaurarlos.
+Oseas proclamó el juicio venidero de Dios a esta nación frenética en sus últimos días. Pero también ofreció esperanza, implorando a los israelitas que volvieran al SEÑOR, el único que podía restaurarlos.
 
 Resumen
 
@@ -43,11 +43,11 @@ Oseas estaba bien instruido en la literatura, la historia y la fe de Israel. Sus
 
 Significado y mensaje
 
-El pacto de Dios con Israel ocupa el centro de la profecía de Oseas. Cuando Dios entró en pacto con Israel en el monte Sinaí, ofreció a los israelitas la increíble oportunidad de vivir en una relación íntima con el Creador y sustentador del universo. El pacto prometía bendiciones espirituales y materiales a su pueblo, a la vez que los obligaba a vivir rectamente delante de él. El Señor había guardado fielmente su pacto con los israelitas y ellos habían disfrutado de sus bendiciones, pero habían elegido rebelarse contra él y desatender su plan y su propósito.
+El pacto de Dios con Israel ocupa el centro de la profecía de Oseas. Cuando Dios entró en pacto con Israel en el monte Sinaí, ofreció a los israelitas la increíble oportunidad de vivir en una relación íntima con el Creador y sustentador del universo. El pacto prometía bendiciones espirituales y materiales a su pueblo, a la vez que los obligaba a vivir rectamente delante de él. El SEÑOR había guardado fielmente su pacto con los israelitas y ellos habían disfrutado de sus bendiciones, pero habían elegido rebelarse contra él y desatender su plan y su propósito.
 
-El matrimonio es un símbolo poderoso y memorable de la relación de pacto entre el Señor y su pueblo. Como esposo amoroso, el Señor proveyó a Israel de tierra, alimento, bebida, ropa y seguridad. Sin embargo, como un cónyuge adúltero, Israel buscó su realización por medio de la adoración idólatra de los dioses cananeos. Estas deidades se convirtieron en los amantes de Israel, y ella les atribuyó todas las bendiciones de Dios. La vida personal del profeta Oseas con su esposa, Gomer, representó en miniatura este mismo drama de la infidelidad de una esposa y de la angustia de un esposo por su esposa descarriada.
+El matrimonio es un símbolo poderoso y memorable de la relación de pacto entre el SEÑOR y su pueblo. Como esposo amoroso, el SEÑOR proveyó a Israel de tierra, alimento, bebida, ropa y seguridad. Sin embargo, como un cónyuge adúltero, Israel buscó su realización por medio de la adoración idólatra de los dioses cananeos. Estas deidades se convirtieron en los amantes de Israel, y ella les atribuyó todas las bendiciones de Dios. La vida personal del profeta Oseas con su esposa, Gomer, representó en miniatura este mismo drama de la infidelidad de una esposa y de la angustia de un esposo por su esposa descarriada.
 
-Israel rechazó su pacto con el Señor. En respuesta, Oseas proclamó el juicio de Dios. Sin embargo, así como el pacto fue el fundamento del juicio divino, también fue la base de la misericordia de Dios. Dios no juzgó a Israel simplemente para castigarla; su deseo era redimirla. El juicio divino tenía el propósito de hacer volver a Israel a su verdadero esposo, para que, en su misericordia, él pudiera restaurarla y restablecer su pacto con ella.
+Israel rechazó su pacto con el SEÑOR. En respuesta, Oseas proclamó el juicio de Dios. Sin embargo, así como el pacto fue el fundamento del juicio divino, también fue la base de la misericordia de Dios. Dios no juzgó a Israel simplemente para castigarla; su deseo era redimirla. El juicio divino tenía el propósito de hacer volver a Israel a su verdadero esposo, para que, en su misericordia, él pudiera restaurarla y restablecer su pacto con ella.
 
 Oseas muestra que la misericordia de Dios se extiende a Israel por medio del juicio, no en lugar del juicio. Dios ha hecho lo mismo por nosotros: por medio del juicio en la cruz de Cristo, Dios extiende a todos una invitación de misericordia.
 
