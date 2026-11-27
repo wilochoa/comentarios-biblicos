@@ -17,6 +17,22 @@
       "publicar": true
     },
     {
+      "id": "abbott",
+      "fuente": "abbott",
+      "nombre": "Nuevo Testamento ilustrado de Abbott",
+      "autor": "John S. C. Abbott y Jacob Abbott (1878)",
+      "descripcion": "Notas breves y devocionales a todo el Nuevo Testamento, con introducción a cada libro.",
+      "original": {
+        "titulo": "Illustrated New Testament",
+        "licencia": "Dominio público",
+        "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sitio": "https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Abbott"
+      },
+      "licencia_traduccion": "Pendiente de decidir",
+      "atribucion": "Traducción al español de las notas del Illustrated New Testament de John S. C. Abbott y Jacob Abbott (1878, dominio público). Traducción asistida por IA.",
+      "publicar": false
+    },
+    {
       "id": "matthew-henry",
       "fuente": "matthew-henry",
       "nombre": "Comentario de Matthew Henry",
@@ -33,5 +49,5 @@
       "publicar": false
     }
   ],
-  "_ayuda": "publicar: si el comentario sale en la API pública. Matthew Henry espera la decisión de licencia."
+  "_ayuda": "publicar: si el comentario sale en la API pública. Matthew Henry espera la decisión de licencia; Abbott se usa para probar el flujo de voluntarios y espera revisión y licencia."
 }
