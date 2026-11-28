@@ -26,7 +26,7 @@ async function texto(ref) {
   return modernizar(elegidos.map(plano).join(' '));
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const refs = process.argv.slice(2);
   if (!refs.length) {
     console.error('Uso: node scripts/versiculo.mjs "Jn 3:16" ["Ro 5:8" ...]');

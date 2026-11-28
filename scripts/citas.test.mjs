@@ -39,3 +39,19 @@ test('encuentra las citas sin referencia (Abbott) en el original y en la traducc
     ['0#0', 'Basto en la palabra'], ['0#1', 'Manifiestos'], ['1#0', 'En Damasco…'], ['1#1', 'Guardaba la ciudad'],
   ]);
 });
+
+test('reconoce la cita larga que Gill corta con «,....»', async () => {
+  const { citasSinReferenciaOriginal, citasSinReferenciaTraduccion } = await import('./citas.mjs');
+  const original = 'I say the truth in Christ, I lie not,.... The apostle being about to discourse.\n\nmy conscience bearing me witness. The apostle calls his conscience.';
+  assert.deepEqual(citasSinReferenciaOriginal(original).map((c) => c.frase), ['I say the truth in Christ, I lie not', 'my conscience bearing me witness']);
+  const traduccion = 'Verdad digo en Cristo, no miento…: Estando el apóstol a punto de tratar.\n\ndándome testimonio mi conciencia: El apóstol llama a su conciencia.';
+  assert.deepEqual(citasSinReferenciaTraduccion(traduccion).map((c) => c.frase), ['Verdad digo en Cristo, no miento…', 'dándome testimonio mi conciencia']);
+});
+
+test('reconoce las citas numeradas de Calvino', async () => {
+  const { citasNumeradas } = await import('./citas.mjs');
+  const original = '3. What indeed if some, etc. As before, while regarding the Jews.\n\nShall their unbelief, etc. Katargein is properly to render void.\n\n1. Though Paul has clearly proved that bare circumcision brought nothing to the Jews, yet since.';
+  assert.deepEqual(citasNumeradas(original, { ingles: true, primerVerso: 3 }).map((c) => [c.clave, c.verso, c.frase]), [['0', 3, 'What indeed if some'], ['1', 3, 'Shall their unbelief']]);
+  const traduccion = '3. ¿Pues qué si algunos…? Como antes, al considerar a los judíos.\n\n¿La incredulidad de ellos…? *Katargein* significa propiamente anular.';
+  assert.deepEqual(citasNumeradas(traduccion, { primerVerso: 3 }).map((c) => [c.clave, c.frase]), [['0', '¿Pues qué si algunos…'], ['1', '¿La incredulidad de ellos…']]);
+});

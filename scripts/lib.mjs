@@ -202,6 +202,11 @@ export async function cargarFuente(idComentario, usfm, unidad) {
       if (texto) secciones.push({ id: `v${item.number}`, texto });
     }
   }
+  if (idComentario === 'calvino' && unidad !== 'intro') {
+    // Solo el texto de Calvino: sin bloque de versículos, latín ni notas del editor (scripts/calvino.mjs).
+    const { prepararCalvino } = await import('./calvino.mjs');
+    secciones = await prepararCalvino(usfm, unidad, secciones);
+  }
   if (!secciones.length) return null;
   secciones = secciones.map((s) => ({ ...s, palabras: contarPalabras(s.texto) }));
   return { url, sha256: sha256(JSON.stringify(secciones.map((s) => [s.id, s.texto]))), secciones };

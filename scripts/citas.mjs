@@ -14,6 +14,12 @@
 //    traducción las escribe «Basto en la palabra: poco diestro… • Manifiestos:
 //    dados a conocer» y se revisan igual contra la RVA; el versículo sale del
 //    id de la sección (v6) y el capítulo, de la unidad.
+// 4. Comentarios con `"formato_citas": "numerada"` (Calvino): la nota de cada
+//    versículo empieza con su número y unas palabras del versículo cerradas
+//    con punto o «etc.» («3. What indeed if some, etc. As before…»); los
+//    párrafos siguientes pueden empezar con otra cita sin número. En la
+//    traducción: «3. ¿Pues qué si algunos…? …». El versículo es el número del
+//    párrafo o, si no tiene, el último visto (o el del id de la sección).
 import { comentario as datosComentario, obtenerJson } from './lib.mjs';
 import { modernizar } from './versiculo.mjs';
 
@@ -172,10 +178,20 @@ async function revisarUna(libro, c, enIngles) {
 // Original: las citas de una nota se separan con raya y terminan en «;», «.» o «, &c.».
 const RAYA_ENTRE_CITAS = /\.?\s*—\s*(?=[A-Z"“‘])/;
 /** Citas de un original sin referencia: [{ clave, frase }] (clave = párrafo#posición). */
+// Gill cierra con «,....» la cita que sigue en los párrafos siguientes; esas
+// citas pueden ser más largas que las de Abbott (hasta 20 palabras).
+const CITA_CORTADA = /^(.{2,160}?),?\.\.\.\.(?:\s|$)/;
+const esCitaLarga = (frase) => !/\d/.test(frase) && frase.split(/\s+/).length <= 20 && !/[.;!?]\s/.test(frase);
+
 export function citasSinReferenciaOriginal(texto) {
   const citas = [];
   parrafos(texto).forEach((p, i) => {
     p.split(RAYA_ENTRE_CITAS).forEach((trozo, n) => {
+      const cortada = CITA_CORTADA.exec(trozo);
+      if (cortada && esCitaLarga(cortada[1].trim())) {
+        citas.push({ clave: `${i}#${n}`, frase: cortada[1].trim() });
+        return;
+      }
       const frase = trozo.split(/[;.:]|,?\s*&c/)[0].trim();
       if (frase.length >= 2 && frase !== trozo.trim() && esFrase(frase)) citas.push({ clave: `${i}#${n}`, frase });
     });
@@ -187,9 +203,29 @@ export function citasSinReferenciaTraduccion(texto) {
   const citas = [];
   parrafos(texto.replace(/\.\s?\.\s?\./g, '…')).forEach((p, i) => {
     p.split(/\s•\s/).forEach((trozo, n) => {
-      const m = /^([^:•\n]{2,110}?):\s/.exec(trozo);
-      if (m && esFrase(m[1])) citas.push({ clave: `${i}#${n}`, frase: m[1].trim() });
+      const m = /^([^:•\n]{2,160}?):\s/.exec(trozo);
+      if (m && (esFrase(m[1]) || (/…$/.test(m[1].trim()) && esCitaLarga(m[1].replace(/…$/, ''))))) {
+        citas.push({ clave: `${i}#${n}`, frase: m[1].trim() });
+      }
     });
+  });
+  return citas;
+}
+
+
+// --- Citas numeradas (Calvino) -----------------------------------------------
+const CITA_NUMERADA_EN = /^(?:(\d+)\.\s+)?([^.\n]{2,120}?)(?:,?\s*etc\.|\.)(?=\s|$)/;
+const CITA_NUMERADA_ES = /^(?:(\d+)\.\s+)?([^.\n…]{2,140}?…?)(?:\.|(?<=…))(?=[\s;,:?!]|$)/;
+const esCitaCorta = (frase) => !/\d/.test(frase) && frase.split(/\s+/).length <= 12 && !/[;!?]\s/.test(frase);
+
+/** Citas numeradas de un texto: [{ clave, verso, frase }] (clave = índice del párrafo). */
+export function citasNumeradas(texto, { ingles = false, primerVerso = 1 } = {}) {
+  const citas = [];
+  let verso = primerVerso;
+  parrafos(texto.replace(/\.\s?\.\s?\./g, '…')).forEach((p, i) => {
+    const m = (ingles ? CITA_NUMERADA_EN : CITA_NUMERADA_ES).exec(p);
+    if (m?.[1]) verso = Number(m[1]);
+    if (m && esCitaCorta(m[2].trim())) citas.push({ clave: String(i), verso, frase: m[2].trim() });
   });
   return citas;
 }
@@ -211,6 +247,19 @@ const formatoCitas = (id) => {
  */
 export async function revisarCitas({ libro, original, traduccion, comentario, unidad, seccion }) {
   const errores = [];
+  if (formatoCitas(comentario) === 'numerada') {
+    const capitulo = Number(unidad);
+    const primerVerso = Number(/^v(\d+)/.exec(seccion ?? '')?.[1] ?? 1);
+    if (!Number.isInteger(capitulo)) return errores;
+    const donde = (verso) => ({ capitulo, desde: verso, hasta: verso, ref: `${capitulo}:${verso}` });
+    const citasOriginal = new Map(citasNumeradas(original, { ingles: true, primerVerso }).map((c) => [c.clave, { ...donde(c.verso), ...c }]));
+    for (const c of citasNumeradas(traduccion, { primerVerso })) {
+      const enIngles = citasOriginal.get(c.clave);
+      const e = await revisarUna(libro, { ...donde(enIngles?.verso ?? c.verso), ...c }, enIngles);
+      if (e) errores.push(e);
+    }
+    return errores;
+  }
   if (formatoCitas(comentario) === 'sin-referencia') {
     const verso = /^v(\d+)/.exec(seccion ?? '');
     const capitulo = Number(unidad);

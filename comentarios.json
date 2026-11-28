@@ -34,6 +34,23 @@
       "publicar": false
     },
     {
+      "id": "john-gill",
+      "fuente": "john-gill",
+      "formato_citas": "sin-referencia",
+      "nombre": "Exposición de toda la Biblia de John Gill",
+      "autor": "John Gill (1697–1771)",
+      "descripcion": "Comentario versículo por versículo de toda la Biblia, doctrinal y erudito, con abundantes referencias a fuentes judías.",
+      "original": {
+        "titulo": "John Gill's Exposition of the Entire Bible",
+        "licencia": "Dominio público",
+        "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sitio": "https://en.wikipedia.org/wiki/John_Gill_(theologian)"
+      },
+      "licencia_traduccion": "CC BY-SA 4.0",
+      "atribucion": "Traducción al español de la Exposition of the Entire Bible de John Gill (dominio público). Traducción bajo licencia CC BY-SA 4.0. Traducción asistida por IA.",
+      "publicar": false
+    },
+    {
       "id": "matthew-henry",
       "fuente": "matthew-henry",
       "nombre": "Comentario de Matthew Henry",
@@ -47,6 +64,23 @@
       },
       "licencia_traduccion": "CC BY-SA 4.0",
       "atribucion": "Traducción al español del comentario de Matthew Henry (dominio público). Traducción bajo licencia CC BY-SA 4.0. Traducción asistida por IA.",
+      "publicar": false
+    },
+    {
+      "id": "calvino",
+      "fuente": "john-calvin",
+      "formato_citas": "numerada",
+      "nombre": "Comentarios de Juan Calvino",
+      "autor": "Juan Calvino (1509–1564)",
+      "descripcion": "Comentarios del reformador a 48 libros de la Biblia, traducidos aquí de la versión inglesa de la Calvin Translation Society.",
+      "original": {
+        "titulo": "Calvin's Commentaries (Calvin Translation Society, 1843–1855)",
+        "licencia": "Dominio público",
+        "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sitio": "https://www.ccel.org/ccel/calvin/commentaries.html"
+      },
+      "licencia_traduccion": "CC BY-SA 4.0",
+      "atribucion": "Traducción al español de los comentarios de Juan Calvino, a partir de la traducción inglesa de la Calvin Translation Society (siglo XIX, dominio público). Traducción bajo licencia CC BY-SA 4.0. Traducción asistida por IA.",
       "publicar": false
     }
   ],
