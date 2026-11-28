@@ -30,7 +30,7 @@ for (const ruta of archivos().sort()) {
   const citas = [];
   for (const s of doc.secciones) {
     if (!originales.has(s.id)) continue;
-    for (const e of await revisarCitas({ libro: doc.meta.libro, original: originales.get(s.id), traduccion: s.texto })) citas.push(`${s.id}: ${e}`);
+    for (const e of await revisarCitas({ libro: doc.meta.libro, original: originales.get(s.id), traduccion: s.texto, comentario: doc.meta.comentario, unidad: doc.meta.unidad, seccion: s.id })) citas.push(`${s.id}: ${e}`);
   }
   if (citas.length) pendientes.push({ archivo: relative(ROOT, ruta), citas });
 }

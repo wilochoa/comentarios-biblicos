@@ -13,11 +13,11 @@ revisado_el:
 
 ## introduccion
 
-El libro de Números cuenta la historia de Israel en el desierto, de camino hacia la Tierra Prometida desde el monte Sinaí. Mientras Moisés guiaba a Israel de Egipto a Canaán, Dios puso a prueba a su pueblo en el crisol del desierto para ver si le serían fieles como nación unida. Números documenta sus éxitos y sus fracasos. La desobediencia de Israel tuvo como resultado el juicio del Señor, siempre contrarrestado por su paciente persistencia en levantar una nueva generación para cumplir su plan. Con sus muchos relatos y la exposición detallada de las leyes de Dios, Números nos ofrece un relato dramático de la naturaleza del Señor, de su pacto y de su plan para su pueblo.
+El libro de Números cuenta la historia de Israel en el desierto, de camino hacia la Tierra Prometida desde el monte Sinaí. Mientras Moisés guiaba a Israel de Egipto a Canaán, Dios puso a prueba a su pueblo en el crisol del desierto para ver si le serían fieles como nación unida. Números documenta sus éxitos y sus fracasos. La desobediencia de Israel tuvo como resultado el juicio del SEÑOR, siempre contrarrestado por su paciente persistencia en levantar una nueva generación para cumplir su plan. Con sus muchos relatos y la exposición detallada de las leyes de Dios, Números nos ofrece un relato dramático de la naturaleza del SEÑOR, de su pacto y de su plan para su pueblo.
 
 Contexto
 
-Después de salir de Egipto, los israelitas viajaron al monte Sinaí, donde Dios les dio la ley (ver Éxodo). Permanecieron en Sinaí durante un año antes de viajar por el desierto hasta Transjordania (la región al este del río Jordán) para acampar en las llanuras de Moab. Dios puso a prueba a Israel en el desierto mientras moría la generación que había hecho el éxodo de Egipto y una nueva generación se preparaba para entrar en la Tierra Prometida. El libro de Números instruyó a la nueva generación, acampada en las llanuras de Moab, a obedecer al Señor.
+Después de salir de Egipto, los israelitas viajaron al monte Sinaí, donde Dios les dio la ley (ver Éxodo). Permanecieron en Sinaí durante un año antes de viajar por el desierto hasta Transjordania (la región al este del río Jordán) para acampar en las llanuras de Moab. Dios puso a prueba a Israel en el desierto mientras moría la generación que había hecho el éxodo de Egipto y una nueva generación se preparaba para entrar en la Tierra Prometida. El libro de Números instruyó a la nueva generación, acampada en las llanuras de Moab, a obedecer al SEÑOR.
 
 Israel fue moldeado y purificado durante esta estancia en el desierto. Por medio de la labor literaria de Moisés (y de la de escribas y editores posteriores), Números permitió que las generaciones sucesivas oyeran esa historia. Así llegó a ser un componente vital de la memoria hebrea. Números fue escrito para que quienes aprendieran de la historia no tuvieran que repetir los errores del pasado.
 
@@ -51,15 +51,15 @@ Título del libro. El nombre «Números» proviene del interés de este libro po
 
 Géneros literarios. El libro de Números incluye una variedad de géneros literarios comunes, como la narración (p. ej., 10:11–14:45), la poesía (p. ej., caps. 23–24) y la ley (p. ej., caps. 4–6). También contiene listas detalladas de datos y cifras, como los cómputos de los registros (p. ej., caps. 1–4), las ofrendas (p. ej., cap. 7) y los itinerarios de viaje (p. ej., cap. 33). La NLT compila diversas listas en prosa en tablas concisas de nombres y números (caps. 1–2; 13, 34).
 
-Fuentes literarias. La Biblia hebrea identifica fuentes antiguas que consultaron Moisés (y quizá editores posteriores), como el libro de las batallas del Señor (21:14-15), la «Canción del pozo» (21:17-18) y la «Canción de Hesbón» (21:27-30). Los capítulos 23–24 contienen muchos versos poéticos del profeta no israelita Balaam; 31:32-47 parece basarse en un registro auténtico del botín de guerra; y el capítulo 33 parece derivar de un diario escrito.
+Fuentes literarias. La Biblia hebrea identifica fuentes antiguas que consultaron Moisés (y quizá editores posteriores), como el libro de las batallas del SEÑOR (21:14-15), la «Canción del pozo» (21:17-18) y la «Canción de Hesbón» (21:27-30). Los capítulos 23–24 contienen muchos versos poéticos del profeta no israelita Balaam; 31:32-47 parece basarse en un registro auténtico del botín de guerra; y el capítulo 33 parece derivar de un diario escrito.
 
 Texto. El texto hebreo de Números está muy bien conservado, salvo unas pocas secciones de poesía en los capítulos 21–24 que son difíciles de interpretar. El buen estado general del texto hebreo resulta evidente al comparar el texto masorético hebreo (los años 900 d. C.) con fragmentos mucho más antiguos de Números hallados en los rollos del Mar Muerto (150 a. C.—125 d. C.); entre ambos solo hay unas pocas variantes insignificantes. Hay diferencias mayores entre el texto masorético, las secciones equivalentes del Antiguo Testamento griego (la Septuaginta) y el Pentateuco samaritano, pero representan diferencias deliberadas de interpretación, no solo lecturas variantes de los manuscritos.
 
 Significado y mensaje
 
-Números explica cómo Dios proveyó a las necesidades de su pueblo, y documenta la desobediencia reiterada de los israelitas al rebelarse contra los mandatos del Señor. Los israelitas no vagaron por el desierto durante cuarenta años porque estuvieran perdidos, sino por su infidelidad y su rebelión.
+Números explica cómo Dios proveyó a las necesidades de su pueblo, y documenta la desobediencia reiterada de los israelitas al rebelarse contra los mandatos del SEÑOR. Los israelitas no vagaron por el desierto durante cuarenta años porque estuvieran perdidos, sino por su infidelidad y su rebelión.
 
-Números pone de relieve la lucha de Israel con Dios. Cuantas veces Dios llamó a los israelitas a atenerse a la ley, ellos lo desobedecieron. Los israelitas podían contar con la provisión de Dios para sus necesidades físicas y con la guía y la instrucción por medio de sus líderes escogidos. Sin embargo, la provisión constante de Dios a menudo se encontró con falta de fe. Números ilustra el juicio pronto de un Dios santo, a la vez que enseña que el Señor es fiel y paciente.
+Números pone de relieve la lucha de Israel con Dios. Cuantas veces Dios llamó a los israelitas a atenerse a la ley, ellos lo desobedecieron. Los israelitas podían contar con la provisión de Dios para sus necesidades físicas y con la guía y la instrucción por medio de sus líderes escogidos. Sin embargo, la provisión constante de Dios a menudo se encontró con falta de fe. Números ilustra el juicio pronto de un Dios santo, a la vez que enseña que el SEÑOR es fiel y paciente.
 
 Como en el antiguo Israel, todas las comunidades de creyentes necesitan un liderazgo inquebrantable, y Números sigue advirtiendo a quienes olvidan con demasiada facilidad la naturaleza santa de Dios. Episodios concretos de Números se usan en el Nuevo Testamento como poderosos ejemplos aleccionadores:
 
@@ -69,7 +69,7 @@ Como en el antiguo Israel, todas las comunidades de creyentes necesitan un lider
 
 • Jud 1:5 enseña a los cristianos acerca de la fidelidad al resumir Números.
 
-El mismo Dios que liberó a su pueblo de Egipto destruyó a aquella generación rebelde porque no creyeron ni obedecieron. Como el antiguo Israel, los cristianos deben aprender de los errores del pasado y vivir en fe y obediencia a su Señor.
+El mismo Dios que liberó a su pueblo de Egipto destruyó a aquella generación rebelde porque no creyeron ni obedecieron. Como el antiguo Israel, los cristianos deben aprender de los errores del pasado y vivir en fe y obediencia a su SEÑOR.
 
 ## resumen
 

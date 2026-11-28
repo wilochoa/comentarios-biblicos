@@ -27,7 +27,7 @@ El término éxodo proviene de la palabra griega *exodos*, que significa «la sa
 
 Autoría
 
-Tradicionalmente se considera a Moisés el autor del Pentateuco (de Génesis a Deuteronomio), aunque muchos eruditos lo ponen en duda. Véase la introducción del libro de Génesis, «Autoría».
+Tradicionalmente se considera a Moisés el autor del Pentateuco (de Génesis a Deuteronomio), aunque muchos eruditos lo ponen en duda. Ver la introducción del libro de Génesis, «Autoría».
 
 La fecha del éxodo (1446 o 1270 a. C.)
 
@@ -63,7 +63,7 @@ En Gn 12-50, el plan de Dios para restaurar el mundo comienza a desplegarse. Dio
 
 Al comenzar el libro de Éxodo, sin embargo, la validez de las promesas de Dios a Abraham está en duda. Sí, los descendientes de Abraham habían llegado a ser muy numerosos, pero ahora eran esclavos en Egipto, y el faraón, el rey más poderoso del mundo, estaba empeñado en mantenerlos subyugados. En cuanto a la Tierra Prometida, Abraham y sus descendientes nunca habían poseído realmente nada de ella, excepto un terreno de sepultura (Gn 23). ¿Cómo podría un grupo de esclavos, destinados a ser absorbidos por la clase inferior egipcia, heredar alguna vez la Tierra Prometida y llegar a ser una bendición para el mundo? ¿Podía Dios cumplir sus promesas? ¿Quería siquiera cumplirlas? ¿De veras se preocupaba por los israelitas, y sabía siquiera por lo que estaban pasando? ¿Tenían algún valor real las promesas de Génesis?
 
-Al responder esas preguntas, Éxodo nos lleva muy adelante en el camino de comprender quién es Dios. Dios de veras conoce nuestra situación, y nos valora. El Señor está en una categoría del todo distinta de «todos los dioses» (18:11). Él se revela en Éxodo como el ser más grande que existe (3:5-6, 14-15; 6:3), superior tanto a los reyes humanos que se tienen por dioses como a todas las fuerzas de la naturaleza. Él es el único Dios verdadero.
+Al responder esas preguntas, Éxodo nos lleva muy adelante en el camino de comprender quién es Dios. Dios de veras conoce nuestra situación, y nos valora. El SEÑOR está en una categoría del todo distinta de «todos los dioses» (18:11). Él se revela en Éxodo como el ser más grande que existe (3:5-6, 14-15; 6:3), superior tanto a los reyes humanos que se tienen por dioses como a todas las fuerzas de la naturaleza. Él es el único Dios verdadero.
 
 El pueblo de Israel había pasado unos 400 años asimilando las creencias paganas erróneas de Egipto. Ahora tendrían que desaprenderlas: no hay muchos dioses, sino uno solo. Dios no es lo mismo que el mundo natural que los rodea; él está aparte del mundo, que él creó. A Dios no se lo puede manipular con magia. La existencia no se define por una lucha eterna entre fuerzas positivas y negativas. Dios es santo, absolutamente otro, profundamente ético en todas sus relaciones, apasionadamente leal a sus criaturas y deseoso de hacerles el bien (34:5-6).
 

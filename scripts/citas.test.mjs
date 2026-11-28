@@ -27,3 +27,15 @@ test('mide qué tanto de la cita sale de la RVA (sin acentos, «h» ni flexión 
   assert.equal(cobertura('Rabí', 'no queráis ser llamados Rabbí'), 1);
   assert.equal(cobertura('gobernantes (o dioses)', 'gobernantes'), 1);
 });
+
+test('encuentra las citas sin referencia (Abbott) en el original y en la traducción', async () => {
+  const { citasSinReferenciaOriginal, citasSinReferenciaTraduccion } = await import('./citas.mjs');
+  const original = 'Rude in speech; unskilful in oratory.—Made manifest; made known; that is, they had opportunities.\n\nIn Damascus, &c. The apostle here mentions a case.—Kept the city—with a garrison; guarded the gates.\n\nThis language is obscure; no satisfactory explanation of it has been given.';
+  assert.deepEqual(citasSinReferenciaOriginal(original).map((c) => [c.clave, c.frase]), [
+    ['0#0', 'Rude in speech'], ['0#1', 'Made manifest'], ['1#0', 'In Damascus'], ['1#1', 'Kept the city—with a garrison'], ['2#0', 'This language is obscure'],
+  ]);
+  const traduccion = 'Basto en la palabra: poco diestro en la oratoria. • Manifiestos: dados a conocer.\n\nEn Damasco...: El apóstol menciona un caso. • Guardaba la ciudad: custodiaba las puertas.\n\nEste lenguaje es oscuro; no se ha dado ninguna explicación.';
+  assert.deepEqual(citasSinReferenciaTraduccion(traduccion).map((c) => [c.clave, c.frase]), [
+    ['0#0', 'Basto en la palabra'], ['0#1', 'Manifiestos'], ['1#0', 'En Damasco…'], ['1#1', 'Guardaba la ciudad'],
+  ]);
+});

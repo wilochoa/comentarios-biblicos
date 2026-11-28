@@ -13,7 +13,7 @@ revisado_el:
 
 ## introduccion
 
-«¿Soy yo guarda de mi hermano?» Esta antigua pregunta, planteada por Caín cuando el Señor preguntó por su hermano Abel, que había desaparecido, se ha convertido en una metáfora para eludir la responsabilidad. Pero Caín era, de hecho, culpable de haber asesinado a su hermano. Incluso quedarse al margen cuando se atropella a personas inocentes es participar del crimen. Edom, vecino y pariente de Judá, contempló con deleite, y participó, mientras Babilonia destruía Jerusalén. Ahora Dios le pediría cuentas a Edom. El juicio de Dios siempre sigue a semejante injusticia.
+«¿Soy yo guarda de mi hermano?» Esta antigua pregunta, planteada por Caín cuando el SEÑOR preguntó por su hermano Abel, que había desaparecido, se ha convertido en una metáfora para eludir la responsabilidad. Pero Caín era, de hecho, culpable de haber asesinado a su hermano. Incluso quedarse al margen cuando se atropella a personas inocentes es participar del crimen. Edom, vecino y pariente de Judá, contempló con deleite, y participó, mientras Babilonia destruía Jerusalén. Ahora Dios le pediría cuentas a Edom. El juicio de Dios siempre sigue a semejante injusticia.
 
 Contexto
 
@@ -29,7 +29,7 @@ En la introducción de Abdías (1:1-9), se envía un mensajero para llamar a las
 
 La segunda sección (1:10-14) da las razones de la humillación de Edom en una serie de burlas. La nación descarriada tenía un deber para con su hermano Jacob que no solo ignoró, sino que repudió activamente.
 
-En la tercera y última sección (1:15-21), Abdías vislumbra un día del Señor venidero que culminará en un reino universal que pertenece a Dios. Los que hacen el mal sufrirán consecuencias terribles (1:15-16), y los que han sufrido injustamente serán restaurados (1:17-21). El pueblo de Jerusalén volverá a poseer la tierra heredada de sus antepasados y se desbordará más allá de sus fronteras en todas direcciones. Su némesis, Edom, será sometido como ejemplo de lo que les sucede a quienes se oponen al gobierno del Señor, y el mundo entero reconocerá al Señor como Rey.
+En la tercera y última sección (1:15-21), Abdías vislumbra un día del SEÑOR venidero que culminará en un reino universal que pertenece a Dios. Los que hacen el mal sufrirán consecuencias terribles (1:15-16), y los que han sufrido injustamente serán restaurados (1:17-21). El pueblo de Jerusalén volverá a poseer la tierra heredada de sus antepasados y se desbordará más allá de sus fronteras en todas direcciones. Su némesis, Edom, será sometido como ejemplo de lo que les sucede a quienes se oponen al gobierno del SEÑOR, y el mundo entero reconocerá al SEÑOR como Rey.
 
 Autoría y fecha
 
@@ -43,11 +43,11 @@ El mensaje de Abdías acerca de Edom se hace eco del de otros profetas, y partes
 
 Significado y mensaje
 
-A primera lectura, es fácil considerar la profecía de Abdías poco más que una diatriba profética en la que la ira del Señor se dirige contra los enemigos de Israel. La ira del Señor es real, y el mal no queda sin castigo, pero el libro tiene mucho más que decir que esto.
+A primera lectura, es fácil considerar la profecía de Abdías poco más que una diatriba profética en la que la ira del SEÑOR se dirige contra los enemigos de Israel. La ira del SEÑOR es real, y el mal no queda sin castigo, pero el libro tiene mucho más que decir que esto.
 
 Las naciones, como los individuos, deben atender con cuidado a lo que siembran, porque el tiempo de la cosecha llegará pronto. A Dios le ofende el obrar mal, y él trae justicia para los oprimidos. Lo que Edom hizo a Judá, de manera activa o pasiva, recaería sobre ellos conforme a la antigua ley de retribución (*lex talionis* [ley del talión]): «como tú hiciste se hará contigo» (1:15).
 
-El día del Señor irrumpirá, trayendo plena justicia a los oprimidos, castigo a los opresores y el comienzo de un reino universal en el que el Señor gobierna sobre todas las naciones. En el plano local e histórico, esto significaba que Israel sería restaurado a su tierra y se le daría soberanía sobre las tierras de Edom. En el plano universal, el castigo de Edom era solo parte de un escenario más amplio de juicio. No solo Edom, sino que «todas las gentes» (1:16) beberán la copa de la ira del Señor. Cuando el Señor regrese como Rey a una Jerusalén restaurada, el monte de Sion estará en el centro mismo del nuevo orden.
+El día del SEÑOR irrumpirá, trayendo plena justicia a los oprimidos, castigo a los opresores y el comienzo de un reino universal en el que el SEÑOR gobierna sobre todas las naciones. En el plano local e histórico, esto significaba que Israel sería restaurado a su tierra y se le daría soberanía sobre las tierras de Edom. En el plano universal, el castigo de Edom era solo parte de un escenario más amplio de juicio. No solo Edom, sino que «todas las gentes» (1:16) beberán la copa de la ira del SEÑOR. Cuando el SEÑOR regrese como Rey a una Jerusalén restaurada, el monte de Sion estará en el centro mismo del nuevo orden.
 
 Esta imagen de Dios domina la teología de Abdías y obliga a los lectores modernos a enfrentar una decisión. ¿A quién serviremos: a un dios indiferente al mal, o al Dios de la justicia que encontramos en Abdías? Solo un Dios que juzga el mal puede darnos la seguridad de que el mal no triunfará al final. Abdías mira hacia ese día nuevo en que «el reino será de Jehová» (1:21). Esta esperanza de Israel se convirtió en la esperanza del mundo entero cuando Cristo anunció: «El reino de Dios está cerca» (Mr 1:15; Lc 10:9-12; 21:31-33).
 

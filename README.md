@@ -30,7 +30,7 @@ node scripts/soy.mjs codex "Codex" --comentario matthew-henry   # solo Henry
 node scripts/soy.mjs gemini "Gemini" --libro JHN,ROM            # solo esos libros
 ```
 
-El nombre corto (`codex`) debe ser distinto en cada carpeta. El modelo queda en `traducido_por` de cada archivo. **No abras dos sesiones en la misma carpeta**: `reservar.mjs` lo detecta y se niega.
+El nombre corto (`codex`) debe ser distinto en cada carpeta. **Solo se traduce con los modelos de `modelos-permitidos.json`** (Claude Opus o Sonnet 5.5 o superior, o Fable), en cualquier herramienta: `reservar.mjs --modelo <id>` y `unir.mjs --modelo <id>` rechazan los demás, `entregar.mjs` y la publicación revisan `traducido_por` de todo lo traducido desde `vigente_desde`. Codex, Cursor u OpenCode solo sirven si corren uno de esos modelos. El modelo real queda en `traducido_por` de cada archivo. **No abras dos sesiones en la misma carpeta**: `reservar.mjs` lo detecta y se niega.
 
 **Para traducir**, en cada herramienta, dentro de su carpeta:
 
@@ -44,6 +44,23 @@ Sin autor ni libros, cada carpeta usa su preferencia de `soy.mjs`; si no tiene, 
 
 La herramienta necesita red (descarga los originales de bible.helloao.org y hace push a GitHub) y permiso para correr `node scripts/*`. Si una corrida se corta, corre `node scripts/entregar.mjs` en esa carpeta: sube lo que alcanzó a traducir y libera el resto. Una reserva abandonada vence sola a las 12 horas.
 
+### Voluntarios: lotes por PR
+
+**Para invitar a alguien, comparte [COLABORAR.md](COLABORAR.md):** trae el mensaje que se pega en Claude, que instala lo necesario, hace el fork y corre `node scripts/unirme.mjs`. Después, en esa carpeta, basta con `/colaborar` (skill que toma o retoma un lote, lo traduce con subagentes y lo entrega).
+
+Quien no tiene permiso de push trabaja en **su fork** y toma un **lote** (unidades seguidas de un libro, hasta ~10,000 palabras del original; ids estables como `matthew-henry-JHN-3`, sacados de `plan.json` y `datos/tamanos.json`):
+
+```sh
+node scripts/tomar.mjs --modelo claude-opus-5-5     # abre un PR en borrador: esa es la reserva
+node scripts/siguiente.mjs --lote                    # tramos del lote, para traducir con instrucciones/tramo.md
+node scripts/entregar.mjs --parcial                  # sube el avance a la rama del lote (no toca main)
+node scripts/entregar.mjs                            # marca el PR listo para revisar
+```
+
+- **Reserva:** un PR abierto con el bloque `<!-- lote … -->` en su descripción. Si dos toman el mismo lote a la vez, gana el PR de número menor y el otro se cierra solo. Un borrador sin pushes en 24 h se considera abandonado. `reservar.mjs` y `siguiente.mjs` también saltan estos lotes.
+- **Modelos:** la misma regla que las carpetas internas. `tomar.mjs` y `unir.mjs --modelo` la exigen y la validación del PR la revisa. El subagente `traductor` de Claude Code está fijado en Opus.
+- **Actions:** los pushes al borrador no corren nada. `validar-pr.yml` corre cuando el PR deja de ser borrador. Tú revisas los archivos del PR y lo fusionas (mejor *squash*).
+
 **Avance en la web:** https://comentarios.iglesy.net/avance/ muestra lo traducido, lo que falta (en palabras del original), el ritmo y quién está traduciendo qué ahora (se actualiza solo). En la terminal: `node scripts/progreso.mjs`.
 
 El avance se cuenta con `datos/tamanos.json` (palabras de cada original). Si agregas un comentario al plan, mídelo una vez: `node scripts/medir.mjs <comentario>`.
@@ -56,20 +73,13 @@ El avance se cuenta con `datos/tamanos.json` (palabras de cada original). Si agr
 0 6 * * * /Users/wochoa/Documents/Projects/WamsIA/comentarios-biblicos/scripts/diario.sh 5
 ```
 
-Para que corra sin pedir permisos, crea `.claude/settings.json`:
+Para que corra sin pedir permisos, el repo ya trae [`.claude/settings.json`](.claude/settings.json): permite `node scripts/…`, `git status`, `git diff` y escribir en `trabajo/` y `glosario-propuestas/`. Lo usan también los voluntarios con `/colaborar`.
 
-```json
-{
-  "permissions": {
-    "allow": [
-      "Bash(node scripts/*)",
-      "Bash(git status*)", "Bash(git diff*)",
-      "Bash(rm trabajo/*)",
-      "Write(trabajo/**)", "Write(glosario-propuestas/**)", "Edit(glosario-propuestas/**)"
-    ]
-  }
-}
-```
+### Perfil de estilo de cada autor
+
+Antes de traducir un comentario nuevo se analiza cómo escribe su autor: `/analizar-autor <comentario>` toma una muestra de toda la obra (`node scripts/muestra.mjs <comentario>`), traduce unas notas de prueba y escribe `estilos/<comentario>.md` con la voz del autor y sus reglas propias. El traductor lo lee en cada tramo, junto con la guía y el glosario.
+
+El perfil nace en borrador y **lo aprueba una persona** después de leerlo: `node scripts/estilo.mjs aprobar <comentario> "<nombre>"` (y commit). Mientras no esté aprobado, `reservar.mjs`, `tomar.mjs` y `siguiente.mjs` no reparten ese comentario. `node scripts/estilo.mjs` muestra el estado de todos.
 
 ### Reglas que se revisan solas
 
@@ -84,7 +94,7 @@ La publicación (GitHub Actions) valida todo de forma estricta: si algo llegó s
 3. Márcalo: `node scripts/revisado.mjs traducciones/tyndale/JHN/3.md "Tu nombre"`.
 4. Commit. Un archivo revisado nunca se vuelve a sobrescribir.
 
-Los términos nuevos que propone cada traductor quedan en `glosario-propuestas/<quien>.md`: pásalos a la tabla de `glosario.md` cuando decidas cómo se traducen, y bórralos de ahí.
+Los términos nuevos que propone cada traductor quedan en `glosario-propuestas/<quien>.md`. Al revisarlos: los términos que se repiten y tienen más de una traducción posible pasan a la tabla de su tema en `glosario.md`; los nombres propios, a `nombres.md`; los cognados obvios (hospitalidad, doxología) y los que salieron una sola vez se descartan. Después se borran de la propuesta. El glosario lo lee entero el traductor en cada tramo: que no crezca con lo que no necesita.
 
 ### Otros comandos
 
@@ -94,7 +104,7 @@ Los términos nuevos que propone cada traductor quedan en `glosario-propuestas/<
 | `node scripts/soy.mjs` | Quién traduce en esta carpeta y qué prefiere |
 | `node scripts/siguiente.mjs --limite 10 [--comentario id] [--libro JHN]` | Qué se traduciría a continuación (sin reservar) |
 | `node scripts/reservar.mjs` / `entregar.mjs` | Apartar tramos / subir lo traducido y liberar |
-| `node scripts/validar.mjs --todos` | Valida todas las traducciones contra su original |
+| `node scripts/validar.mjs --todos [--resumen]` | Valida todas las traducciones contra su original (8 a la vez; `--resumen` muestra solo los errores) |
 | `node scripts/versiculo.mjs "Jn 3:16"` | Texto RVA 1909 de un pasaje |
 | `node scripts/construir-api.mjs` | Genera la API en `dist/api/v1` |
 | `node --test 'scripts/*.test.mjs'` | Pruebas de los scripts |
@@ -114,4 +124,4 @@ Archivos JSON estáticos (pensados para GitHub Pages o Cloudflare Pages). Se pub
 
 **Dirección pública:** https://comentarios.iglesy.net/v1/comentarios.json
 
-Se publica sola con cada push a `main` (`.github/workflows/publicar.yml`: pruebas → validar → construir → GitHub Pages). Solo salen los comentarios con `"publicar": true` en `comentarios.json`: hoy, Tyndale. Matthew Henry espera la decisión de licencia.
+Se publica sola **cada 6 horas**, y solo si algo cambió desde la última publicación (`.github/workflows/publicar.yml`: revisar cambios → pruebas → validar → construir → GitHub Pages). Para publicar ya: Actions → *Publicar API* → *Run workflow*. Solo salen los comentarios con `"publicar": true` en `comentarios.json`: hoy, Tyndale. Matthew Henry espera la decisión de licencia.

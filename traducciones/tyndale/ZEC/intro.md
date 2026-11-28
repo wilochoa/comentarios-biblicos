@@ -19,15 +19,15 @@ Contexto
 
 Ciro, rey de Persia, emitió un decreto en el 538 a. C. que permitía a los pueblos conquistados que los babilonios habían deportado regresar a sus patrias (ver Esd 1:1-11). Los primeros emigrantes judíos que regresaron a Jerusalén iban encabezados por Sesbasar, el primer gobernador de la comunidad restaurada (Esd 1:5-11). Durante su administración, los judíos que regresaban pusieron los cimientos de un templo nuevo (538–536 a. C.; ver Esd 5:16), pero pronto abandonaron el proyecto. El sitio de la construcción permaneció desatendido durante casi dos décadas, mientras el pueblo sufría penurias económicas, opresión y hostigamiento políticos, y esterilidad espiritual (ver Hag 1–2).
 
-En respuesta a su aflicción, Dios levantó a dos profetas para iniciar la reconstrucción física y la renovación espiritual de Jerusalén. El profeta Hageo, que predicó solo durante cuatro meses a finales del 520 a. C., desafió a la comunidad hebrea a reconstruir el templo de Jerusalén. El pueblo respondió favorablemente al mensaje de Hageo y comenzó a reconstruir el templo del Señor ese año (Hag 1:12-15). El profeta Zacarías complementó el mensaje de Hageo al llamar a la renovación espiritual del pueblo de Dios (1:3-6; 7:8-14). El ministerio de Zacarías en Jerusalén duró al menos dos años. La reconstrucción del templo se terminó en marzo del 515 a. C., durante el reinado del rey persa Darío I (Esd 5:2; 6:13-18).
+En respuesta a su aflicción, Dios levantó a dos profetas para iniciar la reconstrucción física y la renovación espiritual de Jerusalén. El profeta Hageo, que predicó solo durante cuatro meses a finales del 520 a. C., desafió a la comunidad hebrea a reconstruir el templo de Jerusalén. El pueblo respondió favorablemente al mensaje de Hageo y comenzó a reconstruir el templo del SEÑOR ese año (Hag 1:12-15). El profeta Zacarías complementó el mensaje de Hageo al llamar a la renovación espiritual del pueblo de Dios (1:3-6; 7:8-14). El ministerio de Zacarías en Jerusalén duró al menos dos años. La reconstrucción del templo se terminó en marzo del 515 a. C., durante el reinado del rey persa Darío I (Esd 5:2; 6:13-18).
 
 Resumen
 
 La tarea de Zacarías era preparar al pueblo para la adoración apropiada en el templo una vez que se completara el proyecto de construcción. Lo hizo reprendiéndolos, exhortándolos y alentándolos.
 
-El pueblo de Judá cometía pecados sociales y morales flagrantes; era rebelde de manera pasiva y espiritualmente apático. Zacarías llamó al pueblo a volver a Dios mediante un arrepentimiento genuino (Zac 1:3-5). Solo la renovación espiritual podía fomentar la verdadera adoración y un servicio significativo en el templo, que estaba en construcción. Solo la obediencia al Señor daría paso a la bendición, la prosperidad y la justicia tan esperadas de la era mesiánica (6:9-15; 8:13).
+El pueblo de Judá cometía pecados sociales y morales flagrantes; era rebelde de manera pasiva y espiritualmente apático. Zacarías llamó al pueblo a volver a Dios mediante un arrepentimiento genuino (Zac 1:3-5). Solo la renovación espiritual podía fomentar la verdadera adoración y un servicio significativo en el templo, que estaba en construcción. Solo la obediencia al SEÑOR daría paso a la bendición, la prosperidad y la justicia tan esperadas de la era mesiánica (6:9-15; 8:13).
 
-El plan de Dios de hacer el bien a Jerusalén dependía de que la comunidad se apegara a las leyes de Dios, en especial a las que regían el trato de unos con otros (7:8-12; 8:14-17). Antes de que las demás naciones buscaran al Señor en Jerusalén, Israel tenía que buscar el favor de Dios, actuar con justicia y mostrar bondad y misericordia a las viudas, a los huérfanos y a los extranjeros (7:9-10; 14:16-21).
+El plan de Dios de hacer el bien a Jerusalén dependía de que la comunidad se apegara a las leyes de Dios, en especial a las que regían el trato de unos con otros (7:8-12; 8:14-17). Antes de que las demás naciones buscaran al SEÑOR en Jerusalén, Israel tenía que buscar el favor de Dios, actuar con justicia y mostrar bondad y misericordia a las viudas, a los huérfanos y a los extranjeros (7:9-10; 14:16-21).
 
 Autoría
 
@@ -49,7 +49,7 @@ Zacarías es literatura profética que contiene mensajes que llaman al pueblo de
 
 Además, Zacarías contiene elementos de literatura apocalíptica. Este género de escritura interpreta los acontecimientos presentes y predice los futuros por medio de lenguaje simbólico, cifras y códigos. Tales escritos suelen presentarse en forma de visiones que explica un mediador angélico (ver 1:9). Los escenarios, los personajes y los acontecimientos de la literatura apocalíptica tienden a ir más allá de la realidad ordinaria. La literatura apocalíptica anuncia el fin del estado de cosas y abre posibilidades alternativas como resultado de la inminente intervención de Dios en los asuntos humanos.
 
-La literatura apocalíptica judía posterior puso un fuerte énfasis en la futura restauración de Israel en el día del Señor. La profecía de Zacarías se ocupaba más de la justicia social en el presente. Por lo general, con la literatura apocalíptica de la Biblia se asocian tres tipos de mensajes: (1) aliento para los oprimidos, (2) advertencias para el opresor y (3) llamados a la fe para quienes vacilan entre la verdad de Dios y la sabiduría humana.
+La literatura apocalíptica judía posterior puso un fuerte énfasis en la futura restauración de Israel en el día del SEÑOR. La profecía de Zacarías se ocupaba más de la justicia social en el presente. Por lo general, con la literatura apocalíptica de la Biblia se asocian tres tipos de mensajes: (1) aliento para los oprimidos, (2) advertencias para el opresor y (3) llamados a la fe para quienes vacilan entre la verdad de Dios y la sabiduría humana.
 
 Significado y mensaje
 
@@ -57,7 +57,7 @@ El libro de Zacarías llama al arrepentimiento, a la renovación espiritual y a 
 
 Los mensajes de Zacarías le llegaron como visiones del futuro que prometían paz para Israel, juicio sobre las naciones, la restauración de Jerusalén, un gobierno responsable a cargo del liderazgo designado por Dios y justicia entre el pueblo de Dios (1:7–6:15). Zacarías subrayó que la justicia social era la respuesta correcta de Israel a Dios (7:8-12; 8:14-17).
 
-Los dos últimos mensajes de Zacarías infunden esperanza en Dios al centrarse en la futura restauración de Israel (caps. 9–14). El profeta predice el regreso del Señor a su templo (9:8-10), el rescate de Israel de sus enemigos (12:1-14) y el establecimiento del reino de Dios en Jerusalén (14:9-11). Zacarías también señala al Mesías, que sería un pastor sufriente (13:7) y un rey justo (9:9), y traería salvación a Israel y paz a las naciones (9:10, 16).
+Los dos últimos mensajes de Zacarías infunden esperanza en Dios al centrarse en la futura restauración de Israel (caps. 9–14). El profeta predice el regreso del SEÑOR a su templo (9:8-10), el rescate de Israel de sus enemigos (12:1-14) y el establecimiento del reino de Dios en Jerusalén (14:9-11). Zacarías también señala al Mesías, que sería un pastor sufriente (13:7) y un rey justo (9:9), y traería salvación a Israel y paz a las naciones (9:10, 16).
 
 ## resumen
 

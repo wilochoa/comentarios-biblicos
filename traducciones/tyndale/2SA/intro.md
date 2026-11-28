@@ -17,7 +17,7 @@ El ascenso de David al poder sobre todas las tribus de Israel estuvo marcado por
 
 Contexto
 
-Mientras Saúl aún reinaba, Samuel ungió a David como el siguiente rey de Israel (1 S 16:1-13), pero pasaron varios años antes de que David ocupara el trono. Durante la mayor parte de este período, David fue objeto de los celos y de la ira de Saúl. Saúl intentó muchas veces matar a David, pero David nunca respondió de la misma manera cuando tuvo la oportunidad. En cambio, David confió en el plan del Señor y en su tiempo.
+Mientras Saúl aún reinaba, Samuel ungió a David como el siguiente rey de Israel (1 S 16:1-13), pero pasaron varios años antes de que David ocupara el trono. Durante la mayor parte de este período, David fue objeto de los celos y de la ira de Saúl. Saúl intentó muchas veces matar a David, pero David nunca respondió de la misma manera cuando tuvo la oportunidad. En cambio, David confió en el plan del SEÑOR y en su tiempo.
 
 El reinado de David trajo cambios significativos a Israel, tanto en lo interno como en lo externo. En lo interno, la nación comenzó a cobrar una nueva conciencia de sí misma como nación unificada. Durante el reinado de Saúl y la primera parte del reinado de David, la nación no estaba completamente unificada, y las doce tribus todavía hallaban su identidad sobre todo en el ámbito tribal, más que como nación. Al final del reinado de David, ya había un sentido de unidad nacional que preparó el terreno para los días de gloria del rey Salomón.
 
@@ -45,7 +45,7 @@ Evidencia a favor de David. Durante mucho tiempo no se había descubierto el nom
 
 Violencia. En mayor grado que cualquier otro libro bíblico, 2 Samuel habla de asesinatos y ejecuciones, sobre todo los que involucran a los rivales políticos de David y a sus partidarios (Saúl y Jonatán, 1:1-15; Abner, 3:30; Is-boset, 4:6-8; Absalón, 18:14-15; otros descendientes varones de Saúl, 21:8-9; Amasa, 20:10; Seba, 20:21-22). Sin embargo, el narrador tiene cuidado de mostrar que David no fue responsable de estos asesinatos. Contrariamente a lo que algunos afirmaban (ver 16:5-8), no se podía acusar a David de ambición política homicida. David fue culpable de asesinato solo en el caso de Urías. Sin lugar a dudas, este fue un pecado horrible, pero carecía de motivo político.
 
-David no tuvo participación en los muchos asesinatos que rodearon su ascenso al poder. No fue un usurpador que eliminara violentamente a la familia real anterior. De hecho, lamentó sinceramente las muertes de Saúl y de Jonatán, y ordenó la ejecución de quienes mataron a Saúl y a Is-boset (1:1-16; 4:12). David tenía un profundo respeto por Saúl como rey ungido del Señor. Aunque David sabía que Dios lo había ungido para reemplazar a Saúl, se negó a tomar el asunto en sus propias manos.
+David no tuvo participación en los muchos asesinatos que rodearon su ascenso al poder. No fue un usurpador que eliminara violentamente a la familia real anterior. De hecho, lamentó sinceramente las muertes de Saúl y de Jonatán, y ordenó la ejecución de quienes mataron a Saúl y a Is-boset (1:1-16; 4:12). David tenía un profundo respeto por Saúl como rey ungido del SEÑOR. Aunque David sabía que Dios lo había ungido para reemplazar a Saúl, se negó a tomar el asunto en sus propias manos.
 
 Significado y mensaje
 

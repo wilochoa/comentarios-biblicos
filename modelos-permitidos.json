@@ -1,0 +1,9 @@
+{
+  "_ayuda": "Únicos modelos con los que se acepta una traducción nueva (carpetas internas y voluntarios). Versión mínima por familia; cualquier versión mayor también vale (p. ej. Opus 6). Lo revisan reservar.mjs, tomar.mjs, unir.mjs, entregar.mjs, la validación de PRs y la publicación. Se exige a todo archivo con traducido_el desde vigente_desde (y a cualquiera cuyo traducido_por cambie); lo anterior no se toca.",
+  "vigente_desde": "2026-11-28",
+  "minimos": {
+    "opus": "5.5",
+    "sonnet": "5.5",
+    "fable": "5.0"
+  }
+}

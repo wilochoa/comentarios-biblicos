@@ -75,3 +75,12 @@ export function subir() {
   if (!hayRemoto()) return true;
   return git(['push', '-q'], { permitirFallo: true }) !== null;
 }
+
+/** Reservas vigentes tal como están en una rama o commit (p. ej. "upstream/main"), sin tocar la carpeta. */
+export function reservasActivasEn(ref, ahora = new Date()) {
+  const nombres = (git(['ls-tree', '--name-only', ref, 'reservas/'], { permitirFallo: true }) ?? '')
+    .split('\n')
+    .filter((n) => n.endsWith('.json'));
+  const reservas = nombres.map((n) => JSON.parse(git(['show', `${ref}:${n}`])));
+  return filtrarActivas(reservas, ahora);
+}

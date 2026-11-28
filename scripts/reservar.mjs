@@ -2,20 +2,24 @@
 // Reserva los siguientes tramos para el traductor de esta carpeta y los sube a
 // GitHub, para que ningún otro modelo traduzca lo mismo al mismo tiempo.
 //
-//   node scripts/reservar.mjs [--cantidad 5] [--comentario matthew-henry] [--libro JHN,ROM]
+//   node scripts/reservar.mjs --modelo <id> [--cantidad 5] [--comentario matthew-henry] [--libro JHN,ROM]
 //                             [--max-palabras 5000] [--horas 12] [--forzar]
 //
+// - --modelo: el ID exacto del modelo de esta sesión (p. ej. claude-opus-5-5).
+//   Solo se aceptan los de modelos-permitidos.json.
 // - Sin --comentario / --libro usa la preferencia de la carpeta (scripts/soy.mjs)
 //   y, si no hay, sigue plan.json en orden.
-// - Salta lo que otros tienen reservado. Una reserva vence a las --horas (12) y
-//   entonces se considera abandonada.
+// - Salta lo que otros tienen reservado (reservas/ y lotes de voluntarios en PRs
+//   abiertos). Una reserva vence a las --horas (12) y entonces se considera abandonada.
 // - Imprime el JSON de los tramos (igual que siguiente.mjs). Al terminar de
 //   traducir, entrega con scripts/entregar.mjs (sube y libera la reserva).
 import { existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { relative } from 'node:path';
 import { ROOT } from './lib.mjs';
+import { archivosEnLotes } from './github.mjs';
 import { DIR_RESERVAS, actualizar, git, identidad, reservasActivas, rutaReserva, subir } from './reservas.mjs';
 import { filtrosDeArgs, siguientesTramos, validarFiltros } from './tramos.mjs';
+import { analizarModelo, describirPermitidos, modeloPermitido } from './modelos.mjs';
 
 const args = process.argv.slice(2);
 const opcion = (nombre, porDefecto) => {
@@ -34,6 +38,10 @@ try {
 } catch (error) {
   fallar(error.message);
 }
+const iModelo = args.indexOf('--modelo');
+const modelo = iModelo >= 0 ? args[iModelo + 1] : undefined;
+if (!modelo) fallar('Falta --modelo <id del modelo de esta sesión> (p. ej. --modelo claude-opus-5-5).');
+if (!modeloPermitido(modelo)) fallar(`El modelo "${modelo}" no está permitido para traducir. Permitidos: ${describirPermitidos()}.`);
 const cantidad = opcion('cantidad', 5);
 const maxPalabras = opcion('max-palabras', 5000);
 const horas = opcion('horas', 12);
@@ -61,7 +69,8 @@ mkdirSync(DIR_RESERVAS, { recursive: true });
 for (let intento = 1; intento <= 6; intento++) {
   if (intento > 1) actualizar();
   const deOtros = reservasActivas().filter((r) => r.quien !== yo.quien);
-  const excluir = new Set(deOtros.flatMap((r) => r.tramos.map((t) => t.archivo)));
+  const { archivos: enLotes } = await archivosEnLotes();
+  const excluir = new Set([...deOtros.flatMap((r) => r.tramos.map((t) => t.archivo)), ...enLotes]);
   const tramos = await siguientesTramos({ limite: cantidad, maxPalabras, excluir, ...filtros });
   if (!tramos.length) {
     console.error('No queda nada pendiente para este filtro (o todo lo pendiente está reservado por otros).');
@@ -72,7 +81,7 @@ for (let intento = 1; intento <= 6; intento++) {
   const ahora = new Date();
   const reserva = {
     quien: yo.quien,
-    modelo: yo.modelo,
+    modelo: analizarModelo(modelo).nombre,
     desde: ahora.toISOString(),
     vence: new Date(ahora.getTime() + horas * 3600_000).toISOString(),
     tramos,

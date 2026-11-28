@@ -7,7 +7,7 @@ Recibes el JSON de un tramo (de `scripts/reservar.mjs`), por ejemplo:
 
 ## Pasos
 
-1. Lee `guia-de-estilo.md` y `glosario.md` completos. Son obligatorios.
+1. Lee `guia-de-estilo.md`, `glosario.md` y el perfil del autor, `estilos/<comentario>.md`, completos. Son obligatorios. El perfil dice cómo escribe este autor y cómo se traduce; manda sobre la guía en lo propio de él. Si el perfil no existe o no dice `estado: aprobado`, no traduzcas y responde `FALLÓ` con ese motivo. Los nombres propios no están en el glosario sino en `nombres.md`: no lo leas entero; busca ahí cada nombre que aparezca en tu tramo (`grep -i "^| <nombre>" nombres.md`) y usa esa forma.
 2. Obtén el original: `node scripts/fuente.mjs <comentario> <libro> <unidad> --secciones <ids separados por coma>`.
 3. Si el archivo de destino ya existe (tramos anteriores del mismo capítulo), lee sus últimas secciones para mantener el mismo estilo y terminología.
 4. **Citas del versículo.** Cuando una nota empieza citando el versículo (`50:10 I own the cattle on a thousand hills: God has…`) o cita un versículo con su referencia, busca el texto: `node scripts/versiculo.mjs "<ref>" ["<ref>" ...]` (puedes pedir varias de una vez) y usa **las palabras de la RVA 1909**, sin comillas y con `…` si saltas texto:
@@ -36,8 +36,10 @@ Recibes el JSON de un tramo (de `scripts/reservar.mjs`), por ejemplo:
    Incluye **todas** las secciones del tramo, con sus ids exactos y en el mismo orden.
 6. **Revisa tu archivo contra el original, nota por nota**, antes de unir:
    - Cada nota arranca igual que en inglés: con cita solo si el original la tiene (ver la guía); nada agregado ni omitido.
-   - Léela como lector hispano: sin calcos del inglés («estaba a la mano», «grupo arrestador», «victimizados»), sin errores de concordancia y sin palabras malsonantes en algún país («coger» fuera de una cita de la RVA).
-7. Corre `node scripts/unir.mjs <ese archivo>`. Corrige solo lo mecánico (`...` → `…`, comillas en la cita, punto tras «Sal 51») y revisa que las citas del versículo salgan de la RVA. Si reporta errores (sección incompleta, inglés sin traducir, una cita que no sale de la RVA…), corrige tu archivo de trabajo como dice el mensaje y vuelve a correrlo. Máximo 3 intentos.
+   - Léela como lector hispano: sin calcos del inglés («estaba a la mano», «grupo arrestador», «victimizados»; ver «Español natural» en la guía: posesivos de más, pasivas, gerundios, rayas, falsos amigos), sin errores de concordancia y sin palabras malsonantes en algún país («coger» fuera de una cita de la RVA).
+   - El nombre de Dios como dice la guía («SEÑOR», «Señor», «Jehová» solo en citas de la RVA), mayúsculas a la española y ningún resto del inglés (`&c.`, `cp.`, `e.g.`, comillas “ ” como comillas principales).
+   - Suena como el autor y sigue la forma de las notas que pide su perfil. Ninguna nota omitida, ni siquiera las que solo aclaran una palabra de la Biblia inglesa.
+7. Corre `node scripts/unir.mjs <ese archivo> --modelo <tu ID de modelo exacto>` (p. ej. `--modelo claude-opus-5-5`; es el ID con que te configuraron, no un nombre inventado). Es obligatorio y solo se aceptan los modelos de `modelos-permitidos.json`: si el tuyo no está, no traduzcas y responde `FALLÓ` con ese motivo. `unir.mjs` corrige solo lo mecánico (`...` → `…`, comillas en la cita, punto tras «Sal 51») y revisa que las citas del versículo salgan de la RVA. Si reporta errores (sección incompleta, inglés sin traducir, una cita que no sale de la RVA…), corrige tu archivo de trabajo como dice el mensaje y vuelve a correrlo. Máximo 3 intentos.
 
 ## Resultado
 
@@ -47,7 +49,7 @@ Recibes el JSON de un tramo (de `scripts/reservar.mjs`), por ejemplo:
 ## Recuerda
 
 - Fidelidad total: si el original tiene 12 párrafos, la traducción tiene 12 párrafos con todo su contenido.
-- Español actual y neutro de Latinoamérica, natural y no calcado.
+- Español actual y neutro de Latinoamérica, natural y no calcado, con la voz del autor.
 - Términos del glosario siempre igual. Referencias con abreviaturas en español.
 - Citas del versículo con las palabras de la RVA 1909; cursiva solo cuando la nota explica una palabra que la RVA traduce distinto.
 - No edites nada fuera de `trabajo/` (`unir.mjs` se encarga del resto).

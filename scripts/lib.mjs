@@ -1,6 +1,6 @@
 // Utilidades compartidas por los scripts del proyecto (sin dependencias).
 import { createHash } from 'node:crypto';
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync, renameSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -96,15 +96,31 @@ export const plan = () => leerJson(join(ROOT, 'plan.json'));
 // ---------------------------------------------------------------------------
 // Fuentes (Free Use Bible API, bible.helloao.org), con caché local en fuentes/
 // ---------------------------------------------------------------------------
-export async function obtenerJson(rutaApi) {
-  const cache = join(DIR_FUENTES, rutaApi.replace(/^\//, ''));
+// En memoria, además del disco: un mismo capítulo se pide muchas veces al
+// validar (original, RVA, BSB, KJV) y, al validar en paralelo, a la vez.
+const enMemoria = new Map();
+export function obtenerJson(rutaApi) {
+  const clave = rutaApi.replace(/^\//, '');
+  if (!enMemoria.has(clave)) {
+    const promesa = descargarJson(clave);
+    promesa.catch(() => enMemoria.delete(clave)); // un error de red no queda guardado
+    enMemoria.set(clave, promesa);
+  }
+  return enMemoria.get(clave);
+}
+
+async function descargarJson(clave) {
+  const cache = join(DIR_FUENTES, clave);
   if (existsSync(cache)) return leerJson(cache);
-  const res = await fetch(`${HELLOAO}/${rutaApi.replace(/^\//, '')}`);
+  const res = await fetch(`${HELLOAO}/${clave}`);
   if (res.status === 404) return null;
-  if (!res.ok) throw new Error(`La fuente respondió ${res.status} para ${rutaApi}`);
+  if (!res.ok) throw new Error(`La fuente respondió ${res.status} para ${clave}`);
   const data = await res.json();
   mkdirSync(dirname(cache), { recursive: true });
-  writeFileSync(cache, JSON.stringify(data));
+  // Se escribe aparte y se renombra: otro proceso nunca lee un archivo a medias.
+  const temporal = `${cache}.${process.pid}.tmp`;
+  writeFileSync(temporal, JSON.stringify(data));
+  renameSync(temporal, cache);
   return data;
 }
 
@@ -303,7 +319,7 @@ export async function validarArchivo(ruta, { citasComoAviso = false } = {}) {
     for (const e of revisarSeccion(originales.get(s.id), s.texto)) errores.push(`${s.id}: ${e}`);
     const { erroresDeForma, revisarCitas } = await import('./citas.mjs');
     for (const e of erroresDeForma(s.texto)) errores.push(`${s.id}: ${e}`);
-    for (const e of await revisarCitas({ libro: meta.libro, original: originales.get(s.id), traduccion: s.texto })) {
+    for (const e of await revisarCitas({ libro: meta.libro, original: originales.get(s.id), traduccion: s.texto, comentario: meta.comentario, unidad: meta.unidad, seccion: s.id })) {
       (citasComoAviso ? avisos : errores).push(`${s.id}: ${e}`);
     }
   }

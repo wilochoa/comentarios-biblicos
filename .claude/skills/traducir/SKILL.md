@@ -27,7 +27,7 @@ Otros modelos pueden estar traduciendo al mismo tiempo desde otras carpetas: por
 
 2. **Estado limpio.** `git status --porcelain`. Si hay cambios sin commit dentro de `traducciones/` que no son de una corrida tuya, detente y avisa: alguien está revisando a mano.
 
-3. **Reservar.** `node scripts/reservar.mjs --cantidad N [--comentario <id>] [--libro <USFM,...>]`. Devuelve (en stdout) la lista JSON de tramos ya apartados para ti.
+3. **Reservar.** `node scripts/reservar.mjs --modelo <tu ID de modelo exacto> --cantidad N [--comentario <id>] [--libro <USFM,...>]` (p. ej. `--modelo claude-opus-5-5`). Solo se aceptan los modelos de `modelos-permitidos.json` (Opus o Sonnet 5.5 o superior, Fable): si lo rechaza, detente y avisa al usuario; no pruebes con otro ID. Devuelve (en stdout) la lista JSON de tramos ya apartados para ti.
    - Lista vacía: informa que no queda nada pendiente para ese filtro y termina.
    - «Ya tienes una reserva vigente»: no uses `--forzar`; avisa al usuario (puede haber otra sesión en esta carpeta).
 
@@ -39,7 +39,7 @@ Otros modelos pueden estar traduciendo al mismo tiempo desde otras carpetas: por
    - Antes de entregar cada grupo, revisa cada archivo `OK` contra `node scripts/fuente.mjs`: citas iniciales que el original no tiene, notas reemplazadas por el versículo, calcos y frases sin sentido. Corrige lo que encuentres y valida con `node scripts/validar.mjs <archivo>`.
    - A cada subagente pásale solo el JSON del tramo, sin instrucciones extra: las reglas están en `instrucciones/tramo.md` y en la guía.
 
-6. **Términos.** Agrega los términos nuevos como filas a `glosario-propuestas/<quien>.md` (`<quien>` es el nombre de `soy.mjs`; si el archivo no existe, créalo con `| Inglés | Propuesta | Dónde apareció |` y `|---|---|---|`), sin repetir los que ya estén ahí o en `glosario.md`.
+6. **Términos.** Agrega los términos nuevos como filas a `glosario-propuestas/<quien>.md` (`<quien>` es el nombre de `soy.mjs`; si el archivo no existe, créalo con `| Inglés | Propuesta | Dónde apareció |` y `|---|---|---|`), sin repetir los que ya estén ahí, en `glosario.md` o en `nombres.md`.
 
 7. **Entregar.** `node scripts/entregar.mjs` (sin `--parcial`). Valida, hace commit, sube y libera la reserva. Córrelo siempre, aunque haya fallos. Si muestra archivos con ✗, corrígelos con un subagente o descártalos y vuelve a correrlo.
 

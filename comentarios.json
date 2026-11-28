@@ -17,6 +17,23 @@
       "publicar": true
     },
     {
+      "id": "abbott",
+      "fuente": "abbott",
+      "formato_citas": "sin-referencia",
+      "nombre": "Nuevo Testamento ilustrado de Abbott",
+      "autor": "John S. C. Abbott y Jacob Abbott (1878)",
+      "descripcion": "Notas breves y devocionales a todo el Nuevo Testamento, con introducción a cada libro.",
+      "original": {
+        "titulo": "Illustrated New Testament",
+        "licencia": "Dominio público",
+        "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sitio": "https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Abbott"
+      },
+      "licencia_traduccion": "CC BY-SA 4.0",
+      "atribucion": "Traducción al español de las notas del Illustrated New Testament de John S. C. Abbott y Jacob Abbott (1878, dominio público). Traducción bajo licencia CC BY-SA 4.0. Traducción asistida por IA.",
+      "publicar": false
+    },
+    {
       "id": "matthew-henry",
       "fuente": "matthew-henry",
       "nombre": "Comentario de Matthew Henry",
@@ -28,10 +45,10 @@
         "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
         "sitio": "https://en.wikipedia.org/wiki/Matthew_Henry"
       },
-      "licencia_traduccion": "Pendiente de decidir",
-      "atribucion": "Traducción al español del comentario de Matthew Henry (dominio público). Traducción asistida por IA.",
+      "licencia_traduccion": "CC BY-SA 4.0",
+      "atribucion": "Traducción al español del comentario de Matthew Henry (dominio público). Traducción bajo licencia CC BY-SA 4.0. Traducción asistida por IA.",
       "publicar": false
     }
   ],
-  "_ayuda": "publicar: si el comentario sale en la API pública. Matthew Henry espera la decisión de licencia."
+  "_ayuda": "publicar: si el comentario sale en la API pública. formato_citas: sin-referencia si el autor cita el versículo sin número (Abbott); lo usa scripts/citas.mjs. Cada comentario necesita su perfil aprobado en estilos/<id>.md antes de traducirse (scripts/estilo.mjs). Matthew Henry y Abbott se publican cuando estén traducidos y revisados; Abbott se usa además para probar el flujo de voluntarios."
 }

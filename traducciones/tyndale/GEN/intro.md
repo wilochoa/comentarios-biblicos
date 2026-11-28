@@ -17,7 +17,7 @@ Génesis es el libro de los comienzos: del universo y de la humanidad, del pecad
 
 Contexto
 
-Cuando se escribió Génesis, los hijos de Israel habían sido esclavos en Egipto durante cuatrocientos años. Hacía poco que habían sido liberados de la esclavitud y guiados a través del desierto para encontrarse con el Señor en el monte Sinaí, donde él había establecido su relación de pacto con ellos y les había dado su ley por medio de Moisés. Israel estaba ahora a punto de entrar en la Tierra Prometida y recibir la herencia que Dios le había prometido a Abraham.
+Cuando se escribió Génesis, los hijos de Israel habían sido esclavos en Egipto durante cuatrocientos años. Hacía poco que habían sido liberados de la esclavitud y guiados a través del desierto para encontrarse con el SEÑOR en el monte Sinaí, donde él había establecido su relación de pacto con ellos y les había dado su ley por medio de Moisés. Israel estaba ahora a punto de entrar en la Tierra Prometida y recibir la herencia que Dios le había prometido a Abraham.
 
 Durante su esclavitud en Egipto, los israelitas habían adoptado muchas ideas y costumbres paganas de sus amos egipcios (ver Éx 32:1-4). Estaban influidos por conceptos falsos acerca de Dios, del mundo y de la naturaleza humana, y habían quedado reducidos a ser esclavos en lugar de dueños y administradores de la tierra. Tal vez habían olvidado las grandes promesas que Dios había hecho a Abraham, a Isaac y a Jacob, o tal vez habían concluido que las promesas nunca se cumplirían.
 
@@ -43,7 +43,7 @@ Después del caos de las naciones dispersas, 11:10-26 concentra la atención en 
 
 Al tratar cada generación, Génesis da un breve relato de las familias que no son antepasados de Israel, antes de pasar a la línea de Israel. Por ejemplo, después de informar brevemente qué fue de Ismael (25:12-18), Génesis traza en detalle lo que sucedió con Isaac y su familia (25:19-35:29). Asimismo, la línea de Esaú (Edom) se trata brevemente (36:1-37:1), antes de la extensa sección final, que se ocupa de la línea escogida de Jacob, el heredero (37:2-50:26).
 
-En esta sección final, Génesis registra cómo la familia de Jacob termina en Egipto en lugar de en la tierra de Canaán. A pesar del trágico conjunto de circunstancias que los llevó a estar en Egipto, Dios seguía desarrollando su plan para el pueblo de Israel. El libro cierra con la promesa de la venida del Señor para rescatar a su pueblo de Egipto (50:24-26).
+En esta sección final, Génesis registra cómo la familia de Jacob termina en Egipto en lugar de en la tierra de Canaán. A pesar del trágico conjunto de circunstancias que los llevó a estar en Egipto, Dios seguía desarrollando su plan para el pueblo de Israel. El libro cierra con la promesa de la venida del SEÑOR para rescatar a su pueblo de Egipto (50:24-26).
 
 Autoría
 
@@ -67,7 +67,7 @@ Mito. La literatura mitológica explica el origen de las cosas de manera simból
 
 Sería muy difícil clasificar el material de Génesis simplemente como un mito, junto a los demás mitos sobre los orígenes de la tierra. Israel tenía un solo Dios, no una multitud. La nación de Israel tenía un comienzo, una historia y una esperanza futura. Veían a Dios, y no a dioses y otras criaturas sobrenaturales, como el actor principal en el mundo. Su adoración no era cósmica, mágica ni supersticiosa, sino una representación de su propio rescate de Egipto y una celebración de la intervención real de Dios en la historia y de su esperanza en las promesas de él.
 
-Si Génesis emplea elementos de lenguaje mitológico, es para mostrar un contraste deliberado con los conceptos paganos y para mostrar que el Señor Dios es soberano sobre tales ideas. Por ejemplo, muchos pueblos antiguos adoraban el sol como a un dios, pero en Génesis el sol sirve a la voluntad del Creador (1:14-18). El libro de Génesis es un cementerio de mitos sin vida y de dioses muertos.
+Si Génesis emplea elementos de lenguaje mitológico, es para mostrar un contraste deliberado con los conceptos paganos y para mostrar que el SEÑOR Dios es soberano sobre tales ideas. Por ejemplo, muchos pueblos antiguos adoraban el sol como a un dios, pero en Génesis el sol sirve a la voluntad del Creador (1:14-18). El libro de Génesis es un cementerio de mitos sin vida y de dioses muertos.
 
 Etiología. Varios eruditos describen las narraciones de Génesis como etiologías, historias que explican las causas de la realidad fáctica o de las creencias tradicionales. La implicación es que tales historias se inventaron con fines explicativos y no describen acontecimientos históricos. Por ejemplo, si alguien dice que la historia de Caín y Abel se inventó para explicar por qué los pastores y los agricultores no se llevan bien, el relato pierde su integridad como historia fáctica.
 
@@ -101,7 +101,7 @@ El bien y el mal. En Génesis, lo que es bueno es bendecido por Dios: produce, m
 
 El plan de Dios. Génesis comienza con la presuposición de que Dios existe y de que se ha revelado en palabra y en obra a los antepasados de Israel. No argumenta a favor de la existencia de Dios; simplemente comienza con Dios y muestra cómo todo encaja en su lugar cuando el Dios soberano lleva a cabo su plan de establecer a Israel como el medio para restaurar la bendición al mundo entero.
 
-El gobierno de Dios. Génesis es la introducción adecuada a la fundación de la teocracia, el gobierno de Dios sobre toda la creación, que había de establecerse por medio de su pueblo escogido. Génesis sienta la revelación inicial de la soberanía de Dios. Él es el Señor del universo, que moverá cielo y tierra para llevar a cabo su plan. Desea bendecir a las personas, pero no tolerará la rebelión ni la incredulidad. Sus promesas son grandes, y él es plenamente capaz de llevarlas a cumplimiento. Participar en su plan siempre ha requerido fe, pues «sin fe es imposible agradar a Dios» (He 11:6).
+El gobierno de Dios. Génesis es la introducción adecuada a la fundación de la teocracia, el gobierno de Dios sobre toda la creación, que había de establecerse por medio de su pueblo escogido. Génesis sienta la revelación inicial de la soberanía de Dios. Él es el SEÑOR del universo, que moverá cielo y tierra para llevar a cabo su plan. Desea bendecir a las personas, pero no tolerará la rebelión ni la incredulidad. Sus promesas son grandes, y él es plenamente capaz de llevarlas a cumplimiento. Participar en su plan siempre ha requerido fe, pues «sin fe es imposible agradar a Dios» (He 11:6).
 
 ## resumen
 

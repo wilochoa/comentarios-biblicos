@@ -13,11 +13,11 @@ revisado_el:
 
 ## introduccion
 
-Mientras Daniel llegaba a la mayoría de edad, Babilonia florecía. Entretanto, el pueblo de Israel estaba siendo llevado al exilio de Judá a Babilonia. ¿Podía el pueblo de Dios esperar volver a disfrutar de la vida como la nación escogida del Señor? Por medio de las experiencias de Daniel como cautivo y como funcionario del gobierno, y por medio de mensajes especiales, Dios le reveló a Daniel su poder y su plan para la historia, y le mostró que rescataría a su pueblo del exilio e incluso de la muerte.
+Mientras Daniel llegaba a la mayoría de edad, Babilonia florecía. Entretanto, el pueblo de Israel estaba siendo llevado al exilio de Judá a Babilonia. ¿Podía el pueblo de Dios esperar volver a disfrutar de la vida como la nación escogida del SEÑOR? Por medio de las experiencias de Daniel como cautivo y como funcionario del gobierno, y por medio de mensajes especiales, Dios le reveló a Daniel su poder y su plan para la historia, y le mostró que rescataría a su pueblo del exilio e incluso de la muerte.
 
 Contexto
 
-En el 605 a. C., Nabucodonosor II de Babilonia (605–562 a. C.) atacó Jerusalén y se llevó de vuelta a Babilonia a algunos israelitas como cautivos, entre ellos a algunos de los jóvenes de la familia real de Judá (1:1-4). En este acontecimiento histórico, Dios comenzó a enviar a su pueblo al exilio, tal como había advertido que haría. Los israelitas habían sido infieles a Dios al quebrantar su pacto (Dt 28:36, 64; Jer 11:1-17; 25:11-12; 29:10-11). Por medio del poderoso rey Nabucodonosor, Dios juzgó a su pueblo Israel (Jer 25:9). Durante ese tiempo, Daniel y sus amigos comenzaron un proceso de enculturación ordenado por Nabucodonosor que amenazaba con absorberlos en una forma de vida pagana y, a la vez, anular de hecho su identidad como pueblo santo del Señor (ver Éx 19:5-6).
+En el 605 a. C., Nabucodonosor II de Babilonia (605–562 a. C.) atacó Jerusalén y se llevó de vuelta a Babilonia a algunos israelitas como cautivos, entre ellos a algunos de los jóvenes de la familia real de Judá (1:1-4). En este acontecimiento histórico, Dios comenzó a enviar a su pueblo al exilio, tal como había advertido que haría. Los israelitas habían sido infieles a Dios al quebrantar su pacto (Dt 28:36, 64; Jer 11:1-17; 25:11-12; 29:10-11). Por medio del poderoso rey Nabucodonosor, Dios juzgó a su pueblo Israel (Jer 25:9). Durante ese tiempo, Daniel y sus amigos comenzaron un proceso de enculturación ordenado por Nabucodonosor que amenazaba con absorberlos en una forma de vida pagana y, a la vez, anular de hecho su identidad como pueblo santo del SEÑOR (ver Éx 19:5-6).
 
 Entretanto, los babilonios siguieron devastando Judá y Jerusalén. En el 597 a. C. fueron llevados a Babilonia más israelitas, y en el 586 a. C. Jerusalén fue destruida. Después del 586 a. C., Judá ya no era una nación; el pueblo de Dios estaba del todo desvalido y sin esperanza. En este punto más bajo de su existencia, el pueblo de Dios llegó a ser la cola de las naciones, y no su cabeza (ver Dt 28:13, 44). Parecía que simplemente podrían ser absorbidos por Babilonia y desaparecer del escenario de la historia.
 
@@ -27,7 +27,7 @@ Daniel mantuvo su integridad, honró a su pueblo y glorificó a su Dios a lo lar
 
 En el 539 a. C., Ciro de Persia sacudió al mundo al invadir Babilonia, entrar en la ciudad capital y someterla a ella y a su gobernante blasfemo, Belsasar, tal como el profeta Isaías había predicho que haría (Is 44:26–45:7). Daniel fue testigo del decreto según el cual los pueblos cautivos podían regresar a sus hogares (ver Esd 1:2-4). Esto cumplió la profecía de Jeremías (Jer 25:11-12; 29:10-11) y respondió a la oración que Daniel había elevado antes, ese mismo año (Dn 9:1-19). Después de setenta años de servidumbre, el pueblo de Dios estaba siendo restaurado.
 
-El Señor dio a su pueblo santo aliento para el futuro por medio de Daniel, al pintar el lienzo de la historia con visiones y sueños. Dios habló para dar a su pueblo una esperanza nueva mientras enfrentaba un futuro amenazador.
+El SEÑOR dio a su pueblo santo aliento para el futuro por medio de Daniel, al pintar el lienzo de la historia con visiones y sueños. Dios habló para dar a su pueblo una esperanza nueva mientras enfrentaba un futuro amenazador.
 
 Resumen
 

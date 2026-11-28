@@ -235,8 +235,36 @@
     estado.reservas = await Promise.all(archivos.map((f) =>
       fetch(`https://raw.githubusercontent.com/${REPO}/${sha}/reservas/${encodeURIComponent(f.name)}`).then((r) => r.json()).catch(() => null),
     )).then((rs) => rs.filter(Boolean));
+    estado.reservas.push(...(await lotesDeVoluntarios()));
     estado.commits = commits;
     estado.errorVivo = null;
+  }
+
+  // Lotes de voluntarios: PRs abiertos con el bloque <!-- lote … --> (scripts/tomar.mjs).
+  // Se muestran como una reserva más. Un borrador sin movimiento en 24 h queda libre.
+  async function lotesDeVoluntarios() {
+    const prs = await gh(`/repos/${REPO}/pulls?state=open&per_page=100`).catch(() => []);
+    const lotes = [];
+    for (const pr of prs) {
+      const m = String(pr.body ?? '').match(/<!--\s*lote\s*\n([\s\S]*?)\n\s*-->/);
+      if (!m) continue;
+      let l;
+      try { l = JSON.parse(m[1]); } catch { continue; }
+      const listo = !pr.draft;
+      const vence = listo ? '2999-01-01T00:00:00Z' : new Date(new Date(pr.updated_at).getTime() + 24 * 3600000).toISOString();
+      const n = Number(String(pr.body).match(/(\d+) de \d+ archivos terminados/)?.[1] ?? 0);
+      lotes.push({
+        quien: l.quien ?? pr.user?.login, modelo: l.modelo, desde: l.desde ?? pr.created_at, vence,
+        pr: pr.number, url: pr.html_url, listo, hechosN: n,
+        tramos: (l.archivos ?? []).map((a) => {
+          const [, comentario, libro, nombre] = a.split('/');
+          const unidad = nombre.replace(/\.md$/, '');
+          return { id: a, comentario, libro, unidad };
+        }),
+        hechos: [],
+      });
+    }
+    return lotes;
   }
 
   async function actualizar() {
@@ -304,11 +332,11 @@
     if (estado.errorVivo && !estado.commits.length) {
       cuerpo = '<div class="empty">No se pudo consultar GitHub para ver quién está traduciendo. Se reintentará solo.</div>';
     } else if (!vigentes.length) {
-      cuerpo = '<div class="empty"><b>Nadie está traduciendo ahora.</b> Abre una herramienta en su carpeta de <code>traductores/</code> y dile «traduce 15».</div>';
+      cuerpo = '<div class="empty"><b>Nadie está traduciendo ahora.</b> Abre una herramienta en su carpeta de <code>traductores/</code> y dile «traduce 15», o <a href="https://github.com/${REPO}/blob/main/COLABORAR.md">colabora como voluntario</a>.</div>';
     } else {
       cuerpo = `<div class="now">${vigentes.map((r) => {
         const hechos = new Set(r.hechos ?? []);
-        const n = r.tramos.filter((t) => hechos.has(t.id)).length;
+        const n = r.pr ? Math.min(r.hechosN, r.tramos.length) : r.tramos.filter((t) => hechos.has(t.id)).length;
         const comentarios = [...new Set(r.tramos.map((t) => nombreComentario(t.comentario)))].join(', ');
         const chips = r.tramos.map((t) => `<span class="chip ${hechos.has(t.id) ? 'done' : ''}">${esc(nombreTramo(t))}</span>`).join('');
         return `<article class="worker">
@@ -316,7 +344,9 @@
           <div class="count num">${n} de ${r.tramos.length}</div></header>
           <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${r.tramos.length}" aria-valuenow="${n}" aria-label="Tramos hechos por ${esc(r.quien)}"><div style="width:${pct(n, r.tramos.length)}%"></div></div>
           <div class="chips">${chips}</div>
-          <footer>Empezó ${hace(r.desde)} · la reserva vence en ${dentroDe(r.vence)}</footer>
+          <footer>${r.pr
+            ? `Voluntario · <a href="${esc(r.url)}">lote #${r.pr}</a> · empezó ${hace(r.desde)} · ${r.listo ? 'listo para revisar' : `se libera si no avanza en ${dentroDe(r.vence)}`}`
+            : `Empezó ${hace(r.desde)} · la reserva vence en ${dentroDe(r.vence)}`}</footer>
         </article>`;
       }).join('')}</div>`;
     }

@@ -8,7 +8,13 @@
 // 2. Detalles mecánicos que unir.mjs corrige solo: «...» → «…», sin punto
 //    después de la referencia inicial («Sal 51 Texto», no «Sal 51. Texto») y
 //    sin comillas «» alrededor de la cita del versículo.
-import { obtenerJson } from './lib.mjs';
+// 3. Comentarios con `"formato_citas": "sin-referencia"` en comentarios.json
+//    (Abbott): la nota cita unas palabras del versículo sin número
+//    («Rude in speech; unskilful in oratory.—Made manifest; made known»). La
+//    traducción las escribe «Basto en la palabra: poco diestro… • Manifiestos:
+//    dados a conocer» y se revisan igual contra la RVA; el versículo sale del
+//    id de la sección (v6) y el capítulo, de la unidad.
+import { comentario as datosComentario, obtenerJson } from './lib.mjs';
 import { modernizar } from './versiculo.mjs';
 
 // ---------------------------------------------------------------------------
@@ -143,26 +149,84 @@ async function esCitaDelVersiculo(libro, c) {
  * versículo (están en el texto bíblico en inglés), no las oraciones de Tyndale
  * que terminan en «:».
  */
-export async function revisarCitas({ libro, original, traduccion }) {
-  const citasOriginal = new Map(citasDe(original).map((c) => [c.clave, c]));
+const MENSAJE_RVA =
+  'Usa las palabras de la RVA (solo la parte que la nota cita; «…» si saltas texto). Si la RVA dice algo distinto ' +
+  'y la nota explica justamente esa palabra, escribe la frase en cursiva: *frase*:';
+
+/** Revisa una cita traducida (c) contra la RVA, si su par en inglés (enIngles) es de verdad una cita del versículo. */
+async function revisarUna(libro, c, enIngles) {
+  if (!enIngles || /^\*.*\*$/.test(c.frase)) return null;
+  if (!(await esCitaDelVersiculo(libro, enIngles))) return null;
+  const versos = await versosRva(libro, c.capitulo);
+  if (!versos.size) return null;
+  // Un versículo de margen: la numeración de la RVA a veces difiere en uno.
+  const rva = [];
+  for (let v = c.desde - 1; v <= c.hasta + 1; v++) if (versos.has(v)) rva.push(versos.get(v));
+  if (!rva.length || cobertura(c.frase, rva.join(' ')) >= 0.6) return null;
+  const exacto = [];
+  for (let v = c.desde; v <= c.hasta; v++) if (versos.has(v)) exacto.push(versos.get(v));
+  return `la cita «${c.frase}» (${c.ref}) no sale de la RVA 1909, que dice: «${(exacto.length ? exacto : rva).join(' ')}». ${MENSAJE_RVA}`;
+}
+
+// --- Citas sin referencia (Abbott) -----------------------------------------
+// Original: las citas de una nota se separan con raya y terminan en «;», «.» o «, &c.».
+const RAYA_ENTRE_CITAS = /\.?\s*—\s*(?=[A-Z"“‘])/;
+/** Citas de un original sin referencia: [{ clave, frase }] (clave = párrafo#posición). */
+export function citasSinReferenciaOriginal(texto) {
+  const citas = [];
+  parrafos(texto).forEach((p, i) => {
+    p.split(RAYA_ENTRE_CITAS).forEach((trozo, n) => {
+      const frase = trozo.split(/[;.:]|,?\s*&c/)[0].trim();
+      if (frase.length >= 2 && frase !== trozo.trim() && esFrase(frase)) citas.push({ clave: `${i}#${n}`, frase });
+    });
+  });
+  return citas;
+}
+/** Citas de una traducción sin referencia: «Frase: texto • Otra frase: texto». */
+export function citasSinReferenciaTraduccion(texto) {
+  const citas = [];
+  parrafos(texto.replace(/\.\s?\.\s?\./g, '…')).forEach((p, i) => {
+    p.split(/\s•\s/).forEach((trozo, n) => {
+      const m = /^([^:•\n]{2,110}?):\s/.exec(trozo);
+      if (m && esFrase(m[1])) citas.push({ clave: `${i}#${n}`, frase: m[1].trim() });
+    });
+  });
+  return citas;
+}
+
+const formatoCitas = (id) => {
+  try {
+    return (id && datosComentario(id)?.formato_citas) || 'con-referencia';
+  } catch {
+    return 'con-referencia';
+  }
+};
+
+/**
+ * Revisa las citas del versículo de una sección contra la RVA 1909. Solo
+ * revisa las frases que en el original en inglés son de verdad una cita del
+ * versículo (están en el texto bíblico en inglés), no las oraciones del autor
+ * que terminan en «:». Con `comentario`, `unidad` y `seccion` reconoce también
+ * los comentarios que citan sin referencia (formato_citas: "sin-referencia").
+ */
+export async function revisarCitas({ libro, original, traduccion, comentario, unidad, seccion }) {
   const errores = [];
+  if (formatoCitas(comentario) === 'sin-referencia') {
+    const verso = /^v(\d+)/.exec(seccion ?? '');
+    const capitulo = Number(unidad);
+    if (!verso || !Number.isInteger(capitulo)) return errores; // introducciones: no citan un versículo
+    const donde = { capitulo, desde: Number(verso[1]), hasta: Number(verso[1]), ref: `${capitulo}:${verso[1]}` };
+    const citasOriginal = new Map(citasSinReferenciaOriginal(original).map((c) => [c.clave, { ...donde, ...c }]));
+    for (const c of citasSinReferenciaTraduccion(traduccion)) {
+      const e = await revisarUna(libro, { ...donde, ...c }, citasOriginal.get(c.clave));
+      if (e) errores.push(e);
+    }
+    return errores;
+  }
+  const citasOriginal = new Map(citasDe(original).map((c) => [c.clave, c]));
   for (const c of citasDe(traduccion)) {
-    const enIngles = citasOriginal.get(c.clave);
-    if (!enIngles || /^\*.*\*$/.test(c.frase)) continue;
-    if (!(await esCitaDelVersiculo(libro, enIngles))) continue;
-    const versos = await versosRva(libro, c.capitulo);
-    if (!versos.size) continue;
-    // Un versículo de margen: la numeración de la RVA a veces difiere en uno.
-    const rva = [];
-    for (let v = c.desde - 1; v <= c.hasta + 1; v++) if (versos.has(v)) rva.push(versos.get(v));
-    if (!rva.length || cobertura(c.frase, rva.join(' ')) >= 0.6) continue;
-    const exacto = [];
-    for (let v = c.desde; v <= c.hasta; v++) if (versos.has(v)) exacto.push(versos.get(v));
-    errores.push(
-      `la cita «${c.frase}» (${c.ref}) no sale de la RVA 1909, que dice: «${(exacto.length ? exacto : rva).join(' ')}». ` +
-        'Usa las palabras de la RVA (solo la parte que la nota cita; «…» si saltas texto). Si la RVA dice algo distinto ' +
-        'y la nota explica justamente esa palabra, escribe la frase en cursiva: *frase*:',
-    );
+    const e = await revisarUna(libro, c, citasOriginal.get(c.clave));
+    if (e) errores.push(e);
   }
   return errores;
 }

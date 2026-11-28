@@ -8,12 +8,17 @@
 //
 // Úsalo al final de cada corrida, también si algo falló: lo que no se tradujo
 // queda libre para otro. Las entregas parciales dejan ver el avance en /avance/.
+//
+// Si la carpeta tiene un lote de voluntario (tomar.mjs), entrega al PR del lote
+// (scripts/entregar-lote.mjs) en vez de a main.
 import { spawnSync } from 'node:child_process';
 import { existsSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { ROOT, leerTraduccion } from './lib.mjs';
 import { actualizar, git, identidad, rutaReserva, subir } from './reservas.mjs';
 import { nombreArchivo } from './tramos.mjs';
+import { entregarLote } from './entregar-lote.mjs';
+import { hayLote } from './lotes.mjs';
 
 const fallar = (mensaje) => {
   console.error(mensaje);
@@ -28,6 +33,12 @@ try {
   fallar(error.message);
 }
 
+// Voluntario con un lote tomado (tomar.mjs): se entrega al PR de su fork, no a main.
+if (hayLote()) {
+  entregarLote({ parcial: process.argv.includes('--parcial'), fallar });
+  process.exit(0);
+}
+
 // Primero lo último de GitHub: así se valida con las reglas vigentes aunque esta
 // sesión haya empezado con scripts viejos (validar.mjs corre en otro proceso).
 try {
@@ -36,7 +47,7 @@ try {
   fallar(error.message);
 }
 
-const validacion = spawnSync(process.execPath, [join(ROOT, 'scripts/validar.mjs'), '--cambiados'], { cwd: ROOT, stdio: 'inherit' });
+const validacion = spawnSync(process.execPath, [join(ROOT, 'scripts/validar.mjs'), '--cambiados', '--modelos'], { cwd: ROOT, stdio: 'inherit' });
 if (validacion.status !== 0) {
   fallar('\nNo se entregó nada: corrige los archivos con ✗ (o descártalos con `git checkout -- <archivo>`) y vuelve a correr entregar.mjs.');
 }

@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 // Une un tramo traducido (trabajo/*.md) a su archivo en traducciones/ y lo valida.
 //
-//   node scripts/unir.mjs trabajo/tyndale-JHN-3.md
+//   node scripts/unir.mjs trabajo/tyndale-JHN-3.md [--modelo claude-opus-5-5]
+//
+// --modelo: el ID exacto del modelo que tradujo (obligatorio). Debe estar en
+// modelos-permitidos.json y queda en "traducido_por".
 //
 // El archivo de trabajo lleva en su encabezado: comentario, libro, unidad,
 // y debajo las secciones "## <id>" traducidas. Este script:
@@ -14,6 +17,7 @@
 import { readFileSync, rmSync } from 'node:fs';
 import { normalizarForma, revisarCitas } from './citas.mjs';
 import { identidad } from './reservas.mjs';
+import { analizarModelo, describirPermitidos, modeloPermitido } from './modelos.mjs';
 import {
   cargarFuente, convertirReferencias, guardarTraduccion, hoy, leerTraduccion, parsearMarkdown, revisarSeccion,
   rutaTraduccion,
@@ -37,6 +41,17 @@ try {
   console.error(error.message);
   process.exit(2);
 }
+const iModelo = process.argv.indexOf('--modelo');
+const modelo = iModelo > 0 ? process.argv[iModelo + 1] : null;
+if (!modelo) {
+  console.error('Falta --modelo <tu ID de modelo exacto> (p. ej. --modelo claude-opus-5-5).');
+  process.exit(2);
+}
+if (!modeloPermitido(modelo)) {
+  console.error(`El modelo "${modelo}" no está permitido para traducir. Permitidos: ${describirPermitidos()}.`);
+  process.exit(2);
+}
+const traductor = analizarModelo(modelo).nombre;
 const unidad = unidadTxt === 'intro' ? 'intro' : Number(unidadTxt);
 const fuente = await cargarFuente(idComentario, libro, unidad);
 if (!fuente) {
@@ -62,7 +77,7 @@ for (const s of trabajo.secciones) {
   // Lo mecánico se corrige solo («...» → «…», «Sal 51.» → «Sal 51», comillas en la cita del versículo).
   const texto = normalizarForma(convertirReferencias(s.texto));
   for (const e of revisarSeccion(originales.get(s.id), texto)) errores.push(`${s.id}: ${e}`);
-  for (const e of await revisarCitas({ libro, original: originales.get(s.id), traduccion: texto })) errores.push(`${s.id}: ${e}`);
+  for (const e of await revisarCitas({ libro, original: originales.get(s.id), traduccion: texto, comentario: idComentario, unidad, seccion: s.id })) errores.push(`${s.id}: ${e}`);
   nuevas.set(s.id, texto);
 }
 if (!trabajo.secciones.length) errores.push('el archivo de trabajo no tiene secciones');
@@ -80,7 +95,7 @@ guardarTraduccion(destino, {
   estado: completa ? 'borrador' : 'parcial',
   fuente: fuente.url,
   fuente_sha256: fuente.sha256,
-  traducido_por: `${yo.modelo} (IA)`,
+  traducido_por: `${traductor} (IA)`,
   traducido_el: hoy(),
   revisado_por: null,
   revisado_el: null,
