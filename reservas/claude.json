@@ -1,0 +1,60 @@
+{
+  "quien": "claude",
+  "modelo": "Claude Opus 5.5",
+  "desde": "2026-11-28T15:20:40.692Z",
+  "vence": "2026-11-29T03:20:40.692Z",
+  "tramos": [
+    {
+      "id": "john-gill/JHN/intro#introduccion",
+      "comentario": "john-gill",
+      "libro": "JHN",
+      "unidad": "intro",
+      "secciones": [
+        "introduccion"
+      ],
+      "palabras": 697,
+      "completa_el_archivo": true,
+      "archivo": "traducciones/john-gill/JHN/intro.md"
+    },
+    {
+      "id": "john-gill/JHN/1#v1-v6",
+      "comentario": "john-gill",
+      "libro": "JHN",
+      "unidad": 1,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6"
+      ],
+      "palabras": 4868,
+      "completa_el_archivo": false,
+      "archivo": "traducciones/john-gill/JHN/1.md"
+    },
+    {
+      "id": "john-gill/JHN/2#v1-v11",
+      "comentario": "john-gill",
+      "libro": "JHN",
+      "unidad": 2,
+      "secciones": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10",
+        "v11"
+      ],
+      "palabras": 4997,
+      "completa_el_archivo": false,
+      "archivo": "traducciones/john-gill/JHN/2.md"
+    }
+  ],
+  "hechos": []
+}
